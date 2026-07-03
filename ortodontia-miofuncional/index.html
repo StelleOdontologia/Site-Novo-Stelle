@@ -207,7 +207,7 @@
   .myo-como { padding: 90px 0; background: white; }
   .myo-como-header { text-align: center; margin-bottom: 50px; }
   .myo-steps { display: flex; align-items: flex-start; justify-content: space-between; gap: 20px; flex-wrap: wrap; }
-  .myo-step { flex: 1; min-width: 160px; text-align: center; display: flex; flex-direction: column; align-items: center; }
+  .myo-step { flex: 1; min-width: 0; text-align: center; display: flex; flex-direction: column; align-items: center; }
   .myo-step-num { width: 56px; height: 56px; background: #0d3557; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 24px; font-weight: 700; margin-bottom: 14px; }
   .myo-step-title { font-size: 14px; font-weight: 700; color: #0d3557; margin-bottom: 8px; }
   .myo-step-desc { font-size: 12px; color: #6b7280; line-height: 1.5; }
@@ -226,7 +226,7 @@
   .myo-benefit-item::before { content: '✓'; color: #1b6ca8; font-weight: 700; font-size: 16px; }
   .myo-tech-link { display: inline-flex; align-items: center; gap: 8px; color: #0d3557; text-decoration: none; font-size: 14px; font-weight: 600; transition: gap 0.2s; }
   .myo-tech-link:hover { gap: 12px; }
-  .myo-tech-img { width: 100%; max-width: 400px; margin: 0 auto; display: block; }
+  .myo-tech-img { width: 100%; max-width: 100%; margin: 0 auto; display: block; }
 
   /* ════════════════════════════════════
      7. SOBRE DRA. KÉSYA
@@ -307,12 +307,15 @@
     .stelle-sc { padding: 0 20px; }
     .stelle-title { font-size: 30px; }
     .myo-cta-final h2 { font-size: 30px; }
+    .stelle-footer-top { grid-template-columns: 1fr; gap: 32px; }
   }
 
   @media (max-width: 480px) {
     .myo-hero-title { font-size: 26px; }
     .myo-hero-icons { grid-template-columns: repeat(2,1fr); gap: 10px; }
     .myo-funcao-title { font-size: 24px; }
+    .myo-step { flex-direction: column; align-items: center; text-align: center; }
+    .stelle-btn { padding: 12px 24px; font-size: 14px; }
   }
 </style>
 
@@ -321,7 +324,7 @@
   <header class="stelle-header">
     <nav class="stelle-nav">
       <a href="/" class="stelle-nav-logo">
-        <img src="https://novo.stelleodontologia.com.br/assets/logo.png" alt="Stelle Odontologia">
+        <img src="/assets/logo.png" alt="Stelle Odontologia">
       </a>
       <ul class="stelle-nav-links">
         <li><a href="/">Início</a></li>
@@ -581,7 +584,7 @@
     <div class="stelle-footer-top">
       <div class="stelle-footer-container">
         <div class="stelle-footer-brand">
-          <img src="https://novo.stelleodontologia.com.br/assets/logo.png" alt="Stelle Odontologia" class="stelle-footer-logo">
+          <img src="/assets/logo.png" alt="Stelle Odontologia" class="stelle-footer-logo">
           <p>Odontologia moderna, humanizada e completa para cuidar do seu sorriso em todas as fases da vida.</p>
           <div class="stelle-footer-socials">
             <a href="https://instagram.com/stelleodontologia" target="_blank" aria-label="Instagram">
