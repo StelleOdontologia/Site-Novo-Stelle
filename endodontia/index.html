@@ -1,0 +1,382 @@
+<!--
+  STELLE ODONTOLOGIA — Página: Endodontia (Tratamento de Canal)
+-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+  html, body { max-width: 100%; overflow-x: hidden; margin: 0; padding: 0; }
+  .stelle-page * { box-sizing: border-box; margin: 0; padding: 0; min-width: 0; }
+  .stelle-page { font-family: 'Poppins', sans-serif; color: #1a1a2e; width: 100%; }
+
+  /* HEADER */
+  .stelle-header { position: fixed; top: 0; left: 0; right: 0; z-index: 9999; background: #0d3557; box-shadow: 0 2px 20px rgba(0,0,0,0.25); }
+  .stelle-nav { max-width: 1200px; margin: 0 auto; padding: 0 40px; height: 75px; display: flex; align-items: center; justify-content: space-between; gap: 40px; }
+  .stelle-nav-logo { display: flex; align-items: center; flex-shrink: 0; }
+  .stelle-nav-logo img { height: 48px; width: auto; max-width: 180px; mix-blend-mode: screen; filter: brightness(1.1); }
+  .stelle-nav-links { display: flex; align-items: center; gap: 8px; list-style: none; flex: 1; justify-content: center; }
+  .stelle-nav-links a { display: flex; align-items: center; color: rgba(255,255,255,0.85); text-decoration: none; font-size: 13px; font-weight: 500; padding: 8px 16px; border-radius: 8px; transition: all 0.2s; white-space: nowrap; }
+  .stelle-nav-links a:hover, .stelle-nav-links a.active { color: white; background: rgba(255,255,255,0.12); }
+  .stelle-nav-dropdown { position: relative; }
+  .stelle-nav-dropdown > a { display: flex; align-items: center; gap: 4px; }
+  .stelle-nav-dropdown > a::after { content: '▼'; font-size: 8px; margin-left: 2px; }
+  .stelle-nav-dropdown-menu { display: none; position: absolute; top: calc(100% + 8px); left: 0; background: #0a2d4a; min-width: 220px; border-radius: 8px; padding: 8px 0; box-shadow: 0 8px 24px rgba(0,0,0,0.25); z-index: 10000; }
+  .stelle-nav-dropdown-menu a { display: block; padding: 10px 16px; border: none; font-size: 13px; }
+  .stelle-nav-dropdown-menu a:hover { background: rgba(255,255,255,0.12); }
+  .stelle-nav-dropdown.open .stelle-nav-dropdown-menu { display: block; }
+  .stelle-nav-cta { background: #1b6ca8; color: white !important; padding: 10px 22px !important; border-radius: 50px !important; font-weight: 600 !important; display: flex; align-items: center; gap: 8px; flex-shrink: 0; font-size: 13px; text-decoration: none; transition: background 0.2s !important; }
+  .stelle-nav-cta:hover { background: #1558a0 !important; }
+  .stelle-nav-hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; padding: 8px; background: none; border: none; }
+  .stelle-nav-hamburger span { display: block; width: 24px; height: 2px; background: white; border-radius: 2px; }
+  .stelle-nav-mobile { display: none; flex-direction: column; background: #0a2d4a; padding: 16px 40px 20px; gap: 4px; }
+  .stelle-nav-mobile a { color: rgba(255,255,255,0.85); text-decoration: none; font-size: 14px; font-weight: 500; padding: 10px 0; border-bottom: 1px solid rgba(255,255,255,0.08); display: block; }
+  .stelle-nav-mobile a:last-child { border-bottom: none; }
+  .stelle-nav-mobile.open { display: flex; }
+  .stelle-nav-mobile-section { border-bottom: 1px solid rgba(255,255,255,0.08); }
+  .stelle-nav-mobile-toggle { color: rgba(255,255,255,0.85); font-size: 14px; font-weight: 500; padding: 10px 0; display: flex; align-items: center; justify-content: space-between; cursor: pointer; background: none; border: none; width: 100%; text-align: left; }
+  .stelle-nav-mobile-toggle .arrow { transition: transform 0.2s; font-size: 10px; }
+  .stelle-nav-mobile-toggle.open .arrow { transform: rotate(180deg); }
+  .stelle-nav-mobile-sub { display: none; flex-direction: column; padding-left: 16px; padding-bottom: 6px; }
+  .stelle-nav-mobile-sub.open { display: flex; }
+  .stelle-nav-mobile-sub a { padding: 8px 0; font-size: 13px; color: rgba(255,255,255,0.72) !important; border-bottom: 1px solid rgba(255,255,255,0.05) !important; }
+  .stelle-nav-mobile-sub a:last-child { border-bottom: none !important; }
+
+  /* HERO */
+  .en-hero { background: #0d3557; padding: 140px 40px 80px; text-align: center; }
+  .en-hero-badge { display: inline-block; background: rgba(255,255,255,0.12); color: rgba(255,255,255,0.9); font-size: 12px; font-weight: 600; letter-spacing: 2px; text-transform: uppercase; padding: 6px 18px; border-radius: 50px; margin-bottom: 24px; }
+  .en-hero h1 { font-family: 'Playfair Display', serif; font-size: clamp(2rem, 4vw, 3rem); color: white; font-weight: 700; max-width: 700px; margin: 0 auto 20px; line-height: 1.2; }
+  .en-hero h1 em { color: #7eb8e8; font-style: italic; }
+  .en-hero p { color: rgba(255,255,255,0.75); font-size: 17px; max-width: 580px; margin: 0 auto 36px; line-height: 1.7; }
+  .en-btn { display: inline-flex; align-items: center; gap: 10px; background: #25D366; color: white; text-decoration: none; font-weight: 600; font-size: 15px; padding: 14px 32px; border-radius: 50px; transition: background 0.2s; }
+  .en-btn:hover { background: #1ebe57; }
+
+  /* CONTENT */
+  .en-section { max-width: 1100px; margin: 0 auto; padding: 80px 40px; }
+  .en-section-title { font-family: 'Playfair Display', serif; font-size: clamp(1.6rem, 3vw, 2.2rem); color: #0d3557; font-weight: 700; text-align: center; margin-bottom: 48px; }
+  .en-intro { font-size: 16px; color: #4a5568; line-height: 1.8; text-align: center; max-width: 760px; margin: -24px auto 56px; }
+
+  .en-cards { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; }
+  .en-card { background: #f8fafc; border-radius: 16px; padding: 36px 32px; border-top: 4px solid #1b6ca8; }
+  .en-card h3 { font-size: 18px; font-weight: 700; color: #0d3557; margin-bottom: 12px; }
+  .en-card p { font-size: 15px; color: #4a5568; line-height: 1.7; }
+
+  /* SINTOMAS */
+  .en-sintomas { background: #f8fafc; padding: 80px 40px; }
+  .en-sintomas-inner { max-width: 1100px; margin: 0 auto; }
+  .en-sintomas-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-top: 40px; }
+  .en-sintoma-item { display: flex; align-items: flex-start; gap: 14px; padding: 20px; background: white; border-radius: 12px; box-shadow: 0 2px 12px rgba(0,0,0,0.06); }
+  .en-sintoma-icon { width: 42px; height: 42px; background: #e8f0fb; border-radius: 10px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; font-size: 20px; }
+  .en-sintoma-item p { font-size: 14px; color: #4a5568; line-height: 1.6; padding-top: 4px; }
+
+  /* ETAPAS */
+  .en-steps { display: flex; flex-direction: column; gap: 20px; margin-top: 16px; }
+  .en-step { display: flex; align-items: flex-start; gap: 20px; padding: 24px; background: white; border-radius: 14px; border: 1px solid #e8edf2; }
+  .en-step-num { width: 40px; height: 40px; background: #0d3557; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 15px; flex-shrink: 0; }
+  .en-step h4 { font-size: 15px; font-weight: 700; color: #0d3557; margin-bottom: 6px; }
+  .en-step p { font-size: 14px; color: #4a5568; line-height: 1.6; }
+
+  .en-aviso { background: #fff8e6; border-left: 4px solid #f0b429; border-radius: 0 12px 12px 0; padding: 20px 24px; margin-top: 40px; font-size: 14px; color: #5a4600; line-height: 1.6; }
+  .en-aviso strong { display: block; margin-bottom: 4px; color: #3d3000; }
+
+  /* CTA FINAL */
+  .en-cta { background: #0d3557; padding: 80px 40px; text-align: center; }
+  .en-cta h2 { font-family: 'Playfair Display', serif; font-size: clamp(1.6rem, 3vw, 2.2rem); color: white; margin-bottom: 16px; }
+  .en-cta p { color: rgba(255,255,255,0.75); font-size: 16px; margin-bottom: 32px; }
+
+  /* FOOTER */
+  .stelle-footer { background: #071d2e; color: rgba(255,255,255,0.7); padding: 60px 40px 0; }
+  .stelle-footer-container { max-width: 1200px; margin: 0 auto; }
+  .stelle-footer-top { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 48px; padding-bottom: 48px; border-bottom: 1px solid rgba(255,255,255,0.08); }
+  .stelle-footer-brand img { height: 40px; mix-blend-mode: screen; margin-bottom: 16px; }
+  .stelle-footer-brand p { font-size: 13px; line-height: 1.7; max-width: 260px; }
+  .stelle-footer-col h4 { color: white; font-size: 14px; font-weight: 600; margin-bottom: 16px; }
+  .stelle-footer-col ul { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+  .stelle-footer-col ul a { color: rgba(255,255,255,0.65); text-decoration: none; font-size: 13px; transition: color 0.2s; }
+  .stelle-footer-col ul a:hover { color: white; }
+  .stelle-footer-contact { display: flex; flex-direction: column; gap: 12px; }
+  .stelle-footer-contact li { display: flex; align-items: flex-start; gap: 10px; font-size: 13px; }
+  .stelle-footer-contact li svg { flex-shrink: 0; margin-top: 2px; }
+  .stelle-footer-contact a { color: rgba(255,255,255,0.65); text-decoration: none; }
+  .stelle-footer-hours { display: flex; flex-direction: column; gap: 10px; }
+  .stelle-footer-hours li { display: flex; justify-content: space-between; font-size: 13px; gap: 16px; }
+  .stelle-footer-hours li strong { color: white; }
+  .stelle-footer-bottom { padding: 20px 0; text-align: center; font-size: 12px; border-top: 1px solid rgba(255,255,255,0.06); }
+
+  @media (max-width: 768px) {
+    .stelle-nav-links, .stelle-nav-cta { display: none; }
+    .stelle-nav-hamburger { display: flex; }
+    .stelle-nav { padding: 0 20px; }
+    .en-hero { padding: 120px 20px 60px; }
+    .en-hero h1 { font-size: 32px; }
+    .en-hero p { font-size: 16px; }
+    .en-section { padding: 60px 20px; }
+    .en-cards { grid-template-columns: 1fr; }
+    .en-sintomas { padding: 60px 20px; }
+    .en-sintomas-grid { grid-template-columns: 1fr; }
+    .en-cta { padding: 60px 20px; }
+    .en-cta h2 { font-size: 28px; }
+    .stelle-footer-top { grid-template-columns: 1fr; gap: 32px; }
+  }
+  @media (max-width: 480px) {
+    .en-hero h1 { font-size: 26px; }
+    .en-hero p { font-size: 15px; }
+    .en-cta h2 { font-size: 24px; }
+    .en-btn { padding: 12px 24px; font-size: 14px; }
+  }
+</style>
+
+<div class="stelle-page">
+
+  <header class="stelle-header">
+    <nav class="stelle-nav">
+      <a href="/" class="stelle-nav-logo">
+        <img src="/assets/logo.png" alt="Stelle Odontologia">
+      </a>
+      <ul class="stelle-nav-links">
+        <li><a href="/">Início</a></li>
+        <li><a href="/sobre/">Sobre a Dra. Késya</a></li>
+        <li class="stelle-nav-dropdown">
+          <a href="#" onclick="stelleToggleDropdown(event, this)">Ortodontia</a>
+          <div class="stelle-nav-dropdown-menu">
+            <a href="/alinhadores/">Alinhadores Invisíveis</a>
+            <a href="/ortodontia-miofuncional/">Ortodontia Miofuncional</a>
+          </div>
+        </li>
+        <li class="stelle-nav-dropdown">
+          <a href="#" onclick="stelleToggleDropdown(event, this)">Tratamentos</a>
+          <div class="stelle-nav-dropdown-menu">
+            <a href="/clareamento-dental/">Clareamento Dental</a>
+            <a href="/toxina-botulinica/">Toxina Botúlinica</a>
+            <a href="/implantes/">Implantes Dentários</a>
+            <a href="/protese-dentaria/">Prótese Dentária</a>
+            <a href="/endodontia/">Endodontia</a>
+          </div>
+        </li>
+        <li><a href="/contato/">Contato</a></li>
+        <li><a href="https://stelleodontologia.com.br/blog">Blog</a></li>
+      </ul>
+      <button class="stelle-nav-hamburger" onclick="document.querySelector('.stelle-nav-mobile').classList.toggle('open')" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+      <a href="https://wa.me/5521976939004?text=Gostaria%20de%20saber%20mais%20sobre%20Endodontia%20na%20Stelle%20Odontologia" target="_blank" class="stelle-nav-cta">
+        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        Agendar
+      </a>
+    </nav>
+    <div class="stelle-nav-mobile">
+      <a href="/">Início</a>
+      <a href="/sobre/">Sobre a Dra. Késya</a>
+      <div class="stelle-nav-mobile-section">
+        <button class="stelle-nav-mobile-toggle" onclick="stelleMobileToggle(this)">Ortodontia <span class="arrow">▼</span></button>
+        <div class="stelle-nav-mobile-sub">
+          <a href="/alinhadores/">Alinhadores Invisíveis</a>
+          <a href="/ortodontia-miofuncional/">Ortodontia Miofuncional</a>
+        </div>
+      </div>
+      <div class="stelle-nav-mobile-section">
+        <button class="stelle-nav-mobile-toggle" onclick="stelleMobileToggle(this)">Tratamentos <span class="arrow">▼</span></button>
+        <div class="stelle-nav-mobile-sub">
+          <a href="/clareamento-dental/">Clareamento Dental</a>
+          <a href="/toxina-botulinica/">Toxina Botúlinica</a>
+          <a href="/implantes/">Implantes Dentários</a>
+          <a href="/protese-dentaria/">Prótese Dentária</a>
+          <a href="/endodontia/">Endodontia</a>
+        </div>
+      </div>
+      <a href="/contato/">Contato</a>
+      <a href="https://stelleodontologia.com.br/blog">Blog</a>
+      <a href="https://wa.me/5521976939004?text=Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Stelle%20Odontologia" target="_blank" style="color:#25D366 !important;">&#128241; WhatsApp</a>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="en-hero">
+    <p class="en-hero-badge">Odontologia Conservadora</p>
+    <h1>Tratamento de Canal <em>sem dor e com segurança</em></h1>
+    <p>Realizamos endodontia com técnicas modernas e anestesia eficiente, aliviando dores, eliminando infecções e preservando o seu dente natural.</p>
+    <a href="https://wa.me/5521976939004?text=Gostaria%20de%20saber%20mais%20sobre%20Endodontia%20na%20Stelle%20Odontologia" target="_blank" class="en-btn">
+      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+      Agendar avaliação
+    </a>
+  </section>
+
+  <!-- O QUE É -->
+  <section class="en-section">
+    <h2 class="en-section-title">O que é Endodontia?</h2>
+    <p class="en-intro">A endodontia é a especialidade odontológica responsável pelo tratamento da polpa (nervo) e das raízes dos dentes. Seu objetivo é preservar o dente natural através da prevenção, diagnóstico e controle das alterações pulpares — evitando extrações desnecessárias.</p>
+    <div class="en-cards">
+      <div class="en-card">
+        <h3>🦷 Preservação do dente natural</h3>
+        <p>O tratamento de canal remove o tecido pulpar comprometido e sela o interior do dente, eliminando a infecção e permitindo que o dente continue funcionando normalmente por muitos anos.</p>
+      </div>
+      <div class="en-card">
+        <h3>💉 Procedimento indolor</h3>
+        <p>Com anestesia local eficiente, o tratamento de canal moderno é praticamente indolor. A maioria dos pacientes relata que o procedimento é muito mais confortável do que esperava.</p>
+      </div>
+      <div class="en-card">
+        <h3>🦠 Elimina a infecção</h3>
+        <p>A cárie avançada que atinge a polpa causa infecção e dor intensa. O tratamento endodôntico elimina a bactéria e sela o canal, impedindo a progressão da infecção para os ossos.</p>
+      </div>
+      <div class="en-card">
+        <h3>⏱️ Rápido e eficaz</h3>
+        <p>Dependendo do caso, o tratamento pode ser concluído em uma ou duas sessões. Com técnicas modernas, o tempo de cadeira é reduzido e a recuperação é rápida.</p>
+      </div>
+    </div>
+    <div class="en-aviso">
+      <strong>Não ignore a dor de dente</strong>
+      Dor persistente, sensibilidade ao calor, escurecimento do dente ou inchaço na gengiva são sinais de que o dente precisa de atenção. Quanto antes for tratado, maiores as chances de preservá-lo.
+    </div>
+  </section>
+
+  <!-- SINAIS DE ALERTA -->
+  <section class="en-sintomas">
+    <div class="en-sintomas-inner">
+      <h2 class="en-section-title">Quando o tratamento de canal é necessário?</h2>
+      <div class="en-sintomas-grid">
+        <div class="en-sintoma-item">
+          <div class="en-sintoma-icon">🔥</div>
+          <p><strong>Dor ao morder ou pressionar</strong><br>Sensação de dor intensa ao mastigar ou tocar o dente.</p>
+        </div>
+        <div class="en-sintoma-item">
+          <div class="en-sintoma-icon">🌡️</div>
+          <p><strong>Sensibilidade prolongada ao calor</strong><br>Dor que persiste por mais de 30 segundos após contato com líquidos quentes.</p>
+        </div>
+        <div class="en-sintoma-item">
+          <div class="en-sintoma-icon">🦷</div>
+          <p><strong>Cárie profunda</strong><br>Cárie que atingiu a polpa do dente, causando lesão irreversível.</p>
+        </div>
+        <div class="en-sintoma-item">
+          <div class="en-sintoma-icon">🟤</div>
+          <p><strong>Escurecimento do dente</strong><br>Mudança de coloração pode indicar necrose pulpar.</p>
+        </div>
+        <div class="en-sintoma-item">
+          <div class="en-sintoma-icon">💥</div>
+          <p><strong>Trauma ou fratura</strong><br>Dentes quebrados por queda ou impacto podem necessitar de endodontia.</p>
+        </div>
+        <div class="en-sintoma-item">
+          <div class="en-sintoma-icon">🔴</div>
+          <p><strong>Inchaço ou abscesso</strong><br>Inchaço na gengiva próxima ao dente indica infecção já avançada.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMO É O TRATAMENTO -->
+  <section class="en-section">
+    <h2 class="en-section-title">Como é feito o tratamento?</h2>
+    <div class="en-steps">
+      <div class="en-step">
+        <div class="en-step-num">1</div>
+        <div>
+          <h4>Avaliação e diagnóstico</h4>
+          <p>Exame clínico e radiográfico para identificar a extensão da lesão e planejar o tratamento de forma precisa.</p>
+        </div>
+      </div>
+      <div class="en-step">
+        <div class="en-step-num">2</div>
+        <div>
+          <h4>Anestesia local</h4>
+          <p>Aplicação de anestesia eficiente para garantir total conforto durante todo o procedimento.</p>
+        </div>
+      </div>
+      <div class="en-step">
+        <div class="en-step-num">3</div>
+        <div>
+          <h4>Limpeza e modelagem do canal</h4>
+          <p>Remoção do tecido pulpar comprometido e limpeza completa do interior do canal radicular com instrumentos especializados.</p>
+        </div>
+      </div>
+      <div class="en-step">
+        <div class="en-step-num">4</div>
+        <div>
+          <h4>Obturação</h4>
+          <p>Selamento do canal com material biocompatível, impedindo recontaminação e garantindo estabilidade ao longo do tempo.</p>
+        </div>
+      </div>
+      <div class="en-step">
+        <div class="en-step-num">5</div>
+        <div>
+          <h4>Restauração final</h4>
+          <p>Dependendo do caso, o dente recebe uma restauração ou coroa para recuperar sua função e estética completas.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA FINAL -->
+  <section class="en-cta">
+    <h2>Está com dor de dente? Não espere piorar.</h2>
+    <p>Agende sua avaliação e descubra o melhor tratamento para preservar o seu sorriso.</p>
+    <a href="https://wa.me/5521976939004?text=Gostaria%20de%20saber%20mais%20sobre%20Endodontia%20na%20Stelle%20Odontologia" target="_blank" class="en-btn">
+      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+      Falar pelo WhatsApp
+    </a>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="stelle-footer">
+    <div class="stelle-footer-container">
+      <div class="stelle-footer-top">
+        <div class="stelle-footer-brand">
+          <img src="/assets/logo.png" alt="Stelle Odontologia">
+          <p>Ortodontia moderna e humanizada em Taquara, Jacarepaguá — Rio de Janeiro.</p>
+        </div>
+        <div class="stelle-footer-col">
+          <h4>Navegação</h4>
+          <ul>
+            <li><a href="/">Início</a></li>
+            <li><a href="/sobre/">Sobre a Dra. Késya</a></li>
+            <li><a href="/alinhadores/">Alinhadores Invisíveis</a></li>
+            <li><a href="/ortodontia-miofuncional/">Ortodontia Miofuncional</a></li>
+          </ul>
+        </div>
+        <div class="stelle-footer-col">
+          <h4>Contato</h4>
+          <ul class="stelle-footer-contact">
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" width="16" height="16"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+              <a href="tel:+5521976939004">(21) 97693-9004</a>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" width="16" height="16"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+              <span>Av Nelson Cardoso, 795 - Sala 301<br>Taquara, Rio de Janeiro - RJ</span>
+            </li>
+          </ul>
+        </div>
+        <div class="stelle-footer-col">
+          <h4>Horários</h4>
+          <ul class="stelle-footer-hours">
+            <li><span>Seg - Sex</span><strong>9h às 17h30</strong></li>
+            <li><span>Sábados</span><strong>9h às 12h</strong></li>
+            <li><span>Domingos</span><strong>Fechado</strong></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="stelle-footer-bottom">
+      <div class="stelle-footer-container">
+        <p>© 2026 Stelle Odontologia. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+</div>
+
+<script>
+  function stelleMobileToggle(btn) {
+    btn.classList.toggle('open');
+    btn.nextElementSibling.classList.toggle('open');
+  }
+  function stelleToggleDropdown(e, el) {
+    e.preventDefault();
+    var dropdown = el.parentElement;
+    var isOpen = dropdown.classList.contains('open');
+    document.querySelectorAll('.stelle-nav-dropdown.open').forEach(function(d) { d.classList.remove('open'); });
+    if (!isOpen) dropdown.classList.add('open');
+  }
+  document.addEventListener('click', function(e) {
+    if (!e.target.closest('.stelle-nav-dropdown')) {
+      document.querySelectorAll('.stelle-nav-dropdown.open').forEach(function(d) { d.classList.remove('open'); });
+    }
+  });
+</script>
