@@ -283,7 +283,11 @@
 </div>
 
 <script>
-  function stelleToggleDropdown(e, el) {
+  function stelleMobileToggle(btn) {
+    btn.classList.toggle('open');
+    btn.nextElementSibling.classList.toggle('open');
+  }
+  (e, el) {
     e.preventDefault();
     var dropdown = el.parentElement;
     var isOpen = dropdown.classList.contains('open');

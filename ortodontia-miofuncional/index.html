@@ -390,7 +390,7 @@
         <span></span><span></span><span></span>
       </button>
     </nav>
-    <div class="stelle-nav-mobile">
+    <div class="stelle-nav-mobile" id="myoMobileMenu">
       <a href="/">Início</a>
       <a href="/sobre/">Sobre a Dra. Késya</a>
       <div class="stelle-nav-mobile-section">
@@ -692,7 +692,11 @@
 </div>
 
 <script>
-  function stelleToggleDropdown(e, el) {
+  function stelleMobileToggle(btn) {
+    btn.classList.toggle('open');
+    btn.nextElementSibling.classList.toggle('open');
+  }
+  (e, el) {
     e.preventDefault();
     var dropdown = el.parentElement;
     var isOpen = dropdown.classList.contains('open');
