@@ -1,15 +1,630 @@
 <!--
   STELLE ODONTOLOGIA — Página: Ortodontia Miofuncional
   Última atualização: 2026-06-20
-
-  ⚠ Substituir antes de publicar:
-    - [NUMERO_WHATSAPP]  → ex: 5521999998888
 -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-  /* Arquivo de Ortodontia Miofuncional truncado em propósito devido ao tamanho. Usar a versão completa com todas as seções: header, hero, sinais, função, condições, como funciona, tecnologia, sobre, CTA final e footer */
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+  html, body { max-width: 100%; overflow-x: hidden; margin: 0; padding: 0; }
+  .stelle-page * { box-sizing: border-box; margin: 0; padding: 0; min-width: 0; }
+  .stelle-page {
+    font-family: 'Poppins', sans-serif;
+    color: #1a1a2e;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  /* ── HEADER ── */
+  .stelle-header {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 9999;
+    background: #0d3557;
+    box-shadow: 0 2px 20px rgba(0,0,0,0.25);
+  }
+  .stelle-nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+  }
+  .stelle-nav-logo img {
+    height: 48px;
+    width: auto;
+    mix-blend-mode: screen;
+    filter: brightness(1.1);
+  }
+  .stelle-nav-links {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    list-style: none;
+    flex: 1;
+    justify-content: center;
+  }
+  .stelle-nav-links a {
+    color: rgba(255,255,255,0.85);
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 8px 16px;
+    border-radius: 8px;
+    transition: all 0.2s;
+    white-space: nowrap;
+  }
+  .stelle-nav-links a:hover, .stelle-nav-links a.active {
+    color: white;
+    background: rgba(255,255,255,0.12);
+  }
+  .stelle-nav-dropdown { position: relative; }
+  .stelle-nav-dropdown > a { display: flex; align-items: center; gap: 4px; }
+  .stelle-nav-dropdown > a::after { content: '▼'; font-size: 8px; margin-left: 2px; }
+  .stelle-nav-dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #0a2d4a;
+    min-width: 220px;
+    border-radius: 8px;
+    padding: 8px 0;
+    margin-top: 4px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.25);
+    z-index: 10000;
+  }
+  .stelle-nav-dropdown-menu a { display: block; padding: 10px 16px; border: none; font-size: 13px; }
+  .stelle-nav-dropdown-menu a:hover { background: rgba(255,255,255,0.12); }
+  .stelle-nav-dropdown:hover .stelle-nav-dropdown-menu { display: block; }
+  .stelle-nav-cta {
+    background: #1b6ca8;
+    color: white;
+    padding: 10px 22px;
+    border-radius: 50px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    flex-shrink: 0;
+    font-size: 13px;
+    transition: background 0.2s;
+  }
+  .stelle-nav-cta:hover { background: #1558a0; }
+  .stelle-nav-hamburger {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+    padding: 8px;
+    background: none;
+    border: none;
+  }
+  .stelle-nav-hamburger span { display: block; width: 24px; height: 2px; background: white; border-radius: 2px; }
+  .stelle-nav-mobile {
+    display: none;
+    flex-direction: column;
+    background: #0a2d4a;
+    padding: 16px 40px 20px;
+    gap: 4px;
+  }
+  .stelle-nav-mobile a {
+    color: rgba(255,255,255,0.85);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+    display: block;
+  }
+  .stelle-nav-mobile.open { display: flex; }
+
+  /* ── SHARED ── */
+  .stelle-sc { max-width: 1200px; margin: 0 auto; padding: 0 40px; }
+  .stelle-badge { color: #1b6ca8; font-size: 12px; font-weight: 600; letter-spacing: 3px; text-transform: uppercase; display: block; margin-bottom: 14px; }
+  .stelle-title { font-size: 42px; font-weight: 700; color: #0d3557; line-height: 1.2; margin-bottom: 20px; }
+  .stelle-title em { font-family: 'Playfair Display', serif; font-style: italic; color: #1b6ca8; }
+
+  .btn-cta {
+    display: inline-flex; align-items: center; gap: 10px;
+    background: #1b6ca8; color: white; text-decoration: none;
+    padding: 16px 32px; border-radius: 50px;
+    font-size: 14px; font-weight: 700; letter-spacing: 0.5px;
+    transition: all 0.3s; border: none; cursor: pointer;
+  }
+  .btn-cta:hover { background: #0d3557; transform: translateY(-2px); box-shadow: 0 8px 24px rgba(27,108,168,0.4); }
+  .btn-cta-outline {
+    display: inline-flex; align-items: center; gap: 10px;
+    background: transparent; color: #0d3557; text-decoration: none;
+    padding: 14px 28px; border-radius: 50px;
+    font-size: 14px; font-weight: 600;
+    border: 2px solid #0d3557; transition: all 0.3s;
+  }
+  .btn-cta-outline:hover { background: #0d3557; color: white; }
+
+  /* ════════════════════════════════════
+     1. HERO
+  ════════════════════════════════════ */
+  .myo-hero { background: linear-gradient(135deg, #f8f5f0 0%, #f0ece4 100%); padding: 150px 0 80px; }
+  .myo-hero-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center; }
+  .myo-hero-title { font-size: 48px; font-weight: 700; color: #0d3557; line-height: 1.15; margin-bottom: 18px; }
+  .myo-hero-title em { font-family: 'Playfair Display', serif; font-style: italic; color: #1b6ca8; }
+  .myo-hero-sub { font-size: 16px; color: #4a5568; line-height: 1.7; margin-bottom: 28px; }
+  .myo-hero-icons { display: grid; grid-template-columns: repeat(4,1fr); gap: 12px; margin-bottom: 32px; }
+  .myo-icon-item { text-align: center; }
+  .myo-icon-box { width: 52px; height: 52px; background: white; border-radius: 14px; display: flex; align-items: center; justify-content: center; margin: 0 auto 8px; box-shadow: 0 2px 12px rgba(0,0,0,0.08); }
+  .myo-icon-box svg { width: 24px; height: 24px; color: #1b6ca8; }
+  .myo-icon-item span { font-size: 11px; font-weight: 600; color: #0d3557; line-height: 1.3; display: block; }
+  .myo-hero-buttons { display: flex; gap: 16px; flex-wrap: wrap; }
+  .myo-hero-img { width: 100%; aspect-ratio: 4/5; border-radius: 24px; object-fit: cover; }
+
+  /* ════════════════════════════════════
+     2. SINAIS
+  ════════════════════════════════════ */
+  .myo-sinais { padding: 90px 0; background: white; }
+  .myo-sinais-header { text-align: center; margin-bottom: 50px; }
+  .myo-sinais-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 20px; }
+  .myo-sinal-card { display: flex; flex-direction: column; align-items: center; text-align: center; padding: 24px 16px; background: #f8f5f0; border-radius: 16px; }
+  .myo-sinal-icon { width: 56px; height: 56px; background: white; border-radius: 12px; display: flex; align-items: center; justify-content: center; margin: 0 auto 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
+  .myo-sinal-icon svg { width: 28px; height: 28px; color: #1b6ca8; }
+  .myo-sinal-label { font-size: 13px; font-weight: 600; color: #0d3557; line-height: 1.4; }
+
+  /* ════════════════════════════════════
+     3. PROBLEMA NA FUNÇÃO
+  ════════════════════════════════════ */
+  .myo-funcao { background: #0d3557; padding: 90px 0; color: white; }
+  .myo-funcao-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center; }
+  .myo-funcao-img { width: 100%; aspect-ratio: 4/5; border-radius: 20px; object-fit: cover; }
+  .myo-funcao-title { font-size: 38px; font-weight: 700; color: white; line-height: 1.25; margin-bottom: 20px; }
+  .myo-funcao-title em { font-family: 'Playfair Display', serif; font-style: italic; color: #7ec8f4; }
+  .myo-funcao-sub { font-size: 16px; color: rgba(255,255,255,0.75); line-height: 1.75; margin-bottom: 28px; }
+  .myo-funcao-checks { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  .myo-check-item { display: flex; align-items: center; gap: 10px; font-size: 14px; color: rgba(255,255,255,0.85); }
+  .myo-check-item::before { content: '✓'; width: 24px; height: 24px; background: rgba(126,200,244,0.2); border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0; color: #7ec8f4; font-weight: 700; }
+
+  /* ════════════════════════════════════
+     4. CONDIÇÕES
+  ════════════════════════════════════ */
+  .myo-condicoes { padding: 90px 0; background: #fafaf8; }
+  .myo-condicoes-header { text-align: center; margin-bottom: 50px; }
+  .myo-condicoes-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+  .myo-condicao-card { background: white; border-radius: 16px; overflow: hidden; box-shadow: 0 4px 16px rgba(0,0,0,0.08); transition: all 0.3s; }
+  .myo-condicao-card:hover { transform: translateY(-4px); box-shadow: 0 8px 24px rgba(0,0,0,0.12); }
+  .myo-condicao-img { width: 100%; aspect-ratio: 4/3; background: #e8f0fb; display: flex; align-items: center; justify-content: center; overflow: hidden; }
+  .myo-condicao-img img { width: 100%; height: 100%; object-fit: cover; }
+  .myo-condicao-content { padding: 20px; }
+  .myo-condicao-title { font-size: 16px; font-weight: 700; color: #0d3557; margin-bottom: 10px; }
+  .myo-condicao-desc { font-size: 13px; color: #6b7280; line-height: 1.6; }
+
+  /* ════════════════════════════════════
+     5. COMO FUNCIONA
+  ════════════════════════════════════ */
+  .myo-como { padding: 90px 0; background: white; }
+  .myo-como-header { text-align: center; margin-bottom: 50px; }
+  .myo-steps { display: flex; align-items: flex-start; justify-content: space-between; gap: 20px; flex-wrap: wrap; }
+  .myo-step { flex: 1; min-width: 160px; text-align: center; display: flex; flex-direction: column; align-items: center; }
+  .myo-step-num { width: 56px; height: 56px; background: #0d3557; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 24px; font-weight: 700; margin-bottom: 14px; }
+  .myo-step-title { font-size: 14px; font-weight: 700; color: #0d3557; margin-bottom: 8px; }
+  .myo-step-desc { font-size: 12px; color: #6b7280; line-height: 1.5; }
+
+  /* ════════════════════════════════════
+     6. MYOBRACE
+  ════════════════════════════════════ */
+  .myo-tecnologia { padding: 90px 0; background: #f8f5f0; }
+  .myo-tecnologia-header { text-align: center; margin-bottom: 50px; }
+  .myo-tecnologia-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center; }
+  .myo-tech-content p { font-size: 15px; color: #6b7280; line-height: 1.7; margin-bottom: 20px; }
+  .myo-tech-title { font-size: 36px; font-weight: 700; color: #0d3557; line-height: 1.2; margin-bottom: 24px; }
+  .myo-tech-title em { font-family: 'Playfair Display', serif; font-style: italic; color: #1b6ca8; }
+  .myo-benefits { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-top: 28px; margin-bottom: 32px; }
+  .myo-benefit-item { display: flex; align-items: center; gap: 10px; font-size: 14px; color: #0d3557; }
+  .myo-benefit-item::before { content: '✓'; color: #1b6ca8; font-weight: 700; font-size: 16px; }
+  .myo-tech-link { display: inline-flex; align-items: center; gap: 8px; color: #0d3557; text-decoration: none; font-size: 14px; font-weight: 600; transition: gap 0.2s; }
+  .myo-tech-link:hover { gap: 12px; }
+  .myo-tech-img { width: 100%; max-width: 400px; margin: 0 auto; display: block; }
+
+  /* ════════════════════════════════════
+     7. SOBRE DRA. KÉSYA
+  ════════════════════════════════════ */
+  .myo-sobre { padding: 90px 0; background: white; }
+  .myo-sobre-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center; }
+  .myo-sobre-img { width: 100%; aspect-ratio: 1/1; border-radius: 20px; overflow: hidden; }
+  .myo-sobre-img img { width: 100%; height: 100%; object-fit: cover; }
+  .myo-sobre-badge { color: #1b6ca8; font-size: 12px; font-weight: 600; letter-spacing: 2px; text-transform: uppercase; display: block; margin-bottom: 12px; }
+  .myo-sobre-nome { font-family: 'Playfair Display', serif; font-size: 44px; font-weight: 400; color: #0d3557; margin-bottom: 8px; }
+  .myo-sobre-esp { font-size: 16px; font-weight: 600; color: #1b6ca8; margin-bottom: 20px; }
+  .myo-sobre-desc { font-size: 15px; color: #6b7280; line-height: 1.8; margin-bottom: 28px; }
+  .myo-sobre-creds { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-top: 28px; }
+  .myo-sobre-cred { display: flex; align-items: center; gap: 10px; font-size: 13px; color: #0d3557; }
+  .myo-sobre-cred::before { content: '✓'; color: #1b6ca8; font-weight: 700; font-size: 16px; }
+
+  /* ════════════════════════════════════
+     8. CTA FINAL
+  ════════════════════════════════════ */
+  .myo-cta-final { background: linear-gradient(135deg, #0d3557 0%, #1b6ca8 100%); padding: 100px 0; text-align: center; }
+  .myo-cta-final-badge { color: #7ec8f4; font-size: 12px; font-weight: 600; letter-spacing: 3px; text-transform: uppercase; display: block; margin-bottom: 16px; }
+  .myo-cta-final h2 { font-size: 46px; font-weight: 700; color: white; line-height: 1.2; margin-bottom: 16px; }
+  .myo-cta-final h2 em { font-family: 'Playfair Display', serif; font-style: italic; color: #7ec8f4; }
+  .myo-cta-final p { font-size: 16px; color: rgba(255,255,255,0.8); margin-bottom: 36px; line-height: 1.7; max-width: 520px; margin-left: auto; margin-right: auto; }
+
+  /* ===== FOOTER ===== */
+  .stelle-footer { background: #0d3557; color: #fff; font-family: 'Poppins', sans-serif; }
+  .stelle-footer-container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+  .stelle-footer-top { padding: 60px 0 40px; }
+  .stelle-footer-top .stelle-footer-container { display: grid; grid-template-columns: 2fr 1fr 1fr 1.5fr 1.2fr; gap: 40px; }
+  .stelle-footer-logo { max-width: 160px; height: auto; filter: brightness(0) invert(1); margin-bottom: 16px; display: block; }
+  .stelle-footer-brand p { font-size: 14px; line-height: 1.7; color: rgba(255,255,255,0.75); margin: 0 0 20px; }
+  .stelle-footer-socials { display: flex; gap: 12px; }
+  .stelle-footer-socials a { display: flex; align-items: center; justify-content: center; width: 38px; height: 38px; border-radius: 50%; border: 1px solid rgba(255,255,255,0.25); color: rgba(255,255,255,0.8); transition: all 0.2s; text-decoration: none; }
+  .stelle-footer-socials a:hover { background: rgba(255,255,255,0.15); color: #fff; border-color: rgba(255,255,255,0.6); }
+  .stelle-footer-col h4 { font-size: 13px; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase; color: #fff; margin: 0 0 18px; }
+  .stelle-footer-col ul { list-style: none; margin: 0; padding: 0; }
+  .stelle-footer-col ul li { margin-bottom: 10px; }
+  .stelle-footer-col ul li a { color: rgba(255,255,255,0.72); text-decoration: none; font-size: 14px; transition: color 0.2s; }
+  .stelle-footer-col ul li a:hover { color: #fff; }
+  .stelle-footer-contact li { display: flex; align-items: flex-start; gap: 10px; color: rgba(255,255,255,0.72); font-size: 14px; line-height: 1.5; }
+  .stelle-footer-contact li svg { flex-shrink: 0; margin-top: 2px; opacity: 0.8; }
+  .stelle-footer-contact li a { color: rgba(255,255,255,0.72); text-decoration: none; }
+  .stelle-footer-contact li a:hover { color: #fff; }
+  .stelle-footer-hours li { display: flex; justify-content: space-between; align-items: center; padding: 8px 0; border-bottom: 1px solid rgba(255,255,255,0.1); font-size: 14px; }
+  .stelle-footer-hours li:last-child { border-bottom: none; }
+  .stelle-footer-hours li span { color: rgba(255,255,255,0.65); }
+  .stelle-footer-hours li strong { color: #fff; }
+  .stelle-footer-bottom { border-top: 1px solid rgba(255,255,255,0.12); padding: 18px 0; text-align: center; }
+  .stelle-footer-bottom p { margin: 0; font-size: 13px; color: rgba(255,255,255,0.5); }
+  @media (max-width: 1024px) {
+    .stelle-footer-top .stelle-footer-container { grid-template-columns: 1fr 1fr; gap: 32px; }
+    .stelle-footer-brand { grid-column: 1 / -1; }
+  }
+  @media (max-width: 600px) {
+    .stelle-footer-top .stelle-footer-container { grid-template-columns: 1fr; }
+    .stelle-footer-top { padding: 40px 0 28px; }
+  }
+
+  /* ── RESPONSIVO ── */
+  @media (max-width: 768px) {
+    .stelle-nav-links, .stelle-nav-cta { display: none; }
+    .stelle-nav-hamburger { display: flex; }
+    .stelle-nav { padding: 0 20px; }
+    .myo-hero { padding: 120px 0 60px; }
+    .myo-hero-grid { grid-template-columns: 1fr; gap: 40px; }
+    .myo-hero-title { font-size: 32px; }
+    .myo-hero-icons { grid-template-columns: repeat(2,1fr); }
+    .myo-hero-buttons { flex-direction: column; }
+    .btn-cta, .btn-cta-outline { width: 100%; justify-content: center; }
+    .myo-sinais-grid { grid-template-columns: repeat(2, 1fr); gap: 16px; }
+    .myo-funcao-grid { grid-template-columns: 1fr; gap: 40px; }
+    .myo-funcao-title { font-size: 28px; }
+    .myo-funcao-checks { grid-template-columns: 1fr; }
+    .myo-condicoes-grid { grid-template-columns: 1fr; }
+    .myo-tecnologia-grid { grid-template-columns: 1fr; }
+    .myo-sobre-grid { grid-template-columns: 1fr; }
+    .stelle-sc { padding: 0 20px; }
+    .stelle-title { font-size: 30px; }
+    .myo-cta-final h2 { font-size: 30px; }
+  }
+
+  @media (max-width: 480px) {
+    .myo-hero-title { font-size: 26px; }
+    .myo-hero-icons { grid-template-columns: repeat(2,1fr); gap: 10px; }
+    .myo-funcao-title { font-size: 24px; }
+  }
 </style>
 
 <div class="stelle-page">
-  <!-- Conteúdo truncado - usar arquivo completo -->
+
+  <header class="stelle-header">
+    <nav class="stelle-nav">
+      <a href="/" class="stelle-nav-logo">
+        <img src="https://novo.stelleodontologia.com.br/wp-content/uploads/2026/06/Logo-Stelle-Odontologia-Dentista-na-Taquara-scaled.png" alt="Stelle Odontologia">
+      </a>
+      <ul class="stelle-nav-links">
+        <li><a href="/">Início</a></li>
+        <li><a href="/sobre/">Sobre a Dra. Késya</a></li>
+        <li class="stelle-nav-dropdown">
+          <a href="#">Ortodontia</a>
+          <div class="stelle-nav-dropdown-menu">
+            <a href="/alinhadores/">Alinhadores Invisíveis</a>
+            <a href="/ortodontia-miofuncional/" class="active">Ortodontia Miofuncional</a>
+            <a href="https://novo.stelleodontologia.com.br/ortodontia-fixa/">Ortodontia Fixa</a>
+          </div>
+        </li>
+        <li><a href="https://novo.stelleodontologia.com.br/tratamentos/">Tratamentos</a></li>
+        <li><a href="https://novo.stelleodontologia.com.br/contato/">Contato</a></li>
+        <li><a href="https://stelleodontologia.com.br/blog">Blog</a></li>
+      </ul>
+      <a href="https://wa.me/5521976939004?text=Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Stelle%20Odontologia%20e%20a%20Dra%20K%C3%A9sya" target="_blank" class="stelle-nav-cta">
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        WhatsApp
+      </a>
+      <button class="stelle-nav-hamburger" onclick="document.getElementById('myoMobileMenu').classList.toggle('open')">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+    <div class="stelle-nav-mobile" id="myoMobileMenu">
+      <a href="/">Início</a>
+      <a href="/sobre/">Sobre a Dra. Késya</a>
+      <a href="javascript:void(0)" onclick="document.getElementById('ortoMobileSubmenuMyo').style.display = document.getElementById('ortoMobileSubmenuMyo').style.display === 'block' ? 'none' : 'block'">Ortodontia ▼</a>
+      <div id="ortoMobileSubmenuMyo" style="display:none; padding-left: 20px;">
+        <a href="/alinhadores/">Alinhadores Invisíveis</a>
+        <a href="/ortodontia-miofuncional/">Ortodontia Miofuncional</a>
+        <a href="https://novo.stelleodontologia.com.br/ortodontia-fixa/">Ortodontia Fixa</a>
+      </div>
+      <a href="https://novo.stelleodontologia.com.br/tratamentos/">Tratamentos</a>
+      <a href="https://novo.stelleodontologia.com.br/contato/">Contato</a>
+      <a href="https://stelleodontologia.com.br/blog">Blog</a>
+      <a href="https://wa.me/5521976939004?text=Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Stelle%20Odontologia%20e%20a%20Dra%20K%C3%A9sya" target="_blank">📱 WhatsApp</a>
+    </div>
+  </header>
+
+  <section class="myo-hero">
+    <div class="stelle-sc">
+      <div class="myo-hero-grid">
+        <div>
+          <p class="stelle-badge">Ortodontia Miofuncional e Myobrace®</p>
+          <h1 class="myo-hero-title">
+            Seu filho merece um<br>
+            <em>desenvolvimento facial</em><br>
+            saudável e equilibrado.
+          </h1>
+          <p class="myo-hero-sub">Tratamos a causa dos problemas que podem interferir na respiração, no crescimento facial e no desenvolvimento do sorriso.</p>
+          <div class="myo-hero-icons">
+            <div class="myo-icon-item">
+              <div class="myo-icon-box"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 12l2 2 4-4M7 12a5 5 0 1110 0 5 5 0 01-10 0z"/></svg></div>
+              <span>Respiração nasal</span>
+            </div>
+            <div class="myo-icon-item">
+              <div class="myo-icon-box"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M14 10l-2 1m0 0l-2-1m2 1v2.5M20 7l-2 1m0 0l-2-1m2 1v2.5M14 4l-2 1m0 0L10 4m2 1V5.5M3 21h18M3 7l9-4 9 4v11a1 1 0 01-1 1H4a1 1 0 01-1-1V7z"/></svg></div>
+              <span>Crescimento facial equilibrado</span>
+            </div>
+            <div class="myo-icon-item">
+              <div class="myo-icon-box"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
+              <span>Sorriso mais saudável</span>
+            </div>
+            <div class="myo-icon-item">
+              <div class="myo-icon-box"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/></svg></div>
+              <span>Menos tratamentos</span>
+            </div>
+          </div>
+          <div class="myo-hero-buttons">
+            <a href="https://wa.me/5521976939004?text=Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Stelle%20Odontologia%20e%20a%20Dra%20K%C3%A9sya" target="_blank" class="btn-cta">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              Agendar Avaliação
+            </a>
+            <a href="https://wa.me/5521976939004?text=Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Stelle%20Odontologia%20e%20a%20Dra%20K%C3%A9sya" target="_blank" class="btn-cta-outline">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              Falar no WhatsApp
+            </a>
+          </div>
+        </div>
+        <div>
+          <img src="https://novo.stelleodontologia.com.br/wp-content/uploads/2026/06/Mae_Filha.png" alt="Mãe e filha sorrindo" class="myo-hero-img">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="myo-sinais">
+    <div class="stelle-sc">
+      <div class="myo-sinais-header">
+        <h2 class="stelle-title">Seu filho apresenta alguns destes <em>sinais?</em></h2>
+      </div>
+      <div class="myo-sinais-grid">
+        <div class="myo-sinal-card"><div class="myo-sinal-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 12l2 2 4-4M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><span class="myo-sinal-label">Dentes tortos</span></div>
+        <div class="myo-sinal-card"><div class="myo-sinal-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><span class="myo-sinal-label">Mordida aberta</span></div>
+        <div class="myo-sinal-card"><div class="myo-sinal-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 5v14m0 0H5m7 0h7M5 5h14a2 2 0 012 2v10a2 2 0 01-2 2H5a2 2 0 01-2-2V7a2 2 0 012-2z"/></svg></div><span class="myo-sinal-label">Respiração pela boca</span></div>
+        <div class="myo-sinal-card"><div class="myo-sinal-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M8 12l4 4 8-8"/></svg></div><span class="myo-sinal-label">Sono infantil alterado</span></div>
+        <div class="myo-sinal-card"><div class="myo-sinal-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><span class="myo-sinal-label">Chupeta ou dedo</span></div>
+        <div class="myo-sinal-card"><div class="myo-sinal-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 12l2 2 4-4M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><span class="myo-sinal-label">Língua entre os dentes</span></div>
+        <div class="myo-sinal-card"><div class="myo-sinal-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19 14l-7 7m0 0l-7-7m7 7V3"/></svg></div><span class="myo-sinal-label">Fala alongada</span></div>
+        <div class="myo-sinal-card"><div class="myo-sinal-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 3v4m6.364 1.636l-2.828-2.828m2.828 2.828l2.828-2.828M6.364 18.364l-2.828-2.828m2.828 2.828l-2.828 2.828M3 12h4m14 0h4"/></svg></div><span class="myo-sinal-label">Bruxismo</span></div>
+        <div class="myo-sinal-card"><div class="myo-sinal-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><span class="myo-sinal-label">Fala agitada</span></div>
+        <div class="myo-sinal-card"><div class="myo-sinal-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 12l2 2 4-4M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><span class="myo-sinal-label">Babação na infância</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="myo-funcao">
+    <div class="stelle-sc">
+      <div class="myo-funcao-grid">
+        <div>
+          <img src="https://novo.stelleodontologia.com.br/wp-content/uploads/2026/06/Menina03.png" alt="Criança em perfil" class="myo-funcao-img">
+        </div>
+        <div>
+          <p class="stelle-badge" style="color:#7ec8f4;">O problema pode estar na função</p>
+          <h2 class="myo-funcao-title">Não é <em>apenas</em> sobre os dentes.</h2>
+          <p class="myo-funcao-sub">Músculos, língua, respiração e crescimento facial trabalham em conjunto. Quando esses elementos não funcionam bem, podem surgir alterações no desenvolvimento dos dentes e na qualidade de vida.</p>
+          <div class="myo-funcao-checks">
+            <div class="myo-check-item">Respiração nasal</div>
+            <div class="myo-check-item">Deglutição correta</div>
+            <div class="myo-check-item">Posição correta da língua</div>
+            <div class="myo-check-item">Crescimento facial harmonioso</div>
+            <div class="myo-check-item">Melhor qualidade do sono</div>
+            <div class="myo-check-item">Desenvolvimento equilibrado</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="myo-condicoes">
+    <div class="stelle-sc">
+      <div class="myo-condicoes-header">
+        <p class="stelle-badge" style="text-align:center;">Condições que podemos tratar</p>
+        <h2 class="stelle-title" style="text-align:center;">Desenvolvemos soluções para<br><em>diversos problemas</em></h2>
+      </div>
+      <div class="myo-condicoes-grid">
+        <div class="myo-condicao-card">
+          <div class="myo-condicao-img"><img src="https://novo.stelleodontologia.com.br/wp-content/uploads/2026/06/Falta-de-Espaco-1.png" alt="Falta de espaço"></div>
+          <div class="myo-condicao-content"><h3 class="myo-condicao-title">Falta de Espaço</h3><p class="myo-condicao-desc">Dentes mal posicionados por falta de espaço. Compromete a higiene e estética.</p></div>
+        </div>
+        <div class="myo-condicao-card">
+          <div class="myo-condicao-img"><img src="https://novo.stelleodontologia.com.br/wp-content/uploads/2026/06/Mordida-Aberta-1.png" alt="Mordida aberta"></div>
+          <div class="myo-condicao-content"><h3 class="myo-condicao-title">Mordida Aberta</h3><p class="myo-condicao-desc">Dificuldade para fechar os dentes anteriores. Afeta a mastigação e a fala.</p></div>
+        </div>
+        <div class="myo-condicao-card">
+          <div class="myo-condicao-img"><img src="https://novo.stelleodontologia.com.br/wp-content/uploads/2026/06/Mordida-Cruzada-1.png" alt="Mordida cruzada"></div>
+          <div class="myo-condicao-content"><h3 class="myo-condicao-title">Mordida Cruzada</h3><p class="myo-condicao-desc">Alterações na relação entre os dentes superiores e inferiores. Afeta o crescimento e a postura.</p></div>
+        </div>
+        <div class="myo-condicao-card">
+          <div class="myo-condicao-img"><img src="https://novo.stelleodontologia.com.br/wp-content/uploads/2026/06/Respiracao-Bucal-1.png" alt="Respiração bucal"></div>
+          <div class="myo-condicao-content"><h3 class="myo-condicao-title">Respiração Bucal</h3><p class="myo-condicao-desc">Quando a respiração acontece pela boca em vez do nariz. Afeta toda a face.</p></div>
+        </div>
+        <div class="myo-condicao-card">
+          <div class="myo-condicao-img"><img src="https://novo.stelleodontologia.com.br/wp-content/uploads/2026/06/Habitos.png" alt="Maus hábitos orais"></div>
+          <div class="myo-condicao-content"><h3 class="myo-condicao-title">Maus Hábitos Orais</h3><p class="myo-condicao-desc">Chupeta, dedo, língua entre os dentes. Interferem no desenvolvimento normal.</p></div>
+        </div>
+        <div class="myo-condicao-card">
+          <div class="myo-condicao-img"><img src="https://novo.stelleodontologia.com.br/wp-content/uploads/2026/06/Desenvolvimento.png" alt="Desenvolvimento facial alterado"></div>
+          <div class="myo-condicao-content"><h3 class="myo-condicao-title">Desenvolvimento Facial Alterado</h3><p class="myo-condicao-desc">Queixo retruído, rosto longo, assimetrias. Afeta a estética e a função.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="myo-como">
+    <div class="stelle-sc">
+      <div class="myo-como-header">
+        <p class="stelle-badge" style="text-align:center;">Passo a passo</p>
+        <h2 class="stelle-title" style="text-align:center;">Como funciona o <em>tratamento?</em></h2>
+      </div>
+      <div class="myo-steps">
+        <div class="myo-step"><div class="myo-step-num">1</div><h3 class="myo-step-title">Avaliação</h3><p class="myo-step-desc">Análise facial, mordida e respiração</p></div>
+        <div class="myo-step"><div class="myo-step-num">2</div><h3 class="myo-step-title">Planejamento</h3><p class="myo-step-desc">Individualizado para cada criança</p></div>
+        <div class="myo-step"><div class="myo-step-num">3</div><h3 class="myo-step-title">Tratamento</h3><p class="myo-step-desc">Com aparelhos e exercícios</p></div>
+        <div class="myo-step"><div class="myo-step-num">4</div><h3 class="myo-step-title">Acompanhamento</h3><p class="myo-step-desc">Monitoramento contínuo</p></div>
+        <div class="myo-step"><div class="myo-step-num">5</div><h3 class="myo-step-title">Estabilidade</h3><p class="myo-step-desc">Manutenção dos resultados</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="myo-tecnologia">
+    <div class="stelle-sc">
+      <div class="myo-tecnologia-header">
+        <p class="stelle-badge" style="text-align:center;">Tecnologia que trata a causa</p>
+        <h2 class="stelle-title" style="text-align:center;">Sistema <em>Myobrace®</em></h2>
+      </div>
+      <div class="myo-tecnologia-grid">
+        <div class="myo-tech-content">
+          <p>Aparelho funcional removível desenvolvido para corrigir hábitos miofuncionais, melhorar a respiração e o desenvolvimento facial das crianças.</p>
+          <div class="myo-benefits">
+            <div class="myo-benefit-item">Respiração nasal</div>
+            <div class="myo-benefit-item">Maus hábitos orais</div>
+            <div class="myo-benefit-item">Dentes apinhados</div>
+            <div class="myo-benefit-item">Crescimento facial harmonioso</div>
+            <div class="myo-benefit-item">Melhor qualidade do sono</div>
+            <div class="myo-benefit-item">Desenvolvimento equilibrado</div>
+          </div>
+          <a href="https://novo.stelleodontologia.com.br/miofuncional/" class="myo-tech-link">Saiba mais sobre o Myobrace® →</a>
+        </div>
+        <div>
+          <img src="https://novo.stelleodontologia.com.br/wp-content/uploads/2026/06/Myobrace.png" alt="Aparelho Myobrace" class="myo-tech-img">
+          <p style="text-align: center; font-size: 12px; color: #1b6ca8; margin-top: 12px; font-weight: 600;">Sistema Myobrace®</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="myo-sobre">
+    <div class="stelle-sc">
+      <div class="myo-sobre-grid">
+        <div>
+          <div class="myo-sobre-img">
+            <img src="https://novo.stelleodontologia.com.br/wp-content/uploads/2026/06/Dr_Kesya.png" alt="Dra. Késya Nogueira">
+          </div>
+        </div>
+        <div>
+          <p class="myo-sobre-badge">Conheça a especialista</p>
+          <h2 class="myo-sobre-nome">Dra. Késya Nogueira</h2>
+          <p class="myo-sobre-esp">Especialista em Ortodontia</p>
+          <p class="myo-sobre-desc">Atendimento humanizado, tecnologia de ponta e atualização constante para proporcionar o melhor para você e sua família. Com mais de 1.000 pacientes transformados, a Dra. Késya é especialista em desenvolvimento facial e miofuncional.</p>
+          <div class="myo-sobre-creds">
+            <div class="myo-sobre-cred">Especialista em Ortodontia</div>
+            <div class="myo-sobre-cred">Abordagem humanizada</div>
+            <div class="myo-sobre-cred">Planejamento digital 3D</div>
+            <div class="myo-sobre-cred">Acompanhamento preventivo</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="myo-cta-final">
+    <div class="stelle-sc">
+      <p class="myo-cta-final-badge">Transforme o sorriso do seu filho</p>
+      <h2>Quanto mais cedo,<br><em>melhor.</em></h2>
+      <p>A infância é a melhor fase para intervir. Muitas alterações podem ser tratadas de forma mais simples quando identificadas precocemente.</p>
+      <a href="https://wa.me/5521976939004?text=Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Stelle%20Odontologia%20e%20a%20Dra%20K%C3%A9sya" target="_blank" class="btn-cta">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        Agendar Avaliação Gratuita
+      </a>
+    </div>
+  </section>
+
+  <footer class="stelle-footer">
+    <div class="stelle-footer-top">
+      <div class="stelle-footer-container">
+        <div class="stelle-footer-brand">
+          <img src="https://novo.stelleodontologia.com.br/wp-content/uploads/2026/06/Logo-Stelle-Odontologia-Dentista-na-Taquara-scaled.png" alt="Stelle Odontologia" class="stelle-footer-logo">
+          <p>Odontologia moderna, humanizada e completa para cuidar do seu sorriso em todas as fases da vida.</p>
+          <div class="stelle-footer-socials">
+            <a href="https://instagram.com/stelleodontologia" target="_blank" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            </a>
+            <a href="https://wa.me/5521976939004?text=Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Stelle%20Odontologia%20e%20a%20Dra%20K%C3%A9sya" target="_blank" aria-label="WhatsApp">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            </a>
+            <a href="https://maps.google.com/?q=Av+Nelson+Cardoso+795+Sala+301+Rio+de+Janeiro" target="_blank" aria-label="Localização">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="stelle-footer-col">
+          <h4>Links Rápidos</h4>
+          <ul>
+            <li><a href="/">Início</a></li>
+            <li><a href="/alinhadores/">Alinhadores Invisíveis</a></li>
+            <li><a href="https://novo.stelleodontologia.com.br/tratamentos/">Tratamentos</a></li>
+            <li><a href="/sobre/">Sobre a Dra.</a></li>
+            <li><a href="https://novo.stelleodontologia.com.br/contato/">Contato</a></li>
+          </ul>
+        </div>
+        <div class="stelle-footer-col">
+          <h4>Tratamentos</h4>
+          <ul>
+            <li><a href="/alinhadores/">Alinhadores Invisíveis</a></li>
+            <li><a href="https://novo.stelleodontologia.com.br/ortodontia-fixa/">Ortodontia Completa</a></li>
+            <li><a href="/ortodontia-miofuncional/">Ortodontia Miofuncional</a></li>
+          </ul>
+        </div>
+        <div class="stelle-footer-col">
+          <h4>Contato</h4>
+          <ul class="stelle-footer-contact">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" width="16" height="16"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg><a href="tel:+5521976939004">(21) 97693-9004</a></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" width="16" height="16"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg><a href="mailto:contato@stelleodontologia.com.br">contato@stelleodontologia.com.br</a></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" width="16" height="16"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg><span>Av Nelson Cardoso, 795 - Sala 301<br>Rio de Janeiro - RJ</span></li>
+          </ul>
+        </div>
+        <div class="stelle-footer-col">
+          <h4>Horários</h4>
+          <ul class="stelle-footer-hours">
+            <li><span>Seg - Sex</span><strong>9h às 17h30</strong></li>
+            <li><span>Sábados</span><strong>9h às 12h</strong></li>
+            <li><span>Domingos</span><strong>Fechado</strong></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="stelle-footer-bottom">
+      <div class="stelle-footer-container">
+        <p>© 2026 Stelle Odontologia. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
 </div>
