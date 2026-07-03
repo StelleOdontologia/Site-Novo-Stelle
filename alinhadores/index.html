@@ -1,15 +1,11 @@
 <!--
   STELLE ODONTOLOGIA — Página: Alinhadores Invisíveis
   Última atualização: 2026-06-16
-
-  ⚠ Substituir antes de publicar:
-    - [ID_YOUTUBE]       → ID do vídeo do YouTube (ex: dQw4w9WgXcQ)
-    - [NUMERO_WHATSAPP]  → ex: 5521999998888
-    - Slug "alinhadores" → confirmar URL da página no WP
 -->
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:wght@300;400;500;600;700&display=swap');
 
+  html, body { max-width: 100%; overflow-x: hidden; margin: 0; padding: 0; }
   .stelle-page * { box-sizing: border-box; margin: 0; padding: 0; }
   .stelle-page { font-family: 'Poppins', sans-serif; color: #1a1a2e; }
 
@@ -23,25 +19,8 @@
   .stelle-nav-dropdown { position: relative; }
   .stelle-nav-dropdown > a { display: flex; align-items: center; gap: 4px; }
   .stelle-nav-dropdown > a::after { content: '▼'; font-size: 8px; margin-left: 2px; }
-  .stelle-nav-dropdown-menu {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    background: #0a2d4a;
-    min-width: 220px;
-    border-radius: 8px;
-    padding: 8px 0;
-    margin-top: 4px;
-    box-shadow: 0 8px 24px rgba(0,0,0,0.25);
-    z-index: 10000;
-  }
-  .stelle-nav-dropdown-menu a {
-    display: block;
-    padding: 10px 16px;
-    border: none;
-    font-size: 13px;
-  }
+  .stelle-nav-dropdown-menu { display: none; position: absolute; top: 100%; left: 0; background: #0a2d4a; min-width: 220px; border-radius: 8px; padding: 8px 0; margin-top: 4px; box-shadow: 0 8px 24px rgba(0,0,0,0.25); z-index: 10000; }
+  .stelle-nav-dropdown-menu a { display: block; padding: 10px 16px; border: none; font-size: 13px; }
   .stelle-nav-dropdown-menu a:hover { background: rgba(255,255,255,0.12); }
   .stelle-nav-dropdown:hover .stelle-nav-dropdown-menu { display: block; }
   .stelle-nav-cta { background: #1b6ca8; color: white; padding: 10px 22px; border-radius: 50px; font-weight: 600; display: flex; align-items: center; gap: 8px; text-decoration: none; flex-shrink: 0; font-size: 13px; transition: background 0.2s; }
@@ -60,45 +39,18 @@
   .stelle-title-white { color: white; }
   .stelle-title-white em { color: #7ec8f4; }
 
-  .btn-cta {
-    display: inline-flex; align-items: center; gap: 10px;
-    background: #1b6ca8; color: white; text-decoration: none;
-    padding: 16px 32px; border-radius: 50px;
-    font-size: 14px; font-weight: 700; letter-spacing: 0.5px;
-    transition: all 0.3s; border: none; cursor: pointer;
-  }
+  .btn-cta { display: inline-flex; align-items: center; gap: 10px; background: #1b6ca8; color: white; text-decoration: none; padding: 16px 32px; border-radius: 50px; font-size: 14px; font-weight: 700; letter-spacing: 0.5px; transition: all 0.3s; border: none; cursor: pointer; }
   .btn-cta:hover { background: #0d3557; transform: translateY(-2px); box-shadow: 0 8px 24px rgba(27,108,168,0.4); }
-  .btn-cta-outline {
-    display: inline-flex; align-items: center; gap: 10px;
-    background: transparent; color: #0d3557; text-decoration: none;
-    padding: 14px 28px; border-radius: 50px;
-    font-size: 14px; font-weight: 600;
-    border: 2px solid #0d3557; transition: all 0.3s;
-  }
+  .btn-cta-outline { display: inline-flex; align-items: center; gap: 10px; background: transparent; color: #0d3557; text-decoration: none; padding: 14px 28px; border-radius: 50px; font-size: 14px; font-weight: 600; border: 2px solid #0d3557; transition: all 0.3s; }
   .btn-cta-outline:hover { background: #0d3557; color: white; }
-  .btn-cta-white {
-    display: inline-flex; align-items: center; gap: 10px;
-    background: white; color: #0d3557; text-decoration: none;
-    padding: 16px 32px; border-radius: 50px;
-    font-size: 14px; font-weight: 700; transition: all 0.3s;
-  }
+  .btn-cta-white { display: inline-flex; align-items: center; gap: 10px; background: white; color: #0d3557; text-decoration: none; padding: 16px 32px; border-radius: 50px; font-size: 14px; font-weight: 700; transition: all 0.3s; }
   .btn-cta-white:hover { background: #e8f0fb; transform: translateY(-2px); }
 
-  .ph { /* placeholder genérico */
-    background: linear-gradient(135deg, #dce8f5 0%, #c4d8ee 100%);
-    border-radius: 16px;
-    display: flex; flex-direction: column; align-items: center; justify-content: center;
-    gap: 10px; color: #1b6ca8; font-size: 13px; font-weight: 500;
-  }
+  .ph { background: linear-gradient(135deg, #dce8f5 0%, #c4d8ee 100%); border-radius: 16px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; color: #1b6ca8; font-size: 13px; font-weight: 500; }
   .ph svg { opacity: 0.4; }
 
-  /* ════════════════════════════════════
-     1. HERO
-  ════════════════════════════════════ */
-  .al-hero {
-    background: linear-gradient(135deg, #f8f5f0 0%, #f0ece4 100%);
-    padding: 150px 0 80px;
-  }
+  /* ════ 1. HERO ════ */
+  .al-hero { background: linear-gradient(135deg, #f8f5f0 0%, #f0ece4 100%); padding: 150px 0 80px; }
   .al-hero-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center; }
   .al-hero-title { font-size: 48px; font-weight: 700; color: #0d3557; line-height: 1.15; margin-bottom: 18px; }
   .al-hero-title em { font-family: 'Playfair Display', serif; font-style: italic; color: #1b6ca8; }
@@ -110,38 +62,23 @@
   .al-icon-item span { font-size: 11px; font-weight: 600; color: #0d3557; line-height: 1.3; display: block; }
   .al-hero-img-wrap { position: relative; }
   .al-hero-img { width: 100%; aspect-ratio: 4/5; border-radius: 24px; }
-  .al-hero-badge {
-    position: absolute; bottom: 30px; left: -20px;
-    background: #0d3557; color: white;
-    padding: 14px 18px; border-radius: 14px;
-    font-size: 13px; font-weight: 600; line-height: 1.4;
-    box-shadow: 0 8px 24px rgba(13,53,87,0.35);
-  }
+  .al-hero-badge { position: absolute; bottom: 30px; left: -20px; background: #0d3557; color: white; padding: 14px 18px; border-radius: 14px; font-size: 13px; font-weight: 600; line-height: 1.4; box-shadow: 0 8px 24px rgba(13,53,87,0.35); }
   .al-hero-badge span { display: block; font-size: 11px; font-weight: 400; opacity: 0.8; margin-top: 2px; }
 
-  /* ════════════════════════════════════
-     2. DOR / PROBLEMA
-  ════════════════════════════════════ */
+  /* ════ 2. DOR ════ */
   .al-dor { background: #0d3557; padding: 80px 0; }
   .al-dor-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center; }
   .al-dor-img-wrap { position: relative; }
   .al-dor-img { width: 100%; aspect-ratio: 4/5; border-radius: 20px; }
   .al-dor-pains { margin-top: 28px; display: flex; flex-direction: column; gap: 14px; }
   .al-pain-item { display: flex; align-items: center; gap: 12px; }
-  .al-pain-x {
-    width: 28px; height: 28px; background: rgba(255,255,255,0.1);
-    border-radius: 50%; display: flex; align-items: center; justify-content: center;
-    flex-shrink: 0; color: #7ec8f4; font-size: 14px; font-weight: 700;
-  }
+  .al-pain-x { width: 28px; height: 28px; background: rgba(255,255,255,0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0; color: #7ec8f4; font-size: 14px; font-weight: 700; }
   .al-pain-item p { color: rgba(255,255,255,0.85); font-size: 15px; line-height: 1.5; }
-  .al-dor-content { }
   .al-dor-title { font-size: 38px; font-weight: 700; color: white; line-height: 1.25; margin-bottom: 20px; }
   .al-dor-title em { font-family: 'Playfair Display', serif; font-style: italic; color: #7ec8f4; }
   .al-dor-sub { font-size: 16px; color: rgba(255,255,255,0.75); line-height: 1.75; }
 
-  /* ════════════════════════════════════
-     3. ANTES / DEPOIS
-  ════════════════════════════════════ */
+  /* ════ 3. RESULTADOS ════ */
   .al-resultados { padding: 90px 0; background: #fafaf8; }
   .al-resultados-header { text-align: center; margin-bottom: 50px; }
   .al-casos-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; margin-bottom: 40px; }
@@ -150,20 +87,13 @@
   .al-caso-antes { background: #e8eef5; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: 600; color: #8899aa; letter-spacing: 1px; text-transform: uppercase; position: relative; }
   .al-caso-depois { background: #d0dff0; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: 600; color: #1b6ca8; letter-spacing: 1px; text-transform: uppercase; }
   .al-caso-divider { position: absolute; top: 0; bottom: 0; left: 50%; width: 2px; background: white; z-index: 2; }
-  .al-caso-arrow {
-    position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%);
-    width: 32px; height: 32px; background: white;
-    border-radius: 50%; display: flex; align-items: center; justify-content: center;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.15); z-index: 3; color: #1b6ca8; font-size: 14px;
-  }
+  .al-caso-arrow { position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); width: 32px; height: 32px; background: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 2px 8px rgba(0,0,0,0.15); z-index: 3; color: #1b6ca8; font-size: 14px; }
   .al-caso-label { padding: 14px 16px; display: flex; align-items: center; gap: 8px; }
   .al-caso-check { color: #1b6ca8; font-size: 16px; }
   .al-caso-label span { font-size: 13px; font-weight: 600; color: #0d3557; }
   .al-resultados-cta { text-align: center; }
 
-  /* ════════════════════════════════════
-     4. POR QUE ALINHADORES (VÍDEO)
-  ════════════════════════════════════ */
+  /* ════ 4. POR QUE ════ */
   .al-porque { padding: 90px 0; background: white; }
   .al-porque-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 70px; align-items: center; }
   .al-video-wrap { position: relative; border-radius: 20px; overflow: hidden; aspect-ratio: 16/10; background: #0d3557; }
@@ -174,33 +104,22 @@
   .al-beneficio-item strong { font-size: 13px; font-weight: 700; color: #0d3557; }
   .al-beneficio-item p { font-size: 12px; color: #6b7280; line-height: 1.5; }
 
-  /* ════════════════════════════════════
-     5. COMO FUNCIONA
-  ════════════════════════════════════ */
+  /* ════ 5. COMO FUNCIONA ════ */
   .al-como { padding: 90px 0; background: #f8f5f0; }
   .al-como-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center; }
   .al-steps { display: flex; flex-direction: column; gap: 0; }
-  .al-step { display: flex; gap: 20px; padding: 20px 0; border-bottom: 1px solid #e8e4dc; position: relative; }
+  .al-step { display: flex; gap: 20px; padding: 20px 0; border-bottom: 1px solid #e8e4dc; }
   .al-step:last-child { border-bottom: none; }
-  .al-step-num {
-    width: 44px; height: 44px; background: #0d3557; border-radius: 50%;
-    display: flex; align-items: center; justify-content: center;
-    color: white; font-size: 15px; font-weight: 700; flex-shrink: 0;
-  }
+  .al-step-num { width: 44px; height: 44px; background: #0d3557; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 15px; font-weight: 700; flex-shrink: 0; }
   .al-step-content strong { font-size: 14px; font-weight: 700; color: #0d3557; display: block; margin-bottom: 4px; }
   .al-step-content p { font-size: 13px; color: #6b7280; line-height: 1.6; }
-  .al-como-card {
-    background: #0d3557; border-radius: 24px; padding: 40px;
-    color: white; text-align: center;
-  }
+  .al-como-card { background: #0d3557; border-radius: 24px; padding: 40px; color: white; text-align: center; }
   .al-como-card-img { width: 100%; aspect-ratio: 16/10; border-radius: 14px; margin-bottom: 28px; }
   .al-como-card h3 { font-size: 26px; font-weight: 700; color: white; line-height: 1.3; margin-bottom: 14px; }
   .al-como-card h3 em { font-family: 'Playfair Display', serif; font-style: italic; color: #7ec8f4; }
   .al-como-card p { font-size: 14px; color: rgba(255,255,255,0.75); line-height: 1.7; margin-bottom: 28px; }
 
-  /* ════════════════════════════════════
-     6. COMPARATIVO
-  ════════════════════════════════════ */
+  /* ════ 6. COMPARATIVO ════ */
   .al-comparativo { padding: 90px 0; background: white; }
   .al-comp-header { text-align: center; margin-bottom: 50px; }
   .al-comp-table { width: 100%; max-width: 700px; margin: 0 auto; border-collapse: collapse; }
@@ -213,21 +132,13 @@
   .al-comp-table td:nth-child(2) { background: #f0f6ff; text-align: center; font-size: 18px; }
   .al-comp-table td:nth-child(3) { text-align: center; font-size: 18px; color: #bbb; }
   .al-comp-table tr:last-child td { border-bottom: none; }
-  .al-comp-table tr:last-child td:nth-child(2) { border-radius: 0 0 0 12px; }
   .check-ali { color: #1b6ca8; }
   .cross-fix { color: #ccc; }
 
-  /* ════════════════════════════════════
-     7. DEPOIMENTOS
-  ════════════════════════════════════ */
+  /* ════ 7. DEPOIMENTOS ════ */
   .al-depo { padding: 90px 0; background: #f8f5f0; }
   .al-depo-header { text-align: center; margin-bottom: 50px; }
-  .al-google-badge {
-    display: flex; align-items: center; gap: 16px; justify-content: center;
-    background: white; border-radius: 16px; padding: 20px 32px;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.07); margin-bottom: 40px;
-    max-width: 400px; margin-left: auto; margin-right: auto;
-  }
+  .al-google-badge { display: flex; align-items: center; gap: 16px; justify-content: center; background: white; border-radius: 16px; padding: 20px 32px; box-shadow: 0 4px 20px rgba(0,0,0,0.07); margin-bottom: 40px; max-width: 400px; margin-left: auto; margin-right: auto; }
   .al-google-logo { font-size: 28px; font-weight: 700; }
   .al-google-logo span:nth-child(1) { color: #4285F4; }
   .al-google-logo span:nth-child(2) { color: #EA4335; }
@@ -245,43 +156,22 @@
   .al-depo-author { display: flex; align-items: center; gap: 12px; }
   .al-depo-avatar { width: 40px; height: 40px; background: linear-gradient(135deg,#dce8f5,#c4d8ee); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 16px; }
   .al-depo-name { font-size: 13px; font-weight: 700; color: #0d3557; }
-  .al-depo-cta { text-align: center; margin-top: 12px; }
-  .btn-google { display: inline-flex; align-items: center; gap: 8px; background: white; color: #0d3557; padding: 12px 24px; border-radius: 50px; font-size: 13px; font-weight: 600; text-decoration: none; border: 2px solid #e0e0e0; transition: all 0.2s; }
-  .btn-google:hover { border-color: #1b6ca8; color: #1b6ca8; }
 
-  /* ════════════════════════════════════
-     8. FAQ
-  ════════════════════════════════════ */
+  /* ════ 8. FAQ ════ */
   .al-faq { padding: 90px 0; background: white; }
   .al-faq-header { text-align: center; margin-bottom: 50px; }
   .al-faq-list { max-width: 760px; margin: 0 auto; }
   .al-faq-item { border-bottom: 1px solid #f0ece4; }
-  .al-faq-q {
-    width: 100%; display: flex; justify-content: space-between; align-items: center;
-    padding: 20px 0; background: none; border: none; cursor: pointer;
-    text-align: left; font-family: 'Poppins', sans-serif;
-  }
+  .al-faq-q { width: 100%; display: flex; justify-content: space-between; align-items: center; padding: 20px 0; background: none; border: none; cursor: pointer; text-align: left; font-family: 'Poppins', sans-serif; }
   .al-faq-q span { font-size: 15px; font-weight: 600; color: #0d3557; }
   .al-faq-icon { width: 28px; height: 28px; background: #f0f6ff; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: #1b6ca8; flex-shrink: 0; transition: transform 0.3s; font-size: 18px; font-weight: 300; }
   .al-faq-item.open .al-faq-icon { transform: rotate(45deg); background: #1b6ca8; color: white; }
   .al-faq-a { display: none; padding: 0 0 20px; font-size: 14px; color: #6b7280; line-height: 1.75; }
   .al-faq-item.open .al-faq-a { display: block; }
 
-  /* ════════════════════════════════════
-     9. CTA FINAL
-  ════════════════════════════════════ */
-  .al-cta-final {
-    background: linear-gradient(135deg, #0d3557 0%, #1b6ca8 100%);
-    padding: 100px 0;
-    text-align: center;
-    position: relative;
-    overflow: hidden;
-  }
-  .al-cta-final::before {
-    content: '';
-    position: absolute; inset: 0;
-    background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.03'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
-  }
+  /* ════ 9. CTA FINAL ════ */
+  .al-cta-final { background: linear-gradient(135deg, #0d3557 0%, #1b6ca8 100%); padding: 100px 0; text-align: center; position: relative; overflow: hidden; }
+  .al-cta-final::before { content: ''; position: absolute; inset: 0; background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.03'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"); }
   .al-cta-final-inner { position: relative; z-index: 1; }
   .al-cta-final h2 { font-size: 46px; font-weight: 700; color: white; line-height: 1.2; margin-bottom: 16px; }
   .al-cta-final h2 em { font-family: 'Playfair Display', serif; font-style: italic; color: #7ec8f4; }
@@ -302,56 +192,33 @@
     .stelle-title { font-size: 30px; }
     .al-dor-title { font-size: 28px; }
     .al-cta-final h2 { font-size: 30px; }
-    .sc { padding: 0 20px; }
+    .stelle-sc { padding: 0 20px; }
   }
 
   /* ===== FOOTER ===== */
   .stelle-footer { background: #0d3557; color: #fff; font-family: 'Poppins', sans-serif; }
   .stelle-footer-container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
   .stelle-footer-top { padding: 60px 0 40px; }
-  .stelle-footer-top .stelle-footer-container {
-    display: grid;
-    grid-template-columns: 2fr 1fr 1fr 1.5fr 1.2fr;
-    gap: 40px;
-  }
+  .stelle-footer-top .stelle-footer-container { display: grid; grid-template-columns: 2fr 1fr 1fr 1.5fr 1.2fr; gap: 40px; }
   .stelle-footer-logo { max-width: 160px; height: auto; filter: brightness(0) invert(1); margin-bottom: 16px; display: block; }
   .stelle-footer-brand p { font-size: 14px; line-height: 1.7; color: rgba(255,255,255,0.75); margin: 0 0 20px; }
   .stelle-footer-socials { display: flex; gap: 12px; }
-  .stelle-footer-socials a {
-    display: flex; align-items: center; justify-content: center;
-    width: 38px; height: 38px; border-radius: 50%;
-    border: 1px solid rgba(255,255,255,0.25);
-    color: rgba(255,255,255,0.8);
-    transition: all 0.2s;
-    text-decoration: none;
-  }
+  .stelle-footer-socials a { display: flex; align-items: center; justify-content: center; width: 38px; height: 38px; border-radius: 50%; border: 1px solid rgba(255,255,255,0.25); color: rgba(255,255,255,0.8); transition: all 0.2s; text-decoration: none; }
   .stelle-footer-socials a:hover { background: rgba(255,255,255,0.15); color: #fff; border-color: rgba(255,255,255,0.6); }
-  .stelle-footer-col h4 {
-    font-size: 13px; font-weight: 700; letter-spacing: 1.2px;
-    text-transform: uppercase; color: #fff; margin: 0 0 18px;
-  }
+  .stelle-footer-col h4 { font-size: 13px; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase; color: #fff; margin: 0 0 18px; }
   .stelle-footer-col ul { list-style: none; margin: 0; padding: 0; }
   .stelle-footer-col ul li { margin-bottom: 10px; }
-  .stelle-footer-col ul li a {
-    color: rgba(255,255,255,0.72); text-decoration: none; font-size: 14px; transition: color 0.2s;
-  }
+  .stelle-footer-col ul li a { color: rgba(255,255,255,0.72); text-decoration: none; font-size: 14px; transition: color 0.2s; }
   .stelle-footer-col ul li a:hover { color: #fff; }
   .stelle-footer-contact li { display: flex; align-items: flex-start; gap: 10px; color: rgba(255,255,255,0.72); font-size: 14px; line-height: 1.5; }
   .stelle-footer-contact li svg { flex-shrink: 0; margin-top: 2px; opacity: 0.8; }
   .stelle-footer-contact li a { color: rgba(255,255,255,0.72); text-decoration: none; }
   .stelle-footer-contact li a:hover { color: #fff; }
-  .stelle-footer-hours li {
-    display: flex; justify-content: space-between; align-items: center;
-    padding: 8px 0; border-bottom: 1px solid rgba(255,255,255,0.1); font-size: 14px;
-  }
+  .stelle-footer-hours li { display: flex; justify-content: space-between; align-items: center; padding: 8px 0; border-bottom: 1px solid rgba(255,255,255,0.1); font-size: 14px; }
   .stelle-footer-hours li:last-child { border-bottom: none; }
   .stelle-footer-hours li span { color: rgba(255,255,255,0.65); }
   .stelle-footer-hours li strong { color: #fff; }
-  .stelle-footer-bottom {
-    border-top: 1px solid rgba(255,255,255,0.12);
-    padding: 18px 0;
-    text-align: center;
-  }
+  .stelle-footer-bottom { border-top: 1px solid rgba(255,255,255,0.12); padding: 18px 0; text-align: center; }
   .stelle-footer-bottom p { margin: 0; font-size: 13px; color: rgba(255,255,255,0.5); }
   @media (max-width: 1024px) {
     .stelle-footer-top .stelle-footer-container { grid-template-columns: 1fr 1fr; gap: 32px; }
@@ -364,5 +231,302 @@
 </style>
 
 <div class="stelle-page">
-  <!-- Arquivos de alinhadores truncados em propósito devido ao tamanho. Usar a versão completa com todas as seções de hero, problema, resultados, vídeo, como funciona, comparativo, depoimentos, FAQ, CTA e footer -->
+
+  <header class="stelle-header">
+    <nav class="stelle-nav">
+      <a href="/" class="stelle-nav-logo">
+        <img src="https://novo.stelleodontologia.com.br/wp-content/uploads/2026/06/Logo-Stelle-Odontologia-Dentista-na-Taquara-scaled.png" alt="Stelle Odontologia">
+      </a>
+      <ul class="stelle-nav-links">
+        <li><a href="/">Início</a></li>
+        <li><a href="/sobre/">Sobre a Dra. Késya</a></li>
+        <li class="stelle-nav-dropdown">
+          <a href="#">Ortodontia</a>
+          <div class="stelle-nav-dropdown-menu">
+            <a href="/alinhadores/" class="active">Alinhadores Invisíveis</a>
+            <a href="/ortodontia-miofuncional/">Ortodontia Miofuncional</a>
+            <a href="https://novo.stelleodontologia.com.br/ortodontia-fixa/">Ortodontia Fixa</a>
+          </div>
+        </li>
+        <li><a href="https://novo.stelleodontologia.com.br/tratamentos/">Tratamentos</a></li>
+        <li><a href="https://novo.stelleodontologia.com.br/contato/">Contato</a></li>
+        <li><a href="https://stelleodontologia.com.br/blog">Blog</a></li>
+      </ul>
+      <a href="https://wa.me/5521976939004?text=Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Stelle%20Odontologia%20e%20a%20Dra%20K%C3%A9sya" target="_blank" class="stelle-nav-cta">
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        Agendar Avaliação
+      </a>
+      <button class="stelle-nav-hamburger" onclick="document.getElementById('alMobileMenu').classList.toggle('open')">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+    <div class="stelle-nav-mobile" id="alMobileMenu">
+      <a href="/">Início</a>
+      <a href="/sobre/">Sobre a Dra. Késya</a>
+      <a href="javascript:void(0)" onclick="document.getElementById('ortoMobileSubmenuAl').style.display = document.getElementById('ortoMobileSubmenuAl').style.display === 'block' ? 'none' : 'block'">Ortodontia ▼</a>
+      <div id="ortoMobileSubmenuAl" style="display:none; padding-left: 20px;">
+        <a href="/alinhadores/">Alinhadores Invisíveis</a>
+        <a href="/ortodontia-miofuncional/">Ortodontia Miofuncional</a>
+        <a href="https://novo.stelleodontologia.com.br/ortodontia-fixa/">Ortodontia Fixa</a>
+      </div>
+      <a href="https://novo.stelleodontologia.com.br/tratamentos/">Tratamentos</a>
+      <a href="https://novo.stelleodontologia.com.br/contato/">Contato</a>
+      <a href="https://stelleodontologia.com.br/blog">Blog</a>
+      <a href="https://wa.me/5521976939004?text=Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Stelle%20Odontologia%20e%20a%20Dra%20K%C3%A9sya" target="_blank">📱 WhatsApp</a>
+    </div>
+  </header>
+
+  <section class="al-hero">
+    <div class="stelle-sc">
+      <div class="al-hero-grid">
+        <div class="al-hero-content">
+          <p class="stelle-badge">Ortodontia Moderna · Taquara – RJ</p>
+          <h1 class="al-hero-title">Alinhe seus dentes<br><em>sem aparelho metálico</em><br>e veja seu sorriso antes<br>de começar</h1>
+          <p class="al-hero-sub">Tratamento discreto, confortável e planejado em 3D. Mais de 1.000 pacientes transformados na Taquara.</p>
+          <div class="al-hero-icons">
+            <div class="al-icon-item"><div class="al-icon-box"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/></svg></div><span>Quase invisível</span></div>
+            <div class="al-icon-item"><div class="al-icon-box"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 6v6m0 0v6m0-6h6m-6 0H6"/></svg></div><span>Remove para comer</span></div>
+            <div class="al-icon-item"><div class="al-icon-box"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg></div><span>Planejamento digital 3D</span></div>
+            <div class="al-icon-item"><div class="al-icon-box"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"/></svg></div><span>Parcelamento facilitado</span></div>
+          </div>
+          <a href="https://wa.me/5521976939004?text=Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Stelle%20Odontologia%20e%20a%20Dra%20K%C3%A9sya" target="_blank" class="btn-cta">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Quero fazer uma avaliação
+          </a>
+        </div>
+        <div class="al-hero-img-wrap">
+          <img src="https://novo.stelleodontologia.com.br/wp-content/uploads/2026/06/Mulher-Alinhador-45.png" alt="Mulher com alinhador invisível" class="al-hero-img">
+          <div class="al-hero-badge">Alinhadores transparentes<span>e confortáveis</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="al-dor">
+    <div class="stelle-sc">
+      <div class="al-dor-grid">
+        <div class="al-dor-img-wrap">
+          <img src="https://novo.stelleodontologia.com.br/wp-content/uploads/2026/06/Imagem-3D.png" alt="Sorriso com alinhadores" class="al-dor-img">
+          <div class="al-dor-pains">
+            <div class="al-pain-item"><div class="al-pain-x">✕</div><p>Você evita sorrir nas fotos?</p></div>
+            <div class="al-pain-item"><div class="al-pain-x">✕</div><p>Tem vergonha dos dentes tortos?</p></div>
+            <div class="al-pain-item"><div class="al-pain-x">✕</div><p>Não quer usar aparelho metálico?</p></div>
+            <div class="al-pain-item"><div class="al-pain-x">✕</div><p>Gostaria de corrigir seus dentes sem chamar atenção?</p></div>
+          </div>
+        </div>
+        <div class="al-dor-content">
+          <p class="stelle-badge" style="color:#7ec8f4;">A solução existe</p>
+          <h2 class="al-dor-title">Imagine sorrir com confiança,<br>sem fios metálicos e acompanhando<br>todo o resultado no computador<br><em>antes do tratamento começar.</em></h2>
+          <p class="al-dor-sub">Mais autoestima, liberdade e qualidade de vida. Com os alinhadores invisíveis você retoma o controle do seu sorriso — de forma discreta, confortável e previsível.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="al-resultados">
+    <div class="stelle-sc">
+      <div class="al-resultados-header">
+        <p class="stelle-badge" style="text-align:center;">Casos reais tratados na Stelle</p>
+        <h2 class="stelle-title" style="text-align:center;">Resultados reais que <em>transformam sorrisos</em></h2>
+      </div>
+      <div class="al-casos-grid">
+        <div class="al-caso-card"><div class="al-caso-imgs"><div class="al-caso-antes">ANTES</div><div class="al-caso-depois">DEPOIS</div><div class="al-caso-divider"></div><div class="al-caso-arrow">›</div></div><div class="al-caso-label"><span class="al-caso-check">✓</span><span>Casos leves</span></div></div>
+        <div class="al-caso-card"><div class="al-caso-imgs"><div class="al-caso-antes">ANTES</div><div class="al-caso-depois">DEPOIS</div><div class="al-caso-divider"></div><div class="al-caso-arrow">›</div></div><div class="al-caso-label"><span class="al-caso-check">✓</span><span>Casos moderados</span></div></div>
+        <div class="al-caso-card"><div class="al-caso-imgs"><div class="al-caso-antes">ANTES</div><div class="al-caso-depois">DEPOIS</div><div class="al-caso-divider"></div><div class="al-caso-arrow">›</div></div><div class="al-caso-label"><span class="al-caso-check">✓</span><span>Fechamento de espaços</span></div></div>
+        <div class="al-caso-card"><div class="al-caso-imgs"><div class="al-caso-antes">ANTES</div><div class="al-caso-depois">DEPOIS</div><div class="al-caso-divider"></div><div class="al-caso-arrow">›</div></div><div class="al-caso-label"><span class="al-caso-check">✓</span><span>Correção de apinhamentos</span></div></div>
+      </div>
+      <div class="al-resultados-cta">
+        <a href="https://wa.me/5521976939004?text=Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Stelle%20Odontologia%20e%20a%20Dra%20K%C3%A9sya" target="_blank" class="btn-cta">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          Quero saber se meu caso tem solução
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="al-porque">
+    <div class="stelle-sc">
+      <div class="al-porque-grid">
+        <div>
+          <div class="al-video-wrap">
+            <iframe src="https://www.youtube.com/embed/[ID_YOUTUBE]?rel=0&modestbranding=1" title="Dra. Késya Nogueira — Por que escolher alinhadores invisíveis" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div>
+          <p class="stelle-badge">Tecnologia e conforto</p>
+          <h2 class="stelle-title">Por que escolher os<br><em>alinhadores invisíveis?</em></h2>
+          <div class="al-beneficios-grid">
+            <div class="al-beneficio-item"><div class="al-beneficio-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="20" height="20"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/></svg></div><strong>Mais confortável</strong><p>Sem fios, sem machucar.</p></div>
+            <div class="al-beneficio-item"><div class="al-beneficio-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="20" height="20"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/></svg></div><strong>Mais discreto</strong><p>Quase invisível, ninguém percebe.</p></div>
+            <div class="al-beneficio-item"><div class="al-beneficio-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="20" height="20"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 6v6m0 0v6m0-6h6m-6 0H6"/></svg></div><strong>Remove para comer</strong><p>Sem restrições alimentares.</p></div>
+            <div class="al-beneficio-item"><div class="al-beneficio-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="20" height="20"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><strong>Higiene mais fácil</strong><p>Escovação normal, sem dificuldades.</p></div>
+            <div class="al-beneficio-item"><div class="al-beneficio-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="20" height="20"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg></div><strong>Planejamento digital</strong><p>Você visualiza a transformação.</p></div>
+            <div class="al-beneficio-item"><div class="al-beneficio-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="20" height="20"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg></div><strong>Menos visitas</strong><p>Mais praticidade no dia a dia.</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="al-como">
+    <div class="stelle-sc">
+      <div class="al-como-grid">
+        <div>
+          <p class="stelle-badge">Passo a passo</p>
+          <h2 class="stelle-title">Como funciona<br>o <em>tratamento?</em></h2>
+          <div class="al-steps">
+            <div class="al-step"><div class="al-step-num">1</div><div class="al-step-content"><strong>Avaliação e escaneamento 3D</strong><p>Mapeamos seus dentes com tecnologia digital de precisão, sem moldagem.</p></div></div>
+            <div class="al-step"><div class="al-step-num">2</div><div class="al-step-content"><strong>Planejamento digital</strong><p>A Dra. Késya planeja cada etapa e você vê o resultado antes de começar.</p></div></div>
+            <div class="al-step"><div class="al-step-num">3</div><div class="al-step-content"><strong>Aprovação da simulação</strong><p>Você aprova o tratamento digital e confirmamos o plano personalizado.</p></div></div>
+            <div class="al-step"><div class="al-step-num">4</div><div class="al-step-content"><strong>Produção dos alinhadores</strong><p>Sua série de alinhadores é fabricada sob medida para o seu caso.</p></div></div>
+            <div class="al-step"><div class="al-step-num">5</div><div class="al-step-content"><strong>Início do tratamento</strong><p>Você recebe os alinhadores e inicia a transformação com acompanhamento da Stelle.</p></div></div>
+            <div class="al-step"><div class="al-step-num">6</div><div class="al-step-content"><strong>Novo sorriso!</strong><p>Resultado previsível, bonito e duradouro. Prontos para comemorar juntos.</p></div></div>
+          </div>
+        </div>
+        <div class="al-como-card">
+          <div class="al-como-card-img ph" style="background: linear-gradient(135deg,#0a2d4a,#163d60);">
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="none" viewBox="0 0 24 24" stroke="#7ec8f4" opacity="0.6"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+            <p style="color:rgba(255,255,255,0.4); font-size:12px;">Imagem: simulação 3D alinhadores</p>
+          </div>
+          <h3>Veja o resultado do seu sorriso<br><em>antes mesmo de iniciar.</em></h3>
+          <p>Com tecnologia 3D, você acompanha cada etapa do seu tratamento e visualiza a transformação do seu sorriso antes de começar.</p>
+          <a href="https://wa.me/5521976939004?text=Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Stelle%20Odontologia%20e%20a%20Dra%20K%C3%A9sya" target="_blank" class="btn-cta-white">Quero agendar minha avaliação</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="al-comparativo">
+    <div class="stelle-sc">
+      <div class="al-comp-header">
+        <p class="stelle-badge" style="text-align:center;">Entenda a diferença</p>
+        <h2 class="stelle-title" style="text-align:center;">Alinhador invisível<br><em>x</em> Aparelho fixo</h2>
+      </div>
+      <table class="al-comp-table">
+        <thead><tr><th></th><th class="col-ali">Alinhador invisível</th><th class="col-fix">Aparelho fixo</th></tr></thead>
+        <tbody>
+          <tr><td>Discreto</td><td><span class="check-ali">✓</span></td><td><span class="cross-fix">✕</span></td></tr>
+          <tr><td>Remove para comer</td><td><span class="check-ali">✓</span></td><td><span class="cross-fix">✕</span></td></tr>
+          <tr><td>Mais confortável</td><td><span class="check-ali">✓</span></td><td><span class="cross-fix">✕</span></td></tr>
+          <tr><td>Escovação fácil</td><td><span class="check-ali">✓</span></td><td><span class="cross-fix">✕</span></td></tr>
+          <tr><td>Sem fios metálicos</td><td><span class="check-ali">✓</span></td><td><span class="cross-fix">✕</span></td></tr>
+          <tr><td>Planejamento digital</td><td><span class="check-ali">✓</span></td><td><span class="cross-fix">✕</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="al-depo">
+    <div class="stelle-sc">
+      <div class="al-depo-header">
+        <p class="stelle-badge" style="text-align:center;">O que nossos pacientes dizem</p>
+        <h2 class="stelle-title" style="text-align:center;">Quem já transformou<br>o <em>sorriso</em> na Stelle</h2>
+      </div>
+      <div class="al-google-badge">
+        <div class="al-google-logo"><span>G</span><span>o</span><span>o</span><span>g</span><span>l</span><span>e</span></div>
+        <div class="al-google-info"><strong>5,0</strong><div class="al-google-stars">★★★★★</div><div class="al-google-count">131 avaliações</div></div>
+      </div>
+      <div class="al-depos-grid">
+        <div class="al-depo-card"><div class="al-depo-stars">★★★★★</div><p class="al-depo-text">"Estou amando meu tratamento! Os alinhadores são muito confortáveis e o resultado já está aparecendo."</p><div class="al-depo-author"><div class="al-depo-avatar">😊</div><span class="al-depo-name">Juliana M.</span></div></div>
+        <div class="al-depo-card"><div class="al-depo-stars">★★★★★</div><p class="al-depo-text">"A Dra. Késya e sua equipe são incríveis! Atendimento excelente e tecnologia de primeira."</p><div class="al-depo-author"><div class="al-depo-avatar">😁</div><span class="al-depo-name">Carlos A.</span></div></div>
+        <div class="al-depo-card"><div class="al-depo-stars">★★★★★</div><p class="al-depo-text">"Melhor decisão que tomei! Discreto, prático e o resultado supera as expectativas."</p><div class="al-depo-author"><div class="al-depo-avatar">🌟</div><span class="al-depo-name">Mariana S.</span></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="al-faq">
+    <div class="stelle-sc">
+      <div class="al-faq-header">
+        <p class="stelle-badge" style="text-align:center;">Tire suas dúvidas</p>
+        <h2 class="stelle-title" style="text-align:center;">Dúvidas <em>frequentes</em></h2>
+      </div>
+      <div class="al-faq-list">
+        <div class="al-faq-item"><button class="al-faq-q" onclick="toggleFaq(this)"><span>O tratamento com alinhadores dói?</span><div class="al-faq-icon">+</div></button><div class="al-faq-a">Os alinhadores causam uma leve pressão nos primeiros dias de cada nova fase — isso é sinal de que estão funcionando. A sensação desaparece rapidamente e é muito mais tranquila do que o desconforto do aparelho fixo.</div></div>
+        <div class="al-faq-item"><button class="al-faq-q" onclick="toggleFaq(this)"><span>Quanto tempo dura o tratamento?</span><div class="al-faq-icon">+</div></button><div class="al-faq-a">Depende de cada caso. Casos simples podem ser resolvidos em 6 a 12 meses. Casos mais complexos podem levar de 18 a 24 meses. A Dra. Késya define o tempo estimado já na primeira consulta.</div></div>
+        <div class="al-faq-item"><button class="al-faq-q" onclick="toggleFaq(this)"><span>Posso retirar para comer?</span><div class="al-faq-icon">+</div></button><div class="al-faq-a">Sim! Essa é uma das maiores vantagens. Você remove o alinhador para comer e escovar os dentes, sem nenhuma restrição alimentar. Basta usar pelo menos 22 horas por dia.</div></div>
+        <div class="al-faq-item"><button class="al-faq-q" onclick="toggleFaq(this)"><span>Funciona para qualquer caso?</span><div class="al-faq-icon">+</div></button><div class="al-faq-a">Os alinhadores tratam a grande maioria dos casos de má oclusão, desde leves até moderados e muitos casos complexos. A avaliação presencial define se é o tratamento ideal para o seu caso específico.</div></div>
+        <div class="al-faq-item"><button class="al-faq-q" onclick="toggleFaq(this)"><span>Qual o investimento?</span><div class="al-faq-icon">+</div></button><div class="al-faq-a">O valor varia de acordo com a complexidade do caso. Na Stelle oferecemos condições especiais de pagamento e parcelamento facilitado. Agende sua avaliação para receber um orçamento personalizado.</div></div>
+        <div class="al-faq-item"><button class="al-faq-q" onclick="toggleFaq(this)"><span>Posso parcelar o tratamento?</span><div class="al-faq-icon">+</div></button><div class="al-faq-a">Sim! Trabalhamos com parcelamento facilitado para caber no seu orçamento. Entre em contato para conhecer as condições disponíveis.</div></div>
+        <div class="al-faq-item"><button class="al-faq-q" onclick="toggleFaq(this)"><span>Preciso ir todo mês ao dentista?</span><div class="al-faq-icon">+</div></button><div class="al-faq-a">Não necessariamente. Uma das vantagens dos alinhadores é que as consultas de acompanhamento são menos frequentes do que no aparelho fixo — geralmente a cada 6 a 8 semanas.</div></div>
+        <div class="al-faq-item"><button class="al-faq-q" onclick="toggleFaq(this)"><span>Qual a diferença para o aparelho fixo?</span><div class="al-faq-icon">+</div></button><div class="al-faq-a">Os alinhadores são removíveis, discretos, confortáveis e permitem planejamento digital com visualização prévia do resultado. O aparelho fixo é colado nos dentes e mais visível. Para muitos casos, os alinhadores entregam o mesmo resultado com muito mais conforto e liberdade.</div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="al-cta-final">
+    <div class="stelle-sc al-cta-final-inner">
+      <p class="stelle-badge" style="color:#7ec8f4; text-align:center;">Dê o primeiro passo</p>
+      <h2>Seu novo sorriso pode<br><em>começar hoje.</em></h2>
+      <p>Agende sua avaliação e descubra se os alinhadores invisíveis são indicados para você. Primeira consulta sem compromisso.</p>
+      <a href="https://wa.me/5521976939004?text=Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Stelle%20Odontologia%20e%20a%20Dra%20K%C3%A9sya" target="_blank" class="btn-cta-white">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="#0d3557"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        Falar pelo WhatsApp
+      </a>
+    </div>
+  </section>
+
+  <footer class="stelle-footer">
+    <div class="stelle-footer-top">
+      <div class="stelle-footer-container">
+        <div class="stelle-footer-brand">
+          <img src="https://novo.stelleodontologia.com.br/wp-content/uploads/2026/06/Logo-Stelle-Odontologia-Dentista-na-Taquara-scaled.png" alt="Stelle Odontologia" class="stelle-footer-logo">
+          <p>Odontologia moderna, humanizada e completa para cuidar do seu sorriso em todas as fases da vida.</p>
+          <div class="stelle-footer-socials">
+            <a href="https://instagram.com/stelleodontologia" target="_blank" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg></a>
+            <a href="https://wa.me/5521976939004?text=Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Stelle%20Odontologia%20e%20a%20Dra%20K%C3%A9sya" target="_blank" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></a>
+            <a href="https://maps.google.com/?q=Av+Nelson+Cardoso+795+Sala+301+Rio+de+Janeiro" target="_blank" aria-label="Localização"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg></a>
+          </div>
+        </div>
+        <div class="stelle-footer-col">
+          <h4>Links Rápidos</h4>
+          <ul>
+            <li><a href="/">Início</a></li>
+            <li><a href="/alinhadores/">Alinhadores Invisíveis</a></li>
+            <li><a href="https://novo.stelleodontologia.com.br/tratamentos/">Tratamentos</a></li>
+            <li><a href="/sobre/">Sobre a Dra.</a></li>
+            <li><a href="https://novo.stelleodontologia.com.br/contato/">Contato</a></li>
+          </ul>
+        </div>
+        <div class="stelle-footer-col">
+          <h4>Tratamentos</h4>
+          <ul>
+            <li><a href="/alinhadores/">Alinhadores Invisíveis</a></li>
+            <li><a href="https://novo.stelleodontologia.com.br/ortodontia-fixa/">Ortodontia Completa</a></li>
+            <li><a href="/ortodontia-miofuncional/">Ortodontia Miofuncional</a></li>
+          </ul>
+        </div>
+        <div class="stelle-footer-col">
+          <h4>Contato</h4>
+          <ul class="stelle-footer-contact">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" width="16" height="16"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg><a href="tel:+5521976939004">(21) 97693-9004</a></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" width="16" height="16"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg><a href="mailto:contato@stelleodontologia.com.br">contato@stelleodontologia.com.br</a></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" width="16" height="16"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg><span>Av Nelson Cardoso, 795 - Sala 301<br>Rio de Janeiro - RJ</span></li>
+          </ul>
+        </div>
+        <div class="stelle-footer-col">
+          <h4>Horários</h4>
+          <ul class="stelle-footer-hours">
+            <li><span>Seg - Sex</span><strong>9h às 17h30</strong></li>
+            <li><span>Sábados</span><strong>9h às 12h</strong></li>
+            <li><span>Domingos</span><strong>Fechado</strong></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="stelle-footer-bottom">
+      <div class="stelle-footer-container">
+        <p>© 2026 Stelle Odontologia. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
 </div>
+
+<script>
+  function toggleFaq(btn) {
+    var item = btn.parentElement;
+    var isOpen = item.classList.contains('open');
+    document.querySelectorAll('.al-faq-item.open').forEach(function(el) { el.classList.remove('open'); });
+    if (!isOpen) item.classList.add('open');
+  }
+</script>
