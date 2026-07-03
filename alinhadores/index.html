@@ -32,6 +32,39 @@
   .stelle-nav-mobile { display: none; flex-direction: column; background: #0a2d4a; padding: 16px 40px 20px; gap: 4px; }
   .stelle-nav-mobile a { color: rgba(255,255,255,0.85); text-decoration: none; font-size: 14px; font-weight: 500; padding: 10px 0; border-bottom: 1px solid rgba(255,255,255,0.08); display: block; }
   .stelle-nav-mobile.open { display: flex; }
+  .stelle-nav-mobile-section { border-bottom: 1px solid rgba(255,255,255,0.08); }
+  .stelle-nav-mobile-toggle {
+    color: rgba(255,255,255,0.85);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    background: none;
+    border: none;
+    width: 100%;
+    text-align: left;
+  }
+  .stelle-nav-mobile-toggle .arrow { transition: transform 0.2s; font-size: 10px; }
+  .stelle-nav-mobile-toggle.open .arrow { transform: rotate(180deg); }
+  .stelle-nav-mobile-sub {
+    display: none;
+    flex-direction: column;
+    padding-left: 16px;
+    padding-bottom: 6px;
+    gap: 0;
+  }
+  .stelle-nav-mobile-sub.open { display: flex; }
+  .stelle-nav-mobile-sub a {
+    padding: 8px 0;
+    font-size: 13px;
+    color: rgba(255,255,255,0.72) !important;
+    border-bottom: 1px solid rgba(255,255,255,0.05) !important;
+  }
+  .stelle-nav-mobile-sub a:last-child { border-bottom: none !important; }
 
   /* ── SHARED ── */
   .stelle-sc { max-width: 1200px; margin: 0 auto; padding: 0 40px; }
@@ -283,22 +316,29 @@
         <span></span><span></span><span></span>
       </button>
     </nav>
-    <div class="stelle-nav-mobile" id="alMobileMenu">
+    <div class="stelle-nav-mobile">
       <a href="/">Início</a>
       <a href="/sobre/">Sobre a Dra. Késya</a>
-      <a href="javascript:void(0)" onclick="document.getElementById('ortoMobileSubmenuAl').style.display = document.getElementById('ortoMobileSubmenuAl').style.display === 'block' ? 'none' : 'block'">Ortodontia ▼</a>
-      <div id="ortoMobileSubmenuAl" style="display:none; padding-left: 20px;">
-        <a href="/alinhadores/">Alinhadores Invisíveis</a>
-        <a href="/ortodontia-miofuncional/">Ortodontia Miofuncional</a>
-        <a href="https://novo.stelleodontologia.com.br/ortodontia-fixa/">Ortodontia Fixa</a>
+      <div class="stelle-nav-mobile-section">
+        <button class="stelle-nav-mobile-toggle" onclick="stelleMobileToggle(this)">Ortodontia <span class="arrow">▼</span></button>
+        <div class="stelle-nav-mobile-sub">
+          <a href="/alinhadores/">Alinhadores Invisíveis</a>
+          <a href="/miofuncional/">Ortodontia Miofuncional</a>
+          <a href="/ortodontia-fixa/">Ortodontia Fixa</a>
+        </div>
       </div>
-      <a href="/clareamento-dental/">Clareamento Dental</a>
-      <a href="/toxina-botulinica/">Toxina Bot&#xFA;linica</a>
-      <a href="/implantes/">Implantes Dent&#xE1;rios</a>
-      <a href="/protese-dentaria/">Pr&#xF3;tese Dent&#xE1;ria</a>
-      <a href="https://novo.stelleodontologia.com.br/contato/">Contato</a>
+      <div class="stelle-nav-mobile-section">
+        <button class="stelle-nav-mobile-toggle" onclick="stelleMobileToggle(this)">Tratamentos <span class="arrow">▼</span></button>
+        <div class="stelle-nav-mobile-sub">
+          <a href="/clareamento-dental/">Clareamento Dental</a>
+          <a href="/toxina-botulinica/">Toxina Botúlinica</a>
+          <a href="/implantes/">Implantes Dentários</a>
+          <a href="/protese-dentaria/">Prótese Dentária</a>
+        </div>
+      </div>
+      <a href="/contato/">Contato</a>
       <a href="https://stelleodontologia.com.br/blog">Blog</a>
-      <a href="https://wa.me/5521976939004?text=Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Stelle%20Odontologia%20e%20a%20Dra%20K%C3%A9sya" target="_blank">📱 WhatsApp</a>
+      <a href="https://wa.me/5521976939004?text=Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Stelle%20Odontologia%20e%20a%20Dra%20K%C3%A9sya" target="_blank" style="color:#25D366 !important;">&#128241; WhatsApp</a>
     </div>
   </header>
 

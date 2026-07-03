@@ -31,6 +31,38 @@
   .stelle-nav-mobile a { color: rgba(255,255,255,0.85); text-decoration: none; font-size: 14px; font-weight: 500; padding: 10px 0; border-bottom: 1px solid rgba(255,255,255,0.08); display: block; }
   .stelle-nav-mobile a:last-child { border-bottom: none; }
   .stelle-nav-mobile.open { display: flex; }
+  .stelle-nav-mobile-section { border-bottom: 1px solid rgba(255,255,255,0.08); }
+  .stelle-nav-mobile-toggle {
+    color: rgba(255,255,255,0.85);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    background: none;
+    border: none;
+    width: 100%;
+    text-align: left;
+  }
+  .stelle-nav-mobile-toggle .arrow { transition: transform 0.2s; font-size: 10px; }
+  .stelle-nav-mobile-toggle.open .arrow { transform: rotate(180deg); }
+  .stelle-nav-mobile-sub {
+    display: none;
+    flex-direction: column;
+    padding-left: 16px;
+    padding-bottom: 6px;
+  }
+  .stelle-nav-mobile-sub.open { display: flex; }
+  .stelle-nav-mobile-sub a {
+    padding: 8px 0;
+    font-size: 13px;
+    color: rgba(255,255,255,0.72) !important;
+    border-bottom: 1px solid rgba(255,255,255,0.05) !important;
+  }
+  .stelle-nav-mobile-sub a:last-child { border-bottom: none !important; }
 
   .pr-hero { background: #0d3557; padding: 140px 40px 80px; text-align: center; }
   .pr-hero-badge { display: inline-block; background: rgba(255,255,255,0.12); color: rgba(255,255,255,0.9); font-size: 12px; font-weight: 600; letter-spacing: 2px; text-transform: uppercase; padding: 6px 18px; border-radius: 50px; margin-bottom: 24px; }
@@ -133,14 +165,26 @@
     <div class="stelle-nav-mobile">
       <a href="/">Início</a>
       <a href="/sobre/">Sobre a Dra. Késya</a>
-      <a href="/alinhadores/">Alinhadores Invisíveis</a>
-      <a href="/ortodontia-miofuncional/">Ortodontia Miofuncional</a>
-      <a href="/clareamento-dental/">Clareamento Dental</a>
-      <a href="/toxina-botulinica/">Toxina Bot&#xFA;linica</a>
-      <a href="/implantes/">Implantes Dent&#xE1;rios</a>
-      <a href="/protese-dentaria/">Pr&#xF3;tese Dent&#xE1;ria</a>
-      <a href="https://novo.stelleodontologia.com.br/contato/">Contato</a>
+      <div class="stelle-nav-mobile-section">
+        <button class="stelle-nav-mobile-toggle" onclick="stelleMobileToggle(this)">Ortodontia <span class="arrow">▼</span></button>
+        <div class="stelle-nav-mobile-sub">
+          <a href="/alinhadores/">Alinhadores Invisíveis</a>
+          <a href="/miofuncional/">Ortodontia Miofuncional</a>
+          <a href="/ortodontia-fixa/">Ortodontia Fixa</a>
+        </div>
+      </div>
+      <div class="stelle-nav-mobile-section">
+        <button class="stelle-nav-mobile-toggle" onclick="stelleMobileToggle(this)">Tratamentos <span class="arrow">▼</span></button>
+        <div class="stelle-nav-mobile-sub">
+          <a href="/clareamento-dental/">Clareamento Dental</a>
+          <a href="/toxina-botulinica/">Toxina Botúlinica</a>
+          <a href="/implantes/">Implantes Dentários</a>
+          <a href="/protese-dentaria/">Prótese Dentária</a>
+        </div>
+      </div>
+      <a href="/contato/">Contato</a>
       <a href="https://stelleodontologia.com.br/blog">Blog</a>
+      <a href="https://wa.me/5521976939004?text=Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Stelle%20Odontologia%20e%20a%20Dra%20K%C3%A9sya" target="_blank" style="color:#25D366 !important;">&#128241; WhatsApp</a>
     </div>
   </header>
 
