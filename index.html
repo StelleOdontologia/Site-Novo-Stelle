@@ -1766,7 +1766,7 @@
     btn.classList.toggle('open');
     btn.nextElementSibling.classList.toggle('open');
   }
-  (e, el) {
+  function stelleToggleDropdown(e, el) {
     e.preventDefault();
     var dropdown = el.parentElement;
     var isOpen = dropdown.classList.contains('open');
