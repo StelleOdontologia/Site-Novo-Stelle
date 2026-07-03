@@ -19,10 +19,11 @@
   .stelle-nav-dropdown { position: relative; }
   .stelle-nav-dropdown > a { display: flex; align-items: center; gap: 4px; }
   .stelle-nav-dropdown > a::after { content: '▼'; font-size: 8px; margin-left: 2px; }
-  .stelle-nav-dropdown-menu { display: none; position: absolute; top: 100%; left: 0; background: #0a2d4a; min-width: 220px; border-radius: 8px; padding: 8px 0; margin-top: 4px; box-shadow: 0 8px 24px rgba(0,0,0,0.25); z-index: 10000; }
+  .stelle-nav-dropdown-menu { display: none; position: absolute; top: calc(100% + 8px); left: 0; background: #0a2d4a; min-width: 220px; border-radius: 8px; padding: 8px 0; box-shadow: 0 8px 24px rgba(0,0,0,0.25); z-index: 10000; }
   .stelle-nav-dropdown-menu a { display: block; padding: 10px 16px; border: none; font-size: 13px; }
   .stelle-nav-dropdown-menu a:hover { background: rgba(255,255,255,0.12); }
-  .stelle-nav-dropdown:hover .stelle-nav-dropdown-menu { display: block; }
+  .stelle-nav-dropdown.open .stelle-nav-dropdown-menu { display: block; }
+  .stelle-nav-links a { display: flex; align-items: center; }
   .stelle-nav-cta { background: #1b6ca8; color: white; padding: 10px 22px; border-radius: 50px; font-weight: 600; display: flex; align-items: center; gap: 8px; text-decoration: none; flex-shrink: 0; font-size: 13px; transition: background 0.2s; }
   .stelle-nav-cta:hover { background: #1558a0; }
   .stelle-nav-hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; padding: 8px; background: none; border: none; }
@@ -241,7 +242,7 @@
         <li><a href="/">Início</a></li>
         <li><a href="/sobre/">Sobre a Dra. Késya</a></li>
         <li class="stelle-nav-dropdown">
-          <a href="#">Ortodontia</a>
+          <a href="#" onclick="stelleToggleDropdown(event, this)">Ortodontia</a>
           <div class="stelle-nav-dropdown-menu">
             <a href="/alinhadores/" class="active">Alinhadores Invisíveis</a>
             <a href="/ortodontia-miofuncional/">Ortodontia Miofuncional</a>
@@ -523,6 +524,19 @@
 </div>
 
 <script>
+  function stelleToggleDropdown(e, el) {
+    e.preventDefault();
+    var dropdown = el.parentElement;
+    var isOpen = dropdown.classList.contains('open');
+    document.querySelectorAll('.stelle-nav-dropdown.open').forEach(function(d) { d.classList.remove('open'); });
+    if (!isOpen) dropdown.classList.add('open');
+  }
+  document.addEventListener('click', function(e) {
+    if (!e.target.closest('.stelle-nav-dropdown')) {
+      document.querySelectorAll('.stelle-nav-dropdown.open').forEach(function(d) { d.classList.remove('open'); });
+    }
+  });
+
   function toggleFaq(btn) {
     var item = btn.parentElement;
     var isOpen = item.classList.contains('open');

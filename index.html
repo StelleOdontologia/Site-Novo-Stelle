@@ -92,13 +92,12 @@
   .stelle-nav-dropdown-menu {
     display: none;
     position: absolute;
-    top: 100%;
+    top: calc(100% + 8px);
     left: 0;
     background: #0a2d4a;
     min-width: 220px;
     border-radius: 8px;
     padding: 8px 0;
-    margin-top: 4px;
     box-shadow: 0 8px 24px rgba(0,0,0,0.25);
     z-index: 10000;
   }
@@ -111,8 +110,12 @@
   .stelle-nav-dropdown-menu a:hover {
     background: rgba(255,255,255,0.12);
   }
-  .stelle-nav-dropdown:hover .stelle-nav-dropdown-menu {
+  .stelle-nav-dropdown.open .stelle-nav-dropdown-menu {
     display: block;
+  }
+  .stelle-nav-links a {
+    display: flex;
+    align-items: center;
   }
   .stelle-nav-cta {
     background: #1b6ca8;
@@ -1165,7 +1168,7 @@
         <li><a href="/" class="active">Início</a></li>
         <li><a href="/sobre/">Sobre a Dra. Késya</a></li>
         <li class="stelle-nav-dropdown">
-          <a href="#">Ortodontia</a>
+          <a href="#" onclick="stelleToggleDropdown(event, this)">Ortodontia</a>
           <div class="stelle-nav-dropdown-menu">
             <a href="/alinhadores/">Alinhadores Invisíveis</a>
             <a href="/ortodontia-miofuncional/">Ortodontia Miofuncional</a>
@@ -1671,4 +1674,45 @@
               <a href="mailto:contato@stelleodontologia.com.br">contato@stelleodontologia.com.br</a>
             </li>
             <li>
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" width="16" height="16"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" width="16" height="16"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+              <span>Av Nelson Cardoso, 795 - Sala 301<br>Rio de Janeiro - RJ</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Horários -->
+        <div class="stelle-footer-col">
+          <h4>Horários</h4>
+          <ul class="stelle-footer-hours">
+            <li><span>Seg - Sex</span><strong>9h às 17h30</strong></li>
+            <li><span>Sábados</span><strong>9h às 12h</strong></li>
+            <li><span>Domingos</span><strong>Fechado</strong></li>
+          </ul>
+        </div>
+
+      </div><!-- /.stelle-footer-top .stelle-footer-container -->
+    </div><!-- /.stelle-footer-top -->
+
+    <div class="stelle-footer-bottom">
+      <div class="stelle-footer-container">
+        <p>© 2026 Stelle Odontologia. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+</div><!-- /.stelle-page -->
+
+<script>
+  function stelleToggleDropdown(e, el) {
+    e.preventDefault();
+    var dropdown = el.parentElement;
+    var isOpen = dropdown.classList.contains('open');
+    document.querySelectorAll('.stelle-nav-dropdown.open').forEach(function(d) { d.classList.remove('open'); });
+    if (!isOpen) dropdown.classList.add('open');
+  }
+  document.addEventListener('click', function(e) {
+    if (!e.target.closest('.stelle-nav-dropdown')) {
+      document.querySelectorAll('.stelle-nav-dropdown.open').forEach(function(d) { d.classList.remove('open'); });
+    }
+  });
+</script>
