@@ -1,0 +1,694 @@
+{
+  "redirects": [
+    {
+      "source": "/sobre-nos",
+      "destination": "/sobre/",
+      "permanent": true
+    },
+    {
+      "source": "/sobre-nos/",
+      "destination": "/sobre/",
+      "permanent": true
+    },
+    {
+      "source": "/implante-dentario",
+      "destination": "/implantes/",
+      "permanent": true
+    },
+    {
+      "source": "/implante-dentario/",
+      "destination": "/implantes/",
+      "permanent": true
+    },
+    {
+      "source": "/lp-implantes",
+      "destination": "/implantes/",
+      "permanent": true
+    },
+    {
+      "source": "/lp-implantes/",
+      "destination": "/implantes/",
+      "permanent": true
+    },
+    {
+      "source": "/alinhadores-invisiveis",
+      "destination": "/alinhadores/",
+      "permanent": true
+    },
+    {
+      "source": "/alinhadores-invisiveis/",
+      "destination": "/alinhadores/",
+      "permanent": true
+    },
+    {
+      "source": "/alinhador-invisivel",
+      "destination": "/alinhadores/",
+      "permanent": true
+    },
+    {
+      "source": "/alinhador-invisivel/",
+      "destination": "/alinhadores/",
+      "permanent": true
+    },
+    {
+      "source": "/alinhadorinvisivel",
+      "destination": "/alinhadores/",
+      "permanent": true
+    },
+    {
+      "source": "/alinhadorinvisivel/",
+      "destination": "/alinhadores/",
+      "permanent": true
+    },
+    {
+      "source": "/aparelho-transparente-vs-alinhadores",
+      "destination": "/alinhadores/",
+      "permanent": true
+    },
+    {
+      "source": "/aparelho-transparente-vs-alinhadores/",
+      "destination": "/alinhadores/",
+      "permanent": true
+    },
+    {
+      "source": "/aparelho-ortodontico",
+      "destination": "/alinhadores/",
+      "permanent": true
+    },
+    {
+      "source": "/aparelho-ortodontico/",
+      "destination": "/alinhadores/",
+      "permanent": true
+    },
+    {
+      "source": "/ortodontia",
+      "destination": "/alinhadores/",
+      "permanent": true
+    },
+    {
+      "source": "/ortodontia/",
+      "destination": "/alinhadores/",
+      "permanent": true
+    },
+    {
+      "source": "/dentista-na-taquara-contato",
+      "destination": "/contato/",
+      "permanent": true
+    },
+    {
+      "source": "/dentista-na-taquara-contato/",
+      "destination": "/contato/",
+      "permanent": true
+    },
+    {
+      "source": "/inicio",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/inicio/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/estetica-dental",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/estetica-dental/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/harmonizacao-orofacial",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/harmonizacao-orofacial/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/protese-dentaria",
+      "destination": "/protese-dentaria/",
+      "permanent": true
+    },
+    {
+      "source": "/protese-dentaria/",
+      "destination": "/protese-dentaria/",
+      "permanent": true
+    },
+    {
+      "source": "/clareamento-dental",
+      "destination": "/clareamento-dental/",
+      "permanent": true
+    },
+    {
+      "source": "/clareamento-dental/",
+      "destination": "/clareamento-dental/",
+      "permanent": true
+    },
+    {
+      "source": "/toxina-botulinica",
+      "destination": "/toxina-botulinica/",
+      "permanent": true
+    },
+    {
+      "source": "/toxina-botulinica/",
+      "destination": "/toxina-botulinica/",
+      "permanent": true
+    },
+    {
+      "source": "/elementor-27558",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/elementor-27558/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/category/:path*",
+      "destination": "https://blog.stelleodontologia.com.br/category/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/tag/:path*",
+      "destination": "https://blog.stelleodontologia.com.br/tag/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/fastgloss/:path*",
+      "destination": "https://blog.stelleodontologia.com.br/fastgloss/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/fastgloss-categoria/:path*",
+      "destination": "https://blog.stelleodontologia.com.br/fastgloss-categoria/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:path*",
+      "destination": "https://blog.stelleodontologia.com.br/blog/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/author/:path*",
+      "destination": "https://blog.stelleodontologia.com.br/author/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/glossario",
+      "destination": "https://blog.stelleodontologia.com.br/glossario/",
+      "permanent": true
+    },
+    {
+      "source": "/glossario/",
+      "destination": "https://blog.stelleodontologia.com.br/glossario/",
+      "permanent": true
+    },
+    {
+      "source": "/glossario-odontologico",
+      "destination": "https://blog.stelleodontologia.com.br/glossario-odontologico/",
+      "permanent": true
+    },
+    {
+      "source": "/glossario-odontologico/",
+      "destination": "https://blog.stelleodontologia.com.br/glossario-odontologico/",
+      "permanent": true
+    },
+    {
+      "source": "/fastgloss",
+      "destination": "https://blog.stelleodontologia.com.br/fastgloss/",
+      "permanent": true
+    },
+    {
+      "source": "/fastgloss/",
+      "destination": "https://blog.stelleodontologia.com.br/fastgloss/",
+      "permanent": true
+    },
+    {
+      "source": "/quanto-custam-alinhadores-invisiveis-2025",
+      "destination": "https://blog.stelleodontologia.com.br/quanto-custam-alinhadores-invisiveis-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/quanto-custam-alinhadores-invisiveis-2025/",
+      "destination": "https://blog.stelleodontologia.com.br/quanto-custam-alinhadores-invisiveis-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/dor-de-dente-apos-restauracao",
+      "destination": "https://blog.stelleodontologia.com.br/dor-de-dente-apos-restauracao/",
+      "permanent": true
+    },
+    {
+      "source": "/dor-de-dente-apos-restauracao/",
+      "destination": "https://blog.stelleodontologia.com.br/dor-de-dente-apos-restauracao/",
+      "permanent": true
+    },
+    {
+      "source": "/remedios-para-gengiva-inflamada-tratamento",
+      "destination": "https://blog.stelleodontologia.com.br/remedios-para-gengiva-inflamada-tratamento/",
+      "permanent": true
+    },
+    {
+      "source": "/remedios-para-gengiva-inflamada-tratamento/",
+      "destination": "https://blog.stelleodontologia.com.br/remedios-para-gengiva-inflamada-tratamento/",
+      "permanent": true
+    },
+    {
+      "source": "/carie-na-gravidez",
+      "destination": "https://blog.stelleodontologia.com.br/carie-na-gravidez/",
+      "permanent": true
+    },
+    {
+      "source": "/carie-na-gravidez/",
+      "destination": "https://blog.stelleodontologia.com.br/carie-na-gravidez/",
+      "permanent": true
+    },
+    {
+      "source": "/aparelho-ortodontico-gengiva-inchada-causas-tratamentos",
+      "destination": "https://blog.stelleodontologia.com.br/aparelho-ortodontico-gengiva-inchada-causas-tratamentos/",
+      "permanent": true
+    },
+    {
+      "source": "/aparelho-ortodontico-gengiva-inchada-causas-tratamentos/",
+      "destination": "https://blog.stelleodontologia.com.br/aparelho-ortodontico-gengiva-inchada-causas-tratamentos/",
+      "permanent": true
+    },
+    {
+      "source": "/aparelho-autoligado-o-guia-completo-para-um-tratamento-mais-rapido-eficiente-e-confortavel",
+      "destination": "https://blog.stelleodontologia.com.br/aparelho-autoligado-o-guia-completo-para-um-tratamento-mais-rapido-eficiente-e-confortavel/",
+      "permanent": true
+    },
+    {
+      "source": "/aparelho-autoligado-o-guia-completo-para-um-tratamento-mais-rapido-eficiente-e-confortavel/",
+      "destination": "https://blog.stelleodontologia.com.br/aparelho-autoligado-o-guia-completo-para-um-tratamento-mais-rapido-eficiente-e-confortavel/",
+      "permanent": true
+    },
+    {
+      "source": "/quantos-dentes-temos-na-boca-na-infancia-e-na-vida-adulta",
+      "destination": "https://blog.stelleodontologia.com.br/quantos-dentes-temos-na-boca-na-infancia-e-na-vida-adulta/",
+      "permanent": true
+    },
+    {
+      "source": "/quantos-dentes-temos-na-boca-na-infancia-e-na-vida-adulta/",
+      "destination": "https://blog.stelleodontologia.com.br/quantos-dentes-temos-na-boca-na-infancia-e-na-vida-adulta/",
+      "permanent": true
+    },
+    {
+      "source": "/tempo-de-tratamento-com-alinhadores-invisiveis",
+      "destination": "https://blog.stelleodontologia.com.br/tempo-de-tratamento-com-alinhadores-invisiveis/",
+      "permanent": true
+    },
+    {
+      "source": "/tempo-de-tratamento-com-alinhadores-invisiveis/",
+      "destination": "https://blog.stelleodontologia.com.br/tempo-de-tratamento-com-alinhadores-invisiveis/",
+      "permanent": true
+    },
+    {
+      "source": "/sonhar-com-dente-caindo",
+      "destination": "https://blog.stelleodontologia.com.br/sonhar-com-dente-caindo/",
+      "permanent": true
+    },
+    {
+      "source": "/sonhar-com-dente-caindo/",
+      "destination": "https://blog.stelleodontologia.com.br/sonhar-com-dente-caindo/",
+      "permanent": true
+    },
+    {
+      "source": "/protese-parcial-removivel-ou-fixa",
+      "destination": "https://blog.stelleodontologia.com.br/protese-parcial-removivel-ou-fixa/",
+      "permanent": true
+    },
+    {
+      "source": "/protese-parcial-removivel-ou-fixa/",
+      "destination": "https://blog.stelleodontologia.com.br/protese-parcial-removivel-ou-fixa/",
+      "permanent": true
+    },
+    {
+      "source": "/alinhadores-invisiveis-guia-completo-2025",
+      "destination": "https://blog.stelleodontologia.com.br/alinhadores-invisiveis-guia-completo-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/alinhadores-invisiveis-guia-completo-2025/",
+      "destination": "https://blog.stelleodontologia.com.br/alinhadores-invisiveis-guia-completo-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/o-que-e-gengivectomia",
+      "destination": "https://blog.stelleodontologia.com.br/o-que-e-gengivectomia/",
+      "permanent": true
+    },
+    {
+      "source": "/o-que-e-gengivectomia/",
+      "destination": "https://blog.stelleodontologia.com.br/o-que-e-gengivectomia/",
+      "permanent": true
+    },
+    {
+      "source": "/descubra-o-que-e-mewing-e-para-que-serve-dicas-essenciais",
+      "destination": "https://blog.stelleodontologia.com.br/descubra-o-que-e-mewing-e-para-que-serve-dicas-essenciais/",
+      "permanent": true
+    },
+    {
+      "source": "/descubra-o-que-e-mewing-e-para-que-serve-dicas-essenciais/",
+      "destination": "https://blog.stelleodontologia.com.br/descubra-o-que-e-mewing-e-para-que-serve-dicas-essenciais/",
+      "permanent": true
+    },
+    {
+      "source": "/gengiva-inchada-o-que-fazer-causas-sintomas-tratamentos",
+      "destination": "https://blog.stelleodontologia.com.br/gengiva-inchada-o-que-fazer-causas-sintomas-tratamentos/",
+      "permanent": true
+    },
+    {
+      "source": "/gengiva-inchada-o-que-fazer-causas-sintomas-tratamentos/",
+      "destination": "https://blog.stelleodontologia.com.br/gengiva-inchada-o-que-fazer-causas-sintomas-tratamentos/",
+      "permanent": true
+    },
+    {
+      "source": "/guia-completo-sobre-remedio-para-dor-de-dente-dicas-e-recomendacoes",
+      "destination": "https://blog.stelleodontologia.com.br/guia-completo-sobre-remedio-para-dor-de-dente-dicas-e-recomendacoes/",
+      "permanent": true
+    },
+    {
+      "source": "/guia-completo-sobre-remedio-para-dor-de-dente-dicas-e-recomendacoes/",
+      "destination": "https://blog.stelleodontologia.com.br/guia-completo-sobre-remedio-para-dor-de-dente-dicas-e-recomendacoes/",
+      "permanent": true
+    },
+    {
+      "source": "/gengiva-sangrando-ao-escovar-os-dentes",
+      "destination": "https://blog.stelleodontologia.com.br/gengiva-sangrando-ao-escovar-os-dentes/",
+      "permanent": true
+    },
+    {
+      "source": "/gengiva-sangrando-ao-escovar-os-dentes/",
+      "destination": "https://blog.stelleodontologia.com.br/gengiva-sangrando-ao-escovar-os-dentes/",
+      "permanent": true
+    },
+    {
+      "source": "/meu-dente-quebrou-e-agora",
+      "destination": "https://blog.stelleodontologia.com.br/meu-dente-quebrou-e-agora/",
+      "permanent": true
+    },
+    {
+      "source": "/meu-dente-quebrou-e-agora/",
+      "destination": "https://blog.stelleodontologia.com.br/meu-dente-quebrou-e-agora/",
+      "permanent": true
+    },
+    {
+      "source": "/protese-parcial-removivel-guia-completo",
+      "destination": "https://blog.stelleodontologia.com.br/protese-parcial-removivel-guia-completo/",
+      "permanent": true
+    },
+    {
+      "source": "/protese-parcial-removivel-guia-completo/",
+      "destination": "https://blog.stelleodontologia.com.br/protese-parcial-removivel-guia-completo/",
+      "permanent": true
+    },
+    {
+      "source": "/gengiva-inchada-o-que-fazer-7-dicas-essenciais-para-aliviar-hoje",
+      "destination": "https://blog.stelleodontologia.com.br/gengiva-inchada-o-que-fazer-7-dicas-essenciais-para-aliviar-hoje/",
+      "permanent": true
+    },
+    {
+      "source": "/gengiva-inchada-o-que-fazer-7-dicas-essenciais-para-aliviar-hoje/",
+      "destination": "https://blog.stelleodontologia.com.br/gengiva-inchada-o-que-fazer-7-dicas-essenciais-para-aliviar-hoje/",
+      "permanent": true
+    },
+    {
+      "source": "/alinhador-invisivel-ou-aparelho-fixo",
+      "destination": "https://blog.stelleodontologia.com.br/alinhador-invisivel-ou-aparelho-fixo/",
+      "permanent": true
+    },
+    {
+      "source": "/alinhador-invisivel-ou-aparelho-fixo/",
+      "destination": "https://blog.stelleodontologia.com.br/alinhador-invisivel-ou-aparelho-fixo/",
+      "permanent": true
+    },
+    {
+      "source": "/gengiva-inflamada-causas-sintomas",
+      "destination": "https://blog.stelleodontologia.com.br/gengiva-inflamada-causas-sintomas/",
+      "permanent": true
+    },
+    {
+      "source": "/gengiva-inflamada-causas-sintomas/",
+      "destination": "https://blog.stelleodontologia.com.br/gengiva-inflamada-causas-sintomas/",
+      "permanent": true
+    },
+    {
+      "source": "/gengiva-retraida-como-tratar",
+      "destination": "https://blog.stelleodontologia.com.br/gengiva-retraida-como-tratar/",
+      "permanent": true
+    },
+    {
+      "source": "/gengiva-retraida-como-tratar/",
+      "destination": "https://blog.stelleodontologia.com.br/gengiva-retraida-como-tratar/",
+      "permanent": true
+    },
+    {
+      "source": "/quantos-dentes-temos-na-boca",
+      "destination": "https://blog.stelleodontologia.com.br/quantos-dentes-temos-na-boca/",
+      "permanent": true
+    },
+    {
+      "source": "/quantos-dentes-temos-na-boca/",
+      "destination": "https://blog.stelleodontologia.com.br/quantos-dentes-temos-na-boca/",
+      "permanent": true
+    },
+    {
+      "source": "/descubra-o-que-e-sialorreia-e-como-tratar-dicas-essenciais",
+      "destination": "https://blog.stelleodontologia.com.br/descubra-o-que-e-sialorreia-e-como-tratar-dicas-essenciais/",
+      "permanent": true
+    },
+    {
+      "source": "/descubra-o-que-e-sialorreia-e-como-tratar-dicas-essenciais/",
+      "destination": "https://blog.stelleodontologia.com.br/descubra-o-que-e-sialorreia-e-como-tratar-dicas-essenciais/",
+      "permanent": true
+    },
+    {
+      "source": "/periodontite-o-que-e-causas-sintomas-e-tratamentos",
+      "destination": "https://blog.stelleodontologia.com.br/periodontite-o-que-e-causas-sintomas-e-tratamentos/",
+      "permanent": true
+    },
+    {
+      "source": "/periodontite-o-que-e-causas-sintomas-e-tratamentos/",
+      "destination": "https://blog.stelleodontologia.com.br/periodontite-o-que-e-causas-sintomas-e-tratamentos/",
+      "permanent": true
+    },
+    {
+      "source": "/gengivite-o-que-e-sintomas-tratamento",
+      "destination": "https://blog.stelleodontologia.com.br/gengivite-o-que-e-sintomas-tratamento/",
+      "permanent": true
+    },
+    {
+      "source": "/gengivite-o-que-e-sintomas-tratamento/",
+      "destination": "https://blog.stelleodontologia.com.br/gengivite-o-que-e-sintomas-tratamento/",
+      "permanent": true
+    },
+    {
+      "source": "/o-que-fazer-quando-o-dente-esta-cariado",
+      "destination": "https://blog.stelleodontologia.com.br/o-que-fazer-quando-o-dente-esta-cariado/",
+      "permanent": true
+    },
+    {
+      "source": "/o-que-fazer-quando-o-dente-esta-cariado/",
+      "destination": "https://blog.stelleodontologia.com.br/o-que-fazer-quando-o-dente-esta-cariado/",
+      "permanent": true
+    },
+    {
+      "source": "/afta-na-boca-dicas-essenciais-para-tratar-e-aliviar-hoje",
+      "destination": "https://blog.stelleodontologia.com.br/afta-na-boca-dicas-essenciais-para-tratar-e-aliviar-hoje/",
+      "permanent": true
+    },
+    {
+      "source": "/afta-na-boca-dicas-essenciais-para-tratar-e-aliviar-hoje/",
+      "destination": "https://blog.stelleodontologia.com.br/afta-na-boca-dicas-essenciais-para-tratar-e-aliviar-hoje/",
+      "permanent": true
+    },
+    {
+      "source": "/periodontia-o-guia-completo-para-prevenir-e-tratar-doencas-periodontais",
+      "destination": "https://blog.stelleodontologia.com.br/periodontia-o-guia-completo-para-prevenir-e-tratar-doencas-periodontais/",
+      "permanent": true
+    },
+    {
+      "source": "/periodontia-o-guia-completo-para-prevenir-e-tratar-doencas-periodontais/",
+      "destination": "https://blog.stelleodontologia.com.br/periodontia-o-guia-completo-para-prevenir-e-tratar-doencas-periodontais/",
+      "permanent": true
+    },
+    {
+      "source": "/descubra-as-5-vantagens-das-facetas-de-resina-hoje-mesmo",
+      "destination": "https://blog.stelleodontologia.com.br/descubra-as-5-vantagens-das-facetas-de-resina-hoje-mesmo/",
+      "permanent": true
+    },
+    {
+      "source": "/descubra-as-5-vantagens-das-facetas-de-resina-hoje-mesmo/",
+      "destination": "https://blog.stelleodontologia.com.br/descubra-as-5-vantagens-das-facetas-de-resina-hoje-mesmo/",
+      "permanent": true
+    },
+    {
+      "source": "/saude-bucal-na-gestacao",
+      "destination": "https://blog.stelleodontologia.com.br/saude-bucal-na-gestacao/",
+      "permanent": true
+    },
+    {
+      "source": "/saude-bucal-na-gestacao/",
+      "destination": "https://blog.stelleodontologia.com.br/saude-bucal-na-gestacao/",
+      "permanent": true
+    },
+    {
+      "source": "/gengivite-x-periodontite-tratamento",
+      "destination": "https://blog.stelleodontologia.com.br/gengivite-x-periodontite-tratamento/",
+      "permanent": true
+    },
+    {
+      "source": "/gengivite-x-periodontite-tratamento/",
+      "destination": "https://blog.stelleodontologia.com.br/gengivite-x-periodontite-tratamento/",
+      "permanent": true
+    },
+    {
+      "source": "/cuidados-com-aparelho-fixo",
+      "destination": "https://blog.stelleodontologia.com.br/cuidados-com-aparelho-fixo/",
+      "permanent": true
+    },
+    {
+      "source": "/cuidados-com-aparelho-fixo/",
+      "destination": "https://blog.stelleodontologia.com.br/cuidados-com-aparelho-fixo/",
+      "permanent": true
+    },
+    {
+      "source": "/dente-do-siso-esta-inflamado",
+      "destination": "https://blog.stelleodontologia.com.br/dente-do-siso-esta-inflamado/",
+      "permanent": true
+    },
+    {
+      "source": "/dente-do-siso-esta-inflamado/",
+      "destination": "https://blog.stelleodontologia.com.br/dente-do-siso-esta-inflamado/",
+      "permanent": true
+    },
+    {
+      "source": "/dentes-tortos-nunca-mais",
+      "destination": "https://blog.stelleodontologia.com.br/dentes-tortos-nunca-mais/",
+      "permanent": true
+    },
+    {
+      "source": "/dentes-tortos-nunca-mais/",
+      "destination": "https://blog.stelleodontologia.com.br/dentes-tortos-nunca-mais/",
+      "permanent": true
+    },
+    {
+      "source": "/tratamento-de-canal-tudo-o-que-voce-precisa-saber-para-salvar-seu-sorriso",
+      "destination": "https://blog.stelleodontologia.com.br/tratamento-de-canal-tudo-o-que-voce-precisa-saber-para-salvar-seu-sorriso/",
+      "permanent": true
+    },
+    {
+      "source": "/tratamento-de-canal-tudo-o-que-voce-precisa-saber-para-salvar-seu-sorriso/",
+      "destination": "https://blog.stelleodontologia.com.br/tratamento-de-canal-tudo-o-que-voce-precisa-saber-para-salvar-seu-sorriso/",
+      "permanent": true
+    },
+    {
+      "source": "/alinhadores-invisiveis-no-ambiente-de-trabalho",
+      "destination": "https://blog.stelleodontologia.com.br/alinhadores-invisiveis-no-ambiente-de-trabalho/",
+      "permanent": true
+    },
+    {
+      "source": "/alinhadores-invisiveis-no-ambiente-de-trabalho/",
+      "destination": "https://blog.stelleodontologia.com.br/alinhadores-invisiveis-no-ambiente-de-trabalho/",
+      "permanent": true
+    },
+    {
+      "source": "/bruxismo-2",
+      "destination": "https://blog.stelleodontologia.com.br/bruxismo-2/",
+      "permanent": true
+    },
+    {
+      "source": "/bruxismo-2/",
+      "destination": "https://blog.stelleodontologia.com.br/bruxismo-2/",
+      "permanent": true
+    },
+    {
+      "source": "/descubra-tudo-que-voce-precisa-saber-sobre-o-ronco",
+      "destination": "https://blog.stelleodontologia.com.br/descubra-tudo-que-voce-precisa-saber-sobre-o-ronco/",
+      "permanent": true
+    },
+    {
+      "source": "/descubra-tudo-que-voce-precisa-saber-sobre-o-ronco/",
+      "destination": "https://blog.stelleodontologia.com.br/descubra-tudo-que-voce-precisa-saber-sobre-o-ronco/",
+      "permanent": true
+    },
+    {
+      "source": "/linha-de-tempo-da-gravidez-como-funcionam-os-ciclos-da-gravidez",
+      "destination": "https://blog.stelleodontologia.com.br/linha-de-tempo-da-gravidez-como-funcionam-os-ciclos-da-gravidez/",
+      "permanent": true
+    },
+    {
+      "source": "/linha-de-tempo-da-gravidez-como-funcionam-os-ciclos-da-gravidez/",
+      "destination": "https://blog.stelleodontologia.com.br/linha-de-tempo-da-gravidez-como-funcionam-os-ciclos-da-gravidez/",
+      "permanent": true
+    },
+    {
+      "source": "/saude-bucal-na-gravidez",
+      "destination": "https://blog.stelleodontologia.com.br/saude-bucal-na-gravidez/",
+      "permanent": true
+    },
+    {
+      "source": "/saude-bucal-na-gravidez/",
+      "destination": "https://blog.stelleodontologia.com.br/saude-bucal-na-gravidez/",
+      "permanent": true
+    },
+    {
+      "source": "/alinhadores-invisiveis-guia-completo",
+      "destination": "https://blog.stelleodontologia.com.br/alinhadores-invisiveis-guia-completo/",
+      "permanent": true
+    },
+    {
+      "source": "/alinhadores-invisiveis-guia-completo/",
+      "destination": "https://blog.stelleodontologia.com.br/alinhadores-invisiveis-guia-completo/",
+      "permanent": true
+    },
+    {
+      "source": "/o-que-uma-carie-profunda-pode-causar",
+      "destination": "https://blog.stelleodontologia.com.br/o-que-uma-carie-profunda-pode-causar/",
+      "permanent": true
+    },
+    {
+      "source": "/o-que-uma-carie-profunda-pode-causar/",
+      "destination": "https://blog.stelleodontologia.com.br/o-que-uma-carie-profunda-pode-causar/",
+      "permanent": true
+    },
+    {
+      "source": "/dor-de-dente-apos-restauracao-o-que-fazer",
+      "destination": "https://blog.stelleodontologia.com.br/dor-de-dente-apos-restauracao-o-que-fazer/",
+      "permanent": true
+    },
+    {
+      "source": "/dor-de-dente-apos-restauracao-o-que-fazer/",
+      "destination": "https://blog.stelleodontologia.com.br/dor-de-dente-apos-restauracao-o-que-fazer/",
+      "permanent": true
+    },
+    {
+      "source": "/aparelho-odontologico-gengiva-inchada-causas-tratamentos",
+      "destination": "https://blog.stelleodontologia.com.br/aparelho-odontologico-gengiva-inchada-causas-tratamentos/",
+      "permanent": true
+    },
+    {
+      "source": "/aparelho-odontologico-gengiva-inchada-causas-tratamentos/",
+      "destination": "https://blog.stelleodontologia.com.br/aparelho-odontologico-gengiva-inchada-causas-tratamentos/",
+      "permanent": true
+    },
+    {
+      "source": "/remedios-para-gengivite-tratamento",
+      "destination": "https://blog.stelleodontologia.com.br/remedios-para-gengivite-tratamento/",
+      "permanent": true
+    },
+    {
+      "source": "/remedios-para-gengivite-tratamento/",
+      "destination": "https://blog.stelleodontologia.com.br/remedios-para-gengivite-tratamento/",
+      "permanent": true
+    }
+  ]
+}
