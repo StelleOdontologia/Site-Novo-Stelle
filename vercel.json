@@ -136,27 +136,12 @@
       "permanent": true
     },
     {
-      "source": "/protese-dentaria/",
-      "destination": "/protese-dentaria/",
-      "permanent": true
-    },
-    {
       "source": "/clareamento-dental",
       "destination": "/clareamento-dental/",
       "permanent": true
     },
     {
-      "source": "/clareamento-dental/",
-      "destination": "/clareamento-dental/",
-      "permanent": true
-    },
-    {
       "source": "/toxina-botulinica",
-      "destination": "/toxina-botulinica/",
-      "permanent": true
-    },
-    {
-      "source": "/toxina-botulinica/",
       "destination": "/toxina-botulinica/",
       "permanent": true
     },
