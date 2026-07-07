@@ -156,6 +156,16 @@
       "permanent": true
     },
     {
+      "source": "/wp-content/:path*",
+      "destination": "https://blog.stelleodontologia.com.br/wp-content/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/wp-json/:path*",
+      "destination": "https://blog.stelleodontologia.com.br/wp-json/:path*",
+      "permanent": true
+    },
+    {
       "source": "/category/:path*",
       "destination": "https://blog.stelleodontologia.com.br/category/:path*",
       "permanent": true
