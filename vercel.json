@@ -186,11 +186,6 @@
       "permanent": true
     },
     {
-      "source": "/blog/:path*",
-      "destination": "https://blog.stelleodontologia.com.br/blog/:path*",
-      "permanent": true
-    },
-    {
       "source": "/author/:path*",
       "destination": "https://blog.stelleodontologia.com.br/author/:path*",
       "permanent": true
