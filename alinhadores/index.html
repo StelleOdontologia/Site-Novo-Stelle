@@ -132,7 +132,7 @@
   .al-porque { padding: 90px 0; background: white; }
   .al-porque-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 70px; align-items: center; }
   .al-video-wrap { position: relative; border-radius: 20px; overflow: hidden; aspect-ratio: 16/10; background: #0d3557; }
-  .al-video-wrap iframe { width: 100%; height: 100%; border: none; display: block; }
+  .al-video-wrap video { width: 100%; height: 100%; border: none; display: block; object-fit: cover; }
   .al-beneficios-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 28px; }
   .al-beneficio-item { display: flex; flex-direction: column; align-items: flex-start; gap: 8px; padding: 18px; background: #f8f5f0; border-radius: 14px; }
   .al-beneficio-icon { width: 40px; height: 40px; background: #e8f0fb; border-radius: 10px; display: flex; align-items: center; justify-content: center; color: #1b6ca8; }
@@ -416,7 +416,9 @@
       <div class="al-porque-grid">
         <div>
           <div class="al-video-wrap">
-            <iframe src="https://www.youtube.com/embed/[ID_YOUTUBE]?rel=0&modestbranding=1" title="Dra. Késya Nogueira — Por que escolher alinhadores invisíveis" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <video controls playsinline>
+              <source src="/videos/alinhadores.mp4" type="video/mp4">
+            </video>
           </div>
         </div>
         <div>
