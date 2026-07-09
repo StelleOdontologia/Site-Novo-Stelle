@@ -666,7 +666,7 @@
   });
   function filterBlog(cat, btn) {
     document.querySelectorAll('.blog-filter-btn').forEach(function(b) { b.classList.remove('active'); });
-    btn.classList.add('active');
+    if (btn) btn.classList.add('active');
     var visible = 0;
     document.querySelectorAll('.blog-card').forEach(function(card) {
       if (cat === 'all' || card.dataset.cat === cat) { card.removeAttribute('hidden'); visible++; }
@@ -674,6 +674,13 @@
     });
     document.getElementById('blogNoResults').style.display = visible === 0 ? 'block' : 'none';
   }
+  (function() {
+    var cat = new URLSearchParams(location.search).get('cat');
+    if (cat) {
+      var btn = document.querySelector('.blog-filter-btn[onclick*="filterBlog(\'' + cat + '\'"]');
+      filterBlog(cat, btn);
+    }
+  })();
 </script>
 </body>
 </html>
