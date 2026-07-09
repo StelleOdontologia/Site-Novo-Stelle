@@ -6,6 +6,16 @@
       "permanent": true
     },
     {
+      "source": "/miofuncional",
+      "destination": "/ortodontia-miofuncional/",
+      "permanent": true
+    },
+    {
+      "source": "/miofuncional/",
+      "destination": "/ortodontia-miofuncional/",
+      "permanent": true
+    },
+    {
       "source": "/sobre-nos/",
       "destination": "/sobre/",
       "permanent": true
