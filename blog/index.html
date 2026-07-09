@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
@@ -65,7 +65,9 @@
     .blog-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; }
     .blog-card { background: white; border-radius: 14px; overflow: hidden; box-shadow: 0 2px 12px rgba(0,0,0,0.07); transition: transform 0.2s, box-shadow 0.2s; text-decoration: none; color: inherit; display: flex; flex-direction: column; }
     .blog-card:hover { transform: translateY(-4px); box-shadow: 0 8px 28px rgba(0,0,0,0.13); }
-    .blog-card-thumb { height: 160px; display: flex; align-items: center; justify-content: center; font-size: 48px; flex-shrink: 0; }
+    .blog-card-thumb { height: 180px; overflow: hidden; flex-shrink: 0; }
+    .blog-card-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.3s; }
+    .blog-card:hover .blog-card-thumb img { transform: scale(1.04); }
     .blog-card-body { padding: 20px 22px 24px; display: flex; flex-direction: column; flex: 1; }
     .blog-card-cat { display: inline-flex; align-items: center; gap: 5px; font-size: 11px; font-weight: 600; letter-spacing: 0.5px; text-transform: uppercase; padding: 4px 10px; border-radius: 20px; margin-bottom: 12px; width: fit-content; }
     .blog-card h2 { font-size: 15px; font-weight: 600; line-height: 1.45; color: #1a1a2e; margin-bottom: 10px; }
@@ -194,7 +196,7 @@
 
     <!-- SAÚDE BUCAL -->
     <a href="/aparelho-transparente-vs-alinhadores/" class="blog-card cat-saude" data-cat="saude">
-      <div class="blog-card-thumb">🦷</div>
+      <div class="blog-card-thumb"><img src="https://blog.stelleodontologia.com.br/wp-content/uploads/2025/03/Aparelho-Transparente-x-Alinhadores-Invisiveis-300x200.webp" alt="aparelho transparente vs alinhadores" loading="lazy"></div>
       <div class="blog-card-body">
         <span class="blog-card-cat">Saúde Bucal</span>
         <h2>Alinhadores Invisíveis x Aparelhos Ortodônticos Transparentes: Qual a Melhor Escolha?</h2>
@@ -204,7 +206,7 @@
     </a>
 
     <a href="/gengiva-retraida-como-tratar/" class="blog-card cat-saude" data-cat="saude">
-      <div class="blog-card-thumb">🦷</div>
+      <div class="blog-card-thumb"><img src="https://blog.stelleodontologia.com.br/wp-content/uploads/2025/03/gengiva-retraida-300x200.webp" alt="gengiva retraida como tratar" loading="lazy"></div>
       <div class="blog-card-body">
         <span class="blog-card-cat">Saúde Bucal</span>
         <h2>Como Tratar Gengiva Retraída e Evitar Problemas Futuros em 2025</h2>
@@ -214,7 +216,7 @@
     </a>
 
     <a href="/gengivite-x-periodontite-tratamento/" class="blog-card cat-saude" data-cat="saude">
-      <div class="blog-card-thumb">🦷</div>
+      <div class="blog-card-thumb"><img src="https://blog.stelleodontologia.com.br/wp-content/uploads/2025/03/Gengivite-x-Periodontite-Diferencas-e-Tratamento-300x200.webp" alt="gengivite x periodontite tratamento" loading="lazy"></div>
       <div class="blog-card-body">
         <span class="blog-card-cat">Saúde Bucal</span>
         <h2>Gengivite x Periodontite: Diferenças e Tratamento</h2>
@@ -224,7 +226,7 @@
     </a>
 
     <a href="/aparelho-ortodontico-gengiva-inchada-causas-tratamentos/" class="blog-card cat-saude" data-cat="saude">
-      <div class="blog-card-thumb">🦷</div>
+      <div class="blog-card-thumb"><img src="https://blog.stelleodontologia.com.br/wp-content/uploads/2025/03/aparelho-ortodontico-gengiva-inchada-causas-tratamentos-300x200.webp" alt="aparelho ortodontico gengiva inchada causas tratamentos" loading="lazy"></div>
       <div class="blog-card-body">
         <span class="blog-card-cat">Saúde Bucal</span>
         <h2>Aparelho Ortodôntico e Gengiva Inchada: Causas, Tratamentos e Como Prevenir</h2>
@@ -234,7 +236,7 @@
     </a>
 
     <a href="/gengiva-inflamada-causas-sintomas/" class="blog-card cat-saude" data-cat="saude">
-      <div class="blog-card-thumb">🦷</div>
+      <div class="blog-card-thumb"><img src="https://blog.stelleodontologia.com.br/wp-content/uploads/2025/03/Gengiva-Inflamada-CausasSintomas-e-Como-Tratar-Rapidamente-300x200.webp" alt="gengiva inflamada causas sintomas" loading="lazy"></div>
       <div class="blog-card-body">
         <span class="blog-card-cat">Saúde Bucal</span>
         <h2>Gengiva Inflamada – Causas, Sintomas e Como Tratar Rapidamente</h2>
@@ -244,7 +246,7 @@
     </a>
 
     <a href="/gengiva-sangrando-ao-escovar-os-dentes/" class="blog-card cat-saude" data-cat="saude">
-      <div class="blog-card-thumb">🦷</div>
+      <div class="blog-card-thumb"><img src="https://blog.stelleodontologia.com.br/wp-content/uploads/2025/02/Gengiva-Sangrando-300x200.webp" alt="gengiva sangrando ao escovar os dentes" loading="lazy"></div>
       <div class="blog-card-body">
         <span class="blog-card-cat">Saúde Bucal</span>
         <h2>Gengiva Sangrando ao Escovar os Dentes – O Que Fazer?</h2>
@@ -254,7 +256,7 @@
     </a>
 
     <a href="/remedios-para-gengiva-inflamada-tratamento/" class="blog-card cat-saude" data-cat="saude">
-      <div class="blog-card-thumb">🦷</div>
+      <div class="blog-card-thumb"><img src="https://blog.stelleodontologia.com.br/wp-content/uploads/2025/02/Melhores-Remedios-para-Gengiva-Inflamada-300x200.webp" alt="remedios para gengiva inflamada tratamento" loading="lazy"></div>
       <div class="blog-card-body">
         <span class="blog-card-cat">Saúde Bucal</span>
         <h2>Melhores Remédios para Gengiva Inflamada: Como Aliviar Rápido?</h2>
@@ -264,7 +266,7 @@
     </a>
 
     <a href="/periodontite-o-que-e-causas-sintomas-e-tratamentos/" class="blog-card cat-saude" data-cat="saude">
-      <div class="blog-card-thumb">🦷</div>
+      <div class="blog-card-thumb"><img src="https://blog.stelleodontologia.com.br/wp-content/uploads/2025/02/Periodontite-300x200.webp" alt="periodontite o que e causas sintomas e tratamentos" loading="lazy"></div>
       <div class="blog-card-body">
         <span class="blog-card-cat">Saúde Bucal</span>
         <h2>Periodontite: O Que É, Causas, Sintomas e Tratamentos</h2>
@@ -274,7 +276,7 @@
     </a>
 
     <a href="/gengivite-o-que-e-sintomas-tratamento/" class="blog-card cat-saude" data-cat="saude">
-      <div class="blog-card-thumb">🦷</div>
+      <div class="blog-card-thumb"><img src="https://blog.stelleodontologia.com.br/wp-content/uploads/2025/02/Gengivite-300x200.webp" alt="gengivite o que e sintomas tratamento" loading="lazy"></div>
       <div class="blog-card-body">
         <span class="blog-card-cat">Saúde Bucal</span>
         <h2>Gengivite: O Que É, Sintomas e Como Tratar?</h2>
@@ -284,7 +286,7 @@
     </a>
 
     <a href="/meu-dente-quebrou-e-agora/" class="blog-card cat-saude" data-cat="saude">
-      <div class="blog-card-thumb">🦷</div>
+      <div class="blog-card-thumb"><img src="https://blog.stelleodontologia.com.br/wp-content/uploads/2024/12/Quebrei-o-dente-e-agora-300x200.jpg" alt="meu dente quebrou e agora" loading="lazy"></div>
       <div class="blog-card-body">
         <span class="blog-card-cat">Saúde Bucal</span>
         <h2>Meu Dente Quebrou e Agora? Descubra 5 Dicas Essenciais!</h2>
@@ -294,7 +296,7 @@
     </a>
 
     <a href="/afta-na-boca-dicas-essenciais-para-tratar-e-aliviar-hoje/" class="blog-card cat-saude" data-cat="saude">
-      <div class="blog-card-thumb">🦷</div>
+      <div class="blog-card-thumb"><img src="https://blog.stelleodontologia.com.br/wp-content/uploads/2024/12/O-que-e-afta-300x200.jpg" alt="afta na boca dicas essenciais para tratar e aliviar hoje" loading="lazy"></div>
       <div class="blog-card-body">
         <span class="blog-card-cat">Saúde Bucal</span>
         <h2>Afta na Boca: Dicas Essenciais para Tratar e Aliviar Hoje</h2>
@@ -304,7 +306,7 @@
     </a>
 
     <a href="/descubra-o-que-e-sialorreia-e-como-tratar-dicas-essenciais/" class="blog-card cat-saude" data-cat="saude">
-      <div class="blog-card-thumb">🦷</div>
+      <div class="blog-card-thumb"><img src="https://blog.stelleodontologia.com.br/wp-content/uploads/2024/12/Descubra-o-que-e-Sialorreia-e-Como-Tratar-Dicas-Essenciais-300x200.jpg" alt="descubra o que e sialorreia e como tratar dicas essenciais" loading="lazy"></div>
       <div class="blog-card-body">
         <span class="blog-card-cat">Saúde Bucal</span>
         <h2>Descubra o que é Sialorreia e Como Tratar: Dicas Essenciais</h2>
@@ -314,7 +316,7 @@
     </a>
 
     <a href="/gengiva-inchada-o-que-fazer-causas-sintomas-tratamentos/" class="blog-card cat-saude" data-cat="saude">
-      <div class="blog-card-thumb">🦷</div>
+      <div class="blog-card-thumb"><img src="https://blog.stelleodontologia.com.br/wp-content/uploads/2024/12/Gengiva-Inchada-300x200.jpg" alt="gengiva inchada o que fazer causas sintomas tratamentos" loading="lazy"></div>
       <div class="blog-card-body">
         <span class="blog-card-cat">Saúde Bucal</span>
         <h2>Gengiva Inchada: O Que Fazer? Causas, Sintomas e Tratamentos</h2>
@@ -324,7 +326,7 @@
     </a>
 
     <a href="/quantos-dentes-temos-na-boca/" class="blog-card cat-saude" data-cat="saude">
-      <div class="blog-card-thumb">🦷</div>
+      <div class="blog-card-thumb"><img src="https://blog.stelleodontologia.com.br/wp-content/uploads/2024/12/Quantos-dentes-tem-na-boca-300x200.jpg" alt="quantos dentes temos na boca" loading="lazy"></div>
       <div class="blog-card-body">
         <span class="blog-card-cat">Saúde Bucal</span>
         <h2>Quantos Dentes Temos na Boca?</h2>
@@ -334,7 +336,7 @@
     </a>
 
     <a href="/tratamento-de-canal-tudo-o-que-voce-precisa-saber-para-salvar-seu-sorriso/" class="blog-card cat-saude" data-cat="saude">
-      <div class="blog-card-thumb">🦷</div>
+      <div class="blog-card-thumb"><img src="https://blog.stelleodontologia.com.br/wp-content/uploads/2024/12/Tratamento-de-Canal-1-300x200.jpg" alt="tratamento de canal tudo o que voce precisa saber para salvar seu sorriso" loading="lazy"></div>
       <div class="blog-card-body">
         <span class="blog-card-cat">Saúde Bucal</span>
         <h2>Tratamento de Canal: Tudo o que Você Precisa Saber para Salvar seu Sorriso</h2>
@@ -344,7 +346,7 @@
     </a>
 
     <a href="/guia-completo-sobre-remedio-para-dor-de-dente-dicas-e-recomendacoes/" class="blog-card cat-saude" data-cat="saude">
-      <div class="blog-card-thumb">🦷</div>
+      <div class="blog-card-thumb"><img src="https://blog.stelleodontologia.com.br/wp-content/uploads/2024/12/Remedio-para-dor-de-dente-300x171.webp" alt="guia completo sobre remedio para dor de dente dicas e recomendacoes" loading="lazy"></div>
       <div class="blog-card-body">
         <span class="blog-card-cat">Saúde Bucal</span>
         <h2>Guia Completo sobre Remédio para Dor de Dente: Dicas e Recomendações</h2>
@@ -354,7 +356,7 @@
     </a>
 
     <a href="/dor-de-dente-apos-restauracao/" class="blog-card cat-saude" data-cat="saude">
-      <div class="blog-card-thumb">🦷</div>
+      <div class="blog-card-thumb"><img src="https://blog.stelleodontologia.com.br/wp-content/uploads/2019/12/Dor-de-dente-apos-restauracao-300x200.jpg" alt="dor de dente apos restauracao" loading="lazy"></div>
       <div class="blog-card-body">
         <span class="blog-card-cat">Saúde Bucal</span>
         <h2>Dor de Dente após Restauração é Normal – O que Fazer?</h2>
@@ -364,7 +366,7 @@
     </a>
 
     <a href="/dente-do-siso-esta-inflamado/" class="blog-card cat-saude" data-cat="saude">
-      <div class="blog-card-thumb">🦷</div>
+      <div class="blog-card-thumb"><img src="https://blog.stelleodontologia.com.br/wp-content/uploads/2019/12/O-que-Fazer-quando-o-Dente-do-Siso-esta-Inflamado-300x200.jpg" alt="dente do siso esta inflamado" loading="lazy"></div>
       <div class="blog-card-body">
         <span class="blog-card-cat">Saúde Bucal</span>
         <h2>O que Fazer quando o Dente do Siso está Inflamado?</h2>
@@ -374,7 +376,7 @@
     </a>
 
     <a href="/o-que-uma-carie-profunda-pode-causar/" class="blog-card cat-saude" data-cat="saude">
-      <div class="blog-card-thumb">🦷</div>
+      <div class="blog-card-thumb"><img src="https://blog.stelleodontologia.com.br/wp-content/uploads/2019/12/O-que-uma-Carie-Profunda-pode-Causar-300x200.jpg" alt="o que uma carie profunda pode causar" loading="lazy"></div>
       <div class="blog-card-body">
         <span class="blog-card-cat">Saúde Bucal</span>
         <h2>O que uma Cárie Profunda pode Causar?</h2>
@@ -384,7 +386,7 @@
     </a>
 
     <a href="/o-que-fazer-quando-o-dente-esta-cariado/" class="blog-card cat-saude" data-cat="saude">
-      <div class="blog-card-thumb">🦷</div>
+      <div class="blog-card-thumb"><img src="https://blog.stelleodontologia.com.br/wp-content/uploads/2019/12/O-que-Fazer-Quando-o-Dente-esta-Cariado-300x200.jpg" alt="o que fazer quando o dente esta cariado" loading="lazy"></div>
       <div class="blog-card-body">
         <span class="blog-card-cat">Saúde Bucal</span>
         <h2>O que Fazer Quando o Dente está Cariado?</h2>
@@ -395,7 +397,7 @@
 
     <!-- ORTODONTIA -->
     <a href="/alinhadores-invisiveis-no-ambiente-de-trabalho/" class="blog-card cat-ortodontia" data-cat="ortodontia">
-      <div class="blog-card-thumb">😁</div>
+      <div class="blog-card-thumb"><img src="https://blog.stelleodontologia.com.br/wp-content/uploads/2025/04/Alinhadores-Invisiveis-no-Ambiente-de-Trabalho-Sorria-com-Discricao-e-Profissionalismo-300x200.png" alt="alinhadores invisiveis no ambiente de trabalho" loading="lazy"></div>
       <div class="blog-card-body">
         <span class="blog-card-cat">Ortodontia</span>
         <h2>Alinhadores Invisíveis no Ambiente de Trabalho: Sorria com Discrição e Profissionalismo</h2>
@@ -405,7 +407,7 @@
     </a>
 
     <a href="/tempo-de-tratamento-com-alinhadores-invisiveis/" class="blog-card cat-ortodontia" data-cat="ortodontia">
-      <div class="blog-card-thumb">😁</div>
+      <div class="blog-card-thumb"><img src="https://blog.stelleodontologia.com.br/wp-content/uploads/2025/03/Tempo-de-Tratamento-com-Alinhadores-Invisiveis-O-Que-Esperar-e-Como-Acelerar-300x200.webp" alt="tempo de tratamento com alinhadores invisiveis" loading="lazy"></div>
       <div class="blog-card-body">
         <span class="blog-card-cat">Ortodontia</span>
         <h2>Tempo de Tratamento com Alinhadores Invisíveis: O Que Esperar e Como Acelerar</h2>
@@ -415,7 +417,7 @@
     </a>
 
     <a href="/quanto-custam-alinhadores-invisiveis-2025/" class="blog-card cat-ortodontia" data-cat="ortodontia">
-      <div class="blog-card-thumb">😁</div>
+      <div class="blog-card-thumb"><img src="https://blog.stelleodontologia.com.br/wp-content/uploads/2025/03/Quanto-custam-alinhadores-invisiveis-300x200.webp" alt="quanto custam alinhadores invisiveis 2025" loading="lazy"></div>
       <div class="blog-card-body">
         <span class="blog-card-cat">Ortodontia</span>
         <h2>Quanto Custam Alinhadores Invisíveis em 2025? Veja os Preços</h2>
@@ -425,7 +427,7 @@
     </a>
 
     <a href="/alinhadores-invisiveis-guia-completo-2025/" class="blog-card cat-ortodontia" data-cat="ortodontia">
-      <div class="blog-card-thumb">😁</div>
+      <div class="blog-card-thumb"><img src="https://blog.stelleodontologia.com.br/wp-content/uploads/2025/03/Alinhadores-Invisiveis-_1_-1-300x200.webp" alt="alinhadores invisiveis guia completo 2025" loading="lazy"></div>
       <div class="blog-card-body">
         <span class="blog-card-cat">Ortodontia</span>
         <h2>Alinhadores Invisíveis: O Guia Completo para um Sorriso Perfeito em 2025</h2>
@@ -435,7 +437,7 @@
     </a>
 
     <a href="/aparelho-autoligado-o-guia-completo-para-um-tratamento-mais-rapido-eficiente-e-confortavel/" class="blog-card cat-ortodontia" data-cat="ortodontia">
-      <div class="blog-card-thumb">😁</div>
+      <div class="blog-card-thumb"><img src="https://blog.stelleodontologia.com.br/wp-content/uploads/2024/12/Aparelho-Autoligado-300x200.jpg" alt="aparelho autoligado o guia completo para um tratamento mais rapido eficiente e confortavel" loading="lazy"></div>
       <div class="blog-card-body">
         <span class="blog-card-cat">Ortodontia</span>
         <h2>Aparelho Autoligado: O Guia Completo para um Tratamento Mais Rápido e Confortável</h2>
@@ -445,7 +447,7 @@
     </a>
 
     <a href="/cuidados-com-aparelho-fixo/" class="blog-card cat-ortodontia" data-cat="ortodontia">
-      <div class="blog-card-thumb">😁</div>
+      <div class="blog-card-thumb"><img src="https://blog.stelleodontologia.com.br/wp-content/uploads/2023/09/shutterstock-679577266-300x200.png" alt="cuidados com aparelho fixo" loading="lazy"></div>
       <div class="blog-card-body">
         <span class="blog-card-cat">Ortodontia</span>
         <h2>Cuidados Essenciais Durante o Tratamento com Aparelho Fixo: Guia Completo</h2>
@@ -455,7 +457,7 @@
     </a>
 
     <a href="/dentes-tortos-nunca-mais/" class="blog-card cat-ortodontia" data-cat="ortodontia">
-      <div class="blog-card-thumb">😁</div>
+      <div class="blog-card-thumb"><img src="https://blog.stelleodontologia.com.br/wp-content/uploads/2022/03/Alinhadores-Invisíveis-Dentes-tortos-nunca-mais-300x211.jpeg" alt="dentes tortos nunca mais" loading="lazy"></div>
       <div class="blog-card-body">
         <span class="blog-card-cat">Ortodontia</span>
         <h2>Alinhadores Invisíveis: Dentes tortos nunca mais!</h2>
@@ -465,7 +467,7 @@
     </a>
 
     <a href="/alinhador-invisivel-ou-aparelho-fixo/" class="blog-card cat-ortodontia" data-cat="ortodontia">
-      <div class="blog-card-thumb">😁</div>
+      <div class="blog-card-thumb"><img src="https://blog.stelleodontologia.com.br/wp-content/uploads/2022/03/Alinhador-invisível-ou-aparelho-fixo-qual-a-melhor-escolha-300x200.jpg" alt="alinhador invisivel ou aparelho fixo" loading="lazy"></div>
       <div class="blog-card-body">
         <span class="blog-card-cat">Ortodontia</span>
         <h2>Alinhador invisível ou aparelho fixo – qual a melhor escolha?</h2>
@@ -475,7 +477,7 @@
     </a>
 
     <a href="/aparelho-ortodontico/" class="blog-card cat-ortodontia" data-cat="ortodontia">
-      <div class="blog-card-thumb">😁</div>
+      <div class="blog-card-thumb"><img src="https://blog.stelleodontologia.com.br/wp-content/uploads/2019/12/Aparelho-Ortodontico-Para-que-Serve-cada-Tipo-de-Aparelho-300x200.jpg" alt="aparelho ortodontico" loading="lazy"></div>
       <div class="blog-card-body">
         <span class="blog-card-cat">Ortodontia</span>
         <h2>Aparelho Ortodôntico: Para que Serve cada Tipo de Aparelho!</h2>
@@ -486,7 +488,7 @@
 
     <!-- TRATAMENTOS -->
     <a href="/protese-parcial-removivel-ou-fixa/" class="blog-card cat-tratamentos" data-cat="tratamentos">
-      <div class="blog-card-thumb">💉</div>
+      <div class="blog-card-thumb"><img src="https://blog.stelleodontologia.com.br/wp-content/uploads/2025/02/protese-parcial-removivel-ou-fixa-300x200.webp" alt="protese parcial removivel ou fixa" loading="lazy"></div>
       <div class="blog-card-body">
         <span class="blog-card-cat">Tratamentos</span>
         <h2>Prótese Parcial Removível ou Fixa? Diferenças, Prós e Contras</h2>
@@ -496,7 +498,7 @@
     </a>
 
     <a href="/protese-parcial-removivel-guia-completo/" class="blog-card cat-tratamentos" data-cat="tratamentos">
-      <div class="blog-card-thumb">💉</div>
+      <div class="blog-card-thumb"><img src="https://blog.stelleodontologia.com.br/wp-content/uploads/2025/02/Protese-Removivel-300x200.webp" alt="protese parcial removivel guia completo" loading="lazy"></div>
       <div class="blog-card-body">
         <span class="blog-card-cat">Tratamentos</span>
         <h2>Prótese Parcial Removível: O Guia Completo Para Recuperar Seu Sorriso</h2>
@@ -516,7 +518,7 @@
     </a>
 
     <a href="/periodontia-o-guia-completo-para-prevenir-e-tratar-doencas-periodontais/" class="blog-card cat-tratamentos" data-cat="tratamentos">
-      <div class="blog-card-thumb">💉</div>
+      <div class="blog-card-thumb"><img src="https://blog.stelleodontologia.com.br/wp-content/uploads/2024/12/Periodontia--300x200.jpg" alt="periodontia o guia completo para prevenir e tratar doencas periodontais" loading="lazy"></div>
       <div class="blog-card-body">
         <span class="blog-card-cat">Tratamentos</span>
         <h2>Periodontia: O Guia Completo para Prevenir e Tratar Doenças Periodontais</h2>
@@ -526,7 +528,7 @@
     </a>
 
     <a href="/descubra-tudo-que-voce-precisa-saber-sobre-o-ronco/" class="blog-card cat-tratamentos" data-cat="tratamentos">
-      <div class="blog-card-thumb">💉</div>
+      <div class="blog-card-thumb"><img src="https://blog.stelleodontologia.com.br/wp-content/uploads/2024/12/Ronco-1-300x200.jpg" alt="descubra tudo que voce precisa saber sobre o ronco" loading="lazy"></div>
       <div class="blog-card-body">
         <span class="blog-card-cat">Tratamentos</span>
         <h2>Descubra Tudo que Você Precisa Saber sobre o Ronco!</h2>
@@ -536,7 +538,7 @@
     </a>
 
     <a href="/descubra-o-que-e-mewing-e-para-que-serve-dicas-essenciais/" class="blog-card cat-tratamentos" data-cat="tratamentos">
-      <div class="blog-card-thumb">💉</div>
+      <div class="blog-card-thumb"><img src="https://blog.stelleodontologia.com.br/wp-content/uploads/2024/12/MEwing-300x200.jpg" alt="descubra o que e mewing e para que serve dicas essenciais" loading="lazy"></div>
       <div class="blog-card-body">
         <span class="blog-card-cat">Tratamentos</span>
         <h2>Descubra o que é Mewing e para que serve: Dicas Essenciais!</h2>
@@ -546,7 +548,7 @@
     </a>
 
     <a href="/descubra-as-5-vantagens-das-facetas-de-resina-hoje-mesmo/" class="blog-card cat-tratamentos" data-cat="tratamentos">
-      <div class="blog-card-thumb">💉</div>
+      <div class="blog-card-thumb"><img src="https://blog.stelleodontologia.com.br/wp-content/uploads/2024/12/Facetas-de-Resina-300x200.jpg" alt="descubra as 5 vantagens das facetas de resina hoje mesmo" loading="lazy"></div>
       <div class="blog-card-body">
         <span class="blog-card-cat">Tratamentos</span>
         <h2>Descubra as 5 Vantagens das Facetas de Resina Hoje Mesmo!</h2>
@@ -556,7 +558,7 @@
     </a>
 
     <a href="/o-que-e-gengivectomia/" class="blog-card cat-tratamentos" data-cat="tratamentos">
-      <div class="blog-card-thumb">💉</div>
+      <div class="blog-card-thumb"><img src="https://blog.stelleodontologia.com.br/wp-content/uploads/2024/12/O-que-e-gengivectomia-300x200.jpg" alt="o que e gengivectomia" loading="lazy"></div>
       <div class="blog-card-body">
         <span class="blog-card-cat">Tratamentos</span>
         <h2>O que é Gengivectomia?</h2>
@@ -577,7 +579,7 @@
 
     <!-- GESTANTES -->
     <a href="/linha-de-tempo-da-gravidez-como-funcionam-os-ciclos-da-gravidez/" class="blog-card cat-gestantes" data-cat="gestantes">
-      <div class="blog-card-thumb">🤰</div>
+      <div class="blog-card-thumb"><img src="https://blog.stelleodontologia.com.br/wp-content/uploads/2019/11/Linha-de-Tempo-da-Gravidez-como-funcionam-os-ciclos-da-gravidez-300x200.jpg" alt="linha de tempo da gravidez como funcionam os ciclos da gravidez" loading="lazy"></div>
       <div class="blog-card-body">
         <span class="blog-card-cat">Gestantes</span>
         <h2>Linha do Tempo da Gravidez: o que acontece em cada trimestre e cuidados com a saúde bucal</h2>
@@ -587,7 +589,7 @@
     </a>
 
     <a href="/saude-bucal-na-gravidez/" class="blog-card cat-gestantes" data-cat="gestantes">
-      <div class="blog-card-thumb">🤰</div>
+      <div class="blog-card-thumb"><img src="https://blog.stelleodontologia.com.br/wp-content/uploads/2019/11/Dicas-Como-Gravidas-Podem-Manter-a-Saude-Bucal-na-Gravidez-300x200.jpg" alt="saude bucal na gravidez" loading="lazy"></div>
       <div class="blog-card-body">
         <span class="blog-card-cat">Gestantes</span>
         <h2>Como as Grávidas Podem Manter a Saúde Bucal na Gravidez?</h2>
@@ -597,7 +599,7 @@
     </a>
 
     <a href="/carie-na-gravidez/" class="blog-card cat-gestantes" data-cat="gestantes">
-      <div class="blog-card-thumb">🤰</div>
+      <div class="blog-card-thumb"><img src="https://blog.stelleodontologia.com.br/wp-content/uploads/2019/11/Gestante-no-Dentista-300x200.webp" alt="carie na gravidez" loading="lazy"></div>
       <div class="blog-card-body">
         <span class="blog-card-cat">Gestantes</span>
         <h2>Cárie na gravidez prejudica o bebê? Mito ou Verdade?</h2>
@@ -607,7 +609,7 @@
     </a>
 
     <a href="/saude-bucal-na-gestacao/" class="blog-card cat-gestantes" data-cat="gestantes">
-      <div class="blog-card-thumb">🤰</div>
+      <div class="blog-card-thumb"><img src="https://blog.stelleodontologia.com.br/wp-content/uploads/2019/11/Saude-bucal-na-gestacao-300x200.jpg" alt="saude bucal na gestacao" loading="lazy"></div>
       <div class="blog-card-body">
         <span class="blog-card-cat">Gestantes</span>
         <h2>Saúde bucal na gestação – doenças mais comuns nas Grávidas!</h2>
@@ -618,7 +620,7 @@
 
     <!-- CURIOSIDADES -->
     <a href="/quantos-dentes-temos-na-boca-na-infancia-e-na-vida-adulta/" class="blog-card cat-curiosidades" data-cat="curiosidades">
-      <div class="blog-card-thumb">💡</div>
+      <div class="blog-card-thumb"><img src="https://blog.stelleodontologia.com.br/wp-content/uploads/2025/01/Quantos-dentes-temos-na-boca-300x200.webp" alt="quantos dentes temos na boca na infancia e na vida adulta" loading="lazy"></div>
       <div class="blog-card-body">
         <span class="blog-card-cat">Curiosidades</span>
         <h2>Quantos dentes temos na boca na infância e na vida adulta?</h2>
@@ -628,7 +630,7 @@
     </a>
 
     <a href="/sonhar-com-dente-caindo/" class="blog-card cat-curiosidades" data-cat="curiosidades">
-      <div class="blog-card-thumb">💡</div>
+      <div class="blog-card-thumb"><img src="https://blog.stelleodontologia.com.br/wp-content/uploads/2025/01/Sonhando-com-Dentes-300x200.jpg" alt="sonhar com dente caindo" loading="lazy"></div>
       <div class="blog-card-body">
         <span class="blog-card-cat">Curiosidades</span>
         <h2>Descubra o Significado de Sonhar com Dente Caindo</h2>
