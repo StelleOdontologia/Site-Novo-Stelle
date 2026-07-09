@@ -12,12 +12,12 @@
     },
     {
       "source": "/implante-dentario",
-      "destination": "/implantes/",
+      "destination": "https://blog.stelleodontologia.com.br/implante-dentario/",
       "permanent": true
     },
     {
       "source": "/implante-dentario/",
-      "destination": "/implantes/",
+      "destination": "https://blog.stelleodontologia.com.br/implante-dentario/",
       "permanent": true
     },
     {
