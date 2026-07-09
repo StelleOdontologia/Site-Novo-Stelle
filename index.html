@@ -285,29 +285,28 @@
   .btn-primary-stelle {
     background: #25D366;
     color: white;
-    padding: 14px 28px;
-    border-radius: 8px;
+    padding: 13px 28px;
+    border-radius: 50px;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 700;
-    letter-spacing: 1px;
-    text-transform: uppercase;
+    letter-spacing: 0.2px;
     display: inline-flex;
     align-items: center;
-    gap: 12px;
-    transition: all 0.3s;
+    gap: 10px;
+    transition: all 0.25s;
     line-height: 1.2;
+    box-shadow: 0 4px 16px rgba(37,211,102,0.32);
   }
   .btn-primary-stelle .btn-sub {
     display: block;
     font-size: 11px;
     font-weight: 400;
-    text-transform: none;
     letter-spacing: 0;
-    opacity: 0.8;
+    opacity: 0.85;
     margin-top: 2px;
   }
-  .btn-primary-stelle:hover { background: #1ebe57; color: white; }
+  .btn-primary-stelle:hover { background: #1ebe57; color: white; box-shadow: 0 6px 22px rgba(37,211,102,0.45); transform: translateY(-1px); }
   .btn-outline-stelle {
     color: white;
     border: 1px solid rgba(255, 255, 255, 0.55);
@@ -824,31 +823,24 @@
     flex-shrink: 0;
   }
   .stelle-trat-bottom-cta {
-    background: #0d3557;
+    background: #25D366;
     color: white;
     text-decoration: none;
-    padding: 14px 28px;
-    border-radius: 10px;
-    font-size: 12px;
+    padding: 13px 28px;
+    border-radius: 50px;
+    font-size: 15px;
     font-weight: 700;
-    letter-spacing: 1px;
-    text-transform: uppercase;
+    letter-spacing: 0.2px;
     text-align: center;
-    transition: background 0.2s;
+    transition: all 0.25s;
     flex-shrink: 0;
-    display: flex;
-    flex-direction: column;
-    gap: 3px;
-    line-height: 1.4;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    line-height: 1.2;
+    box-shadow: 0 4px 16px rgba(37,211,102,0.32);
   }
-  .stelle-trat-bottom-cta span {
-    font-size: 11px;
-    font-weight: 400;
-    opacity: 0.8;
-    text-transform: none;
-    letter-spacing: 0;
-  }
-  .stelle-trat-bottom-cta:hover { background: #1b6ca8; }
+  .stelle-trat-bottom-cta:hover { background: #1ebe57; box-shadow: 0 6px 22px rgba(37,211,102,0.45); transform: translateY(-1px); color: white; }
 
   /* ── Responsividade ── */
   @media (max-width: 900px) {
@@ -1171,15 +1163,21 @@
   .stelle-footer-bottom {
     border-top: 1px solid rgba(255,255,255,0.12);
     padding: 18px 0;
-    text-align: center;
+  }
+  .stelle-footer-bottom .stelle-footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
   }
   .stelle-footer-bottom p { margin: 0; font-size: 13px; color: rgba(255,255,255,0.5); }
-  .stelle-footer-legal { margin-top: 6px; display: flex; justify-content: center; gap: 16px; flex-wrap: wrap; }
-  .stelle-footer-legal a { font-size: 11px; color: rgba(255,255,255,0.35); text-decoration: none; transition: color 0.2s; }
-  .stelle-footer-legal a:hover { color: rgba(255,255,255,0.65); }
-  .stelle-footer-dev { margin-top: 10px; font-size: 11px; color: rgba(255,255,255,0.25); }
-  .stelle-footer-dev a { color: rgba(255,255,255,0.4); text-decoration: none; transition: color 0.2s; }
-  .stelle-footer-dev a:hover { color: rgba(255,255,255,0.7); }
+  .stelle-footer-legal { margin-top: 4px; display: flex; gap: 14px; flex-wrap: wrap; }
+  .stelle-footer-legal a { font-size: 11px; color: rgba(255,255,255,0.3); text-decoration: none; transition: color 0.2s; }
+  .stelle-footer-legal a:hover { color: rgba(255,255,255,0.6); }
+  .stelle-footer-dev { margin: 0; font-size: 13px; color: rgba(255,255,255,0.5); }
+  .stelle-footer-dev a { color: #e07b39; text-decoration: none; font-weight: 600; transition: color 0.2s; }
+  .stelle-footer-dev a:hover { color: #f59a5a; }
   .btn-whatsapp-compact {
     display: inline-flex;
     align-items: center;
@@ -1297,8 +1295,7 @@
         <p class="stelle-hero-especialidade">Especialista em Ortodontia</p>
         <div class="stelle-hero-buttons">
           <a href="https://wa.me/5521976939004?text=Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Stelle%20Odontologia%20e%20a%20Dra%20K%C3%A9sya" class="btn-primary-stelle" target="_blank">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" width="16" height="16"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-            Fale Conosco pelo Whatsapp
+            Agendar Consulta
           </a>
         </div>
       </div>
@@ -1451,9 +1448,8 @@
       </div>
       <div class="stelle-problemas-cta">
         <p>Existe tratamento para cada fase da vida.</p>
-        <a href="https://wa.me/5521976939004?text=Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Stelle%20Odontologia%20e%20a%20Dra%20K%C3%A9sya" class="btn-whatsapp-compact" target="_blank">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" width="18" height="18"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-          Fale com a nossa equipe pelo WhatsApp
+        <a href="https://wa.me/5521976939004?text=Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Stelle%20Odontologia%20e%20a%20Dra%20K%C3%A9sya" class="btn-primary-stelle" target="_blank">
+          Agendar Consulta
         </a>
       </div>
     </div>
@@ -1514,8 +1510,7 @@
         </div>
         <div class="stelle-trat-bottom-divider"></div>
         <a href="https://wa.me/5521976939004?text=Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Stelle%20Odontologia%20e%20a%20Dra%20K%C3%A9sya" target="_blank" class="stelle-trat-bottom-cta">
-          Fale com a nossa equipe
-          <span>Atendimento pelo WhatsApp</span>
+          Agendar Consulta
         </a>
       </div>
 
@@ -1777,11 +1772,13 @@
 
     <div class="stelle-footer-bottom">
       <div class="stelle-footer-container">
-        <p>© 2026 Stelle Odontologia. Todos os direitos reservados.</p>
-        <div class="stelle-footer-legal">
-          <a href="/politica-de-privacidade/">Política de Privacidade</a>
-          <a href="/politica-de-cookies/">Política de Cookies</a>
-          <a href="/termo-de-uso/">Termos de Uso</a>
+        <div>
+          <p>© 2026 Stelle Odontologia. Todos os direitos reservados.</p>
+          <div class="stelle-footer-legal">
+            <a href="/politica-de-privacidade/">Política de Privacidade</a>
+            <a href="/politica-de-cookies/">Política de Cookies</a>
+            <a href="/termo-de-uso/">Termos de Uso</a>
+          </div>
         </div>
         <p class="stelle-footer-dev">Desenvolvido por <a href="https://wa.me/5521981089100" target="_blank" rel="noopener">WN Negócios Online</a></p>
       </div>
