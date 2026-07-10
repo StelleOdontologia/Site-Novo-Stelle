@@ -106,7 +106,15 @@
   .stelle-footer-hours { display: flex; flex-direction: column; gap: 10px; }
   .stelle-footer-hours li { display: flex; justify-content: space-between; font-size: 13px; gap: 16px; }
   .stelle-footer-hours li strong { color: white; }
-  .stelle-footer-bottom { padding: 20px 0; text-align: center; font-size: 12px; border-top: 1px solid rgba(255,255,255,0.06); margin-top: 0; }
+        .stelle-footer-bottom { border-top: 1px solid rgba(255,255,255,0.12); padding: 18px 0; }
+        .stelle-footer-bottom .stelle-footer-container { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px; }
+        .stelle-footer-bottom p { margin: 0; font-size: 13px; color: rgba(255,255,255,0.5); }
+        .stelle-footer-legal { margin-top: 4px; display: flex; gap: 14px; flex-wrap: wrap; }
+        .stelle-footer-legal a { font-size: 11px; color: rgba(255,255,255,0.3); text-decoration: none; transition: color 0.2s; }
+        .stelle-footer-legal a:hover { color: rgba(255,255,255,0.6); }
+        .stelle-footer-dev { margin: 0; font-size: 13px; color: rgba(255,255,255,0.5); }
+        .stelle-footer-dev a { color: #e07b39; text-decoration: none; font-weight: 600; transition: color 0.2s; }
+        .stelle-footer-dev a:hover { color: #f59a5a; }
 
   @media (max-width: 768px) {
     .stelle-nav-links, .stelle-nav-cta { display: none; }
@@ -273,16 +281,19 @@
         </div>
       </div>
     </div>
-    <div class="stelle-footer-bottom">
-      <div class="stelle-footer-container">
-        <p>© 2026 Stelle Odontologia. Todos os direitos reservados.</p>
-        <div class="stelle-footer-legal">
-          <a href="/politica-de-privacidade/">Política de Privacidade</a>
-          <a href="/politica-de-cookies/">Política de Cookies</a>
-          <a href="/termo-de-uso/">Termos de Uso</a>
+          <div class="stelle-footer-bottom">
+        <div class="stelle-footer-container">
+          <div>
+            <p>© 2026 Stelle Odontologia. Todos os direitos reservados.</p>
+            <div class="stelle-footer-legal">
+              <a href="/politica-de-privacidade/">Política de Privacidade</a>
+              <a href="/politica-de-cookies/">Política de Cookies</a>
+              <a href="/termo-de-uso/">Termos de Uso</a>
+            </div>
+          </div>
+          <p class="stelle-footer-dev">Desenvolvido por <a href="https://wa.me/5521981089100" target="_blank" rel="noopener">WN Negócios Online</a></p>
         </div>
       </div>
-    </div>
   </footer>
 
 </div>
