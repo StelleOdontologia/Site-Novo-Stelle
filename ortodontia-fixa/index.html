@@ -669,3 +669,18 @@ src="https://www.facebook.com/tr?id=3034726646751532&ev=PageView&noscript=1"
     if (!isOpen) item.classList.add('open');
   }
 </script>
+
+<script>
+(function() {
+  document.addEventListener('click', function(e) {
+    var el = e.target.closest('a');
+    if (!el) return;
+    var href = el.getAttribute('href') || '';
+    if (href.indexOf('wa.me/5521976939004') !== -1) {
+      fbq('track', 'Contact', {content_name: 'WhatsApp'});
+    } else if (href.indexOf('tel:+5521976939004') !== -1) {
+      fbq('track', 'Contact', {content_name: 'Telefone'});
+    }
+  });
+})();
+</script>
