@@ -1,0 +1,27 @@
+name: Indexacao GSC
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'sitemap.xml'
+  workflow_dispatch:
+
+jobs:
+  indexar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Instalar dependencias
+        run: pip install google-auth google-auth-httplib2 requests
+
+      - name: Escrever credenciais
+        run: echo '${{ secrets.GOOGLE_CREDENTIALS_JSON }}' > scripts/credenciais-google.json
+
+      - name: Indexar URLs novas
+        run: python scripts/indexar_urls.py
