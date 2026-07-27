@@ -159,8 +159,20 @@ Para cada artigo a padronizar:
 
 ## Artigos já Padronizados
 
-✅ alinhadores-invisiveis-guia-completo-2026
-✅ comer-e-beber-com-alinhador-invisivel (EM PROGRESSO)
+✅ alinhadores-invisiveis-guia-completo-2026 (HTML puro - estrutura completa)
+✅ comer-e-beber-com-alinhador-invisivel (WordPress export - header OK, menu em andamento)
+
+## Notas Importantes
+
+**WordPress Templates vs HTML Puro:**
+- Artigos em HTML puro (como alinhadores-2026) têm estrutura limpa e aceita bm ambas as mudanças
+- Artigos exportados de WordPress (como comer-e-beber) têm estrutura complexa com divs aninhadas
+  - Header: inserção via regex funcionou bem
+  - Menu categorias: precisa de lógica mais robusta para encontrar ponto de inserção exato
+  
+**Próximas iterações:**
+- Considerar converter artigos WordPress para HTML puro (mais simples de manter)
+- OU refinar script de inserção do menu para lidar com estrutura WordPress
 
 ## Artigos para Padronizar
 
