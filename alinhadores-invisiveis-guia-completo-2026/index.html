@@ -93,54 +93,48 @@ body {
   background: var(--bg);
 }
 
-/* ── HEADER ─────────────────────────────── */
-.site-header {
-  background: #1a2340;
-  padding: 14px 0;
-  position: sticky;
-  top: 0;
-  z-index: 100;
-  box-shadow: 0 2px 12px rgba(0,0,0,0.25);
+/* ── HEADER OFICIAL STELLE ──────────────── */
+.stelle-header { position: sticky; top: 0; left: 0; right: 0; z-index: 9999; background: #1a2340; box-shadow: 0 2px 20px rgba(0,0,0,0.25); }
+.stelle-nav { max-width: 1200px; margin: 0 auto; padding: 0 40px; height: 75px; display: flex; align-items: center; justify-content: space-between; gap: 40px; }
+.stelle-nav-logo { display: flex; align-items: center; flex-shrink: 0; text-decoration: none; }
+.stelle-nav-logo img { height: 48px; width: auto; max-width: 180px; mix-blend-mode: screen; filter: brightness(1.1); }
+.stelle-nav-links { display: flex; align-items: center; gap: 8px; list-style: none; flex: 1; justify-content: center; margin: 0; padding: 0; }
+.stelle-nav-links a { color: rgba(255,255,255,0.85); text-decoration: none; font-size: 13px; font-weight: 500; padding: 8px 16px; border-radius: 8px; transition: all 0.2s; white-space: nowrap; display: flex; align-items: center; }
+.stelle-nav-links a:hover { color: white; background: rgba(255,255,255,0.12); }
+.stelle-nav-dropdown { position: relative; }
+.stelle-nav-dropdown > a::after { content: '▼'; font-size: 8px; margin-left: 6px; }
+.stelle-nav-dropdown-menu { display: none; position: absolute; top: calc(100% + 8px); left: 0; background: #0a2d4a; min-width: 220px; border-radius: 8px; padding: 8px 0; box-shadow: 0 8px 24px rgba(0,0,0,0.25); z-index: 10000; }
+.stelle-nav-dropdown-menu a { display: block !important; padding: 10px 16px !important; border-radius: 0 !important; background: none !important; font-size: 13px !important; }
+.stelle-nav-dropdown-menu a:hover { background: rgba(255,255,255,0.12) !important; }
+.stelle-nav-dropdown.open .stelle-nav-dropdown-menu { display: block; }
+.stelle-nav-cta { background: #01aeb7; color: white !important; padding: 10px 22px !important; border-radius: 50px !important; font-weight: 600 !important; display: flex !important; align-items: center; gap: 8px; flex-shrink: 0; text-decoration: none; font-size: 13px; transition: background 0.2s; white-space: nowrap; }
+.stelle-nav-cta:hover { background: #019aa3 !important; }
+.stelle-nav-hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; padding: 8px; background: none; border: none; }
+.stelle-nav-hamburger span { display: block; width: 24px; height: 2px; background: white; border-radius: 2px; }
+.stelle-nav-mobile { display: none; flex-direction: column; background: #0a2d4a; padding: 16px 40px 20px; gap: 4px; }
+.stelle-nav-mobile a { color: rgba(255,255,255,0.85); text-decoration: none; font-size: 14px; font-weight: 500; padding: 10px 0; border-bottom: 1px solid rgba(255,255,255,0.08); display: block; }
+.stelle-nav-mobile.open { display: flex; }
+.stelle-nav-mobile-section { border-bottom: 1px solid rgba(255,255,255,0.08); }
+.stelle-nav-mobile-toggle { color: rgba(255,255,255,0.85); font-size: 14px; font-weight: 500; padding: 10px 0; display: flex; align-items: center; justify-content: space-between; cursor: pointer; background: none; border: none; width: 100%; font-family: 'Karla', sans-serif; }
+.stelle-nav-mobile-toggle .arrow { transition: transform 0.2s; font-size: 10px; }
+.stelle-nav-mobile-toggle.open .arrow { transform: rotate(180deg); }
+.stelle-nav-mobile-sub { display: none; flex-direction: column; padding-left: 16px; padding-bottom: 6px; }
+.stelle-nav-mobile-sub.open { display: flex; }
+.stelle-nav-mobile-sub a { padding: 8px 0; font-size: 13px; color: rgba(255,255,255,0.72) !important; border-bottom: 1px solid rgba(255,255,255,0.05) !important; }
+@media (max-width: 768px) {
+  .stelle-nav-links, .stelle-nav-cta { display: none; }
+  .stelle-nav-hamburger { display: flex; }
+  .stelle-nav { padding: 0 20px; }
 }
-.site-header .inner {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 24px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 16px;
-}
-.site-logo {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  text-decoration: none;
-  color: #fff;
-  font-family: 'Rubik', sans-serif;
-  font-weight: 600;
-  font-size: 20px;
-  letter-spacing: -0.3px;
-}
-.site-logo svg { width: 36px; height: 36px; flex-shrink: 0; }
-.header-nav { display: flex; align-items: center; gap: 20px; flex-wrap: wrap; }
-.header-nav a {
-  color: rgba(255,255,255,0.75);
-  text-decoration: none;
-  font-size: 14px;
-  transition: color .2s;
-}
-.header-nav a:hover { color: #fff; }
-.header-cta {
-  background: #25d366;
-  color: #fff !important;
-  padding: 8px 16px;
-  border-radius: 20px;
-  font-weight: 600;
-  font-size: 13px !important;
-  white-space: nowrap;
-}
-.header-cta:hover { background: #1fb855 !important; }
+
+/* ── MENU DE CATEGORIAS ─────────────────── */
+.blog-categories-filter { background: #f5f5f5; padding: 16px 0; border-bottom: 1px solid #e0e0e0; }
+.blog-categories-inner { max-width: 1200px; margin: 0 auto; padding: 0 24px; display: flex; gap: 16px; flex-wrap: wrap; align-items: center; }
+.category-btn { background: #fff; border: 1px solid #ddd; color: #3a3a3a; padding: 8px 16px; border-radius: 24px; text-decoration: none; font-size: 13px; font-weight: 500; transition: all .2s; }
+.category-btn:hover { border-color: #01aeb7; color: #01aeb7; }
+.category-btn.active { background: #01aeb7; color: #fff; border-color: #01aeb7; }
+.category-btn .count { display: inline-block; background: rgba(0,0,0,0.1); padding: 2px 6px; border-radius: 12px; margin-left: 6px; font-size: 12px; }
+.category-btn.active .count { background: rgba(255,255,255,0.3); }
 
 /* ── HERO ────────────────────────────────── */
 .article-hero {
@@ -369,7 +363,6 @@ body {
 /* ── RESPONSIVE ──────────────────────────── */
 @media (max-width: 640px) {
   .toc-box ul { columns: 1; }
-  .header-nav { display: none; }
   .article-hero img { height: 320px; }
   .cta-box { padding: 28px 20px; }
 }
@@ -378,22 +371,66 @@ body {
 <body>
 
 <!-- HEADER -->
-<header class="site-header">
-  <div class="inner">
-    <a href="/" class="site-logo">
-      <svg viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <polygon points="18,3 33,12 33,24 18,33 3,24 3,12" fill="none" stroke="#01aeb7" stroke-width="2.2"/>
-        <text x="18" y="23" font-size="12" fill="#fff" text-anchor="middle" font-family="Rubik" font-weight="700">S</text>
-      </svg>
-      Stelle Odontologia
+<header class="stelle-header">
+  <nav class="stelle-nav">
+    <a href="/" class="stelle-nav-logo">
+      <img src="/assets/logo.png" alt="Stelle Odontologia">
     </a>
-    <nav class="header-nav">
-      <a href="/">Início</a>
-      <a href="/sobre/">Sobre</a>
-      <a href="/alinhadores/">Alinhadores</a>
-      <a href="/blog/">Blog</a>
-      <a href="https://wa.me/5521976939004?text=Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Stelle%20Odontologia" target="_blank" class="header-cta">📱 Agendar consulta</a>
-    </nav>
+    <ul class="stelle-nav-links">
+      <li><a href="/">Início</a></li>
+      <li><a href="/sobre/">A Clínica</a></li>
+      <li class="stelle-nav-dropdown">
+        <a href="#" onclick="stelleToggleDropdown(event,this)">Ortodontia</a>
+        <div class="stelle-nav-dropdown-menu">
+          <a href="/alinhadores/">Alinhadores Invisíveis</a>
+          <a href="/ortodontia-miofuncional/">Ortodontia Miofuncional</a>
+          <a href="/ortodontia-fixa/">Ortodontia Fixa</a>
+        </div>
+      </li>
+      <li class="stelle-nav-dropdown">
+        <a href="#" onclick="stelleToggleDropdown(event,this)">Tratamentos</a>
+        <div class="stelle-nav-dropdown-menu">
+          <a href="/clareamento-dental/">Clareamento Dental</a>
+          <a href="/toxina-botulinica/">Toxina Botulínica</a>
+          <a href="/implantes/">Implantes</a>
+          <a href="/protese-dentaria/">Prótese Dentária</a>
+          <a href="/endodontia/">Endodontia</a>
+        </div>
+      </li>
+      <li><a href="/blog/">Blog</a></li>
+      <li><a href="/contato/">Contato</a></li>
+    </ul>
+    <a href="https://wa.me/5521976939004" class="stelle-nav-cta" target="_blank" rel="noopener">
+      📱 Agendar Consulta
+    </a>
+    <button class="stelle-nav-hamburger" onclick="stelleToggleMobile()" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+  <div class="stelle-nav-mobile" id="stelleMobileNav">
+    <a href="/">Início</a>
+    <a href="/sobre/">A Clínica</a>
+    <div class="stelle-nav-mobile-section">
+      <button class="stelle-nav-mobile-toggle" onclick="stelleToggleMobileSub(this)">Ortodontia <span class="arrow">▼</span></button>
+      <div class="stelle-nav-mobile-sub">
+        <a href="/alinhadores/">Alinhadores Invisíveis</a>
+        <a href="/ortodontia-miofuncional/">Ortodontia Miofuncional</a>
+        <a href="/ortodontia-fixa/">Ortodontia Fixa</a>
+      </div>
+    </div>
+    <div class="stelle-nav-mobile-section">
+      <button class="stelle-nav-mobile-toggle" onclick="stelleToggleMobileSub(this)">Tratamentos <span class="arrow">▼</span></button>
+      <div class="stelle-nav-mobile-sub">
+        <a href="/clareamento-dental/">Clareamento Dental</a>
+        <a href="/toxina-botulinica/">Toxina Botulínica</a>
+        <a href="/implantes/">Implantes</a>
+        <a href="/protese-dentaria/">Prótese Dentária</a>
+        <a href="/endodontia/">Endodontia</a>
+      </div>
+    </div>
+    <a href="/blog/">Blog</a>
+    <a href="/contato/">Contato</a>
+    <a href="https://wa.me/5521976939004" target="_blank" rel="noopener">📱 Agendar Consulta</a>
   </div>
 </header>
 
@@ -421,6 +458,18 @@ body {
   <span>›</span>
   <span>Alinhadores Invisíveis 2026</span>
 </nav>
+
+<!-- MENU DE CATEGORIAS -->
+<div class="blog-categories-filter">
+  <div class="blog-categories-inner">
+    <a href="/blog/" class="category-btn">Todos <span class="count">46</span></a>
+    <a href="/blog/?cat=saude-bucal" class="category-btn">Saúde Bucal <span class="count">20</span></a>
+    <a href="/blog/?cat=ortodontia" class="category-btn active">Ortodontia <span class="count">11</span></a>
+    <a href="/blog/?cat=tratamentos" class="category-btn">Tratamentos <span class="count">9</span></a>
+    <a href="/blog/?cat=gestantes" class="category-btn">Gestantes <span class="count">4</span></a>
+    <a href="/blog/?cat=curiosidades" class="category-btn">Curiosidades <span class="count">2</span></a>
+  </div>
+</div>
 
 <!-- ARTICLE -->
 <main class="article-wrap">
@@ -899,6 +948,27 @@ Existem alinhadores específicos para adolescentes, mas para crianças em fase d
     }
   });
 })();
+</script>
+
+<script>
+function stelleToggleDropdown(e, el) {
+  e.preventDefault();
+  const li = el.parentElement;
+  document.querySelectorAll('.stelle-nav-dropdown.open').forEach(d => { if (d !== li) d.classList.remove('open'); });
+  li.classList.toggle('open');
+}
+document.addEventListener('click', function(e) {
+  if (!e.target.closest('.stelle-nav-dropdown')) {
+    document.querySelectorAll('.stelle-nav-dropdown.open').forEach(d => d.classList.remove('open'));
+  }
+});
+function stelleToggleMobile() {
+  document.getElementById('stelleMobileNav').classList.toggle('open');
+}
+function stelleToggleMobileSub(btn) {
+  btn.classList.toggle('open');
+  btn.nextElementSibling.classList.toggle('open');
+}
 </script>
 
 </body>
