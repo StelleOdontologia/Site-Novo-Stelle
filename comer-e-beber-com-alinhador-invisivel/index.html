@@ -312,7 +312,193 @@ gtag('config', 'AW-808199090');
 <style id="wp-custom-css">
 .elementor-swiper-button { position: absolute !important; width: auto !important; display: inline-flex !important; z-index: 1; cursor: pointer; top: 50%; transform: translateY(-50%); } .elementor-swiper-button-prev { left: 8px !important; } .elementor-swiper-button-next { right: 8px !important; } .elementor-swiper, .elementor-main-swiper { position: relative !important; }
 </style>
-<noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript></head>
+<noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript><style>
+/* ── HEADER ─────────────────────────────── */
+.site-header {
+  background: #1a2340;
+  padding: 14px 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.25);
+}
+.site-header .inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+.site-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: -0.3px;
+}
+.site-logo svg { width: 36px; height: 36px; flex-shrink: 0; }
+.header-nav { display: flex; align-items: center; gap: 20px; flex-wrap: wrap; }
+.header-nav a {
+  color: rgba(255,255,255,0.75);
+  text-decoration: none;
+  font-size: 14px;
+  transition: color .2s;
+}
+.header-nav a:hover { color: #fff; }
+.header-cta {
+  background: #25d366;
+  color: #fff !important;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 13px !important;
+  white-space: nowrap;
+}
+.header-cta:hover { background: #1fb855 !important; }
+
+/* ── MENU DE CATEGORIAS ─────────────────── */
+.blog-categories-filter {
+  background: #f5f5f5;
+  padding: 16px 0;
+  border-bottom: 1px solid #e0e0e0;
+  margin-bottom: 32px;
+}
+.blog-categories-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.category-btn {
+  background: #fff;
+  border: 1px solid #ddd;
+  color: #3a3a3a;
+  padding: 8px 16px;
+  border-radius: 24px;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 500;
+  transition: all .2s;
+}
+.category-btn:hover { border-color: #01aeb7; color: #01aeb7; }
+.category-btn.active { background: #01aeb7; color: #fff; border-color: #01aeb7; }
+.category-btn .count {
+  display: inline-block;
+  background: rgba(0,0,0,0.1);
+  padding: 2px 6px;
+  border-radius: 12px;
+  margin-left: 6px;
+  font-size: 12px;
+}
+.category-btn.active .count { background: rgba(255,255,255,0.3); }
+@media (max-width: 640px) {
+  .header-nav { gap: 12px; }
+  .header-nav a { font-size: 12px; }
+}
+</style>
+<style>
+/* ── HEADER ─────────────────────────────── */
+.site-header {
+  background: #1a2340;
+  padding: 14px 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.25);
+}
+.site-header .inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+.site-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: -0.3px;
+}
+.site-logo svg { width: 36px; height: 36px; flex-shrink: 0; }
+.header-nav { display: flex; align-items: center; gap: 20px; flex-wrap: wrap; }
+.header-nav a {
+  color: rgba(255,255,255,0.75);
+  text-decoration: none;
+  font-size: 14px;
+  transition: color .2s;
+}
+.header-nav a:hover { color: #fff; }
+.header-cta {
+  background: #25d366;
+  color: #fff !important;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 13px !important;
+  white-space: nowrap;
+}
+.header-cta:hover { background: #1fb855 !important; }
+
+/* ── MENU DE CATEGORIAS ─────────────────── */
+.blog-categories-filter {
+  background: #f5f5f5;
+  padding: 16px 0;
+  border-bottom: 1px solid #e0e0e0;
+  margin-bottom: 32px;
+}
+.blog-categories-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.category-btn {
+  background: #fff;
+  border: 1px solid #ddd;
+  color: #3a3a3a;
+  padding: 8px 16px;
+  border-radius: 24px;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 500;
+  transition: all .2s;
+}
+.category-btn:hover { border-color: #01aeb7; color: #01aeb7; }
+.category-btn.active { background: #01aeb7; color: #fff; border-color: #01aeb7; }
+.category-btn .count {
+  display: inline-block;
+  background: rgba(0,0,0,0.1);
+  padding: 2px 6px;
+  border-radius: 12px;
+  margin-left: 6px;
+  font-size: 12px;
+}
+.category-btn.active .count { background: rgba(255,255,255,0.3); }
+@media (max-width: 640px) {
+  .header-nav { gap: 12px; }
+  .header-nav a { font-size: 12px; }
+}
+</style>
+</head>
 
 <body itemtype='https://schema.org/Blog' itemscope='itemscope' class="wp-singular post-template-default single single-post postid-29244 single-format-standard wp-custom-logo wp-embed-responsive wp-theme-astra theme--astra ast-desktop ast-plain-container ast-no-sidebar astra-4.13.4 group-blog ast-blog-single-style-1 ast-single-post ast-inherit-site-logo-transparent ast-hfb-header ast-normal-title-enabled elementor-default elementor-kit-340">
 		<!-- Snippet do Gerenciador de tags do Google (sem script) adicionado pelo Site Kit -->
@@ -328,6 +514,26 @@ gtag('config', 'AW-808199090');
 <!-- Google Tag Manager (noscript) -->
 				<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NG6C5BN" height="0" width="0" style="display:none;visibility:hidden" aria-hidden="true"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
+
+<header class="site-header">
+  <div class="inner">
+    <a href="/" class="site-logo">
+      <svg viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <polygon points="18,3 33,12 33,24 18,33 3,24 3,12" fill="none" stroke="#01aeb7" stroke-width="2.2"/>
+        <text x="18" y="23" font-size="12" fill="#fff" text-anchor="middle" font-family="Rubik" font-weight="700">S</text>
+      </svg>
+      Stelle Odontologia
+    </a>
+    <nav class="header-nav">
+      <a href="/">Início</a>
+      <a href="/sobre/">Sobre a Dra. Késya</a>
+      <a href="/alinhadores/">Ortodontia</a>
+      <a href="/blog/">Tratamentos</a>
+      <a href="https://wa.me/5521976939004?text=Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Stelle%20Odontologia" target="_blank" class="header-cta">📱 Agendar</a>
+    </nav>
+  </div>
+</header>
+
 <a
 	class="skip-link screen-reader-text"
 	href="#content">
@@ -335,13 +541,7 @@ gtag('config', 'AW-808199090');
 
 <div
 class="hfeed site" id="page">
-			<header
-		class="site-header header-main-layout-1 ast-primary-menu-enabled ast-hide-custom-menu-mobile ast-builder-menu-toggle-icon ast-mobile-header-inline" id="masthead" itemtype="https://schema.org/WPHeader" itemscope="itemscope" itemid="#masthead"		>
-			<div id="ast-desktop-header" data-toggle-type="off-canvas">
-	</div> <!-- Main Header Bar Wrap -->
-<div id="ast-mobile-header" class="ast-mobile-header-wrap " data-type="off-canvas">
-	</div>
-		</header><!-- #masthead -->
+			
 			<div id="content" class="site-content">
 		<div class="ast-container">
 		
