@@ -207,6 +207,13 @@ marcando a categoria do artigo atual com `class="category-btn active"`:
 > Nota: os links `/blog/?cat=X` ainda não filtram nada de verdade (a página `/blog/` não lê
 > query string). Isso é um débito conhecido — ver seção "Pendências" abaixo.
 
+> **ARMADILHA JÁ CAÍDA NELA:** o passo 3 (CSS) e o passo 5 (HTML) do menu de categorias
+> são independentes — é fácil fazer um sem o outro e o bug só aparece visualmente (o menu
+> renderiza como texto puro, sem botões nem cores). Depois de aplicar os dois passos, rode
+> `grep -c "blog-categories-filter\">" arquivo.html` (deve dar 1, é o HTML) **e**
+> `grep -c "\.blog-categories-filter\s*{" arquivo.html` (deve dar 1, é o CSS). Se qualquer
+> um vier 0, falta a outra metade.
+
 ### 6. Adicionar o JS de toggle antes do `</body>` (se ainda não existir)
 
 Verifique com `grep -c "function stelleToggleDropdown" arquivo.html` — se já existir, pule.
@@ -244,6 +251,8 @@ echo "<body: $(grep -c '<body' "$FILE")"            # deve ser 1
 echo "</body>: $(grep -c '</body>' "$FILE")"        # deve ser 1
 echo "stelle-header: $(grep -c 'class=\"stelle-header\"' "$FILE")"   # deve ser 1
 echo "logo-stelle (bug conhecido): $(grep -c 'logo-stelle' "$FILE")" # deve ser 0
+echo "categories HTML: $(grep -c 'blog-categories-filter\">' "$FILE")"       # deve ser 1
+echo "categories CSS: $(grep -c '\.blog-categories-filter\s*{' "$FILE")"     # deve ser 1
 python3 -c "
 import re
 c = open(r'$FILE', encoding='utf-8').read()
@@ -282,7 +291,11 @@ Vercel ainda não propagou — recarregue com `?v=2` ou aguarde mais.
 
 ✅ `alinhadores-invisiveis-guia-completo-2026` — padronizado e verificado (commit `abdb33f`)
 ✅ `comer-e-beber-com-alinhador-invisivel` — padronizado e verificado (commits `002c595`, `3ac9b95`)
-✅ `mitos-e-verdades-alinhador-invisivel` — é o artigo de referência (logo corrigida no commit `a4e06ea`)
+✅ `mitos-e-verdades-alinhador-invisivel` — artigo de referência; logo corrigida (`a4e06ea`),
+   menu de categorias HTML+CSS adicionado (`7ce9ae9`, `d89b378`) — faltava nele originalmente
+
+Os 3 artigos foram comparados lado a lado via JavaScript no navegador (altura de logo, nav,
+cor de fundo, presença do menu) para confirmar consistência real, não só visual superficial.
 
 ### Pendentes
 
