@@ -211,6 +211,16 @@
       "permanent": true
     },
     {
+      "source": "/alinhadores-invisiveis-guia-completo-2026",
+      "destination": "/alinhadores-invisiveis-guia-completo-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/alinhadores-invisiveis-guia-completo-2026/",
+      "destination": "/alinhadores-invisiveis-guia-completo-2025/",
+      "permanent": true
+    },
+    {
       "source": "/dor-de-dente-apos-restauracao-o-que-fazer",
       "destination": "/dor-de-dente-apos-restauracao/",
       "permanent": true
