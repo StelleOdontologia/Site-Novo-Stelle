@@ -312,7 +312,51 @@ gtag('config', 'AW-808199090');
 <style id="wp-custom-css">
 .elementor-swiper-button { position: absolute !important; width: auto !important; display: inline-flex !important; z-index: 1; cursor: pointer; top: 50%; transform: translateY(-50%); } .elementor-swiper-button-prev { left: 8px !important; } .elementor-swiper-button-next { right: 8px !important; } .elementor-swiper, .elementor-main-swiper { position: relative !important; }
 </style>
-<noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript></head>
+<noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript><style>
+/* ── HEADER OFICIAL STELLE ──────────────── */
+.stelle-header { position: sticky; top: 0; left: 0; right: 0; z-index: 9999; background: #1a2340; box-shadow: 0 2px 20px rgba(0,0,0,0.25); }
+.stelle-nav { max-width: 1200px; margin: 0 auto; padding: 0 40px; height: 75px; display: flex; align-items: center; justify-content: space-between; gap: 40px; }
+.stelle-nav-logo { display: flex; align-items: center; flex-shrink: 0; text-decoration: none; }
+.stelle-nav-logo img { height: 48px; width: auto; max-width: 180px; mix-blend-mode: screen; filter: brightness(1.1); }
+.stelle-nav-links { display: flex; align-items: center; gap: 8px; list-style: none; flex: 1; justify-content: center; margin: 0; padding: 0; }
+.stelle-nav-links a { color: rgba(255,255,255,0.85); text-decoration: none; font-size: 13px; font-weight: 500; padding: 8px 16px; border-radius: 8px; transition: all 0.2s; white-space: nowrap; display: flex; align-items: center; }
+.stelle-nav-links a:hover { color: white; background: rgba(255,255,255,0.12); }
+.stelle-nav-dropdown { position: relative; }
+.stelle-nav-dropdown > a::after { content: '▼'; font-size: 8px; margin-left: 6px; }
+.stelle-nav-dropdown-menu { display: none; position: absolute; top: calc(100% + 8px); left: 0; background: #0a2d4a; min-width: 220px; border-radius: 8px; padding: 8px 0; box-shadow: 0 8px 24px rgba(0,0,0,0.25); z-index: 10000; }
+.stelle-nav-dropdown-menu a { display: block !important; padding: 10px 16px !important; border-radius: 0 !important; background: none !important; font-size: 13px !important; }
+.stelle-nav-dropdown-menu a:hover { background: rgba(255,255,255,0.12) !important; }
+.stelle-nav-dropdown.open .stelle-nav-dropdown-menu { display: block; }
+.stelle-nav-cta { background: #01aeb7; color: white !important; padding: 10px 22px !important; border-radius: 50px !important; font-weight: 600 !important; display: flex !important; align-items: center; gap: 8px; flex-shrink: 0; text-decoration: none; font-size: 13px; transition: background 0.2s; white-space: nowrap; }
+.stelle-nav-cta:hover { background: #019aa3 !important; }
+.stelle-nav-hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; padding: 8px; background: none; border: none; }
+.stelle-nav-hamburger span { display: block; width: 24px; height: 2px; background: white; border-radius: 2px; }
+.stelle-nav-mobile { display: none; flex-direction: column; background: #0a2d4a; padding: 16px 40px 20px; gap: 4px; }
+.stelle-nav-mobile a { color: rgba(255,255,255,0.85); text-decoration: none; font-size: 14px; font-weight: 500; padding: 10px 0; border-bottom: 1px solid rgba(255,255,255,0.08); display: block; }
+.stelle-nav-mobile.open { display: flex; }
+.stelle-nav-mobile-section { border-bottom: 1px solid rgba(255,255,255,0.08); }
+.stelle-nav-mobile-toggle { color: rgba(255,255,255,0.85); font-size: 14px; font-weight: 500; padding: 10px 0; display: flex; align-items: center; justify-content: space-between; cursor: pointer; background: none; border: none; width: 100%; font-family: 'Karla', sans-serif; }
+.stelle-nav-mobile-toggle .arrow { transition: transform 0.2s; font-size: 10px; }
+.stelle-nav-mobile-toggle.open .arrow { transform: rotate(180deg); }
+.stelle-nav-mobile-sub { display: none; flex-direction: column; padding-left: 16px; padding-bottom: 6px; }
+.stelle-nav-mobile-sub.open { display: flex; }
+.stelle-nav-mobile-sub a { padding: 8px 0; font-size: 13px; color: rgba(255,255,255,0.72) !important; border-bottom: 1px solid rgba(255,255,255,0.05) !important; }
+@media (max-width: 768px) {
+  .stelle-nav-links, .stelle-nav-cta { display: none; }
+  .stelle-nav-hamburger { display: flex; }
+  .stelle-nav { padding: 0 20px; }
+}
+
+/* ── MENU DE CATEGORIAS ─────────────────── */
+.blog-categories-filter { background: #f5f5f5; padding: 16px 0; border-bottom: 1px solid #e0e0e0; }
+.blog-categories-inner { max-width: 1200px; margin: 0 auto; padding: 0 24px; display: flex; gap: 16px; flex-wrap: wrap; align-items: center; }
+.category-btn { background: #fff; border: 1px solid #ddd; color: #3a3a3a; padding: 8px 16px; border-radius: 24px; text-decoration: none; font-size: 13px; font-weight: 500; transition: all .2s; }
+.category-btn:hover { border-color: #01aeb7; color: #01aeb7; }
+.category-btn.active { background: #01aeb7; color: #fff; border-color: #01aeb7; }
+.category-btn .count { display: inline-block; background: rgba(0,0,0,0.1); padding: 2px 6px; border-radius: 12px; margin-left: 6px; font-size: 12px; }
+.category-btn.active .count { background: rgba(255,255,255,0.3); }
+</style>
+</head>
 
 <body itemtype='https://schema.org/Blog' itemscope='itemscope' class="wp-singular post-template-default single single-post postid-29230 single-format-standard wp-custom-logo wp-embed-responsive wp-theme-astra theme--astra ast-desktop ast-plain-container ast-no-sidebar astra-4.13.4 group-blog ast-blog-single-style-1 ast-single-post ast-inherit-site-logo-transparent ast-hfb-header ast-normal-title-enabled elementor-default elementor-kit-340">
 		<!-- Snippet do Gerenciador de tags do Google (sem script) adicionado pelo Site Kit -->
@@ -335,13 +379,68 @@ gtag('config', 'AW-808199090');
 
 <div
 class="hfeed site" id="page">
-			<header
-		class="site-header header-main-layout-1 ast-primary-menu-enabled ast-hide-custom-menu-mobile ast-builder-menu-toggle-icon ast-mobile-header-inline" id="masthead" itemtype="https://schema.org/WPHeader" itemscope="itemscope" itemid="#masthead"		>
-			<div id="ast-desktop-header" data-toggle-type="off-canvas">
-	</div> <!-- Main Header Bar Wrap -->
-<div id="ast-mobile-header" class="ast-mobile-header-wrap " data-type="off-canvas">
-	</div>
-		</header><!-- #masthead -->
+			<header class="stelle-header">
+  <nav class="stelle-nav">
+    <a href="/" class="stelle-nav-logo">
+      <img src="/assets/logo.png" alt="Stelle Odontologia">
+    </a>
+    <ul class="stelle-nav-links">
+      <li><a href="/">Início</a></li>
+      <li><a href="/sobre/">A Clínica</a></li>
+      <li class="stelle-nav-dropdown">
+        <a href="#" onclick="stelleToggleDropdown(event,this)">Ortodontia</a>
+        <div class="stelle-nav-dropdown-menu">
+          <a href="/alinhadores/">Alinhadores Invisíveis</a>
+          <a href="/ortodontia-miofuncional/">Ortodontia Miofuncional</a>
+          <a href="/ortodontia-fixa/">Ortodontia Fixa</a>
+        </div>
+      </li>
+      <li class="stelle-nav-dropdown">
+        <a href="#" onclick="stelleToggleDropdown(event,this)">Tratamentos</a>
+        <div class="stelle-nav-dropdown-menu">
+          <a href="/clareamento-dental/">Clareamento Dental</a>
+          <a href="/toxina-botulinica/">Toxina Botulínica</a>
+          <a href="/implantes/">Implantes</a>
+          <a href="/protese-dentaria/">Prótese Dentária</a>
+          <a href="/endodontia/">Endodontia</a>
+        </div>
+      </li>
+      <li><a href="/blog/">Blog</a></li>
+      <li><a href="/contato/">Contato</a></li>
+    </ul>
+    <a href="https://wa.me/5521976939004" class="stelle-nav-cta" target="_blank" rel="noopener">
+      📱 Agendar Consulta
+    </a>
+    <button class="stelle-nav-hamburger" onclick="stelleToggleMobile()" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+  <div class="stelle-nav-mobile" id="stelleMobileNav">
+    <a href="/">Início</a>
+    <a href="/sobre/">A Clínica</a>
+    <div class="stelle-nav-mobile-section">
+      <button class="stelle-nav-mobile-toggle" onclick="stelleToggleMobileSub(this)">Ortodontia <span class="arrow">▼</span></button>
+      <div class="stelle-nav-mobile-sub">
+        <a href="/alinhadores/">Alinhadores Invisíveis</a>
+        <a href="/ortodontia-miofuncional/">Ortodontia Miofuncional</a>
+        <a href="/ortodontia-fixa/">Ortodontia Fixa</a>
+      </div>
+    </div>
+    <div class="stelle-nav-mobile-section">
+      <button class="stelle-nav-mobile-toggle" onclick="stelleToggleMobileSub(this)">Tratamentos <span class="arrow">▼</span></button>
+      <div class="stelle-nav-mobile-sub">
+        <a href="/clareamento-dental/">Clareamento Dental</a>
+        <a href="/toxina-botulinica/">Toxina Botulínica</a>
+        <a href="/implantes/">Implantes</a>
+        <a href="/protese-dentaria/">Prótese Dentária</a>
+        <a href="/endodontia/">Endodontia</a>
+      </div>
+    </div>
+    <a href="/blog/">Blog</a>
+    <a href="/contato/">Contato</a>
+    <a href="https://wa.me/5521976939004" target="_blank" rel="noopener">📱 Agendar Consulta</a>
+  </div>
+</header><!-- #masthead -->
 			<div id="content" class="site-content">
 		<div class="ast-container">
 		
@@ -359,8 +458,19 @@ class="post-29230 post type-post status-publish format-standard has-post-thumbna
 		<div class="ast-breadcrumbs-inner">
 			<nav role="navigation" aria-label="Caminho de navegação" class="breadcrumb-trail breadcrumbs"><div class="ast-breadcrumbs"><ul class="trail-items"><li class="trail-item trail-begin"><a href="https://stelleodontologia.com.br/blog/" rel="home"><span>Início</span></a></li><li class="trail-item"><a href="https://stelleodontologia.com.br/blog/?cat=saude"><span>Saúde Bucal</span></a></li><li class="trail-item trail-end"><span><span>Alinhadores Invisíveis x Aparelhos Ortodônticos Transparentes: Qual a Melhor Escolha?</span></span></li></ul></div></nav>		</div>
 	</div>
-	
-	
+
+<!-- MENU DE CATEGORIAS -->
+<div class="blog-categories-filter">
+  <div class="blog-categories-inner">
+    <a href="/blog/" class="category-btn">Todos <span class="count">46</span></a>
+    <a href="/blog/?cat=saude-bucal" class="category-btn active">Saúde Bucal <span class="count">20</span></a>
+    <a href="/blog/?cat=ortodontia" class="category-btn">Ortodontia <span class="count">11</span></a>
+    <a href="/blog/?cat=tratamentos" class="category-btn">Tratamentos <span class="count">9</span></a>
+    <a href="/blog/?cat=gestantes" class="category-btn">Gestantes <span class="count">4</span></a>
+    <a href="/blog/?cat=curiosidades" class="category-btn">Curiosidades <span class="count">2</span></a>
+  </div>
+</div>
+
 <div class="ast-post-format- single-layout-1">
 
 	
@@ -1005,7 +1115,28 @@ const a=JSON.parse(document.getElementById("wp-emoji-settings").textContent),o=(
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="position:absolute;left: -100%;" height="0" width="0"><symbol id="icon-anwp-pg-calendar" viewBox="0 0 14 16"><path fill-rule="evenodd" d="M13 2h-1v1.5c0 .28-.22.5-.5.5h-2c-.28 0-.5-.22-.5-.5V2H6v1.5c0 .28-.22.5-.5.5h-2c-.28 0-.5-.22-.5-.5V2H2c-.55 0-1 .45-1 1v11c0 .55.45 1 1 1h11c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm0 12H2V5h11v9zM5 3H4V1h1v2zm6 0h-1V1h1v2zM6 7H5V6h1v1zm2 0H7V6h1v1zm2 0H9V6h1v1zm2 0h-1V6h1v1zM4 9H3V8h1v1zm2 0H5V8h1v1zm2 0H7V8h1v1zm2 0H9V8h1v1zm2 0h-1V8h1v1zm-8 2H3v-1h1v1zm2 0H5v-1h1v1zm2 0H7v-1h1v1zm2 0H9v-1h1v1zm2 0h-1v-1h1v1zm-8 2H3v-1h1v1zm2 0H5v-1h1v1zm2 0H7v-1h1v1zm2 0H9v-1h1v1z"/></symbol><symbol id="icon-anwp-pg-chevron-left" viewBox="0 0 24 24"><path d="M15 18l-6-6 6-6"/></symbol><symbol id="icon-anwp-pg-chevron-right" viewBox="0 0 24 24"><path d="M9 18l6-6-6-6"/></symbol><symbol id="icon-anwp-pg-clock" viewBox="0 0 14 16"><path fill-rule="evenodd" d="M8 8h3v2H7c-.55 0-1-.45-1-1V4h2v4zM7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 011.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7z"/></symbol><symbol id="icon-anwp-pg-comment-discussion" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M15 1H6c-.55 0-1 .45-1 1v2H1c-.55 0-1 .45-1 1v6c0 .55.45 1 1 1h1v3l3-3h4c.55 0 1-.45 1-1V9h1l3 3V9h1c.55 0 1-.45 1-1V2c0-.55-.45-1-1-1zM9 11H4.5L3 12.5V11H1V5h4v3c0 .55.45 1 1 1h3v2zm6-3h-2v1.5L11.5 8H6V2h9v6z"/></symbol><symbol id="icon-anwp-pg-device-camera" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M15 3H7c0-.55-.45-1-1-1H2c-.55 0-1 .45-1 1-.55 0-1 .45-1 1v9c0 .55.45 1 1 1h14c.55 0 1-.45 1-1V4c0-.55-.45-1-1-1zM6 5H2V4h4v1zm4.5 7C8.56 12 7 10.44 7 8.5S8.56 5 10.5 5 14 6.56 14 8.5 12.44 12 10.5 12zM13 8.5c0 1.38-1.13 2.5-2.5 2.5S8 9.87 8 8.5 9.13 6 10.5 6 13 7.13 13 8.5z"/></symbol><symbol id="icon-anwp-pg-eye" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></symbol><symbol id="icon-anwp-pg-pencil" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M17.263 2.177a1.75 1.75 0 012.474 0l2.586 2.586a1.75 1.75 0 010 2.474L19.53 10.03l-.012.013L8.69 20.378a1.75 1.75 0 01-.699.409l-5.523 1.68a.75.75 0 01-.935-.935l1.673-5.5a1.75 1.75 0 01.466-.756L14.476 4.963l2.787-2.786zm-2.275 4.371l-10.28 9.813a.25.25 0 00-.067.108l-1.264 4.154 4.177-1.271a.25.25 0 00.1-.059l10.273-9.806-2.94-2.939zM19 8.44l2.263-2.262a.25.25 0 000-.354l-2.586-2.586a.25.25 0 00-.354 0L16.061 5.5 19 8.44z"/></symbol><symbol id="icon-anwp-pg-person" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 2.5a5.5 5.5 0 00-3.096 10.047 9.005 9.005 0 00-5.9 8.18.75.75 0 001.5.045 7.5 7.5 0 0114.993 0 .75.75 0 101.499-.044 9.005 9.005 0 00-5.9-8.181A5.5 5.5 0 0012 2.5zM8 8a4 4 0 118 0 4 4 0 01-8 0z"/></symbol><symbol id="icon-anwp-pg-play" viewBox="0 0 14 16"><path fill-rule="evenodd" d="M14 8A7 7 0 110 8a7 7 0 0114 0zm-8.223 3.482l4.599-3.066a.5.5 0 000-.832L5.777 4.518A.5.5 0 005 4.934v6.132a.5.5 0 00.777.416z"/></symbol><symbol id="icon-anwp-pg-tag" viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7.685 1.72a2.49 2.49 0 00-1.76-.726H3.48A2.5 2.5 0 00.994 3.48v2.456c0 .656.269 1.292.726 1.76l6.024 6.024a.99.99 0 001.402 0l4.563-4.563a.99.99 0 000-1.402L7.685 1.72zM2.366 7.048a1.54 1.54 0 01-.467-1.123V3.48c0-.874.716-1.58 1.58-1.58h2.456c.418 0 .825.159 1.123.467l6.104 6.094-4.702 4.702-6.094-6.114zm.626-4.066h1.989v1.989H2.982V2.982h.01z"/></symbol><symbol id="icon-anwp-pg-trash" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M16 1.75V3h5.25a.75.75 0 010 1.5H2.75a.75.75 0 010-1.5H8V1.75C8 .784 8.784 0 9.75 0h4.5C15.216 0 16 .784 16 1.75zm-6.5 0a.25.25 0 01.25-.25h4.5a.25.25 0 01.25.25V3h-5V1.75z"/><path d="M4.997 6.178a.75.75 0 10-1.493.144L4.916 20.92a1.75 1.75 0 001.742 1.58h10.684a1.75 1.75 0 001.742-1.581l1.413-14.597a.75.75 0 00-1.494-.144l-1.412 14.596a.25.25 0 01-.249.226H6.658a.25.25 0 01-.249-.226L4.997 6.178z"/><path d="M9.206 7.501a.75.75 0 01.793.705l.5 8.5A.75.75 0 119 16.794l-.5-8.5a.75.75 0 01.705-.793zm6.293.793A.75.75 0 1014 8.206l-.5 8.5a.75.75 0 001.498.088l.5-8.5z"/></symbol></svg><script>window.lazyLoadOptions=[{elements_selector:"img[data-lazy-src],.rocket-lazyload",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,callback_loaded:function(element){if(element.tagName==="IFRAME"&&element.dataset.rocketLazyload=="fitvidscompatible"){if(element.classList.contains("lazyloaded")){if(typeof window.jQuery!="undefined"){if(jQuery.fn.fitVids){jQuery(element).parent().fitVids()}}}}}},{elements_selector:".rocket-lazyload",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,}];window.addEventListener('LazyLoad::Initialized',function(e){var lazyLoadInstance=e.detail.instance;if(window.MutationObserver){var observer=new MutationObserver(function(mutations){var image_count=0;var iframe_count=0;var rocketlazy_count=0;mutations.forEach(function(mutation){for(var i=0;i<mutation.addedNodes.length;i++){if(typeof mutation.addedNodes[i].getElementsByTagName!=='function'){continue}
 if(typeof mutation.addedNodes[i].getElementsByClassName!=='function'){continue}
 images=mutation.addedNodes[i].getElementsByTagName('img');is_image=mutation.addedNodes[i].tagName=="IMG";iframes=mutation.addedNodes[i].getElementsByTagName('iframe');is_iframe=mutation.addedNodes[i].tagName=="IFRAME";rocket_lazy=mutation.addedNodes[i].getElementsByClassName('rocket-lazyload');image_count+=images.length;iframe_count+=iframes.length;rocketlazy_count+=rocket_lazy.length;if(is_image){image_count+=1}
-if(is_iframe){iframe_count+=1}}});if(image_count>0||iframe_count>0||rocketlazy_count>0){lazyLoadInstance.update()}});var b=document.getElementsByTagName("body")[0];var config={childList:!0,subtree:!0};observer.observe(b,config)}},!1)</script><script data-no-minify="1" async src="https://stelleodontologia.com.br/wp-content/plugins/wp-rocket/assets/js/lazyload/17.8.3/lazyload.min.js"></script>	<script>var rocket_lcp_data = {"ajax_url":"https:\/\/blog.stelleodontologia.com.br\/wp-admin\/admin-ajax.php","nonce":"20318946c6","url":"https:\/\/blog.stelleodontologia.com.br\/aparelho-transparente-vs-alinhadores","is_mobile":false,"elements":"img, video, picture, p, main, div, li, svg, section, header","width_threshold":1600,"height_threshold":700,"delay":500,"debug":null}</script><script data-name="wpr-lcp-beacon" src='https://stelleodontologia.com.br/wp-content/plugins/wp-rocket/assets/js/lcp-beacon.min.js' async></script><script>class RocketElementorAnimation{constructor(){this.deviceMode=document.createElement("span"),this.deviceMode.id="elementor-device-mode-wpr",this.deviceMode.setAttribute("class","elementor-screen-only"),document.body.appendChild(this.deviceMode)}_detectAnimations(){let t=getComputedStyle(this.deviceMode,":after").content.replace(/"/g,"");this.animationSettingKeys=this._listAnimationSettingsKeys(t),document.querySelectorAll(".elementor-invisible[data-settings]").forEach(t=>{const e=t.getBoundingClientRect();if(e.bottom>=0&&e.top<=window.innerHeight)try{this._animateElement(t)}catch(t){}})}_animateElement(t){const e=JSON.parse(t.dataset.settings),i=e._animation_delay||e.animation_delay||0,n=e[this.animationSettingKeys.find(t=>e[t])];if("none"===n)return void t.classList.remove("elementor-invisible");t.classList.remove(n),this.currentAnimation&&t.classList.remove(this.currentAnimation),this.currentAnimation=n;let s=setTimeout(()=>{t.classList.remove("elementor-invisible"),t.classList.add("animated",n),this._removeAnimationSettings(t,e)},i);window.addEventListener("rocket-startLoading",function(){clearTimeout(s)})}_listAnimationSettingsKeys(t="mobile"){const e=[""];switch(t){case"mobile":e.unshift("_mobile");case"tablet":e.unshift("_tablet");case"desktop":e.unshift("_desktop")}const i=[];return["animation","_animation"].forEach(t=>{e.forEach(e=>{i.push(t+e)})}),i}_removeAnimationSettings(t,e){this._listAnimationSettingsKeys().forEach(t=>delete e[t]),t.dataset.settings=JSON.stringify(e)}static run(){const t=new RocketElementorAnimation;requestAnimationFrame(t._detectAnimations.bind(t))}}document.addEventListener("DOMContentLoaded",RocketElementorAnimation.run);</script></body>
+if(is_iframe){iframe_count+=1}}});if(image_count>0||iframe_count>0||rocketlazy_count>0){lazyLoadInstance.update()}});var b=document.getElementsByTagName("body")[0];var config={childList:!0,subtree:!0};observer.observe(b,config)}},!1)</script><script data-no-minify="1" async src="https://stelleodontologia.com.br/wp-content/plugins/wp-rocket/assets/js/lazyload/17.8.3/lazyload.min.js"></script>	<script>var rocket_lcp_data = {"ajax_url":"https:\/\/blog.stelleodontologia.com.br\/wp-admin\/admin-ajax.php","nonce":"20318946c6","url":"https:\/\/blog.stelleodontologia.com.br\/aparelho-transparente-vs-alinhadores","is_mobile":false,"elements":"img, video, picture, p, main, div, li, svg, section, header","width_threshold":1600,"height_threshold":700,"delay":500,"debug":null}</script><script data-name="wpr-lcp-beacon" src='https://stelleodontologia.com.br/wp-content/plugins/wp-rocket/assets/js/lcp-beacon.min.js' async></script><script>class RocketElementorAnimation{constructor(){this.deviceMode=document.createElement("span"),this.deviceMode.id="elementor-device-mode-wpr",this.deviceMode.setAttribute("class","elementor-screen-only"),document.body.appendChild(this.deviceMode)}_detectAnimations(){let t=getComputedStyle(this.deviceMode,":after").content.replace(/"/g,"");this.animationSettingKeys=this._listAnimationSettingsKeys(t),document.querySelectorAll(".elementor-invisible[data-settings]").forEach(t=>{const e=t.getBoundingClientRect();if(e.bottom>=0&&e.top<=window.innerHeight)try{this._animateElement(t)}catch(t){}})}_animateElement(t){const e=JSON.parse(t.dataset.settings),i=e._animation_delay||e.animation_delay||0,n=e[this.animationSettingKeys.find(t=>e[t])];if("none"===n)return void t.classList.remove("elementor-invisible");t.classList.remove(n),this.currentAnimation&&t.classList.remove(this.currentAnimation),this.currentAnimation=n;let s=setTimeout(()=>{t.classList.remove("elementor-invisible"),t.classList.add("animated",n),this._removeAnimationSettings(t,e)},i);window.addEventListener("rocket-startLoading",function(){clearTimeout(s)})}_listAnimationSettingsKeys(t="mobile"){const e=[""];switch(t){case"mobile":e.unshift("_mobile");case"tablet":e.unshift("_tablet");case"desktop":e.unshift("_desktop")}const i=[];return["animation","_animation"].forEach(t=>{e.forEach(e=>{i.push(t+e)})}),i}_removeAnimationSettings(t,e){this._listAnimationSettingsKeys().forEach(t=>delete e[t]),t.dataset.settings=JSON.stringify(e)}static run(){const t=new RocketElementorAnimation;requestAnimationFrame(t._detectAnimations.bind(t))}}document.addEventListener("DOMContentLoaded",RocketElementorAnimation.run);</script>
+<script>
+function stelleToggleDropdown(e, el) {
+  e.preventDefault();
+  const li = el.parentElement;
+  document.querySelectorAll('.stelle-nav-dropdown.open').forEach(d => { if (d !== li) d.classList.remove('open'); });
+  li.classList.toggle('open');
+}
+document.addEventListener('click', function(e) {
+  if (!e.target.closest('.stelle-nav-dropdown')) {
+    document.querySelectorAll('.stelle-nav-dropdown.open').forEach(d => d.classList.remove('open'));
+  }
+});
+function stelleToggleMobile() {
+  document.getElementById('stelleMobileNav').classList.toggle('open');
+}
+function stelleToggleMobileSub(btn) {
+  btn.classList.toggle('open');
+  btn.nextElementSibling.classList.toggle('open');
+}
+</script>
+</body>
 </html>
 
 <!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me - Debug: cached@1783373919 -->
