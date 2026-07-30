@@ -10,7 +10,22 @@ description: Padronizar header, navegação e menu de categorias de artigos do b
 Garantir que todo artigo do blog tenha:
 1. **Header oficial** (`.stelle-header`) — logo, menu com dropdowns, CTA WhatsApp, menu mobile
 2. **Menu de categorias** — filtros de categoria logo abaixo do breadcrumb
-3. Sem quebrar o conteúdo do artigo, sem duplicar nada, sem referências a arquivos inexistentes
+3. **Autoria da Dra. Késya Nogueira** (CRO-RJ 45996) — schema.org, byline visível, bio no rodapé
+4. Sem quebrar o conteúdo do artigo, sem duplicar nada, sem referências a arquivos inexistentes
+
+## ESCOPO PERMANENTE (sempre incluir, toda vez)
+
+Toda atualização de artigo via esta skill deve incluir, além da padronização estrutural:
+
+1. **Checar links quebrados** — extrair todos os `href` de `<a>` no artigo (internos e
+   externos) e testar com `curl -sI` ou similar. Reportar/corrigir qualquer 404.
+2. **Analisar o artigo em busca de melhorias** — duplicação de conteúdo com outro artigo do
+   site (mesmo padrão dos casos "guia-completo-2025/2026" e "quanto-custam-2025/2026"),
+   inconsistências de data/ano, oportunidades de SEO (schema FAQPage se houver seção de
+   perguntas frequentes, meta description fraca, links internos faltando para artigos
+   relacionados).
+
+Isso não é opcional nem precisa ser pedido de novo a cada artigo — é parte do processo.
 
 ## Artigo de referência (fonte da verdade)
 
