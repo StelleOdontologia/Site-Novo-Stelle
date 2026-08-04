@@ -6,6 +6,16 @@
       "permanent": true
     },
     {
+      "source": "/ortodontia-completa",
+      "destination": "/ortodontia-fixa/",
+      "permanent": true
+    },
+    {
+      "source": "/ortodontia-completa/",
+      "destination": "/ortodontia-fixa/",
+      "permanent": true
+    },
+    {
       "source": "/miofuncional",
       "destination": "/ortodontia-miofuncional/",
       "permanent": true
@@ -22,12 +32,12 @@
     },
     {
       "source": "/implante-dentario",
-      "destination": "https://blog.stelleodontologia.com.br/implante-dentario/",
+      "destination": "/implantes/",
       "permanent": true
     },
     {
       "source": "/implante-dentario/",
-      "destination": "https://blog.stelleodontologia.com.br/implante-dentario/",
+      "destination": "/implantes/",
       "permanent": true
     },
     {
