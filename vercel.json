@@ -166,7 +166,32 @@
       "permanent": true
     },
     {
-      "source": "/author/:path*",
+      "source": "/author/principal-stelle",
+      "destination": "/sobre/",
+      "permanent": true
+    },
+    {
+      "source": "/author/principal-stelle/",
+      "destination": "/sobre/",
+      "permanent": true
+    },
+    {
+      "source": "/author/dra-kesya-nogueira",
+      "destination": "/sobre/",
+      "permanent": true
+    },
+    {
+      "source": "/author/dra-kesya-nogueira/",
+      "destination": "/sobre/",
+      "permanent": true
+    },
+    {
+      "source": "/author/stelle-odontologia",
+      "destination": "/sobre/",
+      "permanent": true
+    },
+    {
+      "source": "/author/stelle-odontologia/",
       "destination": "/sobre/",
       "permanent": true
     },
