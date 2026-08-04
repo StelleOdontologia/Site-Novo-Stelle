@@ -167,7 +167,7 @@
     },
     {
       "source": "/author/:path*",
-      "destination": "https://blog.stelleodontologia.com.br/author/:path*",
+      "destination": "/sobre/",
       "permanent": true
     },
     {
