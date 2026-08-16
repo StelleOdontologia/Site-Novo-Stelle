@@ -1,0 +1,112 @@
+{
+  "slug": "bruxismo",
+  "titulo_meta": "Bruxismo: Guia Completo - Causas e Tratamentos - Stelle",
+  "titulo_h1": "Bruxismo: Guia Completo sobre Causas, Sintomas e Tratamentos",
+  "meta_description": "Guia completo sobre bruxismo: causas, sintomas, riscos e tratamentos (placa, botox e mais). Saiba como identificar e tratar em Taquara, RJ.",
+  "categoria": "tratamentos",
+  "autor": "dra-kesya-nogueira",
+  "cluster_pai": null,
+  "cluster_filhos": ["bruxismo-do-sono", "placa-de-bruxismo"],
+  "capa": {
+    "url": "/assets/recovered/2023/11/O-que-e-Bruxismo-1024x576.png",
+    "srcset": "/assets/recovered/2023/11/O-que-e-Bruxismo-300x169.png 300w, /assets/recovered/2023/11/O-que-e-Bruxismo-768x432.png 768w, /assets/recovered/2023/11/O-que-e-Bruxismo-1024x576.png 1024w, /assets/recovered/2023/11/O-que-e-Bruxismo.png 1366w",
+    "og": "https://stelleodontologia.com.br/assets/recovered/2023/11/O-que-e-Bruxismo-1024x576.png",
+    "alt": "Ilustração representando o bruxismo, o hábito de ranger os dentes"
+  },
+  "publicado": true,
+  "publicado_em": "2023-11-28",
+  "atualizado_em": "2026-08-16",
+  "blocos": [
+    { "tipo": "paragrafo", "texto": "O <strong>bruxismo</strong> é o hábito involuntário de ranger ou apertar os dentes, e vai muito além do simples barulho durante o sono: pode causar dor de cabeça, dor na mandíbula, desgaste dentário severo e até fraturas nos dentes. É considerado o terceiro distúrbio do sono mais comum, atrás apenas do sonambulismo e do ronco, e atinge adultos e crianças, sem distinção de gênero." },
+    { "tipo": "paragrafo", "texto": "Este é o nosso <strong>guia completo sobre bruxismo</strong>: aqui você encontra o que é, por que acontece, como identificar os sinais, o que pode acontecer se não for tratado e quais são as opções de tratamento disponíveis hoje. Ao longo do texto, você vai encontrar links para artigos mais específicos sobre cada subtema, como <a href=\"https://stelleodontologia.com.br/bruxismo-do-sono/\">bruxismo do sono</a> e <a href=\"https://stelleodontologia.com.br/placa-de-bruxismo/\">placa de bruxismo</a>." },
+
+    { "tipo": "imagem", "url": "/assets/recovered/2023/11/O-que-e-Bruxismo-1024x576.png", "alt": "Ilustração representando o bruxismo, o hábito de ranger os dentes" },
+
+    { "tipo": "titulo", "nivel": 2, "texto": "1. O Que É Bruxismo?" },
+    { "tipo": "paragrafo", "texto": "Bruxismo é o ato de ranger, apertar ou friccionar os dentes de forma involuntária. Existem dois tipos principais, e a distinção entre eles é importante para o tratamento certo:" },
+    { "tipo": "lista", "itens": [
+        "<strong>Bruxismo do sono:</strong> ocorre durante a noite, de forma inconsciente. É o mais comum e o mais difícil de perceber sozinho — geralmente quem descobre é um parceiro de quarto que ouve o ranger dos dentes, ou o próprio dentista, ao notar o desgaste no exame.",
+        "<strong>Bruxismo em vigília (ou briquismo):</strong> acontece durante o dia, em momentos de concentração, estresse ou tensão — muita gente aperta os dentes sem perceber enquanto trabalha, dirige ou está no computador."
+    ]},
+    { "tipo": "paragrafo", "texto": "Os dois tipos podem causar os mesmos danos: desgaste do esmalte, sensibilidade, dor muscular e problemas na articulação da mandíbula. Veja nosso artigo dedicado sobre <a href=\"https://stelleodontologia.com.br/bruxismo-do-sono/\">bruxismo do sono</a>, com os sinais para identificar e como tratar." },
+
+    { "tipo": "titulo", "nivel": 2, "texto": "2. Causas do Bruxismo" },
+    { "tipo": "paragrafo", "texto": "As causas exatas do bruxismo ainda não são totalmente conhecidas pela ciência, mas alguns fatores aparecem com frequência associados ao problema:" },
+    { "tipo": "lista", "itens": [
+        "<strong>Estresse e ansiedade:</strong> o fator mais comumente relacionado ao bruxismo, tanto do sono quanto em vigília.",
+        "<strong>Má oclusão dentária:</strong> quando os dentes superiores e inferiores não se encaixam corretamente, o corpo tende a \"buscar\" um encaixe, gerando o ranger.",
+        "<strong>Respiração bucal:</strong> a boca seca pela passagem constante de ar pode estimular movimentos involuntários dos dentes.",
+        "<strong>Distúrbios do sono:</strong> como apneia do sono — nesses casos, o bruxismo pode ser uma resposta do corpo a microdespertares durante episódios de obstrução respiratória.",
+        "<strong>Uso de estimulantes:</strong> cafeína em excesso, álcool, tabagismo e alguns medicamentos também são apontados como fatores de risco.",
+        "<strong>Fatores genéticos:</strong> quem tem histórico familiar de bruxismo tem mais chance de desenvolver o hábito."
+    ]},
+    { "tipo": "paragrafo", "texto": "Descobrir a causa por trás do seu bruxismo é o primeiro passo para um tratamento eficaz — por isso a avaliação com um dentista é sempre o ponto de partida, e não apenas o uso de uma placa por conta própria." },
+
+    { "tipo": "imagem", "url": "/assets/recovered/2023/11/O-que-e-Bruxismo-1-768x432.png", "alt": "Pessoa com dor na mandíbula, sintoma comum do bruxismo" },
+
+    { "tipo": "titulo", "nivel": 2, "texto": "3. Sintomas do Bruxismo: Como Identificar" },
+    { "tipo": "paragrafo", "texto": "Como o bruxismo do sono acontece enquanto você dorme, é difícil perceber sozinho que está rangendo os dentes. Fique atento a estes sinais:" },
+    { "tipo": "lista", "itens": [
+        "Dor de cabeça ao acordar, principalmente nas têmporas;",
+        "Dor ou sensação de cansaço na mandíbula pela manhã;",
+        "Estalos ou dificuldade para abrir bem a boca;",
+        "Dentes sensíveis ao frio ou ao morder;",
+        "Dentes visivelmente desgastados, lascados ou trincados;",
+        "Dor ou zumbido no ouvido sem causa aparente;",
+        "Dor no pescoço e nos ombros;",
+        "Sono não reparador e sonolência durante o dia."
+    ]},
+    { "tipo": "paragrafo", "texto": "Se você já notou <a href=\"https://stelleodontologia.com.br/meu-dente-quebrou-e-agora/\">um dente lascando ou quebrando sem motivo aparente</a>, o bruxismo é uma das causas mais comuns — vale investigar." },
+
+    { "tipo": "titulo", "nivel": 2, "texto": "4. Bruxismo Infantil" },
+    { "tipo": "paragrafo", "texto": "O bruxismo também é comum em crianças, principalmente durante a troca dos dentes de leite pelos permanentes. Na maioria dos casos tende a diminuir com o crescimento, mas merece atenção: os sintomas típicos incluem dor de cabeça, dificuldade para mastigar e cansaço durante o dia, o que pode impactar a atenção e o desempenho escolar." },
+    { "tipo": "paragrafo", "texto": "Se a criança range os dentes com frequência ou reclama de dor na mandíbula, vale agendar uma avaliação — em muitos casos o bruxismo infantil está ligado à respiração bucal ou a hábitos que também afetam o desenvolvimento da <a href=\"https://stelleodontologia.com.br/ortodontia-miofuncional/\">ortodontia miofuncional</a>." },
+
+    { "tipo": "titulo", "nivel": 2, "texto": "5. O Que Acontece Se o Bruxismo Não For Tratado?" },
+    { "tipo": "paragrafo", "texto": "O bruxismo não tratado tende a piorar com o tempo, e as consequências vão muito além do desconforto:" },
+    { "tipo": "lista", "itens": [
+        "<strong>Desgaste severo do esmalte</strong>, deixando os dentes mais curtos, sensíveis e suscetíveis a cáries;",
+        "<strong>Fraturas e trincas nos dentes</strong>, que em casos graves podem exigir tratamento de canal ou coroa;",
+        "<strong>DTM (Disfunção Temporomandibular)</strong> — dor crônica na articulação da mandíbula, com estalos e limitação de movimento;",
+        "<strong>Dores de cabeça recorrentes</strong>, muitas vezes confundidas com enxaqueca;",
+        "<strong>Recessão gengival</strong> pela força excessiva sobre os dentes."
+    ]},
+    { "tipo": "paragrafo", "texto": "Se você sente <a href=\"https://stelleodontologia.com.br/guia-completo-sobre-remedio-para-dor-de-dente-dicas-e-recomendacoes/\">dor de dente persistente</a> e não sabe a causa, o bruxismo é um dos primeiros pontos que investigamos na consulta." },
+
+    { "tipo": "titulo", "nivel": 2, "texto": "6. Como É Feito o Diagnóstico do Bruxismo?" },
+    { "tipo": "paragrafo", "texto": "O diagnóstico começa com uma avaliação clínica: o dentista examina o desgaste dos dentes, a musculatura da face e a articulação da mandíbula, além de perguntar sobre qualidade do sono, estresse e hábitos do dia a dia. Em casos mais complexos, principalmente quando há suspeita de apneia do sono associada, pode ser indicada uma <strong>polissonografia</strong> — exame que monitora a atividade cerebral, muscular e respiratória durante o sono." },
+
+    { "tipo": "titulo", "nivel": 2, "texto": "7. Tratamentos para Bruxismo" },
+    { "tipo": "paragrafo", "texto": "Não existe uma cura definitiva única para o bruxismo, mas há diversas formas de controlar o hábito, proteger os dentes e aliviar os sintomas:" },
+    { "tipo": "lista", "itens": [
+        "<strong><a href=\"https://stelleodontologia.com.br/placa-de-bruxismo/\">Placa de bruxismo</a> (placa de mordida):</strong> feita sob medida pelo dentista, é a proteção mais indicada para evitar o desgaste dos dentes durante o sono.",
+        "<strong>Toxina botulínica (Botox):</strong> aplicada nos músculos da mastigação, reduz a força do aperto e alivia a dor muscular — veja mais na nossa página sobre <a href=\"https://stelleodontologia.com.br/toxina-botulinica/\">toxina botulínica odontológica</a>.",
+        "<strong>Controle do estresse:</strong> terapia, atividade física e técnicas de relaxamento ajudam bastante nos casos ligados à ansiedade.",
+        "<strong>Correção da respiração bucal:</strong> quando o bruxismo está associado à respiração pela boca, terapias miofuncionais podem tratar a causa, não só o sintoma.",
+        "<strong>Ajuste oclusal:</strong> em casos de má oclusão, o tratamento ortodôntico pode ser necessário para eliminar o gatilho do bruxismo."
+    ]},
+    { "tipo": "paragrafo", "texto": "O tratamento ideal depende da causa identificada na avaliação — por isso reforçamos: evite comprar uma placa \"genérica\" sem antes passar por um dentista." },
+
+    { "tipo": "titulo", "nivel": 2, "texto": "8. Convivendo com o Bruxismo: Cuidados no Dia a Dia" },
+    { "tipo": "lista", "itens": [
+        "Use a placa de bruxismo todas as noites, conforme orientado pelo dentista;",
+        "Reduza o consumo de cafeína e álcool, principalmente à noite;",
+        "Pratique técnicas de relaxamento antes de dormir;",
+        "Evite mastigar chicletes ou objetos por longos períodos durante o dia — isso sobrecarrega a musculatura;",
+        "Fique atento a sinais de tensão na mandíbula durante o dia e tente relaxar conscientemente o maxilar;",
+        "Faça acompanhamento odontológico regular para monitorar o desgaste dos dentes."
+    ]},
+
+    { "tipo": "faq", "titulo": "9. Perguntas Frequentes sobre Bruxismo", "perguntas": [
+      { "pergunta": "Bruxismo tem cura?", "resposta": "Não existe uma cura única e definitiva, mas é totalmente possível controlar o hábito e eliminar os sintomas tratando a causa (estresse, má oclusão, respiração bucal) e protegendo os dentes com placa de bruxismo." },
+      { "pergunta": "Como saber se eu tenho bruxismo do sono?", "resposta": "Os sinais mais comuns são dor de cabeça e na mandíbula ao acordar, dentes desgastados ou sensíveis, e relatos de quem dorme perto de você ouvindo o ranger. O diagnóstico definitivo é feito pelo dentista no exame clínico." },
+      { "pergunta": "Placa de bruxismo dói ou incomoda para dormir?", "resposta": "É normal um pequeno estranhamento nos primeiros dias, mas a placa é feita sob medida para o seu encaixe e não deve causar dor. Se incomodar muito, o ideal é retornar ao dentista para ajustes." },
+      { "pergunta": "Botox para bruxismo é seguro?", "resposta": "Sim, quando aplicado por um profissional qualificado. A toxina botulínica reduz a força de contração do músculo masseter, aliviando a dor e o desgaste, sem impedir a mastigação normal." },
+      { "pergunta": "Bruxismo pode causar dor de ouvido?", "resposta": "Sim. A articulação da mandíbula fica bem próxima ao ouvido, e a tensão muscular do bruxismo pode gerar dor, zumbido ou sensação de ouvido tampado." },
+      { "pergunta": "Bruxismo infantil precisa de tratamento?", "resposta": "Depende do caso — muitas vezes diminui sozinho com o crescimento, mas se a criança sente dor ou o desgaste dos dentes é visível, vale uma avaliação odontológica." }
+    ]},
+
+    { "tipo": "titulo", "nivel": 2, "texto": "Conclusão" },
+    { "tipo": "paragrafo", "texto": "O bruxismo é muito mais comum do que parece, e ignorá-lo pode custar caro — literalmente, em tratamentos futuros para reparar dentes desgastados ou fraturados. Se você reconheceu algum dos sintomas descritos aqui, o melhor caminho é agendar uma avaliação para identificar a causa e começar o tratamento certo. Continue acompanhando este guia: vamos atualizá-lo com links para os artigos específicos sobre cada tratamento à medida que forem publicados." }
+  ]
+}

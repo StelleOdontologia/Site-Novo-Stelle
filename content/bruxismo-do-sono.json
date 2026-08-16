@@ -1,0 +1,62 @@
+{
+  "slug": "bruxismo-do-sono",
+  "titulo_meta": "Bruxismo do Sono: Como Identificar e Tratar - Stelle",
+  "titulo_h1": "Bruxismo do Sono: Como Identificar e Tratar",
+  "meta_description": "Bruxismo do sono: veja os sinais de que você range os dentes dormindo, por que acontece e como é feito o diagnóstico e o tratamento.",
+  "categoria": "tratamentos",
+  "autor": "dra-kesya-nogueira",
+  "cluster_pai": "bruxismo",
+  "capa": {
+    "url": "/assets/blog/bruxismo-do-sono-capa-1024x576.webp",
+    "srcset": "/assets/blog/bruxismo-do-sono-capa-300x169.webp 300w, /assets/blog/bruxismo-do-sono-capa-768x432.webp 768w, /assets/blog/bruxismo-do-sono-capa-1024x576.webp 1024w, /assets/blog/bruxismo-do-sono-capa.webp 1280w",
+    "og": "https://stelleodontologia.com.br/assets/blog/bruxismo-do-sono-capa-1024x576.webp",
+    "alt": "Mulher deitada na cama com dor na mandíbula ao acordar, sintoma comum do bruxismo do sono"
+  },
+  "publicado": true,
+  "publicado_em": "2026-08-15",
+  "atualizado_em": "2026-08-16",
+  "blocos": [
+    { "tipo": "pillar_badge", "texto": "Parte do Guia Completo sobre Bruxismo", "link": "/bruxismo/" },
+    { "tipo": "paragrafo", "texto": "Quem tem <strong>bruxismo do sono</strong> quase nunca percebe sozinho — o hábito de ranger ou apertar os dentes acontece de forma inconsciente, durante o sono profundo. Na maioria das vezes, quem descobre primeiro é a pessoa que dorme ao lado, ao ouvir o ranger, ou o próprio dentista, ao notar o desgaste característico nos dentes durante uma consulta de rotina." },
+    { "tipo": "paragrafo", "texto": "Este artigo faz parte do nosso <a href=\"/bruxismo/\">guia completo sobre bruxismo</a> e aprofunda especificamente o tipo que acontece à noite: como identificar, por que acontece durante o sono e o que fazer a respeito." },
+
+    { "tipo": "titulo", "nivel": 2, "texto": "Como Saber se Você Range os Dentes Dormindo" },
+    { "tipo": "paragrafo", "texto": "Como o episódio em si é difícil de perceber, preste atenção nestes sinais indiretos, especialmente ao acordar:" },
+    { "tipo": "lista", "itens": [
+        "Dor de cabeça ou nas têmporas logo pela manhã;",
+        "Sensação de cansaço ou tensão na mandíbula ao despertar;",
+        "Dentes mais sensíveis ao frio do que o normal;",
+        "Relatos de quem dorme perto de você sobre o barulho do ranger;",
+        "Desgaste visível nos dentes, identificado pelo dentista no exame."
+    ]},
+    { "tipo": "paragrafo", "texto": "Se dois ou mais desses sinais forem frequentes, vale marcar uma avaliação — o diagnóstico clínico é sempre o próximo passo antes de qualquer tratamento." },
+
+    { "tipo": "titulo", "nivel": 2, "texto": "Por Que o Bruxismo Acontece Durante o Sono" },
+    { "tipo": "paragrafo", "texto": "O bruxismo do sono está ligado a microdespertares — pequenas interrupções no ciclo do sono, muitas vezes imperceptíveis, durante as quais a musculatura da mastigação se ativa. Os fatores mais associados a isso incluem:" },
+    { "tipo": "lista", "itens": [
+        "<strong>Estresse e ansiedade acumulados durante o dia</strong>, que se manifestam fisicamente à noite;",
+        "<strong>Apneia do sono</strong> — em muitos casos, o bruxismo é uma resposta do corpo a episódios de obstrução respiratória durante a noite;",
+        "<strong>Má oclusão dentária</strong>, quando os dentes não se encaixam bem;",
+        "<strong>Respiração bucal durante o sono</strong>, que resseca a boca e pode estimular o movimento dos dentes."
+    ]},
+
+    { "tipo": "titulo", "nivel": 2, "texto": "Riscos de Não Tratar o Bruxismo do Sono" },
+    { "tipo": "paragrafo", "texto": "Por acontecer todas as noites, sem controle consciente, o bruxismo do sono tende a causar um desgaste mais acentuado do que o bruxismo em vigília. Sem tratamento, os riscos incluem desgaste severo do esmalte, fraturas nos dentes, dores crônicas na articulação da mandíbula (DTM) e piora na qualidade do sono — o que reflete em cansaço e dificuldade de concentração durante o dia." },
+
+    { "tipo": "titulo", "nivel": 2, "texto": "Diagnóstico e Tratamento" },
+    { "tipo": "paragrafo", "texto": "O diagnóstico começa com uma avaliação clínica do desgaste dentário e da musculatura facial. Quando há suspeita de apneia do sono associada, uma <strong>polissonografia</strong> pode ser indicada para monitorar a atividade durante o sono." },
+    { "tipo": "paragrafo", "texto": "O tratamento mais comum é a <a href=\"/placa-de-bruxismo/\">placa de bruxismo</a>, feita sob medida para proteger os dentes durante a noite. Quando a causa está ligada a estresse, apneia ou respiração bucal, o tratamento dessas causas de base é igualmente importante." },
+
+    { "tipo": "callout", "texto": "Notou sinais de bruxismo do sono? Agende uma avaliação e descubra a causa antes que o desgaste avance.", "cta_texto": "Agendar avaliação", "cta_link": "https://wa.me/5521976939004?text=Gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20sobre%20bruxismo%20do%20sono" },
+
+    { "tipo": "faq", "perguntas": [
+      { "pergunta": "Como descobrir se eu range os dentes dormindo?", "resposta": "O sinal mais confiável costuma vir de quem dorme perto de você e ouve o barulho. Além disso, dor de cabeça e na mandíbula ao acordar, e desgaste visível nos dentes durante o exame odontológico, também indicam bruxismo do sono." },
+      { "pergunta": "Bruxismo do sono está sempre ligado a estresse?", "resposta": "Não. O estresse é o fator mais comum, mas o bruxismo do sono também pode estar associado a apneia do sono, má oclusão dentária, respiração bucal e uso de certos medicamentos." },
+      { "pergunta": "Existe exame para confirmar o bruxismo do sono?", "resposta": "Sim. Além da avaliação clínica do dentista, pode ser indicada uma polissonografia, exame que monitora a atividade cerebral, muscular e respiratória durante o sono." },
+      { "pergunta": "A placa de bruxismo resolve o problema durante o sono?", "resposta": "A placa não elimina o hábito de ranger os dentes, mas protege o esmalte do desgaste e reduz a sobrecarga na articulação da mandíbula enquanto a causa é tratada." },
+      { "pergunta": "Dormir de um jeito específico ajuda no bruxismo do sono?", "resposta": "Não existe uma posição que elimine o bruxismo, mas manter uma boa rotina de sono, evitar cafeína à noite e reduzir o estresse antes de dormir ajuda a diminuir a frequência dos episódios." }
+    ]},
+
+    { "tipo": "paragrafo", "texto": "Quer entender o quadro completo? Volte ao <a href=\"/bruxismo/\">guia completo sobre bruxismo</a> para ver causas, sintomas e todas as opções de tratamento." }
+  ]
+}

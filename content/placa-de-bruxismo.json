@@ -1,0 +1,59 @@
+{
+  "slug": "placa-de-bruxismo",
+  "titulo_meta": "Placa de Bruxismo: Como Funciona e Cuidados - Stelle",
+  "titulo_h1": "Placa de Bruxismo: Como Funciona, Tipos e Cuidados",
+  "meta_description": "Placa de bruxismo: entenda como funciona, os tipos disponíveis, como é feita e os cuidados para conservar a sua e proteger os dentes.",
+  "categoria": "tratamentos",
+  "autor": "dra-kesya-nogueira",
+  "cluster_pai": "bruxismo",
+  "capa": {
+    "url": "/assets/blog/placa-de-bruxismo-capa-1024x576.webp",
+    "srcset": "/assets/blog/placa-de-bruxismo-capa-300x169.webp 300w, /assets/blog/placa-de-bruxismo-capa-768x432.webp 768w, /assets/blog/placa-de-bruxismo-capa-1024x576.webp 1024w, /assets/blog/placa-de-bruxismo-capa.webp 1280w",
+    "og": "https://stelleodontologia.com.br/assets/blog/placa-de-bruxismo-capa-1024x576.webp",
+    "alt": "Placa de bruxismo transparente, dispositivo odontológico usado para proteger os dentes do desgaste"
+  },
+  "publicado": true,
+  "publicado_em": "2026-08-15",
+  "atualizado_em": "2026-08-16",
+  "blocos": [
+    { "tipo": "pillar_badge", "texto": "Parte do Guia Completo sobre Bruxismo", "link": "/bruxismo/" },
+    { "tipo": "paragrafo", "texto": "A <strong>placa de bruxismo</strong> é o tratamento mais indicado para proteger os dentes de quem range ou aperta os dentes, principalmente durante o sono. Ela não elimina o hábito em si, mas evita que o desgaste continue avançando enquanto a causa do bruxismo é tratada." },
+    { "tipo": "paragrafo", "texto": "Este artigo faz parte do nosso <a href=\"/bruxismo/\">guia completo sobre bruxismo</a> e explica em detalhes como a placa funciona, os tipos disponíveis e os cuidados no dia a dia." },
+
+    { "tipo": "titulo", "nivel": 2, "texto": "Como Funciona a Placa de Bruxismo" },
+    { "tipo": "paragrafo", "texto": "A placa é um dispositivo feito sob medida, geralmente em resina acrílica, que se encaixa nos dentes superiores ou inferiores. Durante o uso — normalmente à noite — ela cria uma barreira física entre as arcadas, absorvendo a força do aperto e evitando o atrito direto entre os dentes." },
+    { "tipo": "paragrafo", "texto": "Isso não impede o cérebro de \"mandar\" o sinal para ranger os dentes, mas protege o esmalte dentário do desgaste direto, além de aliviar a sobrecarga na articulação da mandíbula." },
+
+    { "tipo": "titulo", "nivel": 2, "texto": "Tipos de Placa de Bruxismo" },
+    { "tipo": "lista", "itens": [
+        "<strong>Placa rígida:</strong> a mais indicada para casos de bruxismo mais intenso, feita em resina acrílica dura. É a mais durável.",
+        "<strong>Placa macia (miorrelaxante):</strong> feita em material mais flexível, costuma ser indicada para casos leves ou uso inicial, mas pode se desgastar mais rápido.",
+        "<strong>Placa combinada:</strong> une camadas rígidas e macias, buscando equilíbrio entre conforto e proteção."
+    ]},
+    { "tipo": "paragrafo", "texto": "O tipo ideal depende da intensidade do bruxismo, avaliada pelo dentista no exame clínico." },
+
+    { "tipo": "titulo", "nivel": 2, "texto": "Como é Feita a Placa de Bruxismo" },
+    { "tipo": "paragrafo", "texto": "O processo começa com o registro da arcada dentária, que pode ser feito por moldagem tradicional ou por <a href=\"/escaneamento-intraoral/\">escaneamento intraoral 3D</a> — uma alternativa mais rápida e confortável, sem a massinha de moldagem. A partir desse registro, a placa é confeccionada sob medida para o encaixe exato dos seus dentes." },
+
+    { "tipo": "titulo", "nivel": 2, "texto": "Cuidados com a Placa de Bruxismo" },
+    { "tipo": "lista", "itens": [
+        "Escove a placa com escova macia e água após cada uso;",
+        "Guarde-a sempre no estojo ventilado, nunca em papel ou embrulhada;",
+        "Evite água quente ou produtos abrasivos na limpeza, que podem deformar o material;",
+        "Leve a placa nos retornos ao dentista para avaliação do desgaste;",
+        "Substitua quando indicado — o desgaste natural reduz a proteção ao longo do tempo."
+    ]},
+
+    { "tipo": "callout", "texto": "Precisa de uma placa de bruxismo feita sob medida? Agende uma avaliação e receba a indicação certa para o seu caso.", "cta_texto": "Agendar avaliação", "cta_link": "https://wa.me/5521976939004?text=Gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20para%20placa%20de%20bruxismo" },
+
+    { "tipo": "faq", "perguntas": [
+      { "pergunta": "Placa de bruxismo dói ou incomoda para dormir?", "resposta": "É normal um pequeno estranhamento nos primeiros dias, mas a placa é feita sob medida para o seu encaixe e não deve causar dor. Se incomodar muito, o ideal é retornar ao dentista para ajustes." },
+      { "pergunta": "Quanto tempo dura uma placa de bruxismo?", "resposta": "Depende do material e da intensidade do bruxismo, mas costuma durar de 1 a 2 anos com o uso e a higienização corretos. O dentista avalia o desgaste em cada retorno." },
+      { "pergunta": "A placa de bruxismo cura o bruxismo?", "resposta": "Não. A placa protege os dentes do desgaste, mas não elimina o hábito de ranger ou apertar os dentes — para isso, é preciso tratar a causa, como estresse, má oclusão ou apneia do sono." },
+      { "pergunta": "Posso comprar uma placa de bruxismo pronta, sem ir ao dentista?", "resposta": "Não é recomendado. Placas genéricas não seguem o encaixe exato dos seus dentes e podem até piorar a musculatura da mastigação. A placa ideal é sempre feita sob medida." },
+      { "pergunta": "Como limpar a placa de bruxismo no dia a dia?", "resposta": "Escove a placa com escova macia e água após o uso, guarde-a sempre no estojo ventilado e evite água muito quente, que pode deformar o material." }
+    ]},
+
+    { "tipo": "paragrafo", "texto": "Quer entender o quadro completo? Volte ao <a href=\"/bruxismo/\">guia completo sobre bruxismo</a> ou veja como identificar o <a href=\"/bruxismo-do-sono/\">bruxismo do sono</a>." }
+  ]
+}

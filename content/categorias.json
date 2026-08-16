@@ -1,0 +1,8 @@
+[
+  { "id": "todos", "nome": "Todos", "count": 46, "url": "/blog/" },
+  { "id": "saude-bucal", "nome": "Saúde Bucal", "count": 20, "url": "/blog/?cat=saude-bucal" },
+  { "id": "ortodontia", "nome": "Ortodontia", "count": 11, "url": "/blog/?cat=ortodontia" },
+  { "id": "tratamentos", "nome": "Tratamentos", "count": 9, "url": "/blog/?cat=tratamentos" },
+  { "id": "gestantes", "nome": "Gestantes", "count": 4, "url": "/blog/?cat=gestantes" },
+  { "id": "curiosidades", "nome": "Curiosidades", "count": 2, "url": "/blog/?cat=curiosidades" }
+]
