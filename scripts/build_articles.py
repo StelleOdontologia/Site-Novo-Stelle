@@ -47,6 +47,17 @@ def render_bloco(bloco, article):
         itens = "".join(f"<li>{item}</li>" for item in bloco["itens"])
         return f"<ul>{itens}</ul>"
 
+    if tipo == "tabela":
+        linhas = bloco["linhas"]
+        html = ['<table class="article-table">']
+        if linhas:
+            head, *rest = linhas
+            html.append("<tr>" + "".join(f"<th>{c}</th>" for c in head) + "</tr>")
+            for linha in rest:
+                html.append("<tr>" + "".join(f"<td>{c}</td>" for c in linha) + "</tr>")
+        html.append("</table>")
+        return "\n".join(html)
+
     if tipo == "imagem":
         alt = esc(bloco["alt"])
         return f'<img class="article-inline-img" loading="lazy" src="{bloco["url"]}" alt="{alt}">'
