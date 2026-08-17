@@ -1,0 +1,387 @@
+{
+  "slug": "gengivite-o-que-e-sintomas-tratamento",
+  "titulo_meta": "Gengivite: Sintomas e Tratamento - Stelle Odontologia",
+  "titulo_h1": "Gengivite: O Que É, Sintomas e Como Tratar?",
+  "meta_description": "Gengivite? Saiba como tratar, evitar e reverter essa inflamação gengival antes que vire um problema mais sério. Leia agora!",
+  "categoria": "saude-bucal",
+  "autor": "dra-kesya-nogueira",
+  "cluster_pai": null,
+  "capa": {
+    "url": "/assets/recovered/2025/02/Gengivite-1024x683.webp",
+    "srcset": "/assets/recovered/2025/02/Gengivite-1024x683.webp 1024w, /assets/recovered/2025/02/Gengivite-300x200.webp 300w, /assets/recovered/2025/02/Gengivite-768x512.webp 768w, /assets/recovered/2025/02/Gengivite.webp 1200w",
+    "og": "https://stelleodontologia.com.br/assets/recovered/2025/02/Gengivite-1024x683.webp",
+    "alt": "Imagem ilustrativa mostrando gengiva inflamada, um dos sintomas da gengivite."
+  },
+  "publicado": true,
+  "publicado_em": "2025-02-10",
+  "atualizado_em": "2026-08-14",
+  "blocos": [
+    {
+      "tipo": "titulo",
+      "nivel": 2,
+      "texto": "1. Introdução"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Você já percebeu sua gengiva <strong>avermelhada, inchada ou sangrando ao escovar os dentes</strong>? Esses são sinais clássicos da <strong>gengivite</strong>, uma inflamação gengival comum, mas que pode evoluir para problemas mais graves se não for tratada."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "A gengivite <strong>é a principal causa de sangramento gengival</strong> e está presente em milhões de pessoas no mundo. <strong>Se ignorada, pode levar à periodontite</strong>, uma condição que pode causar a <strong>perda dos dentes</strong>."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Mas a boa notícia é que a gengivite <strong>tem cura</strong>, desde que seja identificada e tratada a tempo. Neste artigo, você aprenderá <strong>as principais causas, sintomas e como tratar gengivite de forma eficaz</strong>."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "📌 <strong>Se sua gengivite já vem acompanhada de inchaço e dor, veja este <a href=\"https://stelleodontologia.com.br/gengiva-inchada-o-que-fazer-causas-sintomas-tratamentos/\">artigo completo sobre gengiva inchada</a>.</strong>"
+    },
+    {
+      "tipo": "titulo",
+      "nivel": 2,
+      "texto": "2. O Que É Gengivite?"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "A gengivite é <strong>uma inflamação na gengiva causada pelo acúmulo de placa bacteriana</strong>. Essa placa, composta por restos de alimentos e bactérias, <strong>gruda na superfície dos dentes e na linha da gengiva</strong>, causando irritação e inflamação."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Se não for tratada, a gengivite pode <strong>evoluir para periodontite</strong>, que é um estágio mais avançado da doença, podendo levar à perda óssea e dentária."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "🔎 <strong>Segundo a <a href=\"https://www.colgate.com.br/\" target=\"_blank\" rel=\"noopener\">Colgate</a>, a gengivite pode ser revertida com bons hábitos de higiene bucal antes que se transforme em um problema mais sério.</strong>"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "📌 <strong>Quer saber mais sobre os riscos da gengiva inchada? Leia este <a href=\"https://stelleodontologia.com.br/gengiva-inchada-o-que-fazer-causas-sintomas-tratamentos/\">artigo completo sobre gengiva inflamada</a>.</strong>"
+    },
+    {
+      "tipo": "titulo",
+      "nivel": 2,
+      "texto": "3. Principais Causas da Gengivite"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "A gengivite pode ter várias origens, mas a <strong>falta de higiene bucal é o principal fator</strong>. No entanto, outros elementos podem influenciar o desenvolvimento da doença."
+    },
+    {
+      "tipo": "titulo",
+      "nivel": 3,
+      "texto": "🦷 1. Placa Bacteriana e Tártaro"
+    },
+    {
+      "tipo": "lista",
+      "itens": [
+        "Quando restos de comida e saliva se acumulam nos dentes, formam <strong>a placa bacteriana</strong>, uma película pegajosa cheia de bactérias.",
+        "Se a placa não for removida corretamente com escovação e fio dental, <strong>se calcifica e se transforma em tártaro</strong>, agravando a inflamação."
+      ]
+    },
+    {
+      "tipo": "titulo",
+      "nivel": 3,
+      "texto": "🪥 2. Higiene Bucal Inadequada"
+    },
+    {
+      "tipo": "lista",
+      "itens": [
+        "Falta de <strong>escovação regular</strong> e <strong>uso de fio dental</strong> permite que as bactérias se proliferem.",
+        "O uso incorreto da escova ou do fio pode <strong>não remover totalmente a placa</strong>."
+      ]
+    },
+    {
+      "tipo": "titulo",
+      "nivel": 3,
+      "texto": "🚬 3. Tabagismo e Álcool"
+    },
+    {
+      "tipo": "lista",
+      "itens": [
+        "Fumar reduz o fluxo sanguíneo na gengiva, enfraquecendo a resposta do sistema imunológico contra bactérias.",
+        "O álcool resseca a boca, favorecendo a formação de placa bacteriana."
+      ]
+    },
+    {
+      "tipo": "titulo",
+      "nivel": 3,
+      "texto": "🤰 4. Mudanças Hormonais"
+    },
+    {
+      "tipo": "lista",
+      "itens": [
+        "Durante a <strong>gravidez, puberdade e menopausa</strong>, os hormônios podem <strong>aumentar o fluxo sanguíneo para a gengiva</strong>, tornando-a mais sensível e propensa à inflamação.",
+        "Esse tipo de gengivite é conhecido como <strong>gengivite gravídica</strong>."
+      ]
+    },
+    {
+      "tipo": "titulo",
+      "nivel": 3,
+      "texto": "🩸 5. Doenças Sistêmicas"
+    },
+    {
+      "tipo": "lista",
+      "itens": [
+        "Condições como <strong>diabetes, leucemia e deficiências nutricionais</strong> podem aumentar o risco de gengivite.",
+        "Pacientes com <strong>diabetes descontrolado</strong> têm maior propensão a inflamações gengivais."
+      ]
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "📌 <strong>Se além da gengivite você percebe sua gengiva inchada, veja as principais causas e como tratar neste <a href=\"https://stelleodontologia.com.br/gengiva-inchada-o-que-fazer-causas-sintomas-tratamentos/\">artigo completo</a>.</strong>"
+    },
+    {
+      "tipo": "titulo",
+      "nivel": 3,
+      "texto": "📊 Tabela Resumo: Principais Causas da Gengivite"
+    },
+    {
+      "tipo": "tabela",
+      "linhas": [
+        [
+          "<strong>Causa</strong>",
+          "<strong>Descrição</strong>",
+          "<strong>Possível Solução</strong>"
+        ],
+        [
+          "Placa bacteriana",
+          "Acúmulo de restos de comida e bactérias.",
+          "Melhorar a higiene bucal."
+        ],
+        [
+          "Tártaro",
+          "Placa endurecida que causa irritação na gengiva.",
+          "Raspagem profissional."
+        ],
+        [
+          "Falta de higiene",
+          "Uso incorreto da escova ou do fio dental.",
+          "Consultar um dentista."
+        ],
+        [
+          "Tabagismo e álcool",
+          "Reduzem a defesa natural da gengiva.",
+          "Evitar esses hábitos."
+        ],
+        [
+          "Mudanças hormonais",
+          "Gravidez, menopausa aumentam a sensibilidade.",
+          "Acompanhamento odontológico."
+        ],
+        [
+          "Doenças sistêmicas",
+          "Diabetes, leucemia afetam a gengiva.",
+          "Tratamento da condição de base."
+        ]
+      ]
+    },
+    {
+      "tipo": "titulo",
+      "nivel": 2,
+      "texto": "4. Sintomas da Gengivite"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "A gengivite <strong>pode passar despercebida nos estágios iniciais</strong>, mas alguns sinais indicam que algo não está certo. Quanto mais cedo for identificada, <strong>mais fácil será o tratamento</strong>."
+    },
+    {
+      "tipo": "titulo",
+      "nivel": 3,
+      "texto": "🔎 Sinais Comuns da Gengivite"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "✔️ <strong>Gengiva avermelhada</strong> ao invés do tom rosado saudável.<br>✔️ <strong>Sangramento ao escovar os dentes ou passar fio dental.</strong><br>✔️ <strong>Inchaço visível</strong>, tornando a gengiva volumosa.<br>✔️ <strong>Mau hálito persistente</strong>, mesmo após a escovação.<br>✔️ <strong>Dor e sensibilidade ao toque ou ao mastigar.</strong><br>✔️ <strong>Sensação de gosto ruim na boca</strong> devido ao acúmulo de bactérias."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Se você já notou <strong>inchaço e dor na gengiva</strong>, isso pode ser um estágio mais avançado da inflamação. 📌 <strong>Veja neste <a href=\"https://stelleodontologia.com.br/gengiva-inchada-o-que-fazer-causas-sintomas-tratamentos/\">artigo completo</a> o que fazer quando a gengiva está inchada.</strong>"
+    },
+    {
+      "tipo": "titulo",
+      "nivel": 2,
+      "texto": "5. Como Tratar a Gengivite?"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "A gengivite pode ser revertida <strong>com bons hábitos de higiene bucal e acompanhamento odontológico adequado</strong>. Veja os principais tratamentos:"
+    },
+    {
+      "tipo": "titulo",
+      "nivel": 3,
+      "texto": "🪥 1. Higiene Bucal Correta"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "🔹 Escovar os dentes <strong>pelo menos 2 vezes ao dia</strong> com creme dental com flúor.<br>🔹 <strong>Usar fio dental diariamente</strong> para remover resíduos entre os dentes.<br>🔹 <strong>Escovar a língua</strong> para reduzir bactérias causadoras de mau hálito."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "📌 <strong>Se a gengiva estiver inchada e dolorida, veja como aliviar o inchaço neste <a href=\"https://stelleodontologia.com.br/gengiva-inchada-o-que-fazer-causas-sintomas-tratamentos/\">artigo completo</a>.</strong>"
+    },
+    {
+      "tipo": "titulo",
+      "nivel": 3,
+      "texto": "🦷 2. Limpeza Profissional no Dentista"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "🔹 Se a placa já se transformou em <strong>tártaro</strong>, apenas um dentista pode removê-lo.<br>🔹 A <strong>raspagem gengival</strong> elimina acúmulos bacterianos abaixo da gengiva."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "🔗 <strong>Fonte externa:</strong> Saiba mais sobre <strong>limpeza profissional</strong> no site da <a href=\"https://www.abo.org.br\" target=\"_blank\" rel=\"noopener\">Associação Brasileira de Odontologia</a>."
+    },
+    {
+      "tipo": "titulo",
+      "nivel": 3,
+      "texto": "🛁 3. Uso de Enxaguantes Bucais"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "✔️ <strong>Clorexidina 0,12%</strong>: recomendada para casos mais graves de gengivite.<br>✔️ <strong>Enxaguantes com flúor</strong>: ajudam a fortalecer o esmalte dos dentes.<br>✔️ <strong>Bochechos caseiros com água morna e sal</strong> podem aliviar inflamações leves."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "🔗 <strong>Fonte externa:</strong> A <a href=\"https://www.colgate.com.br/\" target=\"_blank\" rel=\"noopener\">Colgate</a> recomenda enxaguantes específicos para inflamação gengival."
+    },
+    {
+      "tipo": "titulo",
+      "nivel": 3,
+      "texto": "🍊 4. Alimentação Saudável"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "✔️ <strong>Vitamina C</strong> (laranja, morango, kiwi) ajuda na cicatrização da gengiva.<br>✔️ <strong>Vitamina D</strong> fortalece dentes e gengivas.<br>✔️ <strong>Zinco e ferro</strong> (presentes em carnes e nozes) ajudam na imunidade bucal."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "📌 <strong>Para evitar gengiva inchada e inflamada, confira os melhores alimentos neste <a href=\"https://stelleodontologia.com.br/gengiva-inchada-o-que-fazer-causas-sintomas-tratamentos/\">artigo completo</a>.</strong>"
+    },
+    {
+      "tipo": "titulo",
+      "nivel": 3,
+      "texto": "🌱 5. Remédios Caseiros: O Que Realmente Funciona?"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "🔹 <strong>Chá de camomila</strong>: tem ação anti-inflamatória e pode ser usado como bochecho.<br>🔹 <strong>Óleo de melaleuca (tea tree oil)</strong>: possui propriedades antibacterianas.<br>🔹 <strong>Água com bicarbonato de sódio</strong>: ajuda a neutralizar ácidos na boca."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "⚠️ <strong>Atenção:</strong> Remédios caseiros <strong>não substituem o tratamento odontológico</strong>."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "📌 <strong>Se a gengivite persistir, veja o que fazer quando a gengiva inflamada não melhora neste <a href=\"https://stelleodontologia.com.br/gengiva-inchada-o-que-fazer-causas-sintomas-tratamentos/\">artigo completo</a>.</strong>"
+    },
+    {
+      "tipo": "titulo",
+      "nivel": 2,
+      "texto": "6. Como Prevenir a Gengivite?"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "A gengivite pode ser <strong>100% evitada</strong> com medidas simples de higiene e hábitos saudáveis."
+    },
+    {
+      "tipo": "titulo",
+      "nivel": 3,
+      "texto": "✅ 1. Escove os Dentes Corretamente"
+    },
+    {
+      "tipo": "lista",
+      "itens": [
+        "Utilize uma <strong>escova de cerdas macias</strong> para não machucar a gengiva.",
+        "Escove <strong>por pelo menos 2 minutos</strong>, cobrindo todas as superfícies dos dentes.",
+        "Evite <strong>pressão excessiva</strong>, pois isso pode causar retração gengival."
+      ]
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "🔗 <strong>Fonte externa:</strong> A <a href=\"https://www.mayoclinic.org/diseases-conditions/gingivitis\" target=\"_blank\" rel=\"noopener\">Mayo Clinic</a> recomenda técnicas corretas de escovação para evitar gengivite."
+    },
+    {
+      "tipo": "titulo",
+      "nivel": 3,
+      "texto": "🧵 2. Use Fio Dental Todos os Dias"
+    },
+    {
+      "tipo": "lista",
+      "itens": [
+        "O fio dental <strong>remove resíduos entre os dentes</strong> que a escova não alcança.",
+        "Prefira um <strong>fio dental encerado</strong> para facilitar o uso."
+      ]
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "📌 <strong>Se a gengivite já causou inchaço, veja como tratar a gengiva inchada neste <a href=\"https://stelleodontologia.com.br/gengiva-inchada-o-que-fazer-causas-sintomas-tratamentos/\">artigo completo</a>.</strong>"
+    },
+    {
+      "tipo": "titulo",
+      "nivel": 3,
+      "texto": "🚰 3. Evite Tabaco e Álcool"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "✔️ O cigarro <strong>prejudica a circulação sanguínea da gengiva</strong> e enfraquece a resposta imunológica.<br>✔️ O álcool pode causar <strong>ressecamento bucal</strong>, favorecendo bactérias nocivas."
+    },
+    {
+      "tipo": "titulo",
+      "nivel": 3,
+      "texto": "🦷 4. Faça Check-ups Regulares no Dentista"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "✔️ O ideal é visitar o dentista <strong>a cada 6 meses</strong> para prevenção.<br>✔️ Limpezas profissionais removem <strong>placa e tártaro</strong>, prevenindo gengivite."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "📌 <strong>Se você já tem sintomas de gengivite, veja como tratar a gengiva inflamada neste <a href=\"https://stelleodontologia.com.br/gengiva-inchada-o-que-fazer-causas-sintomas-tratamentos/\">artigo completo</a>.</strong>"
+    },
+    {
+      "tipo": "titulo",
+      "nivel": 2,
+      "texto": "Conclusão"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "A gengivite é <strong>reversível</strong>, mas precisa ser tratada rapidamente para evitar complicações. Manter uma rotina de <strong>higiene bucal adequada, evitar tabaco e ir ao dentista regularmente</strong> são as melhores formas de prevenção."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "📌 <strong>Se sua gengivite está acompanhada de inchaço e dor, veja este <a href=\"https://stelleodontologia.com.br/gengiva-inchada-o-que-fazer-causas-sintomas-tratamentos/\">artigo completo sobre gengiva inchada</a>.</strong>"
+    },
+    {
+      "tipo": "faq",
+      "titulo": "7. Perguntas Frequentes sobre Gengivite",
+      "perguntas": [
+        {
+          "pergunta": "Gengivite pode ser curada apenas com escovação?",
+          "resposta": "Se for leve, sim. Se houver tártaro, é necessário raspagem profissional."
+        },
+        {
+          "pergunta": "Quanto tempo leva para a gengivite desaparecer?",
+          "resposta": "Com bons hábitos, melhora em 1 a 2 semanas. Casos graves precisam de tratamento odontológico."
+        },
+        {
+          "pergunta": "A gengivite pode causar mau hálito permanente?",
+          "resposta": "Sim, se não for tratada, pode levar ao acúmulo de bactérias causadoras de halitose crônica."
+        },
+        {
+          "pergunta": "Gengivite pode virar periodontite?",
+          "resposta": "Sim! Se não tratada, pode evoluir para perda óssea e dos dentes."
+        },
+        {
+          "pergunta": "Quais são os melhores enxaguantes para gengivite?",
+          "resposta": "Clorexidina 0,12% para casos graves, e enxaguantes com flúor para prevenção."
+        },
+        {
+          "pergunta": "Como saber se minha gengivite está grave?",
+          "resposta": "Se houver sangramento constante, pus ou retração gengival, consulte um dentista."
+        }
+      ]
+    }
+  ]
+}
