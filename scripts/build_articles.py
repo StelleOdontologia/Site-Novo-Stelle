@@ -270,9 +270,8 @@ def build_category_buttons_html(active_id):
     buttons = []
     for cat in CATEGORIAS:
         cls = "category-btn active" if cat["id"] == active_id else "category-btn"
-        buttons.append(
-            f'<a href="{cat["url"]}" class="{cls}">{cat["nome"]} <span class="count">{cat["count"]}</span></a>'
-        )
+        count_html = f' <span class="count">{cat["count"]}</span>' if "count" in cat else ""
+        buttons.append(f'<a href="{cat["url"]}" class="{cls}">{cat["nome"]}{count_html}</a>')
     return "\n      ".join(buttons)
 
 

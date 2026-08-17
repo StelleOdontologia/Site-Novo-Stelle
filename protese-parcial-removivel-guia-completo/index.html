@@ -132,7 +132,7 @@ src="https://www.facebook.com/tr?id=3034726646751532&ev=PageView&noscript=1" alt
   .article-nav-links { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 40px 0; }
   .article-nav-links a { display: flex; flex-direction: column; text-decoration: none; background: #f9f9f9; border-radius: 10px; overflow: hidden; transition: box-shadow 0.2s; }
   .article-nav-links a:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.08); }
-  .article-nav-links img { width: 100%; height: 100px; object-fit: cover; display: block; }
+  .article-nav-links img { width: 100%; aspect-ratio: 16 / 9; object-fit: contain; background: #eef0f2; display: block; }
   .article-nav-links .article-nav-body { padding: 12px 14px; }
   .article-nav-links .article-nav-label { font-size: 12px; color: #01aeb7; font-weight: 600; text-transform: uppercase; letter-spacing: 0.4px; display: block; margin-bottom: 4px; }
   .article-nav-links .article-nav-title { font-size: 14px; color: #1a2340; font-weight: 600; line-height: 1.4; }
@@ -254,6 +254,7 @@ src="https://www.facebook.com/tr?id=3034726646751532&ev=PageView&noscript=1" alt
   <!-- MENU DE CATEGORIAS -->
   <div class="blog-categories-filter" style="margin-top:16px;">
     <div class="blog-categories-inner">
+      <a href="/blog/" class="category-btn">Blog</a>
       <a href="/blog/" class="category-btn">Todos <span class="count">46</span></a>
       <a href="/blog/?cat=saude-bucal" class="category-btn">Saúde Bucal <span class="count">20</span></a>
       <a href="/blog/?cat=ortodontia" class="category-btn">Ortodontia <span class="count">11</span></a>
