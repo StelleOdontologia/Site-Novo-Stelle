@@ -116,8 +116,9 @@ def build_article_schema(article):
 
     breadcrumb_items = [
         {"@type": "ListItem", "position": 1, "item": {"@id": BASE_URL, "name": "Início"}},
+        {"@type": "ListItem", "position": 2, "item": {"@id": f"{BASE_URL}/blog/", "name": "Blog"}},
     ]
-    pos = 2
+    pos = 3
     if article.get("cluster_pai"):
         pai_url = f"{BASE_URL}/{article['cluster_pai']}/"
         breadcrumb_items.append(
@@ -187,8 +188,77 @@ def _load_article(slug):
     return _article_cache[slug]
 
 
+_all_articles_sorted = None
+
+
+def _thumb_url(article):
+    """Pega a menor imagem do srcset (geralmente 300w) para usar como miniatura."""
+    srcset = article["capa"].get("srcset", "")
+    candidates = []
+    for part in srcset.split(","):
+        part = part.strip()
+        if not part:
+            continue
+        bits = part.rsplit(" ", 1)
+        if len(bits) == 2 and bits[1].endswith("w"):
+            try:
+                candidates.append((int(bits[1][:-1]), bits[0]))
+            except ValueError:
+                continue
+    if candidates:
+        candidates.sort(key=lambda c: c[0])
+        return candidates[0][1]
+    return article["capa"]["url"]
+
+
+def get_all_articles_sorted():
+    """Todos os artigos publicados, do mais recente para o mais antigo."""
+    global _all_articles_sorted
+    if _all_articles_sorted is not None:
+        return _all_articles_sorted
+    slugs = [
+        os.path.splitext(f)[0]
+        for f in os.listdir(CONTENT_DIR)
+        if f.endswith(".json") and f not in ("categorias.json", "autores.json")
+    ]
+    articles = [_load_article(s) for s in slugs]
+    articles = [a for a in articles if a.get("publicado", True)]
+    articles.sort(key=lambda a: max(a["publicado_em"], a["atualizado_em"]), reverse=True)
+    _all_articles_sorted = articles
+    return articles
+
+
+def build_prev_next_html(article):
+    all_articles = get_all_articles_sorted()
+    slugs_in_order = [a["slug"] for a in all_articles]
+    idx = slugs_in_order.index(article["slug"])
+
+    newer = all_articles[idx - 1] if idx > 0 else None
+    older = all_articles[idx + 1] if idx < len(all_articles) - 1 else None
+
+    if not newer and not older:
+        return ""
+
+    def card(a, label, extra_class):
+        thumb = _thumb_url(a)
+        return (
+            f'<a href="/{a["slug"]}/" class="{extra_class}">'
+            f'<img src="{thumb}" alt="" loading="lazy">'
+            '<span class="article-nav-body">'
+            f'<span class="article-nav-label">{label}</span>'
+            f'<span class="article-nav-title">{a["titulo_h1"]}</span>'
+            "</span></a>"
+        )
+
+    html = ['<div class="article-nav-links">']
+    html.append(card(older, "← Artigo anterior", "article-nav-prev") if older else "<span></span>")
+    html.append(card(newer, "Próximo artigo →", "article-nav-next") if newer else "<span></span>")
+    html.append("</div>")
+    return "\n".join(html)
+
+
 def build_breadcrumb_html(article):
-    parts = ['<a href="/">Início</a>']
+    parts = ['<a href="/">Início</a>', '<a href="/blog/">Blog</a>']
     if article.get("cluster_pai"):
         pai = _load_article(article["cluster_pai"])
         parts.append(f'<a href="/{article["cluster_pai"]}/">{pai["titulo_h1"].split(":")[0]}</a>')
@@ -251,6 +321,7 @@ def build_article(slug):
         "{{HERO_IMG_ALT}}": esc(article["capa"]["alt"]),
         "{{BODY_HTML}}": body_html,
         "{{AUTHOR_BOX_HTML}}": build_author_box_html(article),
+        "{{PREV_NEXT_HTML}}": build_prev_next_html(article),
     }
 
     html = template

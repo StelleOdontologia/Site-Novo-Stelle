@@ -129,6 +129,23 @@ src="https://www.facebook.com/tr?id=3034726646751532&ev=PageView&noscript=1" alt
   .author-box img { width: 100px; height: 100px; border-radius: 50%; object-fit: cover; border: 3px solid #1b6ca8; flex-shrink: 0; }
   .author-box h3 { margin: 0 0 6px; color: #1b6ca8; font-size: 17px; }
   .author-box p { margin: 4px 0; font-size: 14px; color: #666; }
+  .article-nav-links { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 40px 0; }
+  .article-nav-links a { display: flex; flex-direction: column; text-decoration: none; background: #f9f9f9; border-radius: 10px; overflow: hidden; transition: box-shadow 0.2s; }
+  .article-nav-links a:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.08); }
+  .article-nav-links img { width: 100%; height: 100px; object-fit: cover; display: block; }
+  .article-nav-links .article-nav-body { padding: 12px 14px; }
+  .article-nav-links .article-nav-label { font-size: 12px; color: #01aeb7; font-weight: 600; text-transform: uppercase; letter-spacing: 0.4px; display: block; margin-bottom: 4px; }
+  .article-nav-links .article-nav-title { font-size: 14px; color: #1a2340; font-weight: 600; line-height: 1.4; }
+  .article-nav-next { text-align: right; }
+  .article-nav-next .article-nav-body { align-items: flex-end; display: flex; flex-direction: column; }
+  .article-nav-blog-link { display: block; text-align: center; margin: 24px 0 0; font-size: 14px; }
+  .article-nav-blog-link a { color: #01aeb7; text-decoration: none; font-weight: 600; }
+  .article-nav-blog-link a:hover { text-decoration: underline; }
+  @media (max-width: 560px) {
+    .article-nav-links { grid-template-columns: 1fr; }
+    .article-nav-next { text-align: left; }
+    .article-nav-next .article-nav-body { align-items: flex-start; }
+  }
 
   /* FOOTER */
   .stelle-footer { background: #071d2e; color: rgba(255,255,255,0.7); padding: 60px 40px 0; }
@@ -174,7 +191,7 @@ src="https://www.facebook.com/tr?id=3034726646751532&ev=PageView&noscript=1" alt
       </a>
       <ul class="stelle-nav-links">
         <li><a href="/">Início</a></li>
-        <li><a href="/sobre/">A Clínica</a></li>
+        <li><a href="/sobre/">Sobre a Dra. Késya</a></li>
         <li class="stelle-nav-dropdown">
           <a href="#" onclick="stelleToggleDropdown(event,this)">Ortodontia</a>
           <div class="stelle-nav-dropdown-menu">
@@ -193,8 +210,8 @@ src="https://www.facebook.com/tr?id=3034726646751532&ev=PageView&noscript=1" alt
             <a href="/endodontia/">Endodontia</a>
           </div>
         </li>
-        <li><a href="/blog/">Blog</a></li>
         <li><a href="/contato/">Contato</a></li>
+        <li><a href="/blog/">Blog</a></li>
       </ul>
       <a href="https://wa.me/5521976939004" class="stelle-nav-cta" target="_blank" rel="noopener">
         📱 Agendar Consulta
@@ -205,7 +222,7 @@ src="https://www.facebook.com/tr?id=3034726646751532&ev=PageView&noscript=1" alt
     </nav>
     <div class="stelle-nav-mobile" id="stelleMobileNav">
       <a href="/">Início</a>
-      <a href="/sobre/">A Clínica</a>
+      <a href="/sobre/">Sobre a Dra. Késya</a>
       <div class="stelle-nav-mobile-section">
         <button class="stelle-nav-mobile-toggle" onclick="stelleToggleMobileSub(this)">Ortodontia <span class="arrow">▼</span></button>
         <div class="stelle-nav-mobile-sub">
@@ -224,8 +241,8 @@ src="https://www.facebook.com/tr?id=3034726646751532&ev=PageView&noscript=1" alt
           <a href="/endodontia/">Endodontia</a>
         </div>
       </div>
-      <a href="/blog/">Blog</a>
       <a href="/contato/">Contato</a>
+      <a href="/blog/">Blog</a>
       <a href="https://wa.me/5521976939004" target="_blank" rel="noopener">📱 Agendar Consulta</a>
     </div>
   </header>
@@ -250,6 +267,10 @@ src="https://www.facebook.com/tr?id=3034726646751532&ev=PageView&noscript=1" alt
     {{BODY_HTML}}
 
     {{AUTHOR_BOX_HTML}}
+
+    {{PREV_NEXT_HTML}}
+
+    <div class="article-nav-blog-link"><a href="/blog/">← Voltar para o Blog</a></div>
   </article>
 
   <!-- FOOTER -->
