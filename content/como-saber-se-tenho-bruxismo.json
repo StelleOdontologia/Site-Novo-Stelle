@@ -1,0 +1,63 @@
+{
+  "slug": "como-saber-se-tenho-bruxismo",
+  "titulo_meta": "Como Saber se Tenho Bruxismo: Sinais e Autoteste - Stelle",
+  "titulo_h1": "Como Saber se Tenho Bruxismo: Sinais e Autoteste",
+  "meta_description": "Como saber se você tem bruxismo? Veja os sinais mais comuns, um autoteste rápido e quando procurar um dentista para confirmar o diagnóstico.",
+  "categoria": "tratamentos",
+  "autor": "dra-kesya-nogueira",
+  "cluster_pai": "bruxismo",
+  "capa": {
+    "url": "/assets/recovered/2023/11/O-que-e-Bruxismo-1024x576.png",
+    "srcset": "/assets/recovered/2023/11/O-que-e-Bruxismo-300x169.png 300w, /assets/recovered/2023/11/O-que-e-Bruxismo-768x432.png 768w, /assets/recovered/2023/11/O-que-e-Bruxismo-1024x576.png 1024w, /assets/recovered/2023/11/O-que-e-Bruxismo.png 1366w",
+    "og": "https://stelleodontologia.com.br/assets/recovered/2023/11/O-que-e-Bruxismo-1024x576.png",
+    "alt": "Ilustração representando os sinais de bruxismo para autoavaliação"
+  },
+  "publicado": true,
+  "publicado_em": "2026-08-17",
+  "atualizado_em": "2026-08-17",
+  "blocos": [
+    { "tipo": "pillar_badge", "texto": "Parte do Guia Completo sobre Bruxismo", "link": "/bruxismo/" },
+    { "tipo": "paragrafo", "texto": "Muita gente vive com <strong>bruxismo</strong> por anos sem saber — porque o hábito de ranger ou apertar os dentes acontece, na maioria das vezes, de forma inconsciente durante o sono. Se você desconfia mas não tem certeza, este autoteste rápido ajuda a identificar os sinais mais comuns antes de procurar um dentista para confirmar." },
+    { "tipo": "paragrafo", "texto": "Este artigo faz parte do nosso <a href=\"/bruxismo/\">guia completo sobre bruxismo</a> e reúne, num só lugar, os principais sinais de alerta." },
+
+    { "tipo": "titulo", "nivel": 2, "texto": "Autoteste: Responda Sim ou Não" },
+    { "tipo": "paragrafo", "texto": "Passe pelas perguntas abaixo e conte quantas respostas foram \"sim\":" },
+    { "tipo": "lista", "itens": [
+        "Você acorda com dor de cabeça, principalmente nas têmporas, com frequência?",
+        "Sente a mandíbula cansada, dolorida ou travada ao acordar?",
+        "Alguém que dorme perto de você já comentou sobre um barulho de ranger de dentes durante a noite?",
+        "Seus dentes estão mais sensíveis ao frio ou aos doces do que antes?",
+        "O dentista já comentou sobre desgaste, lascas ou trincas nos seus dentes sem motivo aparente?",
+        "Você sente que aperta os dentes durante o dia em momentos de concentração ou estresse?",
+        "Tem sentido dor ou zumbido no ouvido, ou estalos ao abrir a boca, sem causa infecciosa aparente?",
+        "Acorda cansado mesmo depois de dormir a noite toda?"
+    ]},
+    { "tipo": "paragrafo", "texto": "<strong>2 ou mais respostas \"sim\":</strong> há uma chance real de bruxismo, vale agendar uma avaliação odontológica. <strong>4 ou mais respostas \"sim\":</strong> os sinais são bem característicos — não deixe para depois, o desgaste tende a piorar com o tempo sem tratamento." },
+
+    { "tipo": "titulo", "nivel": 2, "texto": "Os Sinais Mais Comuns, Um a Um" },
+    { "tipo": "lista", "itens": [
+        "<strong>Dor de cabeça matinal:</strong> concentrada nas têmporas, é um dos sinais mais característicos — veja mais em <a href=\"https://stelleodontologia.com.br/bruxismo-e-dor-de-cabeca/\">bruxismo e dor de cabeça</a>.",
+        "<strong>Dor ou estalos na mandíbula:</strong> pode indicar que o bruxismo já está sobrecarregando a articulação — saiba mais sobre <a href=\"https://stelleodontologia.com.br/bruxismo-causa-dtm/\">bruxismo e DTM</a>.",
+        "<strong>Desgaste nos dentes:</strong> geralmente identificado pelo próprio dentista, é um dos sinais mais confiáveis porque não depende da sua percepção.",
+        "<strong>Relato de quem dorme perto de você:</strong> o sinal mais direto do <a href=\"https://stelleodontologia.com.br/bruxismo-do-sono/\">bruxismo do sono</a>.",
+        "<strong>Sensibilidade dentária:</strong> aparece conforme o esmalte vai se desgastando.",
+        "<strong>Cansaço e sono não reparador:</strong> mesmo dormindo o número de horas ideal, a qualidade do sono é prejudicada pelo esforço muscular repetido."
+    ]},
+
+    { "tipo": "titulo", "nivel": 2, "texto": "O Autoteste Não Substitui o Diagnóstico Profissional" },
+    { "tipo": "paragrafo", "texto": "Esses sinais ajudam a levantar a suspeita, mas o diagnóstico definitivo é sempre clínico — feito por um dentista, que examina o desgaste real dos dentes e a musculatura da mastigação. Em alguns casos, principalmente quando há suspeita de apneia do sono associada, pode ser indicada uma polissonografia para confirmar." },
+    { "tipo": "paragrafo", "texto": "Quanto mais cedo o bruxismo é identificado, menor o desgaste acumulado e mais simples costuma ser o tratamento — geralmente começando pela <a href=\"https://stelleodontologia.com.br/placa-de-bruxismo/\">placa de bruxismo</a>." },
+
+    { "tipo": "callout", "texto": "Respondeu \"sim\" para várias perguntas do autoteste? Agende uma avaliação e tire a dúvida com um exame de verdade.", "cta_texto": "Agendar avaliação", "cta_link": "https://wa.me/5521976939004?text=Fiz%20o%20autoteste%20de%20bruxismo%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o" },
+
+    { "tipo": "faq", "perguntas": [
+      { "pergunta": "Só um dentista pode confirmar se eu tenho bruxismo?", "resposta": "Sim. O autoteste ajuda a levantar a suspeita, mas o diagnóstico definitivo exige exame clínico, que avalia o desgaste real dos dentes e a musculatura da mastigação." },
+      { "pergunta": "É possível ter bruxismo sem sentir nenhuma dor?", "resposta": "Sim, principalmente em casos leves. Por isso o desgaste identificado pelo dentista no exame de rotina costuma ser o sinal mais confiável, mesmo sem sintomas percebidos." },
+      { "pergunta": "Bruxismo em vigília (durante o dia) tem os mesmos sinais?", "resposta": "Em parte. A diferença é que você pode perceber diretamente o momento em que aperta os dentes, geralmente em situações de concentração ou estresse — diferente do bruxismo do sono, que passa despercebido." },
+      { "pergunta": "Preciso fazer algum exame antes de ir ao dentista?", "resposta": "Não é necessário. A avaliação clínica no consultório já é suficiente para a maioria dos casos; exames como a polissonografia só são pedidos quando há suspeita de causas associadas, como apneia do sono." },
+      { "pergunta": "Crianças também podem fazer esse autoteste?", "resposta": "Os sinais são parecidos, mas o contexto é diferente — veja nosso artigo específico sobre <a href=\"https://stelleodontologia.com.br/bruxismo-infantil/\">bruxismo infantil</a> para entender as particularidades dessa faixa etária." }
+    ]},
+
+    { "tipo": "paragrafo", "texto": "Quer entender o quadro completo? Volte ao <a href=\"/bruxismo/\">guia completo sobre bruxismo</a> para ver causas, sintomas e todas as opções de tratamento." }
+  ]
+}
