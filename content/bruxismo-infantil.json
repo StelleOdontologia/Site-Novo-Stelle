@@ -1,0 +1,67 @@
+{
+  "slug": "bruxismo-infantil",
+  "titulo_meta": "Bruxismo Infantil: É Normal? Quando se Preocupar - Stelle",
+  "titulo_h1": "Bruxismo Infantil: É Normal? Quando se Preocupar",
+  "meta_description": "Bruxismo infantil: entenda por que crianças rangem os dentes, quando é só uma fase e quando vale procurar um dentista pediátrico.",
+  "categoria": "tratamentos",
+  "autor": "dra-kesya-nogueira",
+  "cluster_pai": "bruxismo",
+  "capa": {
+    "url": "/assets/recovered/2023/11/O-que-e-Bruxismo-1024x576.png",
+    "srcset": "/assets/recovered/2023/11/O-que-e-Bruxismo-300x169.png 300w, /assets/recovered/2023/11/O-que-e-Bruxismo-768x432.png 768w, /assets/recovered/2023/11/O-que-e-Bruxismo-1024x576.png 1024w, /assets/recovered/2023/11/O-que-e-Bruxismo.png 1366w",
+    "og": "https://stelleodontologia.com.br/assets/recovered/2023/11/O-que-e-Bruxismo-1024x576.png",
+    "alt": "Ilustração representando o bruxismo infantil, o hábito de crianças rangerem os dentes"
+  },
+  "publicado": true,
+  "publicado_em": "2026-08-17",
+  "atualizado_em": "2026-08-17",
+  "blocos": [
+    { "tipo": "pillar_badge", "texto": "Parte do Guia Completo sobre Bruxismo", "link": "/bruxismo/" },
+    { "tipo": "paragrafo", "texto": "Descobrir que seu filho range os dentes durante o sono costuma assustar — mas o <strong>bruxismo infantil</strong> é bem mais comum do que parece, principalmente entre os 3 e os 10 anos. Na maioria dos casos, é uma fase que passa sozinha com o crescimento. Mesmo assim, alguns sinais merecem atenção de um dentista." },
+    { "tipo": "paragrafo", "texto": "Este artigo faz parte do nosso <a href=\"/bruxismo/\">guia completo sobre bruxismo</a> e explica quando o bruxismo infantil é só uma fase e quando vale investigar mais a fundo." },
+
+    { "tipo": "titulo", "nivel": 2, "texto": "Por Que Crianças Rangem os Dentes?" },
+    { "tipo": "paragrafo", "texto": "Diferente do bruxismo em adultos, nas crianças o hábito costuma estar ligado a fatores específicos dessa fase do desenvolvimento:" },
+    { "tipo": "lista", "itens": [
+        "<strong>Troca de dentes:</strong> durante a dentição mista (dentes de leite e permanentes ao mesmo tempo), o encaixe entre as arcadas muda constantemente, e o ranger pode ser uma forma do corpo \"testar\" essa nova oclusão.",
+        "<strong>Ansiedade e estresse:</strong> crianças também acumulam tensão — mudança de escola, brigas dos pais, excesso de estímulos (telas antes de dormir) podem se manifestar como bruxismo noturno.",
+        "<strong>Respiração bucal e amígdalas/adenoides aumentadas:</strong> dificuldade para respirar pelo nariz durante o sono é uma das causas mais associadas ao bruxismo infantil.",
+        "<strong>Fatores genéticos:</strong> filhos de pais que tiveram bruxismo têm mais chance de apresentar o hábito também."
+    ]},
+
+    { "tipo": "titulo", "nivel": 2, "texto": "É Normal? Quando Considerar uma Fase Passageira" },
+    { "tipo": "paragrafo", "texto": "Na maioria dos casos, sim — o bruxismo infantil tende a diminuir e desaparecer conforme a criança completa a troca de dentes e o desenvolvimento da arcada se estabiliza, geralmente até a adolescência. Se a criança não reclama de dor, não apresenta desgaste visível nos dentes e o sono não parece prejudicado, o acompanhamento de rotina no dentista já é suficiente." },
+
+    { "tipo": "titulo", "nivel": 2, "texto": "Sinais de Que Vale Procurar um Dentista" },
+    { "tipo": "lista", "itens": [
+        "Dor de cabeça frequente, principalmente ao acordar;",
+        "Reclamação de dor na mandíbula ou dificuldade para mastigar;",
+        "Desgaste visível nas pontas dos dentes de leite ou permanentes;",
+        "Sono agitado, com despertares frequentes ou ronco associado;",
+        "Cansaço ou irritabilidade durante o dia, sem causa aparente;",
+        "Respiração pela boca durante o sono."
+    ]},
+    { "tipo": "paragrafo", "texto": "Esses sinais nem sempre significam um problema grave, mas indicam que vale uma avaliação — principalmente porque o bruxismo infantil ligado à respiração bucal costuma responder bem a tratamentos de <a href=\"https://stelleodontologia.com.br/ortodontia-miofuncional/\">ortodontia miofuncional</a>, que tratam a causa, não só o sintoma." },
+
+    { "tipo": "titulo", "nivel": 2, "texto": "Como é Feito o Tratamento em Crianças" },
+    { "tipo": "paragrafo", "texto": "O tratamento do bruxismo infantil não segue exatamente o mesmo caminho dos adultos. O dentista pediátrico avalia a causa antes de qualquer intervenção:" },
+    { "tipo": "lista", "itens": [
+        "<strong>Observação e acompanhamento:</strong> para casos leves ligados à troca de dentes, o mais comum é apenas monitorar a evolução em consultas regulares.",
+        "<strong>Placas específicas para crianças:</strong> em casos com desgaste significativo, pode ser indicada uma placa de proteção adaptada ao tamanho da arcada infantil.",
+        "<strong>Avaliação de respiração e amígdalas:</strong> se há suspeita de respiração bucal, pode ser necessário encaminhamento para otorrinolaringologista.",
+        "<strong>Manejo do estresse:</strong> em casos ligados à ansiedade, rotina de sono mais tranquila e redução de telas antes de dormir costumam ajudar bastante."
+    ]},
+
+    { "tipo": "callout", "texto": "Seu filho range os dentes e você não sabe se é só uma fase? Agende uma avaliação e tire a dúvida com tranquilidade.", "cta_texto": "Agendar avaliação", "cta_link": "https://wa.me/5521976939004?text=Gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20sobre%20bruxismo%20infantil" },
+
+    { "tipo": "faq", "perguntas": [
+      { "pergunta": "Bruxismo infantil desaparece sozinho?", "resposta": "Na maioria dos casos, sim — costuma diminuir conforme a criança completa a troca de dentes, geralmente até a adolescência. Ainda assim, vale acompanhamento odontológico regular." },
+      { "pergunta": "Bruxismo infantil pode prejudicar o desenvolvimento dos dentes permanentes?", "resposta": "Em casos de desgaste intenso e prolongado, sim, pode afetar o esmalte dos dentes permanentes recém-nascidos. Por isso o acompanhamento é importante mesmo quando o caso parece leve." },
+      { "pergunta": "Existe placa de bruxismo para crianças?", "resposta": "Sim, em casos com desgaste significativo o dentista pode indicar uma placa adaptada ao tamanho da arcada infantil, sempre feita sob medida." },
+      { "pergunta": "Respiração bucal tem relação com bruxismo em crianças?", "resposta": "Sim, é uma das causas mais associadas. Dificuldade para respirar pelo nariz durante o sono pode desencadear o hábito de ranger os dentes." },
+      { "pergunta": "Quando devo levar meu filho ao dentista por causa do bruxismo?", "resposta": "Se a criança reclama de dor, apresenta desgaste visível nos dentes, dorme mal ou parece cansada durante o dia sem motivo aparente, vale agendar uma avaliação." }
+    ]},
+
+    { "tipo": "paragrafo", "texto": "Quer entender o quadro completo? Volte ao <a href=\"/bruxismo/\">guia completo sobre bruxismo</a> para ver causas, sintomas e tratamentos em todas as idades." }
+  ]
+}

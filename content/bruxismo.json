@@ -6,7 +6,7 @@
   "categoria": "tratamentos",
   "autor": "dra-kesya-nogueira",
   "cluster_pai": null,
-  "cluster_filhos": ["bruxismo-do-sono", "placa-de-bruxismo"],
+  "cluster_filhos": ["bruxismo-do-sono", "placa-de-bruxismo", "bruxismo-infantil", "botox-para-bruxismo"],
   "capa": {
     "url": "/assets/recovered/2023/11/O-que-e-Bruxismo-1024x576.png",
     "srcset": "/assets/recovered/2023/11/O-que-e-Bruxismo-300x169.png 300w, /assets/recovered/2023/11/O-que-e-Bruxismo-768x432.png 768w, /assets/recovered/2023/11/O-que-e-Bruxismo-1024x576.png 1024w, /assets/recovered/2023/11/O-que-e-Bruxismo.png 1366w",
@@ -15,7 +15,7 @@
   },
   "publicado": true,
   "publicado_em": "2023-11-28",
-  "atualizado_em": "2026-08-16",
+  "atualizado_em": "2026-08-17",
   "blocos": [
     { "tipo": "paragrafo", "texto": "O <strong>bruxismo</strong> é o hábito involuntário de ranger ou apertar os dentes, e vai muito além do simples barulho durante o sono: pode causar dor de cabeça, dor na mandíbula, desgaste dentário severo e até fraturas nos dentes. É considerado o terceiro distúrbio do sono mais comum, atrás apenas do sonambulismo e do ronco, e atinge adultos e crianças, sem distinção de gênero." },
     { "tipo": "paragrafo", "texto": "Este é o nosso <strong>guia completo sobre bruxismo</strong>: aqui você encontra o que é, por que acontece, como identificar os sinais, o que pode acontecer se não for tratado e quais são as opções de tratamento disponíveis hoje. Ao longo do texto, você vai encontrar links para artigos mais específicos sobre cada subtema, como <a href=\"https://stelleodontologia.com.br/bruxismo-do-sono/\">bruxismo do sono</a> e <a href=\"https://stelleodontologia.com.br/placa-de-bruxismo/\">placa de bruxismo</a>." },
@@ -60,7 +60,7 @@
 
     { "tipo": "titulo", "nivel": 2, "texto": "4. Bruxismo Infantil" },
     { "tipo": "paragrafo", "texto": "O bruxismo também é comum em crianças, principalmente durante a troca dos dentes de leite pelos permanentes. Na maioria dos casos tende a diminuir com o crescimento, mas merece atenção: os sintomas típicos incluem dor de cabeça, dificuldade para mastigar e cansaço durante o dia, o que pode impactar a atenção e o desempenho escolar." },
-    { "tipo": "paragrafo", "texto": "Se a criança range os dentes com frequência ou reclama de dor na mandíbula, vale agendar uma avaliação — em muitos casos o bruxismo infantil está ligado à respiração bucal ou a hábitos que também afetam o desenvolvimento da <a href=\"https://stelleodontologia.com.br/ortodontia-miofuncional/\">ortodontia miofuncional</a>." },
+    { "tipo": "paragrafo", "texto": "Se a criança range os dentes com frequência ou reclama de dor na mandíbula, vale agendar uma avaliação — em muitos casos o bruxismo infantil está ligado à respiração bucal ou a hábitos que também afetam o desenvolvimento da <a href=\"https://stelleodontologia.com.br/ortodontia-miofuncional/\">ortodontia miofuncional</a>. Veja mais no nosso artigo dedicado sobre <a href=\"https://stelleodontologia.com.br/bruxismo-infantil/\">bruxismo infantil</a>." },
 
     { "tipo": "titulo", "nivel": 2, "texto": "5. O Que Acontece Se o Bruxismo Não For Tratado?" },
     { "tipo": "paragrafo", "texto": "O bruxismo não tratado tende a piorar com o tempo, e as consequências vão muito além do desconforto:" },
@@ -80,7 +80,7 @@
     { "tipo": "paragrafo", "texto": "Não existe uma cura definitiva única para o bruxismo, mas há diversas formas de controlar o hábito, proteger os dentes e aliviar os sintomas:" },
     { "tipo": "lista", "itens": [
         "<strong><a href=\"https://stelleodontologia.com.br/placa-de-bruxismo/\">Placa de bruxismo</a> (placa de mordida):</strong> feita sob medida pelo dentista, é a proteção mais indicada para evitar o desgaste dos dentes durante o sono.",
-        "<strong>Toxina botulínica (Botox):</strong> aplicada nos músculos da mastigação, reduz a força do aperto e alivia a dor muscular — veja mais na nossa página sobre <a href=\"https://stelleodontologia.com.br/toxina-botulinica/\">toxina botulínica odontológica</a>.",
+        "<strong><a href=\"https://stelleodontologia.com.br/botox-para-bruxismo/\">Toxina botulínica (Botox)</a>:</strong> aplicada nos músculos da mastigação, reduz a força do aperto e alivia a dor muscular — veja mais no nosso artigo sobre <a href=\"https://stelleodontologia.com.br/botox-para-bruxismo/\">Botox para bruxismo</a>.",
         "<strong>Controle do estresse:</strong> terapia, atividade física e técnicas de relaxamento ajudam bastante nos casos ligados à ansiedade.",
         "<strong>Correção da respiração bucal:</strong> quando o bruxismo está associado à respiração pela boca, terapias miofuncionais podem tratar a causa, não só o sintoma.",
         "<strong>Ajuste oclusal:</strong> em casos de má oclusão, o tratamento ortodôntico pode ser necessário para eliminar o gatilho do bruxismo."
