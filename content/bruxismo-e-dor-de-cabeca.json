@@ -1,0 +1,62 @@
+{
+  "slug": "bruxismo-e-dor-de-cabeca",
+  "titulo_meta": "Bruxismo e Dor de Cabeça: Existe Relação? - Stelle",
+  "titulo_h1": "Bruxismo e Dor de Cabeça: Existe Relação?",
+  "meta_description": "Bruxismo pode causar dor de cabeça? Entenda a relação entre ranger os dentes e as dores na cabeça, têmporas e como diferenciar de enxaqueca.",
+  "categoria": "tratamentos",
+  "autor": "dra-kesya-nogueira",
+  "cluster_pai": "bruxismo",
+  "capa": {
+    "url": "/assets/recovered/2023/11/O-que-e-Bruxismo-1024x576.png",
+    "srcset": "/assets/recovered/2023/11/O-que-e-Bruxismo-300x169.png 300w, /assets/recovered/2023/11/O-que-e-Bruxismo-768x432.png 768w, /assets/recovered/2023/11/O-que-e-Bruxismo-1024x576.png 1024w, /assets/recovered/2023/11/O-que-e-Bruxismo.png 1366w",
+    "og": "https://stelleodontologia.com.br/assets/recovered/2023/11/O-que-e-Bruxismo-1024x576.png",
+    "alt": "Ilustração representando a relação entre bruxismo e dor de cabeça"
+  },
+  "publicado": true,
+  "publicado_em": "2026-08-17",
+  "atualizado_em": "2026-08-17",
+  "blocos": [
+    { "tipo": "pillar_badge", "texto": "Parte do Guia Completo sobre Bruxismo", "link": "/bruxismo/" },
+    { "tipo": "paragrafo", "texto": "Se você acorda com dor de cabeça quase todos os dias, principalmente na região das têmporas, e já passou por diversos exames sem identificar a causa, vale considerar uma possibilidade pouco lembrada: o <strong>bruxismo</strong>. A relação entre ranger os dentes e dor de cabeça é real, bem documentada clinicamente, e muitas vezes é confundida com enxaqueca comum." },
+    { "tipo": "paragrafo", "texto": "Este artigo faz parte do nosso <a href=\"/bruxismo/\">guia completo sobre bruxismo</a> e explica por que essa dor acontece e como diferenciar de outras causas." },
+
+    { "tipo": "titulo", "nivel": 2, "texto": "Por Que o Bruxismo Causa Dor de Cabeça?" },
+    { "tipo": "paragrafo", "texto": "Quando você range ou aperta os dentes, os músculos da mastigação — principalmente o masseter e o temporal — trabalham com uma força muito acima do normal, por horas seguidas durante o sono. O músculo temporal fica localizado na lateral da cabeça, exatamente na região da têmpora. Essa sobrecarga muscular constante gera tensão que se espalha para o couro cabeludo e a região frontal, resultando em dor de cabeça tensional." },
+    { "tipo": "paragrafo", "texto": "É um mecanismo parecido com o de uma dor de cabeça causada por tensão no pescoço ou ombros — só que, no caso do bruxismo, a origem está na musculatura da mandíbula." },
+
+    { "tipo": "titulo", "nivel": 2, "texto": "Como Identificar se a Dor de Cabeça é Causada por Bruxismo" },
+    { "tipo": "paragrafo", "texto": "Alguns padrões ajudam a diferenciar a dor de cabeça relacionada ao bruxismo de outros tipos:" },
+    { "tipo": "lista", "itens": [
+        "Costuma ser mais intensa <strong>logo ao acordar</strong> e melhora ao longo do dia;",
+        "Concentra-se nas <strong>têmporas</strong> ou na região frontal, geralmente dos dois lados;",
+        "Vem acompanhada de <strong>dor ou cansaço na mandíbula</strong> ao acordar;",
+        "Pode vir junto com <strong>sensibilidade nos dentes</strong> ou dificuldade para abrir bem a boca;",
+        "Não costuma ter os sintomas visuais de enxaqueca (aura, sensibilidade extrema à luz)."
+    ]},
+    { "tipo": "paragrafo", "texto": "Se você sente esse padrão, principalmente combinado com <a href=\"https://stelleodontologia.com.br/bruxismo-do-sono/\">sinais de bruxismo do sono</a>, vale buscar uma avaliação odontológica antes de investigar apenas do lado neurológico." },
+
+    { "tipo": "titulo", "nivel": 2, "texto": "Bruxismo e Enxaqueca: Existe Conexão?" },
+    { "tipo": "paragrafo", "texto": "Sim — e a relação é dupla. Estudos mostram que pessoas com bruxismo têm maior prevalência de enxaqueca, e o inverso também é observado: quem sofre de enxaqueca crônica tem mais chance de desenvolver bruxismo, possivelmente por fatores neurológicos e de estresse compartilhados. Isso não significa que todo caso de enxaqueca vem do bruxismo, mas é um fator que vale investigar quando o tratamento neurológico isolado não resolve completamente." },
+
+    { "tipo": "titulo", "nivel": 2, "texto": "Como Tratar a Dor de Cabeça Ligada ao Bruxismo" },
+    { "tipo": "paragrafo", "texto": "O tratamento da dor, nesse caso, passa por tratar o bruxismo em si, não apenas por analgésicos:" },
+    { "tipo": "lista", "itens": [
+        "<strong><a href=\"https://stelleodontologia.com.br/placa-de-bruxismo/\">Placa de bruxismo</a>:</strong> reduz a sobrecarga muscular durante o sono, aliviando a tensão que gera a dor.",
+        "<strong><a href=\"https://stelleodontologia.com.br/botox-para-bruxismo/\">Botox para bruxismo</a>:</strong> em casos de dor muscular mais intensa, reduz diretamente a força de contração do músculo responsável pela tensão.",
+        "<strong>Controle do estresse:</strong> como o bruxismo em vigília costuma ser desencadeado por tensão emocional, técnicas de relaxamento ajudam a reduzir a frequência dos episódios.",
+        "<strong>Avaliação multidisciplinar:</strong> em casos de dor persistente, o acompanhamento conjunto com neurologista pode ser necessário para descartar outras causas."
+    ]},
+
+    { "tipo": "callout", "texto": "Dor de cabeça frequente sem causa aparente? Pode valer a pena investigar o bruxismo. Agende uma avaliação.", "cta_texto": "Agendar avaliação", "cta_link": "https://wa.me/5521976939004?text=Gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20sobre%20bruxismo%20e%20dor%20de%20cabe%C3%A7a" },
+
+    { "tipo": "faq", "perguntas": [
+      { "pergunta": "Dor de cabeça por bruxismo é diferente de enxaqueca?", "resposta": "Costuma ser diferente: a dor por bruxismo é mais forte ao acordar e concentrada nas têmporas, enquanto a enxaqueca costuma ter outros sintomas associados, como aura e sensibilidade extrema à luz. Mas as duas podem coexistir na mesma pessoa." },
+      { "pergunta": "Todo bruxismo causa dor de cabeça?", "resposta": "Não. Muitas pessoas com bruxismo não sentem dor de cabeça, principalmente em casos leves. A dor tende a aparecer com mais frequência em bruxismo mais intenso ou prolongado." },
+      { "pergunta": "Analgésico resolve a dor de cabeça causada por bruxismo?", "resposta": "Alivia o sintoma temporariamente, mas não trata a causa. Sem tratar o bruxismo, a dor tende a voltar repetidamente." },
+      { "pergunta": "Quanto tempo depois de tratar o bruxismo a dor de cabeça melhora?", "resposta": "Varia de pessoa para pessoa, mas muitos pacientes relatam melhora nas primeiras semanas de uso da placa de bruxismo, à medida que a musculatura relaxa." },
+      { "pergunta": "Preciso ver um neurologista ou um dentista para essa dor de cabeça?", "resposta": "Se a dor tem o padrão típico de bruxismo (têmporas, ao acordar, com dor na mandíbula), o dentista é o ponto de partida. Se os sintomas forem atípicos ou muito intensos, avaliação neurológica conjunta é recomendada." }
+    ]},
+
+    { "tipo": "paragrafo", "texto": "Quer entender o quadro completo? Volte ao <a href=\"/bruxismo/\">guia completo sobre bruxismo</a> para ver todas as causas, sintomas e opções de tratamento." }
+  ]
+}

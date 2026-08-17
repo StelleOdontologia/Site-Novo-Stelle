@@ -6,7 +6,7 @@
   "categoria": "tratamentos",
   "autor": "dra-kesya-nogueira",
   "cluster_pai": null,
-  "cluster_filhos": ["bruxismo-do-sono", "placa-de-bruxismo", "bruxismo-infantil", "botox-para-bruxismo"],
+  "cluster_filhos": ["bruxismo-do-sono", "placa-de-bruxismo", "bruxismo-infantil", "botox-para-bruxismo", "bruxismo-e-dor-de-cabeca", "bruxismo-causa-dtm"],
   "capa": {
     "url": "/assets/recovered/2023/11/O-que-e-Bruxismo-1024x576.png",
     "srcset": "/assets/recovered/2023/11/O-que-e-Bruxismo-300x169.png 300w, /assets/recovered/2023/11/O-que-e-Bruxismo-768x432.png 768w, /assets/recovered/2023/11/O-que-e-Bruxismo-1024x576.png 1024w, /assets/recovered/2023/11/O-que-e-Bruxismo.png 1366w",
@@ -67,8 +67,8 @@
     { "tipo": "lista", "itens": [
         "<strong>Desgaste severo do esmalte</strong>, deixando os dentes mais curtos, sensíveis e suscetíveis a cáries;",
         "<strong>Fraturas e trincas nos dentes</strong>, que em casos graves podem exigir tratamento de canal ou coroa;",
-        "<strong>DTM (Disfunção Temporomandibular)</strong> — dor crônica na articulação da mandíbula, com estalos e limitação de movimento;",
-        "<strong>Dores de cabeça recorrentes</strong>, muitas vezes confundidas com enxaqueca;",
+        "<strong><a href=\"https://stelleodontologia.com.br/bruxismo-causa-dtm/\">DTM (Disfunção Temporomandibular)</a></strong> — dor crônica na articulação da mandíbula, com estalos e limitação de movimento;",
+        "<strong><a href=\"https://stelleodontologia.com.br/bruxismo-e-dor-de-cabeca/\">Dores de cabeça recorrentes</a></strong>, muitas vezes confundidas com enxaqueca;",
         "<strong>Recessão gengival</strong> pela força excessiva sobre os dentes."
     ]},
     { "tipo": "paragrafo", "texto": "Se você sente <a href=\"https://stelleodontologia.com.br/guia-completo-sobre-remedio-para-dor-de-dente-dicas-e-recomendacoes/\">dor de dente persistente</a> e não sabe a causa, o bruxismo é um dos primeiros pontos que investigamos na consulta." },

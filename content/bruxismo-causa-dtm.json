@@ -1,0 +1,67 @@
+{
+  "slug": "bruxismo-causa-dtm",
+  "titulo_meta": "Bruxismo Causa DTM (Disfunção Temporomandibular)? - Stelle",
+  "titulo_h1": "Bruxismo Causa DTM (Disfunção Temporomandibular)?",
+  "meta_description": "Bruxismo e DTM: entenda a relação entre ranger os dentes e a disfunção temporomandibular, os sintomas de alerta e como é feito o tratamento.",
+  "categoria": "tratamentos",
+  "autor": "dra-kesya-nogueira",
+  "cluster_pai": "bruxismo",
+  "capa": {
+    "url": "/assets/recovered/2023/11/O-que-e-Bruxismo-1-768x432.png",
+    "srcset": "/assets/recovered/2023/11/O-que-e-Bruxismo-1-300x169.png 300w, /assets/recovered/2023/11/O-que-e-Bruxismo-1-768x432.png 768w, /assets/recovered/2023/11/O-que-e-Bruxismo-1-1024x576.png 1024w, /assets/recovered/2023/11/O-que-e-Bruxismo-1.png 1366w",
+    "og": "https://stelleodontologia.com.br/assets/recovered/2023/11/O-que-e-Bruxismo-1-768x432.png",
+    "alt": "Ilustração representando a articulação temporomandibular afetada pelo bruxismo"
+  },
+  "publicado": true,
+  "publicado_em": "2026-08-17",
+  "atualizado_em": "2026-08-17",
+  "blocos": [
+    { "tipo": "pillar_badge", "texto": "Parte do Guia Completo sobre Bruxismo", "link": "/bruxismo/" },
+    { "tipo": "paragrafo", "texto": "Se você sente estalos ao abrir a boca, dificuldade para mastigar de um lado ou trava na mandíbula, pode estar lidando com <strong>DTM (Disfunção Temporomandibular)</strong> — e um dos principais causadores desse quadro é o bruxismo não tratado. Entender essa relação ajuda a identificar o problema antes que ele se torne crônico." },
+    { "tipo": "paragrafo", "texto": "Este artigo faz parte do nosso <a href=\"/bruxismo/\">guia completo sobre bruxismo</a> e explica como um hábito de ranger os dentes pode evoluir para um problema na articulação." },
+
+    { "tipo": "titulo", "nivel": 2, "texto": "O Que É DTM?" },
+    { "tipo": "paragrafo", "texto": "DTM é o nome dado a um conjunto de problemas que afetam a articulação temporomandibular (ATM) — a articulação que conecta a mandíbula ao crânio, na frente de cada orelha — e os músculos ao redor dela. Quando essa articulação não funciona corretamente, surgem dor, estalos, limitação de movimento e outros sintomas que afetam diretamente a qualidade de vida." },
+
+    { "tipo": "titulo", "nivel": 2, "texto": "Como o Bruxismo Leva à DTM" },
+    { "tipo": "paragrafo", "texto": "O bruxismo sobrecarrega a articulação temporomandibular de duas formas: pela força excessiva do aperto, que pressiona diretamente a articulação, e pela tensão muscular constante nos músculos da mastigação, que altera a forma como a mandíbula se movimenta ao longo do dia. Com o tempo, essa sobrecarga repetida pode desgastar os componentes internos da articulação, incluindo o disco articular que amortece o movimento." },
+    { "tipo": "paragrafo", "texto": "Nem todo mundo que tem bruxismo desenvolve DTM — depende da intensidade do hábito, do tempo sem tratamento e de fatores individuais, como a anatomia da articulação de cada pessoa." },
+
+    { "tipo": "titulo", "nivel": 2, "texto": "Sintomas de DTM Relacionada ao Bruxismo" },
+    { "tipo": "lista", "itens": [
+        "Estalos ou ruídos ao abrir ou fechar a boca;",
+        "Dor na frente da orelha, que pode se espalhar para a face;",
+        "Dificuldade ou dor ao mastigar, principalmente alimentos mais duros;",
+        "Sensação de trava ou dificuldade para abrir a boca completamente;",
+        "Desvio da mandíbula para um lado ao abrir a boca;",
+        "Dor de ouvido ou zumbido sem causa infecciosa aparente;",
+        "Dor de cabeça associada — veja mais em nosso artigo sobre <a href=\"https://stelleodontologia.com.br/bruxismo-e-dor-de-cabeca/\">bruxismo e dor de cabeça</a>."
+    ]},
+
+    { "tipo": "titulo", "nivel": 2, "texto": "Como é Feito o Diagnóstico" },
+    { "tipo": "paragrafo", "texto": "O diagnóstico de DTM é clínico: o dentista avalia a amplitude de abertura da boca, palpa os músculos da mastigação e a articulação, observa o padrão de movimento da mandíbula e investiga o histórico de bruxismo. Em casos mais complexos, exames de imagem específicos da articulação podem ser solicitados para avaliar a posição do disco articular." },
+
+    { "tipo": "titulo", "nivel": 2, "texto": "Tratamento: Como Reverter ou Controlar a DTM" },
+    { "tipo": "paragrafo", "texto": "O tratamento combina alívio dos sintomas com controle da causa de base (o bruxismo):" },
+    { "tipo": "lista", "itens": [
+        "<strong><a href=\"https://stelleodontologia.com.br/placa-de-bruxismo/\">Placa de bruxismo</a>:</strong> reduz a sobrecarga na articulação durante o sono, sendo geralmente o primeiro passo do tratamento.",
+        "<strong>Fisioterapia orofacial:</strong> exercícios específicos ajudam a relaxar a musculatura e melhorar a amplitude de movimento da mandíbula.",
+        "<strong><a href=\"https://stelleodontologia.com.br/botox-para-bruxismo/\">Botox</a>:</strong> em casos de dor muscular intensa, reduz a tensão que sobrecarrega a articulação.",
+        "<strong>Ajustes na dieta:</strong> evitar alimentos muito duros ou mastigação excessiva de chiclete durante o tratamento reduz a sobrecarga na ATM.",
+        "<strong>Casos mais graves:</strong> quando o desgaste articular já é significativo, pode ser necessária avaliação com especialista em ATM para tratamentos mais específicos."
+    ]},
+    { "tipo": "paragrafo", "texto": "Quanto mais cedo o bruxismo é identificado e tratado, menor a chance de evoluir para uma DTM mais séria — por isso a importância de não ignorar sinais como dor na mandíbula ao acordar." },
+
+    { "tipo": "callout", "texto": "Sente estalos ou dor na mandíbula? Não espere o quadro piorar. Agende uma avaliação.", "cta_texto": "Agendar avaliação", "cta_link": "https://wa.me/5521976939004?text=Gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20sobre%20DTM%20e%20bruxismo" },
+
+    { "tipo": "faq", "perguntas": [
+      { "pergunta": "Estalo na mandíbula sempre significa DTM?", "resposta": "Não necessariamente — estalos ocasionais e indolores podem não indicar um problema sério. Mas se vierem acompanhados de dor, trava ou dificuldade para mastigar, vale investigar." },
+      { "pergunta": "DTM tem cura?", "resposta": "Muitos casos são totalmente controláveis com tratamento adequado, especialmente quando identificados cedo. Casos mais avançados podem exigir acompanhamento contínuo, mas a grande maioria responde bem ao tratamento conservador." },
+      { "pergunta": "Preciso parar de mastigar chiclete se tenho bruxismo?", "resposta": "É recomendado reduzir bastante ou evitar, já que a mastigação repetitiva sobrecarrega ainda mais a musculatura já tensionada pelo bruxismo." },
+      { "pergunta": "DTM causada por bruxismo pode voltar depois do tratamento?", "resposta": "Se o bruxismo não for controlado (com placa, controle de estresse etc.), a sobrecarga pode voltar a acontecer. Por isso o acompanhamento contínuo é importante mesmo após a melhora dos sintomas." },
+      { "pergunta": "Fisioterapia sozinha resolve a DTM causada por bruxismo?", "resposta": "Ajuda bastante a aliviar a tensão muscular, mas geralmente funciona melhor combinada com a placa de bruxismo, que protege a articulação durante o sono, quando o hábito é mais intenso." }
+    ]},
+
+    { "tipo": "paragrafo", "texto": "Quer entender o quadro completo? Volte ao <a href=\"/bruxismo/\">guia completo sobre bruxismo</a> para ver todas as causas, sintomas e opções de tratamento." }
+  ]
+}
