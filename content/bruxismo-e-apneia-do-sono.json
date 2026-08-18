@@ -1,0 +1,69 @@
+{
+  "slug": "bruxismo-e-apneia-do-sono",
+  "titulo_meta": "Bruxismo e Apneia do Sono: Qual a Relação? - Stelle",
+  "titulo_h1": "Bruxismo e Apneia do Sono: Qual a Relação?",
+  "meta_description": "Bruxismo pode ser sinal de apneia do sono? Entenda como os dois distúrbios estão conectados, os sinais de alerta e por que tratar só um pode não resolver.",
+  "categoria": "tratamentos",
+  "autor": "dra-kesya-nogueira",
+  "cluster_pai": "bruxismo",
+  "capa": {
+    "url": "/assets/recovered/2023/11/O-que-e-Bruxismo-1024x576.png",
+    "srcset": "/assets/recovered/2023/11/O-que-e-Bruxismo-300x169.png 300w, /assets/recovered/2023/11/O-que-e-Bruxismo-768x432.png 768w, /assets/recovered/2023/11/O-que-e-Bruxismo-1024x576.png 1024w, /assets/recovered/2023/11/O-que-e-Bruxismo.png 1366w",
+    "og": "https://stelleodontologia.com.br/assets/recovered/2023/11/O-que-e-Bruxismo-1024x576.png",
+    "alt": "Ilustração representando a relação entre bruxismo e apneia do sono"
+  },
+  "publicado": true,
+  "publicado_em": "2026-08-18",
+  "atualizado_em": "2026-08-18",
+  "blocos": [
+    { "tipo": "pillar_badge", "texto": "Parte do Guia Completo sobre Bruxismo", "link": "/bruxismo/" },
+    { "tipo": "paragrafo", "texto": "Se você tem bruxismo e, apesar da placa e dos cuidados, continua acordando cansado, com dor de cabeça e sensação de sono não reparador, vale investigar uma possibilidade pouco lembrada: a <strong>apneia do sono</strong>. Os dois distúrbios estão mais conectados do que parece — e em muitos casos, o bruxismo é na verdade uma resposta do corpo a episódios de apneia durante a noite." },
+    { "tipo": "paragrafo", "texto": "Este artigo faz parte do nosso <a href=\"/bruxismo/\">guia completo sobre bruxismo</a> e explica como identificar essa conexão e por que tratar só um dos dois pode não ser suficiente." },
+
+    { "tipo": "titulo", "nivel": 2, "texto": "O Que É a Apneia do Sono?" },
+    { "tipo": "paragrafo", "texto": "A apneia obstrutiva do sono acontece quando as vias aéreas ficam parcial ou totalmente bloqueadas durante o sono, interrompendo a respiração por alguns segundos, várias vezes ao longo da noite. Cada uma dessas pausas termina com um <strong>microdespertar</strong> — um momento breve em que o cérebro \"acorda\" parcialmente para retomar a respiração, mesmo sem a pessoa perceber conscientemente." },
+    { "tipo": "paragrafo", "texto": "Já falamos sobre esse tema no nosso artigo sobre <a href=\"https://stelleodontologia.com.br/descubra-tudo-que-voce-precisa-saber-sobre-o-ronco/\">ronco e apneia do sono</a> — o ronco alto e frequente costuma ser um dos primeiros sinais de alerta." },
+
+    { "tipo": "titulo", "nivel": 2, "texto": "Como a Apneia Pode Causar Bruxismo" },
+    { "tipo": "paragrafo", "texto": "É exatamente nesses microdespertares que o bruxismo do sono costuma acontecer. Estudos do sono mostram que, no momento em que a respiração é retomada após uma pausa, os músculos da mastigação frequentemente se contraem — como se o corpo usasse o movimento de ranger os dentes para \"reabrir\" as vias aéreas e retomar o fluxo de ar." },
+    { "tipo": "paragrafo", "texto": "Ou seja: em muitos casos, o bruxismo não é a causa principal do problema, mas um <strong>sintoma</strong> de uma apneia não diagnosticada. Isso explica por que algumas pessoas usam a placa de bruxismo corretamente, protegem os dentes, mas continuam se sentindo cansadas — porque a causa de fundo (a apneia) não foi tratada." },
+
+    { "tipo": "titulo", "nivel": 2, "texto": "Sinais de Que Pode Ser Apneia, Não Só Bruxismo" },
+    { "tipo": "lista", "itens": [
+        "Ronco alto e frequente, especialmente se alguém já notou pausas na sua respiração durante o sono;",
+        "Sonolência excessiva durante o dia, mesmo dormindo o número de horas recomendado;",
+        "Acordar com a boca seca ou dor de garganta;",
+        "Dificuldade de concentração e memória durante o dia;",
+        "Dor de cabeça matinal persistente, mesmo com o uso correto da placa de bruxismo;",
+        "Sensação de sufocamento ou engasgo durante o sono;",
+        "Pressão alta sem outra causa aparente."
+    ]},
+    { "tipo": "paragrafo", "texto": "Se você já verificou os <a href=\"https://stelleodontologia.com.br/como-saber-se-tenho-bruxismo/\">sinais de bruxismo</a> e vários desses itens também soam familiares, vale conversar com seu dentista sobre a possibilidade de apneia associada." },
+
+    { "tipo": "titulo", "nivel": 2, "texto": "Como é Feito o Diagnóstico Conjunto" },
+    { "tipo": "paragrafo", "texto": "Quando há suspeita de que o bruxismo pode estar ligado à apneia, o exame indicado é a <strong>polissonografia</strong> — um estudo do sono que monitora simultaneamente a atividade cerebral, os movimentos musculares (incluindo o ranger dos dentes) e a respiração durante a noite. Esse exame consegue identificar se os episódios de bruxismo coincidem com pausas respiratórias, confirmando a relação entre os dois." },
+    { "tipo": "paragrafo", "texto": "O dentista costuma ser o primeiro profissional a levantar essa suspeita, muitas vezes durante uma consulta de rotina, e encaminha para avaliação com um médico do sono quando necessário." },
+
+    { "tipo": "titulo", "nivel": 2, "texto": "Tratar os Dois ao Mesmo Tempo" },
+    { "tipo": "paragrafo", "texto": "Quando a apneia é confirmada, o tratamento costuma envolver mais de uma frente:" },
+    { "tipo": "lista", "itens": [
+        "<strong><a href=\"https://stelleodontologia.com.br/placa-de-bruxismo/\">Placa de bruxismo</a>:</strong> continua importante para proteger os dentes do desgaste, mesmo com a apneia sendo tratada separadamente.",
+        "<strong>Aparelhos de avanço mandibular:</strong> em casos leves a moderados de apneia, alguns dispositivos odontológicos ajudam a manter as vias aéreas mais abertas durante o sono.",
+        "<strong>CPAP:</strong> o tratamento mais indicado para apneia moderada a grave, um aparelho que mantém um fluxo de ar constante durante a noite.",
+        "<strong>Perda de peso e mudanças de hábito:</strong> quando aplicável, reduzem a gravidade da apneia e, por consequência, a frequência do bruxismo associado."
+    ]},
+    { "tipo": "paragrafo", "texto": "Tratar a apneia, quando ela está presente, costuma reduzir significativamente os episódios de bruxismo — porque a causa de fundo deixa de acontecer." },
+
+    { "tipo": "callout", "texto": "Bruxismo que não melhora mesmo com a placa? Pode haver uma causa por trás que ainda não foi investigada. Agende uma avaliação.", "cta_texto": "Agendar avaliação", "cta_link": "https://wa.me/5521976939004?text=Gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20sobre%20bruxismo%20e%20apneia%20do%20sono" },
+
+    { "tipo": "faq", "perguntas": [
+      { "pergunta": "Todo mundo que tem bruxismo também tem apneia do sono?", "resposta": "Não. A maioria dos casos de bruxismo não está ligada à apneia — estresse e má oclusão são causas muito mais comuns. Mas quando o bruxismo persiste apesar do tratamento correto, vale investigar essa possibilidade." },
+      { "pergunta": "A placa de bruxismo piora a apneia do sono?", "resposta": "Não é o esperado com uma placa bem indicada e ajustada pelo dentista. Em alguns casos específicos, o profissional pode optar por um aparelho de avanço mandibular, que protege os dentes e ainda ajuda a manter as vias aéreas mais abertas." },
+      { "pergunta": "Preciso fazer polissonografia mesmo se só suspeito de bruxismo?", "resposta": "Não necessariamente — a maioria dos casos de bruxismo é diagnosticada só com exame clínico. A polissonografia é indicada quando há sinais que sugerem apneia associada, como ronco alto, sonolência diurna e pausas respiratórias percebidas por quem dorme perto de você." },
+      { "pergunta": "Criança pode ter bruxismo por apneia do sono?", "resposta": "Sim, principalmente quando associado a amígdalas ou adenoides aumentadas, causas comuns de apneia infantil. Veja mais no nosso artigo sobre <a href=\"https://stelleodontologia.com.br/bruxismo-infantil/\">bruxismo infantil</a>." },
+      { "pergunta": "Tratar a apneia elimina o bruxismo completamente?", "resposta": "Na maioria dos casos, reduz bastante a frequência, já que a causa de fundo deixa de acontecer. Mas se houver outros fatores associados, como estresse, o acompanhamento continuado ainda é recomendado." }
+    ]},
+
+    { "tipo": "paragrafo", "texto": "Quer entender o quadro completo? Volte ao <a href=\"/bruxismo/\">guia completo sobre bruxismo</a> para ver todas as causas, sintomas e opções de tratamento." }
+  ]
+}
