@@ -6,7 +6,7 @@
   "categoria": "tratamentos",
   "autor": "dra-kesya-nogueira",
   "cluster_pai": null,
-  "cluster_filhos": ["bruxismo-do-sono", "placa-de-bruxismo", "bruxismo-infantil", "botox-para-bruxismo", "bruxismo-e-dor-de-cabeca", "bruxismo-causa-dtm", "como-saber-se-tenho-bruxismo", "bruxismo-por-ansiedade", "bruxismo-e-apneia-do-sono"],
+  "cluster_filhos": ["bruxismo-do-sono", "placa-de-bruxismo", "bruxismo-infantil", "botox-para-bruxismo", "bruxismo-e-dor-de-cabeca", "bruxismo-causa-dtm", "como-saber-se-tenho-bruxismo", "bruxismo-por-ansiedade", "bruxismo-e-apneia-do-sono", "bruxismo-e-alinhador-invisivel", "bruxismo-e-implante-dentario"],
   "capa": {
     "url": "/assets/recovered/2023/11/O-que-e-Bruxismo-1024x576.png",
     "srcset": "/assets/recovered/2023/11/O-que-e-Bruxismo-300x169.png 300w, /assets/recovered/2023/11/O-que-e-Bruxismo-768x432.png 768w, /assets/recovered/2023/11/O-que-e-Bruxismo-1024x576.png 1024w, /assets/recovered/2023/11/O-que-e-Bruxismo.png 1366w",
@@ -15,7 +15,7 @@
   },
   "publicado": true,
   "publicado_em": "2023-11-28",
-  "atualizado_em": "2026-08-18",
+  "atualizado_em": "2026-08-19",
   "blocos": [
     { "tipo": "paragrafo", "texto": "O <strong>bruxismo</strong> é o hábito involuntário de ranger ou apertar os dentes, e vai muito além do simples barulho durante o sono: pode causar dor de cabeça, dor na mandíbula, desgaste dentário severo e até fraturas nos dentes. É considerado o terceiro distúrbio do sono mais comum, atrás apenas do sonambulismo e do ronco, e atinge adultos e crianças, sem distinção de gênero." },
     { "tipo": "paragrafo", "texto": "Este é o nosso <strong>guia completo sobre bruxismo</strong>: aqui você encontra o que é, por que acontece, como identificar os sinais, o que pode acontecer se não for tratado e quais são as opções de tratamento disponíveis hoje. Ao longo do texto, você vai encontrar links para artigos mais específicos sobre cada subtema, como <a href=\"https://stelleodontologia.com.br/bruxismo-do-sono/\">bruxismo do sono</a> e <a href=\"https://stelleodontologia.com.br/placa-de-bruxismo/\">placa de bruxismo</a>." },
@@ -85,7 +85,7 @@
         "<strong>Correção da respiração bucal:</strong> quando o bruxismo está associado à respiração pela boca, terapias miofuncionais podem tratar a causa, não só o sintoma.",
         "<strong>Ajuste oclusal:</strong> em casos de má oclusão, o tratamento ortodôntico pode ser necessário para eliminar o gatilho do bruxismo."
     ]},
-    { "tipo": "paragrafo", "texto": "O tratamento ideal depende da causa identificada na avaliação — por isso reforçamos: evite comprar uma placa \"genérica\" sem antes passar por um dentista." },
+    { "tipo": "paragrafo", "texto": "O tratamento ideal depende da causa identificada na avaliação — por isso reforçamos: evite comprar uma placa \"genérica\" sem antes passar por um dentista. Se você está pensando em corrigir os dentes ou repor algum que falta, também vale ler nossos artigos sobre <a href=\"https://stelleodontologia.com.br/bruxismo-e-alinhador-invisivel/\">bruxismo e alinhador invisível</a> e <a href=\"https://stelleodontologia.com.br/bruxismo-e-implante-dentario/\">bruxismo e implante dentário</a>." },
 
     { "tipo": "titulo", "nivel": 2, "texto": "8. Convivendo com o Bruxismo: Cuidados no Dia a Dia" },
     { "tipo": "lista", "itens": [
