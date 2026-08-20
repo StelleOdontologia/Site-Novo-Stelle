@@ -192,22 +192,22 @@
     },
     {
       "source": "/category/:path*",
-      "destination": "https://blog.stelleodontologia.com.br/category/:path*",
+      "destination": "/blog/",
       "permanent": true
     },
     {
       "source": "/tag/:path*",
-      "destination": "https://blog.stelleodontologia.com.br/tag/:path*",
+      "destination": "/blog/",
       "permanent": true
     },
     {
       "source": "/fastgloss/:path*",
-      "destination": "https://blog.stelleodontologia.com.br/fastgloss/:path*",
+      "destination": "/",
       "permanent": true
     },
     {
       "source": "/fastgloss-categoria/:path*",
-      "destination": "https://blog.stelleodontologia.com.br/fastgloss-categoria/:path*",
+      "destination": "/",
       "permanent": true
     },
     {
@@ -242,32 +242,32 @@
     },
     {
       "source": "/glossario",
-      "destination": "https://blog.stelleodontologia.com.br/glossario/",
+      "destination": "/",
       "permanent": true
     },
     {
       "source": "/glossario/",
-      "destination": "https://blog.stelleodontologia.com.br/glossario/",
+      "destination": "/",
       "permanent": true
     },
     {
       "source": "/glossario-odontologico",
-      "destination": "https://blog.stelleodontologia.com.br/glossario-odontologico/",
+      "destination": "/",
       "permanent": true
     },
     {
       "source": "/glossario-odontologico/",
-      "destination": "https://blog.stelleodontologia.com.br/glossario-odontologico/",
+      "destination": "/",
       "permanent": true
     },
     {
       "source": "/fastgloss",
-      "destination": "https://blog.stelleodontologia.com.br/fastgloss/",
+      "destination": "/",
       "permanent": true
     },
     {
       "source": "/fastgloss/",
-      "destination": "https://blog.stelleodontologia.com.br/fastgloss/",
+      "destination": "/",
       "permanent": true
     },
     {
