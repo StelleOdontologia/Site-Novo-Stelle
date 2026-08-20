@@ -1,0 +1,72 @@
+{
+  "slug": "odontologia-do-sono",
+  "titulo_meta": "Odontologia do Sono: O Que É e Como Funciona? - Stelle",
+  "titulo_h1": "Odontologia do Sono: O Que É e Como Funciona?",
+  "meta_description": "Você sabia que um dentista pode ajudar no diagnóstico de apneia, ronco e bruxismo do sono? Entenda o que é odontologia do sono e quando buscar esse cuidado.",
+  "categoria": "tratamentos",
+  "autor": "dra-kesya-nogueira",
+  "cluster_pai": "bruxismo",
+  "capa": {
+    "url": "/assets/recovered/2023/11/O-que-e-Bruxismo-1024x576.png",
+    "srcset": "/assets/recovered/2023/11/O-que-e-Bruxismo-300x169.png 300w, /assets/recovered/2023/11/O-que-e-Bruxismo-768x432.png 768w, /assets/recovered/2023/11/O-que-e-Bruxismo-1024x576.png 1024w, /assets/recovered/2023/11/O-que-e-Bruxismo.png 1366w",
+    "og": "https://stelleodontologia.com.br/assets/recovered/2023/11/O-que-e-Bruxismo-1024x576.png",
+    "alt": "Ilustração representando o bruxismo, o hábito de ranger os dentes"
+  },
+  "publicado": true,
+  "publicado_em": "2026-08-19",
+  "atualizado_em": "2026-08-19",
+  "blocos": [
+    { "tipo": "pillar_badge", "texto": "Parte do Guia Completo sobre Bruxismo", "link": "/bruxismo/" },
+    { "tipo": "paragrafo", "texto": "Quando o assunto é sono ruim, ronco ou pausas na respiração à noite, a maioria das pessoas pensa primeiro em procurar um médico — e não erra, mas esquece de uma peça importante desse quebra-cabeça: o dentista. A <strong>odontologia do sono</strong> é a área que estuda justamente essa conexão entre a boca, a mandíbula e os distúrbios respiratórios do sono, e vem ganhando espaço no Brasil nos últimos anos." },
+    { "tipo": "paragrafo", "texto": "Este artigo faz parte do nosso <a href=\"/bruxismo/\">guia completo sobre bruxismo</a> e explica o que é essa área, o que ela trata e qual é, na prática, o papel do dentista nesse cuidado." },
+
+    { "tipo": "titulo", "nivel": 2, "texto": "O Que É Odontologia do Sono?" },
+    { "tipo": "paragrafo", "texto": "Segundo o <a href=\"https://website.cfo.org.br/odontologia-do-sono-se-propoe-a-tratar-quem-sofre-com-apneia-leve-ronco-e-bruxismo/\" target=\"_blank\" rel=\"noopener\">Conselho Federal de Odontologia (CFO)</a>, a odontologia do sono se propõe a tratar pessoas que sofrem com apneia leve, ronco e bruxismo — quadros que, embora comecem como um problema \"de sono\", têm relação direta com a anatomia da boca, da mandíbula e das vias aéreas superiores, área de conhecimento do cirurgião-dentista." },
+    { "tipo": "paragrafo", "texto": "É importante ser transparente sobre um ponto: a odontologia do sono <strong>não é, hoje, uma especialidade formalmente regulamentada pelo CFO</strong> (diferente de especialidades como ortodontia ou endodontia). Ela funciona como uma área de atuação e aprimoramento, com certificação oferecida por associações como a Associação Brasileira do Sono (Absono), através de cursos e provas específicas para dentistas que quiserem se aprofundar no tema." },
+
+    { "tipo": "titulo", "nivel": 2, "texto": "Quais Distúrbios Estão Nesse Campo" },
+    { "tipo": "paragrafo", "texto": "Os principais quadros que essa área de atuação aborda são:" },
+    { "tipo": "lista", "itens": [
+        "<strong>Apneia obstrutiva do sono</strong> (casos leves a moderados), quando as vias aéreas ficam parcial ou totalmente bloqueadas durante o sono;",
+        "<strong>Ronco</strong> primário, sem pausas respiratórias associadas;",
+        "<strong>Síndrome de resistência das vias aéreas superiores</strong>, um quadro intermediário entre o ronco simples e a apneia;",
+        "<strong><a href=\"https://stelleodontologia.com.br/bruxismo-do-sono/\">Bruxismo do sono</a></strong>, que muitas vezes está conectado aos distúrbios respiratórios, como já explicamos no nosso artigo sobre <a href=\"https://stelleodontologia.com.br/bruxismo-e-apneia-do-sono/\">bruxismo e apneia do sono</a>."
+    ]},
+    { "tipo": "paragrafo", "texto": "Segundo dados citados por profissionais da área, cerca de 30% dos brasileiros convivem com algum desses problemas — um número alto, que explica por que esse tipo de avaliação vem ganhando relevância." },
+
+    { "tipo": "titulo", "nivel": 2, "texto": "O Papel do Dentista Nesse Cuidado" },
+    { "tipo": "paragrafo", "texto": "O dentista não substitui o médico do sono — cada um tem uma função específica, e o tratamento desses distúrbios costuma ser <strong>multidisciplinar</strong>. Na prática, o dentista costuma entrar em pelo menos três momentos:" },
+    { "tipo": "lista", "itens": [
+        "<strong>Identificação de sinais de alerta:</strong> durante uma consulta de rotina, o dentista pode notar desgaste dentário compatível com bruxismo do sono, alterações na via aérea ou queixas do paciente que sugerem apneia ou ronco, e encaminhar para avaliação médica.",
+        "<strong>Confecção de aparelhos intraorais:</strong> em casos leves a moderados de apneia, dispositivos de avanço mandibular, feitos sob medida pelo dentista, ajudam a manter as vias aéreas mais abertas durante o sono.",
+        "<strong>Proteção contra o bruxismo associado:</strong> quando há bruxismo do sono ligado ao quadro respiratório, a <a href=\"https://stelleodontologia.com.br/placa-de-bruxismo/\">placa de bruxismo</a> continua sendo importante para proteger os dentes, independente do tratamento da causa de fundo."
+    ]},
+    { "tipo": "paragrafo", "texto": "Ou seja: mesmo sem ser uma especialidade formal, essa é uma área em que o conhecimento odontológico já é útil na prática clínica do dia a dia — não é necessário ter uma certificação específica para que um dentista identifique sinais de alerta e faça o encaminhamento correto, ou para confeccionar uma placa de proteção quando indicado." },
+
+    { "tipo": "titulo", "nivel": 2, "texto": "Como É Feito o Diagnóstico" },
+    { "tipo": "paragrafo", "texto": "O diagnóstico definitivo de apneia do sono é sempre médico, geralmente através da <strong>polissonografia</strong> — exame que monitora a atividade cerebral, muscular e respiratória durante a noite. O dentista pode ser o primeiro a levantar a suspeita, mas a confirmação e a definição da gravidade do quadro cabem ao médico do sono, que também decide se o tratamento mais indicado é CPAP, aparelho intraoral, ou uma combinação de abordagens." },
+    { "tipo": "paragrafo", "texto": "Já falamos sobre os sinais de alerta e o processo de investigação no nosso artigo sobre <a href=\"https://stelleodontologia.com.br/bruxismo-e-apneia-do-sono/\">bruxismo e apneia do sono</a>, e também no artigo sobre <a href=\"https://stelleodontologia.com.br/descubra-tudo-que-voce-precisa-saber-sobre-o-ronco/\">ronco e apneia do sono</a>." },
+
+    { "tipo": "titulo", "nivel": 2, "texto": "Quando Vale a Pena Buscar Essa Avaliação" },
+    { "tipo": "paragrafo", "texto": "Vale conversar com seu dentista sobre a possibilidade de um distúrbio do sono associado se você:" },
+    { "tipo": "lista", "itens": [
+        "Ronca com frequência, especialmente se alguém já notou pausas na sua respiração durante o sono;",
+        "Acorda com a boca seca, dor de cabeça ou sensação de sono não reparador;",
+        "Tem <a href=\"https://stelleodontologia.com.br/como-saber-se-tenho-bruxismo/\">sinais de bruxismo</a> que não melhoram totalmente só com a placa;",
+        "Sente sonolência excessiva durante o dia, mesmo dormindo o número de horas recomendado."
+    ]},
+    { "tipo": "paragrafo", "texto": "Nesses casos, o dentista pode fazer uma primeira avaliação e, se necessário, encaminhar para um médico especialista em medicina do sono — um cuidado multidisciplinar tende a trazer resultados mais completos do que tratar cada sintoma isoladamente." },
+
+    { "tipo": "callout", "texto": "Notou sinais de bruxismo, ronco ou sono não reparador? Uma avaliação inicial pode apontar o próximo passo certo.", "cta_texto": "Agendar avaliação", "cta_link": "https://wa.me/5521976939004?text=Gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20sobre%20sinais%20de%20bruxismo%20e%20sono" },
+
+    { "tipo": "faq", "perguntas": [
+      { "pergunta": "Odontologia do sono é uma especialidade reconhecida pelo CFO?", "resposta": "Não. É uma área de atuação e aprimoramento, com certificação oferecida por associações como a Absono, mas ainda não consta na lista de especialidades formalmente regulamentadas pelo Conselho Federal de Odontologia." },
+      { "pergunta": "O dentista pode diagnosticar apneia do sono sozinho?", "resposta": "Não. O diagnóstico definitivo é médico, geralmente feito por polissonografia. O dentista pode identificar sinais de alerta e encaminhar, além de participar do tratamento com aparelhos intraorais quando indicado." },
+      { "pergunta": "Todo dentista pode fazer aparelho para apneia do sono?", "resposta": "A confecção de dispositivos de avanço mandibular exige conhecimento técnico específico e, idealmente, deve ser feita em conjunto com o acompanhamento médico do paciente, já que o tipo e a gravidade da apneia definem se esse é o tratamento mais indicado." },
+      { "pergunta": "Bruxismo do sono sempre está ligado a apneia?", "resposta": "Não, a maioria dos casos de bruxismo não está relacionada à apneia — mas quando o bruxismo persiste mesmo com o tratamento correto, vale investigar essa possibilidade, como explicamos no nosso artigo sobre bruxismo e apneia do sono." },
+      { "pergunta": "Como sei se preciso de um dentista ou de um médico do sono primeiro?", "resposta": "Não há uma ordem rígida — muitas vezes o próprio dentista, numa consulta de rotina, é quem levanta a suspeita e faz o encaminhamento. Se você já tem sintomas claros como ronco e pausas respiratórias percebidas por quem dorme perto de você, também pode procurar diretamente um médico especialista em sono." }
+    ]},
+
+    { "tipo": "paragrafo", "texto": "Quer entender o quadro completo sobre bruxismo? Volte ao <a href=\"/bruxismo/\">guia completo sobre bruxismo</a> para ver todas as causas, sintomas e opções de tratamento." }
+  ]
+}

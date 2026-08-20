@@ -6,7 +6,7 @@
   "categoria": "tratamentos",
   "autor": "dra-kesya-nogueira",
   "cluster_pai": null,
-  "cluster_filhos": ["bruxismo-do-sono", "placa-de-bruxismo", "bruxismo-infantil", "botox-para-bruxismo", "bruxismo-e-dor-de-cabeca", "bruxismo-causa-dtm", "como-saber-se-tenho-bruxismo", "bruxismo-por-ansiedade", "bruxismo-e-apneia-do-sono", "bruxismo-e-alinhador-invisivel", "bruxismo-e-implante-dentario", "voce-pode-ter-bruxismo-sem-perceber", "fisioterapia-e-exercicios-para-bruxismo"],
+  "cluster_filhos": ["bruxismo-do-sono", "placa-de-bruxismo", "bruxismo-infantil", "botox-para-bruxismo", "bruxismo-e-dor-de-cabeca", "bruxismo-causa-dtm", "como-saber-se-tenho-bruxismo", "bruxismo-por-ansiedade", "bruxismo-e-apneia-do-sono", "bruxismo-e-alinhador-invisivel", "bruxismo-e-implante-dentario", "voce-pode-ter-bruxismo-sem-perceber", "fisioterapia-e-exercicios-para-bruxismo", "odontologia-do-sono"],
   "capa": {
     "url": "/assets/recovered/2023/11/O-que-e-Bruxismo-1024x576.png",
     "srcset": "/assets/recovered/2023/11/O-que-e-Bruxismo-300x169.png 300w, /assets/recovered/2023/11/O-que-e-Bruxismo-768x432.png 768w, /assets/recovered/2023/11/O-que-e-Bruxismo-1024x576.png 1024w, /assets/recovered/2023/11/O-que-e-Bruxismo.png 1366w",
@@ -75,7 +75,7 @@
     { "tipo": "paragrafo", "texto": "Se você sente <a href=\"https://stelleodontologia.com.br/guia-completo-sobre-remedio-para-dor-de-dente-dicas-e-recomendacoes/\">dor de dente persistente</a> e não sabe a causa, o bruxismo é um dos primeiros pontos que investigamos na consulta." },
 
     { "tipo": "titulo", "nivel": 2, "texto": "6. Como É Feito o Diagnóstico do Bruxismo?" },
-    { "tipo": "paragrafo", "texto": "O diagnóstico começa com uma avaliação clínica: o dentista examina o desgaste dos dentes, a musculatura da face e a articulação da mandíbula, além de perguntar sobre qualidade do sono, estresse e hábitos do dia a dia. Em casos mais complexos, principalmente quando há suspeita de apneia do sono associada, pode ser indicada uma <strong>polissonografia</strong> — exame que monitora a atividade cerebral, muscular e respiratória durante o sono." },
+    { "tipo": "paragrafo", "texto": "O diagnóstico começa com uma avaliação clínica: o dentista examina o desgaste dos dentes, a musculatura da face e a articulação da mandíbula, além de perguntar sobre qualidade do sono, estresse e hábitos do dia a dia. Em casos mais complexos, principalmente quando há suspeita de apneia do sono associada, pode ser indicada uma <strong>polissonografia</strong> — exame que monitora a atividade cerebral, muscular e respiratória durante o sono. Esse é justamente o campo de atuação da <a href=\"https://stelleodontologia.com.br/odontologia-do-sono/\">odontologia do sono</a>, área que conecta o cuidado odontológico aos distúrbios respiratórios do sono." },
 
     { "tipo": "titulo", "nivel": 2, "texto": "7. Tratamentos para Bruxismo" },
     { "tipo": "paragrafo", "texto": "Não existe uma cura definitiva única para o bruxismo, mas há diversas formas de controlar o hábito, proteger os dentes e aliviar os sintomas. Segundo o <a href=\"https://www.einstein.br/especialidades/medicina-do-sono/doencas-sintomas/bruxismo\" target=\"_blank\" rel=\"noopener\">Hospital Israelita Albert Einstein</a>, a placa estabilizadora é a opção de tratamento mais utilizada para proteger os dentes, e a psicoterapia é recomendada especialmente nos casos ligados a estresse e ansiedade." },
