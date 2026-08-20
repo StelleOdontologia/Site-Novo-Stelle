@@ -176,8 +176,13 @@
       "permanent": true
     },
     {
+      "source": "/wp-content/uploads/:path*",
+      "destination": "/assets/recovered/:path*",
+      "permanent": true
+    },
+    {
       "source": "/wp-content/:path*",
-      "destination": "https://blog.stelleodontologia.com.br/wp-content/:path*",
+      "destination": "/",
       "permanent": true
     },
     {
