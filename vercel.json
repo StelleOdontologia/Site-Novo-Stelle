@@ -187,7 +187,7 @@
     },
     {
       "source": "/wp-json/:path*",
-      "destination": "https://blog.stelleodontologia.com.br/wp-json/:path*",
+      "destination": "/",
       "permanent": true
     },
     {
