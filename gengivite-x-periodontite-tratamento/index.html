@@ -4,8 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- Google tag (gtag.js) -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-4PKNPS8N9C"></script>
-	<script>
+		<script>
 	  window.dataLayer = window.dataLayer || [];
 	  function gtag(){dataLayer.push(arguments);}
 	  gtag('js', new Date());
@@ -22,10 +21,7 @@
 {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
 n.callMethod.apply(n,arguments):n.queue.push(arguments)};
 if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
+n.queue=[];}(window, document,'script');
 fbq('init', '3034726646751532');
 fbq('track', 'PageView');
 </script>
@@ -33,6 +29,31 @@ fbq('track', 'PageView');
 src="https://www.facebook.com/tr?id=3034726646751532&ev=PageView&noscript=1" alt=""
 /></noscript>
 <!-- End Meta Pixel Code -->
+
+<!-- Carregamento adiado dos scripts externos de analytics/pixel (performance) -->
+<script>
+(function(){
+  var loaded = false;
+  function stelleLoadTrackerScripts(){
+    if (loaded) return;
+    loaded = true;
+    var gtagScript = document.createElement('script');
+    gtagScript.async = true;
+    gtagScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-4PKNPS8N9C';
+    document.head.appendChild(gtagScript);
+
+    var fbScript = document.createElement('script');
+    fbScript.async = true;
+    fbScript.src = 'https://connect.facebook.net/en_US/fbevents.js';
+    document.head.appendChild(fbScript);
+  }
+  ['scroll','mousemove','touchstart','keydown','click'].forEach(function(evt){
+    window.addEventListener(evt, stelleLoadTrackerScripts, {once:true, passive:true});
+  });
+  window.addEventListener('load', function(){ setTimeout(stelleLoadTrackerScripts, 3000); });
+})();
+</script>
+
 
 <title>Gengivite x Periodontite: Diferenças - Stelle Odontologia</title>
 <meta name="description" content="Gengivite x periodontite: descubra as diferenças, sintomas e os melhores tratamentos para evitar danos permanentes à sua gengiva e aos dentes.">

@@ -2,7 +2,6 @@
 <html lang="pt-BR">
 <head>
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-4PKNPS8N9C"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -19,10 +18,7 @@
 {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
 n.callMethod.apply(n,arguments):n.queue.push(arguments)};
 if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
+n.queue=[];}(window, document,'script');
 fbq('init', '3034726646751532');
 fbq('track', 'PageView');
 </script>
@@ -30,6 +26,31 @@ fbq('track', 'PageView');
 src="https://www.facebook.com/tr?id=3034726646751532&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Meta Pixel Code -->
+
+<!-- Carregamento adiado dos scripts externos de analytics/pixel (performance) -->
+<script>
+(function(){
+  var loaded = false;
+  function stelleLoadTrackerScripts(){
+    if (loaded) return;
+    loaded = true;
+    var gtagScript = document.createElement('script');
+    gtagScript.async = true;
+    gtagScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-4PKNPS8N9C';
+    document.head.appendChild(gtagScript);
+
+    var fbScript = document.createElement('script');
+    fbScript.async = true;
+    fbScript.src = 'https://connect.facebook.net/en_US/fbevents.js';
+    document.head.appendChild(fbScript);
+  }
+  ['scroll','mousemove','touchstart','keydown','click'].forEach(function(evt){
+    window.addEventListener(evt, stelleLoadTrackerScripts, {once:true, passive:true});
+  });
+  window.addEventListener('load', function(){ setTimeout(stelleLoadTrackerScripts, 3000); });
+})();
+</script>
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:wght@300;400;500;600;700&display=swap');
