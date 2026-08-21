@@ -1381,7 +1381,7 @@ src="https://www.facebook.com/tr?id=3034726646751532&ev=PageView&noscript=1" alt
         </a>
 
       <!-- Hamburger -->
-      <button class="stelle-nav-hamburger" onclick="document.getElementById('stelleMobileMenu').classList.toggle('open')">
+      <button class="stelle-nav-hamburger" aria-label="Abrir menu de navegação" aria-expanded="false" aria-controls="stelleMobileMenu" onclick="this.setAttribute('aria-expanded', document.getElementById('stelleMobileMenu').classList.toggle('open'))">
         <span></span><span></span><span></span>
       </button>
     </nav>

@@ -287,7 +287,7 @@ src="https://www.facebook.com/tr?id=3034726646751532&ev=PageView&noscript=1" alt
       <a href="https://wa.me/5521976939004" class="stelle-nav-cta" target="_blank" rel="noopener">
         📱 Agendar Consulta
       </a>
-      <button class="stelle-nav-hamburger" onclick="stelleToggleMobile()" aria-label="Menu">
+      <button class="stelle-nav-hamburger" aria-label="Abrir menu de navegação" aria-expanded="false" aria-controls="stelleMobileNav" onclick="stelleToggleMobile(this)">
         <span></span><span></span><span></span>
       </button>
     </nav>
@@ -614,8 +614,9 @@ src="https://www.facebook.com/tr?id=3034726646751532&ev=PageView&noscript=1" alt
 </div>
 
 <script>
-  function stelleToggleMobile() {
-    document.getElementById('stelleMobileNav').classList.toggle('open');
+  function stelleToggleMobile(btn) {
+    var isOpen = document.getElementById('stelleMobileNav').classList.toggle('open');
+    btn.setAttribute('aria-expanded', isOpen);
   }
   function stelleToggleMobileSub(btn) {
     btn.classList.toggle('open');
