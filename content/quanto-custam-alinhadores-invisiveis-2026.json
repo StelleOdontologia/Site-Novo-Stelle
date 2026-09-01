@@ -14,8 +14,12 @@
   },
   "publicado": true,
   "publicado_em": "2025-03-20",
-  "atualizado_em": "2026-07-16",
+  "atualizado_em": "2026-09-01",
   "blocos": [
+    {
+      "tipo": "paragrafo",
+      "texto": "<strong>Alinhadores invisíveis custam, em média, entre R$ 4.000 e R$ 25.000 no Brasil em 2026</strong>, variando conforme a marca, a complexidade do caso e o tempo de tratamento. Marcas nacionais como Atma Aligner e SouSmile têm entrada mais barata, enquanto marcas internacionais como Invisalign ficam na faixa mais alta."
+    },
     {
       "tipo": "paragrafo",
       "texto": "Você já se perguntou quanto custam alinhadores invisíveis para ter um sorriso perfeito? Pensa numa pessoa olhando no espelho, imaginando dentes alinhados e confiantes. Talvez essa pessoa seja você, sonhando com um jeito discreto de deixar a boca mais bonita. Os <a href=\"https://stelleodontologia.com.br/alinhadores-invisiveis-guia-completo-2025/\">alinhadores invisíveis</a> são perfeitos para isso, mas aí vem aquela dúvida que todo mundo tem: \"Quanto custam alinhadores invisíveis mesmo?\""
@@ -327,59 +331,13 @@
       "nivel": 2,
       "texto": "Perguntas frequentes sobre custos"
     },
-    {
-      "tipo": "titulo",
-      "nivel": 3,
-      "texto": "O valor pode mudar durante o tratamento?"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "Normalmente, o preço que você combina no começo fica fixo até o fim, mas isso depende do que está escrito no contrato. Se precisar de mais alinhadores ou ajustes que não estavam previstos, como um refinamento que custa uns R$ 1.500, o valor pode subir um pouco. Imagine que seus dentes mudam de ideia no meio do caminho – o dentista avisa e ajusta o plano. Por isso, peça tudo por escrito logo no início, assim você sabe exatamente o que está pagando e evita surpresas no bolso."
-    },
-    {
-      "tipo": "titulo",
-      "nivel": 3,
-      "texto": "Posso fazer só os dentes da frente para economizar?"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "Algumas marcas oferecem tratamentos mais baratos para alinhar só os dentes da frente, o que pode cortar o custo pela metade em casos simples. Mas nem todo mundo pode fazer isso – se mexer só na frente, a mordida pode ficar desalinhada, e aí o sorriso bonito vira um problema. Converse com o dentista para ver se seu caso permite essa economia sem riscos. É uma boa ideia para quem só quer ajustar o visual rapidinho, mas a saúde dos dentes vem em primeiro lugar."
-    },
-    {
-      "tipo": "titulo",
-      "nivel": 3,
-      "texto": "Vale a pena optar por alinhadores mais baratos?"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "Depende do que você quer. Marcas mais baratas, como algumas nacionais, podem custar menos e funcionar bem para casos simples, mas às vezes têm menos precisão ou suporte. Já as marcas famosas, como Invisalign, são mais caras porque trazem tecnologia avançada e resultados mais garantidos. Pensa assim: economizar R$ 5.000 agora é legal, mas se o sorriso não ficar como você sonhou, pode sair caro depois. Escolha com o dentista uma marca que junte preço bom e qualidade para você."
-    },
-    {
-      "tipo": "titulo",
-      "nivel": 3,
-      "texto": "O que fazer se precisar interromper por motivos financeiros?"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "Se o dinheiro apertar, não se desespere – fale com o dentista logo! Ele pode pausar o tratamento por um tempo ou ajustar o pagamento, como dividir em mais parcelas ou esperar você se organizar. Imagine que você já pagou R$ 5.000 e está na metade – o dentista não vai querer que você desista e pode te ajudar a continuar. O importante é não abandonar sem avisar, porque os dentes podem voltar ao que eram, e aí o esforço vai por água abaixo."
-    },
-    {
-      "tipo": "titulo",
-      "nivel": 3,
-      "texto": "É possível financiar só uma parte do tratamento?"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "Sim, muitas clínicas deixam você dar uma entrada maior, tipo R$ 4.000, e financiar só o resto em poucas parcelas. Isso corta os juros e facilita a vida – por exemplo, num tratamento de R$ 10.000, você paga R$ 4.000 agora e parcela R$ 6.000 em 12 vezes. Pergunte na consulta se eles aceitam essa ideia. É uma forma de equilibrar o pagamento e começar logo, sem pesar tanto no orçamento."
-    },
-    {
-      "tipo": "titulo",
-      "nivel": 3,
-      "texto": "Os alinhadores são dedutíveis no Imposto de Renda?"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "Sim, você pode incluir os custos dos alinhadores no Imposto de Renda como despesa médica, desde que tenha recibos ou notas fiscais direitinhos. Se gastar R$ 10.000, por exemplo, isso pode te devolver uma parte do dinheiro na restituição do ano seguinte – depende do quanto você declara. Guarde tudo organizado e fale com seu contador para aproveitar essa vantagem. É uma ajuda extra que faz o investimento valer ainda mais a pena!"
-    }
+    { "tipo": "faq", "perguntas": [
+      { "pergunta": "O valor pode mudar durante o tratamento?", "resposta": "Normalmente, o preço combinado no início fica fixo até o fim, conforme o contrato. Se forem necessários alinhadores ou ajustes extras não previstos, como um refinamento (cerca de R$ 1.500), o valor pode subir um pouco. Por isso, vale pedir tudo por escrito logo no início para evitar surpresas." },
+      { "pergunta": "Posso fazer só os dentes da frente para economizar?", "resposta": "Algumas marcas oferecem tratamentos mais baratos para alinhar só os dentes da frente, cortando o custo em casos simples. Mas nem todo caso permite isso — mexer só na frente pode desalinhar a mordida. O dentista avalia se essa economia é segura para o seu caso." },
+      { "pergunta": "Vale a pena optar por alinhadores mais baratos?", "resposta": "Depende do caso. Marcas nacionais mais baratas funcionam bem para casos simples, mas podem ter menos precisão ou suporte. Marcas como Invisalign custam mais, mas trazem tecnologia mais avançada. O ideal é escolher com o dentista uma marca que equilibre preço e qualidade para o seu tratamento." },
+      { "pergunta": "O que fazer se precisar interromper por motivos financeiros?", "resposta": "O ideal é falar com o dentista antes de interromper. Ele pode pausar o tratamento temporariamente ou ajustar o pagamento (mais parcelas, por exemplo). Abandonar sem avisar é o pior cenário, porque os dentes podem voltar à posição original, perdendo o que já foi investido." },
+      { "pergunta": "É possível financiar só uma parte do tratamento?", "resposta": "Sim. Muitas clínicas aceitam uma entrada maior e financiam só o restante em poucas parcelas, reduzindo os juros. Por exemplo, num tratamento de R$ 10.000, é possível dar R$ 4.000 de entrada e parcelar os R$ 6.000 restantes." },
+      { "pergunta": "Os alinhadores são dedutíveis no Imposto de Renda?", "resposta": "Sim, os custos com alinhadores podem ser incluídos no Imposto de Renda como despesa médica, desde que haja recibos ou notas fiscais. O valor pode gerar restituição parcial, dependendo da declaração — vale confirmar com um contador." }
+    ]}
   ]
 }
