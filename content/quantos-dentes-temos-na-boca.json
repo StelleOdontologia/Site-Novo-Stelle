@@ -14,7 +14,7 @@
   },
   "publicado": true,
   "publicado_em": "2024-12-16",
-  "atualizado_em": "2024-12-28",
+  "atualizado_em": "2026-09-01",
   "blocos": [
     {
       "tipo": "titulo",
@@ -23,7 +23,7 @@
     },
     {
       "tipo": "paragrafo",
-      "texto": "Você já parou para pensar <strong>quantos dentes temos na boca</strong> ao longo da vida? Essa é uma dúvida comum, especialmente para quem deseja entender melhor a estrutura bucal e como ela muda com o tempo. Os dentes não servem apenas para mastigar; eles têm um papel essencial na fala, na estética do sorriso e até na saúde geral."
+      "texto": "<strong>Um adulto tem 32 dentes permanentes; uma criança com a dentição de leite completa tem 20.</strong> Você já parou para pensar quantos dentes temos na boca ao longo da vida, e por que esse número muda? Os dentes não servem apenas para mastigar; eles têm um papel essencial na fala, na estética do sorriso e até na saúde geral."
     },
     {
       "tipo": "paragrafo",
@@ -124,7 +124,7 @@
     },
     {
       "tipo": "paragrafo",
-      "texto": "A troca geralmente começa por volta dos seis anos e pode durar até os 21 anos, com o surgimento dos terceiros molares, conhecidos como dentes do siso."
+      "texto": "A troca geralmente começa por volta dos seis anos e pode durar até os 21 anos, com o surgimento dos terceiros molares, conhecidos como dentes do siso, conforme a <a href=\"https://www.mouthhealthy.org/all-topics-a-z/eruption-charts\" target=\"_blank\" rel=\"noopener\">tabela de erupção dentária da American Dental Association</a>."
     },
     {
       "tipo": "titulo",
@@ -436,12 +436,12 @@
         {
           "pergunta": "O que fazer se perceber que está faltando algum dente na arcada?",
           "resposta": "Consulte um dentista. A ausência de dentes pode ser causada por agenesia dentária ou problemas bucais e, em muitos casos, pode ser corrigida com próteses ou implantes."
-        },
-        {
-          "pergunta": "Aviso Importante",
-          "resposta": "O conteúdo deste artigo tem caráter informativo e não substitui a avaliação de um dentista. Para dúvidas ou tratamentos, procure um profissional qualificado."
         }
       ]
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "<em>Aviso importante: o conteúdo deste artigo tem caráter informativo e não substitui a avaliação de um dentista. Para dúvidas ou tratamentos, procure um profissional qualificado.</em>"
     }
   ]
 }
