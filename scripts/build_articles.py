@@ -223,7 +223,7 @@ def get_all_articles_sorted():
     ]
     articles = [_load_article(s) for s in slugs]
     articles = [a for a in articles if a.get("publicado", True)]
-    articles.sort(key=lambda a: max(a["publicado_em"], a["atualizado_em"]), reverse=True)
+    articles.sort(key=lambda a: a["publicado_em"], reverse=True)
     _all_articles_sorted = articles
     return articles
 
