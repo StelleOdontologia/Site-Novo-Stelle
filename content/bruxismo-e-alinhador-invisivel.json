@@ -14,7 +14,7 @@
   },
   "publicado": true,
   "publicado_em": "2026-08-18",
-  "atualizado_em": "2026-08-18",
+  "atualizado_em": "2026-09-01",
   "blocos": [
     { "tipo": "pillar_badge", "texto": "Parte do Guia Completo sobre Bruxismo", "link": "/bruxismo/" },
     { "tipo": "paragrafo", "texto": "Uma das dúvidas mais comuns de quem tem <strong>bruxismo</strong> e está pensando em corrigir os dentes é: dá pra usar alinhador invisível mesmo rangendo os dentes à noite? A resposta curta é sim — na maioria dos casos, o alinhador não é contraindicado. Mas existem detalhes importantes sobre como o tratamento funciona, o que muda no planejamento e por que o alinhador nunca substitui a placa de bruxismo." },
@@ -64,7 +64,7 @@
     { "tipo": "paragrafo", "texto": "Apesar dos cuidados extras, o alinhador tem vantagens reais para pacientes com bruxismo, comparado ao aparelho fixo tradicional:" },
     { "tipo": "lista", "itens": [
         "<strong>Sem brackets ou fios</strong> que possam se soltar ou quebrar com a força do aperto;",
-        "<strong>Corrige a má oclusão</strong>, que é uma das causas do bruxismo — em alguns casos, o tratamento ortodôntico ajuda a reduzir a frequência do hábito;",
+        "<strong>Corrige a má oclusão</strong>, apontada pela <a href=\"https://www.colgate.com.br/oral-health/bruxism/bruxism-signs-and-symptoms\" target=\"_blank\" rel=\"noopener\">Colgate</a> como um dos fatores associados ao bruxismo — em alguns casos, o tratamento ortodôntico ajuda a reduzir a frequência do hábito;",
         "<strong>Facilita a avaliação do desgaste</strong>, já que o próprio plástico do alinhador mostra sinais visíveis quando a força está acima do esperado — algo que não acontece com um aparelho fixo colado."
     ]},
 

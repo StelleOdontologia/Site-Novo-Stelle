@@ -14,14 +14,14 @@
   },
   "publicado": true,
   "publicado_em": "2026-08-17",
-  "atualizado_em": "2026-08-17",
+  "atualizado_em": "2026-09-01",
   "blocos": [
     { "tipo": "pillar_badge", "texto": "Parte do Guia Completo sobre Bruxismo", "link": "/bruxismo/" },
     { "tipo": "paragrafo", "texto": "Se você sente estalos ao abrir a boca, dificuldade para mastigar de um lado ou trava na mandíbula, pode estar lidando com <strong>DTM (Disfunção Temporomandibular)</strong> — e um dos principais causadores desse quadro é o bruxismo não tratado. Entender essa relação ajuda a identificar o problema antes que ele se torne crônico." },
     { "tipo": "paragrafo", "texto": "Este artigo faz parte do nosso <a href=\"/bruxismo/\">guia completo sobre bruxismo</a> e explica como um hábito de ranger os dentes pode evoluir para um problema na articulação." },
 
     { "tipo": "titulo", "nivel": 2, "texto": "O Que É DTM?" },
-    { "tipo": "paragrafo", "texto": "DTM é o nome dado a um conjunto de problemas que afetam a articulação temporomandibular (ATM) — a articulação que conecta a mandíbula ao crânio, na frente de cada orelha — e os músculos ao redor dela. Quando essa articulação não funciona corretamente, surgem dor, estalos, limitação de movimento e outros sintomas que afetam diretamente a qualidade de vida." },
+    { "tipo": "paragrafo", "texto": "DTM é o nome dado a um conjunto de problemas que afetam a articulação temporomandibular (ATM) — a articulação que conecta a mandíbula ao crânio, na frente de cada orelha — e os músculos ao redor dela. Quando essa articulação não funciona corretamente, surgem dor, estalos, limitação de movimento e outros sintomas que afetam diretamente a qualidade de vida, segundo a <a href=\"https://my.clevelandclinic.org/health/diseases/15066-temporomandibular-disorders-tmd-overview\" target=\"_blank\" rel=\"noopener\">Cleveland Clinic</a>." },
 
     { "tipo": "titulo", "nivel": 2, "texto": "Como o Bruxismo Leva à DTM" },
     { "tipo": "paragrafo", "texto": "O bruxismo sobrecarrega a articulação temporomandibular de duas formas: pela força excessiva do aperto, que pressiona diretamente a articulação, e pela tensão muscular constante nos músculos da mastigação, que altera a forma como a mandíbula se movimenta ao longo do dia. Com o tempo, essa sobrecarga repetida pode desgastar os componentes internos da articulação, incluindo o disco articular que amortece o movimento." },

@@ -14,7 +14,7 @@
   },
   "publicado": true,
   "publicado_em": "2026-08-15",
-  "atualizado_em": "2026-08-16",
+  "atualizado_em": "2026-09-01",
   "blocos": [
     { "tipo": "pillar_badge", "texto": "Parte do Guia Completo sobre Bruxismo", "link": "/bruxismo/" },
     { "tipo": "paragrafo", "texto": "Quem tem <strong>bruxismo do sono</strong> quase nunca percebe sozinho — o hábito de ranger ou apertar os dentes acontece de forma inconsciente, durante o sono profundo. Na maioria das vezes, quem descobre primeiro é a pessoa que dorme ao lado, ao ouvir o ranger, ou o próprio dentista, ao notar o desgaste característico nos dentes durante uma consulta de rotina." },
@@ -39,6 +39,7 @@
         "<strong>Má oclusão dentária</strong>, quando os dentes não se encaixam bem;",
         "<strong>Respiração bucal durante o sono</strong>, que resseca a boca e pode estimular o movimento dos dentes."
     ]},
+    { "tipo": "paragrafo", "texto": "A <a href=\"https://www.mayoclinic.org/diseases-conditions/bruxism/symptoms-causes/syc-20356095\" target=\"_blank\" rel=\"noopener\">Mayo Clinic</a> também associa o bruxismo do sono a outros distúrbios do sono, reforçando que a avaliação da causa vai além do exame dentário isolado." },
 
     { "tipo": "titulo", "nivel": 2, "texto": "Riscos de Não Tratar o Bruxismo do Sono" },
     { "tipo": "paragrafo", "texto": "Por acontecer todas as noites, sem controle consciente, o bruxismo do sono tende a causar um desgaste mais acentuado do que o bruxismo em vigília. Sem tratamento, os riscos incluem desgaste severo do esmalte, fraturas nos dentes, dores crônicas na articulação da mandíbula (DTM) e piora na qualidade do sono — o que reflete em cansaço e dificuldade de concentração durante o dia." },

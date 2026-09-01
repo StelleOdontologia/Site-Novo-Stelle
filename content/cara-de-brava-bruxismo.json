@@ -14,7 +14,7 @@
   },
   "publicado": true,
   "publicado_em": "2026-08-21",
-  "atualizado_em": "2026-08-21",
+  "atualizado_em": "2026-09-01",
   "blocos": [
     { "tipo": "pillar_badge", "texto": "Parte do Guia Completo sobre Bruxismo", "link": "/bruxismo/" },
     { "tipo": "paragrafo", "texto": "\"Eu durmo muito feia.\" Foi assim que uma paciente resumiu, em consulta, o que sentia todas as manhãs: acordava com o rosto tenso, uma expressão fechada, quase de raiva, e a sensação de que tinha dormido mal — mesmo passando a noite inteira na cama. Ela queria \"dormir mais bonita\". O que ela não sabia é que estava descrevendo, com suas próprias palavras, um sintoma clássico de bruxismo." },
@@ -27,7 +27,7 @@
     { "tipo": "titulo", "nivel": 2, "texto": "Mandíbula Marcada, Tensão Facial e Olheiras: os Sinais Visíveis" },
     { "tipo": "paragrafo", "texto": "Com o tempo, o esforço repetido do bruxismo pode deixar marcas mais duradouras na aparência:" },
     { "tipo": "lista", "itens": [
-        "<strong>Mandíbula mais quadrada ou marcada</strong>, pela hipertrofia do músculo masseter — que aumenta de volume com o uso excessivo, assim como qualquer músculo treinado em excesso;",
+        "<strong>Mandíbula mais quadrada ou marcada</strong>, pela hipertrofia do músculo masseter — uma <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC11860558/\" target=\"_blank\" rel=\"noopener\">revisão científica</a> associa esse aumento de volume a hábitos como apertar os dentes, ranger e o próprio bruxismo, do mesmo jeito que qualquer músculo treinado em excesso;",
         "<strong>Linhas de tensão e rugas de expressão</strong> mais acentuadas na região do maxilar e das têmporas;",
         "<strong>Olheiras e aspecto de cansaço</strong>, já que o bruxismo fragmenta o sono com microdespertares, reduzindo sua qualidade mesmo quando a duração parece normal;",
         "<strong>Assimetria facial sutil</strong>, quando o desgaste ou a tensão são mais fortes de um lado do que do outro."

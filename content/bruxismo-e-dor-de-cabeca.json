@@ -14,7 +14,7 @@
   },
   "publicado": true,
   "publicado_em": "2026-08-17",
-  "atualizado_em": "2026-08-17",
+  "atualizado_em": "2026-09-01",
   "blocos": [
     { "tipo": "pillar_badge", "texto": "Parte do Guia Completo sobre Bruxismo", "link": "/bruxismo/" },
     { "tipo": "paragrafo", "texto": "Se você acorda com dor de cabeça quase todos os dias, principalmente na região das têmporas, e já passou por diversos exames sem identificar a causa, vale considerar uma possibilidade pouco lembrada: o <strong>bruxismo</strong>. A relação entre ranger os dentes e dor de cabeça é real, bem documentada clinicamente, e muitas vezes é confundida com enxaqueca comum." },
@@ -36,7 +36,7 @@
     { "tipo": "paragrafo", "texto": "Se você sente esse padrão, principalmente combinado com <a href=\"https://stelleodontologia.com.br/bruxismo-do-sono/\">sinais de bruxismo do sono</a>, vale buscar uma avaliação odontológica antes de investigar apenas do lado neurológico." },
 
     { "tipo": "titulo", "nivel": 2, "texto": "Bruxismo e Enxaqueca: Existe Conexão?" },
-    { "tipo": "paragrafo", "texto": "Sim — e a relação é dupla. Estudos mostram que pessoas com bruxismo têm maior prevalência de enxaqueca, e o inverso também é observado: quem sofre de enxaqueca crônica tem mais chance de desenvolver bruxismo, possivelmente por fatores neurológicos e de estresse compartilhados. Isso não significa que todo caso de enxaqueca vem do bruxismo, mas é um fator que vale investigar quando o tratamento neurológico isolado não resolve completamente." },
+    { "tipo": "paragrafo", "texto": "Sim — e a relação é dupla. Um <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC4026587/\" target=\"_blank\" rel=\"noopener\">estudo caso-controle com polissonografia</a> encontrou bruxismo do sono em 25% das crianças com enxaqueca episódica, contra nenhum caso no grupo de controle — um indício forte da relação entre os dois quadros. Isso não significa que todo caso de enxaqueca vem do bruxismo, mas é um fator que vale investigar quando o tratamento neurológico isolado não resolve completamente." },
 
     { "tipo": "titulo", "nivel": 2, "texto": "Como Tratar a Dor de Cabeça Ligada ao Bruxismo" },
     { "tipo": "paragrafo", "texto": "O tratamento da dor, nesse caso, passa por tratar o bruxismo em si, não apenas por analgésicos:" },

@@ -14,7 +14,7 @@
   },
   "publicado": true,
   "publicado_em": "2026-08-17",
-  "atualizado_em": "2026-08-17",
+  "atualizado_em": "2026-09-01",
   "blocos": [
     { "tipo": "pillar_badge", "texto": "Parte do Guia Completo sobre Bruxismo", "link": "/bruxismo/" },
     { "tipo": "paragrafo", "texto": "Descobrir que seu filho range os dentes durante o sono costuma assustar — mas o <strong>bruxismo infantil</strong> é bem mais comum do que parece, principalmente entre os 3 e os 10 anos. Na maioria dos casos, é uma fase que passa sozinha com o crescimento. Mesmo assim, alguns sinais merecem atenção de um dentista." },
@@ -30,7 +30,7 @@
     ]},
 
     { "tipo": "titulo", "nivel": 2, "texto": "É Normal? Quando Considerar uma Fase Passageira" },
-    { "tipo": "paragrafo", "texto": "Na maioria dos casos, sim — o bruxismo infantil tende a diminuir e desaparecer conforme a criança completa a troca de dentes e o desenvolvimento da arcada se estabiliza, geralmente até a adolescência. Se a criança não reclama de dor, não apresenta desgaste visível nos dentes e o sono não parece prejudicado, o acompanhamento de rotina no dentista já é suficiente." },
+    { "tipo": "paragrafo", "texto": "Na maioria dos casos, sim — a <a href=\"https://www.mayoclinic.org/diseases-conditions/bruxism/symptoms-causes/syc-20356095\" target=\"_blank\" rel=\"noopener\">Mayo Clinic</a> lista a idade como fator de risco justamente porque o bruxismo é comum em crianças pequenas e costuma desaparecer com a chegada da vida adulta. O hábito tende a diminuir conforme a criança completa a troca de dentes e o desenvolvimento da arcada se estabiliza, geralmente até a adolescência. Se a criança não reclama de dor, não apresenta desgaste visível nos dentes e o sono não parece prejudicado, o acompanhamento de rotina no dentista já é suficiente." },
 
     { "tipo": "titulo", "nivel": 2, "texto": "Sinais de Que Vale Procurar um Dentista" },
     { "tipo": "lista", "itens": [

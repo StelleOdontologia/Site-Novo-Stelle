@@ -22,7 +22,7 @@
 
     { "tipo": "titulo", "nivel": 2, "texto": "Como Funciona a Placa de Bruxismo" },
     { "tipo": "paragrafo", "texto": "A placa é um dispositivo feito sob medida, geralmente em resina acrílica, que se encaixa nos dentes superiores ou inferiores. Durante o uso — normalmente à noite — ela cria uma barreira física entre as arcadas, absorvendo a força do aperto e evitando o atrito direto entre os dentes." },
-    { "tipo": "paragrafo", "texto": "Isso não impede o cérebro de \"mandar\" o sinal para ranger os dentes, mas protege o esmalte dentário do desgaste direto, além de aliviar a sobrecarga na articulação da mandíbula." },
+    { "tipo": "paragrafo", "texto": "Isso não impede o cérebro de \"mandar\" o sinal para ranger os dentes, mas protege o esmalte dentário do desgaste direto, além de aliviar a sobrecarga na articulação da mandíbula. A <a href=\"https://www.mayoclinic.org/diseases-conditions/bruxism/diagnosis-treatment/drc-20356100\" target=\"_blank\" rel=\"noopener\">Mayo Clinic</a> cita o uso de placa (mouth guard) sob medida como uma das principais condutas para proteger os dentes em casos de bruxismo." },
 
     { "tipo": "titulo", "nivel": 2, "texto": "Tipos de Placa de Bruxismo" },
     { "tipo": "lista", "itens": [

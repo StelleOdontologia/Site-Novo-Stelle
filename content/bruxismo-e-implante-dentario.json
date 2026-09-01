@@ -14,7 +14,7 @@
   },
   "publicado": true,
   "publicado_em": "2026-08-18",
-  "atualizado_em": "2026-08-18",
+  "atualizado_em": "2026-09-01",
   "blocos": [
     { "tipo": "pillar_badge", "texto": "Parte do Guia Completo sobre Bruxismo", "link": "/bruxismo/" },
     { "tipo": "paragrafo", "texto": "Se você tem <strong>bruxismo</strong> e precisa repor um ou mais dentes, é natural se perguntar se o implante dentário é uma opção segura. A resposta é sim, é possível — mas o bruxismo é considerado um dos principais <strong>fatores de risco</strong> para complicações em implantes, e por isso exige planejamento cuidadoso e acompanhamento contínuo. Ignorar essa relação é um dos motivos mais comuns de falha em reabilitações com implante." },
@@ -31,7 +31,7 @@
     ]},
 
     { "tipo": "titulo", "nivel": 2, "texto": "Bruxismo Impede Fazer Implante?" },
-    { "tipo": "paragrafo", "texto": "Não. O bruxismo não é uma contraindicação para o implante dentário — é um <strong>fator de risco que precisa ser identificado e controlado</strong> antes, durante e depois do tratamento. A maioria dos casos é tratada com sucesso quando o dentista sabe do diagnóstico e planeja o caso levando isso em conta desde o início." },
+    { "tipo": "paragrafo", "texto": "Não. O bruxismo não é uma contraindicação para o implante dentário — é um <strong>fator de risco que precisa ser identificado e controlado</strong> antes, durante e depois do tratamento. Uma <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC11763436/\" target=\"_blank\" rel=\"noopener\">revisão sistemática com meta-análise</a> encontrou risco de falha até 4,68 vezes maior em implantes de pacientes com bruxismo — por isso o diagnóstico prévio muda tanto o planejamento. A maioria dos casos é tratada com sucesso quando o dentista sabe do diagnóstico e planeja o caso levando isso em conta desde o início." },
     { "tipo": "paragrafo", "texto": "O problema real acontece quando o bruxismo não é diagnosticado ou é ignorado no planejamento — nesses casos, o risco de complicações aumenta significativamente nos primeiros anos após a colocação do implante." },
 
     { "tipo": "titulo", "nivel": 2, "texto": "Como o Planejamento Muda para Pacientes com Bruxismo" },

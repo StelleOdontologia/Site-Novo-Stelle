@@ -14,7 +14,7 @@
   },
   "publicado": true,
   "publicado_em": "2026-08-17",
-  "atualizado_em": "2026-08-17",
+  "atualizado_em": "2026-09-01",
   "blocos": [
     { "tipo": "pillar_badge", "texto": "Parte do Guia Completo sobre Bruxismo", "link": "/bruxismo/" },
     { "tipo": "paragrafo", "texto": "Muita gente vive com <strong>bruxismo</strong> por anos sem saber — porque o hábito de ranger ou apertar os dentes acontece, na maioria das vezes, de forma inconsciente durante o sono. Se você desconfia mas não tem certeza, este autoteste rápido ajuda a identificar os sinais mais comuns antes de procurar um dentista para confirmar." },
@@ -35,6 +35,7 @@
     { "tipo": "paragrafo", "texto": "<strong>2 ou mais respostas \"sim\":</strong> há uma chance real de bruxismo, vale agendar uma avaliação odontológica. <strong>4 ou mais respostas \"sim\":</strong> os sinais são bem característicos — não deixe para depois, o desgaste tende a piorar com o tempo sem tratamento." },
 
     { "tipo": "titulo", "nivel": 2, "texto": "Os Sinais Mais Comuns, Um a Um" },
+    { "tipo": "paragrafo", "texto": "Esses sinais coincidem com os sintomas listados pela <a href=\"https://www.mayoclinic.org/diseases-conditions/bruxism/symptoms-causes/syc-20356095\" target=\"_blank\" rel=\"noopener\">Mayo Clinic</a>: dentes desgastados ou fraturados, dor na mandíbula, músculos da mastigação tensos, dor de cabeça nas têmporas e sensação de dor no ouvido sem causa infecciosa." },
     { "tipo": "lista", "itens": [
         "<strong>Dor de cabeça matinal:</strong> concentrada nas têmporas, é um dos sinais mais característicos — veja mais em <a href=\"https://stelleodontologia.com.br/bruxismo-e-dor-de-cabeca/\">bruxismo e dor de cabeça</a>.",
         "<strong>Dor ou estalos na mandíbula:</strong> pode indicar que o bruxismo já está sobrecarregando a articulação — saiba mais sobre <a href=\"https://stelleodontologia.com.br/bruxismo-causa-dtm/\">bruxismo e DTM</a>.",
