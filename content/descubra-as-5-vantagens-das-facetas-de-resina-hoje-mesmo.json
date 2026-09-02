@@ -14,15 +14,11 @@
   },
   "publicado": true,
   "publicado_em": "2024-12-20",
-  "atualizado_em": "2024-12-28",
+  "atualizado_em": "2026-09-02",
   "blocos": [
     {
       "tipo": "paragrafo",
-      "texto": "<strong>Facetas de Resina</strong>: Explore nosso artigo detalhado para aprender sobre os benefícios, o processo de aplicação e os cuidados necessários com as facetas de resina."
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "Quando o assunto é estética dental, é impossível não mencionar as&nbsp;<strong>facetas de resina</strong>. Essas pequenas maravilhas da odontologia têm revolucionado sorrisos e transformado vidas. Para quem busca uma aparência mais harmoniosa e confiante, as facetas de resina oferecem uma solução acessível e eficaz. Se você já pensou em dar um up no seu sorriso, este texto é para você!"
+      "texto": "<strong>Facetas de resina são finas camadas de resina composta aplicadas sobre os dentes para corrigir manchas, desgastes e pequenas imperfeições, geralmente em uma única consulta e por um custo menor que as facetas de porcelana.</strong> São uma opção acessível e pouco invasiva pra quem busca melhorar a estética do sorriso sem grandes intervenções."
     },
     {
       "tipo": "paragrafo",
@@ -40,7 +36,7 @@
     {
       "tipo": "lista",
       "itens": [
-        "<strong>Durabilidade:</strong>&nbsp;As facetas de resina podem durar entre 5 a 10 anos com os devidos cuidados.",
+        "<strong>Durabilidade:</strong>&nbsp;Segundo a <a href=\"https://www.colgate.com/en-us/oral-health/veneers/composite-veneers-other-options\" target=\"_blank\" rel=\"noopener\">Colgate</a>, as facetas de resina costumam durar de 5 a 7 anos com os devidos cuidados — menos que as de porcelana (10 a 20 anos), mas com vantagens próprias.",
         "<strong>Estética:</strong>&nbsp;Elas oferecem um resultado natural, pois a cor da resina pode ser ajustada para combinar com os dentes.",
         "<strong>Menos invasivas:</strong>&nbsp;Ao contrário das facetas de porcelana, as de resina requerem menos desgaste do dente.",
         "<strong>Custo:</strong>&nbsp;Geralmente, são uma opção mais acessível em comparação às facetas de porcelana.",
@@ -210,8 +206,8 @@
         ],
         [
           "Durabilidade",
-          "5 a 10 anos",
-          "10 a 15 anos"
+          "5 a 7 anos",
+          "10 a 20 anos"
         ],
         [
           "Custo",
@@ -242,37 +238,17 @@
     {
       "tipo": "titulo",
       "nivel": 2,
-      "texto": "Depoimentos sobre facetas de resina"
+      "texto": "Vale a Pena Escolher Facetas de Resina?"
     },
     {
       "tipo": "paragrafo",
-      "texto": "Uma excelente maneira de entender mais sobre as facetas de resina é ouvir quem já passou pela experiência. Pesquise bem antes de fazer esse procedimento, converse com pessoas que já fizeram e pergunte sobre os resultados."
+      "texto": "Facetas de resina fazem mais sentido para quem busca correção rápida, custo mais baixo e um procedimento reversível, em uma única consulta. Já as de porcelana valem a pena para quem prioriza durabilidade máxima e resistência a manchas, mesmo com investimento maior e mais sessões. A melhor forma de decidir é avaliar seu caso específico com o dentista, que vai considerar orçamento, prazo e expectativa de resultado."
     },
     {
       "tipo": "paragrafo",
-      "texto": "Se for procurar por um consultório ou clínica, peça referências de casos já feitos, se tiver depoimentos de pacientes seria ainda melhor. As facetas de resina podem impactar positivamente a autoestima e a qualidade de vida das pessoas. Se você está pensando em mudar seu sorriso, essa pode ser uma excelente opção para você também."
+      "texto": "Independente da escolha, o resultado das facetas de resina bem aplicadas costuma ser natural e pode melhorar significativamente a confiança ao sorrir."
     },
-    {
-      "tipo": "paragrafo",
-      "texto": "Ao longo deste texto, exploramos as&nbsp;<strong>facetas de resina</strong>&nbsp;em detalhes, desde o processo de aplicação até cuidados e vantagens. Se você busca um sorriso mais bonito e harmônico, vale a pena considerar essa técnica. Converse com um profissional e descubra como as facetas de resina podem transformar a sua vida!"
-    },
-    {
-      "tipo": "titulo",
-      "nivel": 3,
-      "texto": "Conclusão"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "Para finalizar, podemos afirmar que as&nbsp;<strong>facetas de resina</strong>&nbsp;são uma solução incrível para quem busca transformar o sorriso de maneira rápida e eficaz. Elas não apenas melhoram a estética dental, mas também proporcionam uma confiança renovada, permitindo que as pessoas sorriam sem medo. Já pensou em quantas fotos você poderia tirar com um sorriso mais bonito? Pois é, as&nbsp;<strong>facetas de resina</strong>&nbsp;podem fazer isso por você!"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "Além disso, a durabilidade e a resistência das&nbsp;<strong>facetas de resina</strong>&nbsp;são fatores que não podem ser ignorados. É uma escolha inteligente, especialmente quando consideramos o custo-benefício e a facilidade de manutenção. E, pra ser sincero, quem não gostaria de dar uma repaginada no sorriso com algo tão prático e acessível?"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "Então, se você está pensando em investir em um sorriso mais radiante, as&nbsp;<strong>facetas de resina</strong>&nbsp;podem ser a resposta que você estava procurando. Não esqueça: um sorriso bonito abre muitas portas! E, claro, aqui no nosso blog, estamos sempre prontos para trazer mais dicas e informações valiosas sobre cuidados dentais e muito mais. Não perca a oportunidade de continuar sua leitura e descobrir outras maneiras de deixar seu sorriso ainda mais deslumbrante!"
-    },
+    { "tipo": "callout", "texto": "Quer saber se a faceta de resina é indicada para o seu caso? Agende uma avaliação.", "cta_texto": "Agendar avaliação", "cta_link": "https://wa.me/5521976939004?text=Gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20sobre%20facetas%20de%20resina" },
     {
       "tipo": "faq",
       "titulo": "Perguntas Frequentes",
