@@ -23,6 +23,10 @@
     },
     {
       "tipo": "paragrafo",
+      "texto": "<strong>O alinhador invisível funciona de verdade, serve para a maioria dos casos (não só os simples) e não afrouxa nem estraga os dentes quando usado corretamente — a maior parte do que se ouve por aí sobre ele é baseada em informação desatualizada.</strong>"
+    },
+    {
+      "tipo": "paragrafo",
       "texto": "Se você está pensando em fazer tratamento com alinhador invisível, provavelmente já ouviu de tudo: que não funciona direito, que é só para casos simples, que vai estragar os dentes, que é coisa de rico. Muita informação circula por aí — e nem toda ela é verdadeira. Neste artigo, vamos passar por cada um dos principais <strong>mitos e verdades sobre o alinhador invisível</strong> para você tomar sua decisão com informação de qualidade, não com achismo de grupo de WhatsApp."
     },
     {
@@ -50,7 +54,7 @@
     },
     {
       "tipo": "paragrafo",
-      "texto": "<strong>A verdade:</strong> Funciona — e tem décadas de estudos clínicos comprovando isso. O Invisalign, por exemplo, está no mercado desde 1997 e já tratou mais de 15 milhões de pacientes no mundo. As marcas nacionais também têm resultados documentados. Para casos adequadamente selecionados, a eficácia é comparável à dos aparelhos fixos convencionais. O que existe são limitações para casos muito específicos — mas isso não é o mesmo que \"não funciona\"."
+      "texto": "<strong>A verdade:</strong> Funciona — e tem décadas de estudos clínicos comprovando isso. O Invisalign, por exemplo, está no mercado desde 1999 e, segundo a <a href=\"https://www.aligntech.com/about\" target=\"_blank\" rel=\"noopener\">Align Technology</a> (fabricante da marca), já tratou mais de 23 milhões de pacientes no mundo. As marcas nacionais também têm resultados documentados. Para casos adequadamente selecionados, a eficácia é comparável à dos aparelhos fixos convencionais. O que existe são limitações para casos muito específicos — mas isso não é o mesmo que \"não funciona\"."
     },
     {
       "tipo": "titulo",
@@ -225,6 +229,12 @@
           "resposta": "O material pode ser o mesmo, mas o planejamento e o acompanhamento fazem toda a diferença. Um planejamento digital mal feito gera resultados imprevisíveis, independente da marca do alinhador. Invista na escolha do profissional tanto quanto no produto."
         }
       ]
+    },
+    {
+      "tipo": "callout",
+      "texto": "Ainda tem dúvidas sobre o que é mito ou verdade no seu caso? Agende uma avaliação com a Dra. Késya Nogueira e tire suas dúvidas com quem entende do assunto.",
+      "cta_texto": "Falar no WhatsApp",
+      "cta_link": "https://wa.me/5521976939004?text=Ol%C3%A1!%20Vi%20o%20artigo%20sobre%20mitos%20e%20verdades%20do%20alinhador%20invis%C3%ADvel%20e%20gostaria%20de%20uma%20avalia%C3%A7%C3%A3o."
     },
     {
       "tipo": "titulo",
