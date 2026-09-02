@@ -369,42 +369,25 @@
       ]
     },
     {
-      "tipo": "titulo",
-      "nivel": 2,
-      "texto": "FAQ: Perguntas Frequentes sobre o Tempo de Tratamento"
+      "tipo": "faq",
+      "titulo": "FAQ: Perguntas Frequentes sobre o Tempo de Tratamento",
+      "perguntas": [
+        { "pergunta": "Quanto tempo mínimo leva o tratamento com alinhadores invisíveis?", "resposta": "Em casos simples, como dentes pouco tortos ou com pequenos espaços, o tempo de tratamento com alinhadores invisíveis pode ser de apenas 6 meses. Isso acontece quando não é preciso fazer grandes movimentações. O dentista avalia logo no início e já dá uma estimativa de duração. Mas é essencial seguir as orientações, usando os alinhadores de 20 a 22 horas por dia para alcançar o melhor resultado no menor tempo possível. Casos leves são ideais para quem quer corrigir o sorriso com agilidade." },
+        { "pergunta": "Usar menos horas por dia atrasa muito?", "resposta": "Sim. Se o paciente usa os alinhadores por menos de 20 horas por dia, o tempo de tratamento com alinhadores invisíveis pode aumentar consideravelmente. Cada hora sem as placas compromete a movimentação dos dentes. Por exemplo, alguém que deveria finalizar o tratamento em 12 meses pode estender para 18 ou mais, apenas por não manter a disciplina. A pressão constante é o que move os dentes, e por isso, seguir a rotina recomendada faz toda a diferença." },
+        { "pergunta": "Dá para acelerar o tratamento sem riscos?", "resposta": "Com certeza! Existem formas seguras de encurtar o tempo de tratamento com alinhadores invisíveis. Além de usar as placas corretamente, o paciente pode conversar com o ortodontista sobre o uso de tecnologias como aceleradores ortodônticos — aparelhos que estimulam o osso ao redor dos dentes com leves vibrações, otimizando a movimentação dentária. Além disso, boa higiene bucal e trocas dentro do prazo também ajudam a manter o progresso constante." },
+        { "pergunta": "O aparelho fixo é mais rápido que os alinhadores invisíveis?", "resposta": "Depende do caso. Para desalinhamentos leves ou moderados, os alinhadores invisíveis costumam ser mais rápidos, finalizando o tratamento entre 6 a 12 meses. Já o aparelho fixo pode levar de 1 a 3 anos, especialmente em casos complexos. Porém, em algumas situações severas, ele ainda pode ser a opção mais indicada. O ortodontista é quem irá analisar e orientar a escolha mais eficiente para cada sorriso." },
+        { "pergunta": "O que acontece se eu atrasar a troca dos alinhadores?", "resposta": "Atrasar a troca compromete o plano de movimentação dos dentes. Cada alinhador é feito para uma etapa específica e precisa ser trocado no tempo certo — geralmente a cada 10 a 14 dias. Usar por mais tempo do que o recomendado pode desalinhar os resultados seguintes e aumentar o tempo de tratamento com alinhadores invisíveis. Por isso, seguir o cronograma de trocas e comparecer às consultas de acompanhamento é essencial." }
+      ]
+    },
+    {
+      "tipo": "callout",
+      "texto": "Quer saber quanto tempo o seu caso levaria com alinhadores invisíveis? Agende uma avaliação com a Dra. Késya Nogueira.",
+      "cta_texto": "Falar no WhatsApp",
+      "cta_link": "https://wa.me/5521976939004?text=Ol%C3%A1!%20Vi%20o%20artigo%20sobre%20tempo%20de%20tratamento%20com%20alinhadores%20e%20gostaria%20de%20uma%20avalia%C3%A7%C3%A3o."
     },
     {
       "tipo": "paragrafo",
-      "texto": "<strong>Quanto tempo mínimo leva o tratamento com alinhadores invisíveis?</strong><br>Em casos simples, como dentes pouco tortos ou com pequenos espaços, o <strong>tempo de tratamento com alinhadores invisíveis</strong> pode ser de apenas 6 meses. Isso acontece quando não é preciso fazer grandes movimentações. O dentista avalia logo no início e já dá uma estimativa de duração. Mas é essencial seguir as orientações, usando os alinhadores de 20 a 22 horas por dia para alcançar o melhor resultado no menor tempo possível. Casos leves são ideais para quem quer corrigir o sorriso com agilidade."
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "<strong>Usar menos horas por dia atrasa muito?</strong><br>Sim. Se o paciente usa os alinhadores por menos de 20 horas por dia, o <strong>tempo de tratamento com alinhadores invisíveis</strong> pode aumentar consideravelmente. Cada hora sem as placas compromete a movimentação dos dentes. Por exemplo, alguém que deveria finalizar o tratamento em 12 meses pode estender para 18 ou mais, apenas por não manter a disciplina. A pressão constante é o que move os dentes, e por isso, seguir a rotina recomendada faz toda a diferença."
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "<strong>Dá para acelerar o tratamento sem riscos?</strong><br>Com certeza! Existem formas seguras de encurtar o <strong>tempo de tratamento com alinhadores invisíveis</strong>. Além de usar as placas corretamente, o paciente pode conversar com o ortodontista sobre o uso de tecnologias como aceleradores ortodônticos — aparelhos que estimulam o osso ao redor dos dentes com leves vibrações, otimizando a movimentação dentária. Além disso, boa higiene bucal e trocas dentro do prazo também ajudam a manter o progresso constante."
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "<strong>O aparelho fixo é mais rápido que os alinhadores invisíveis?</strong><br>Depende do caso. Para desalinhamentos leves ou moderados, os <strong>alinhadores invisíveis costumam ser mais rápidos</strong>, finalizando o tratamento entre 6 a 12 meses. Já o aparelho fixo pode levar de 1 a 3 anos, especialmente em casos complexos. Porém, em algumas situações severas, ele ainda pode ser a opção mais indicada. O ortodontista é quem irá analisar e orientar a escolha mais eficiente para cada sorriso."
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "<strong>O que acontece se eu atrasar a troca dos alinhadores?</strong><br>Atrasar a troca compromete o plano de movimentação dos dentes. Cada alinhador é feito para uma etapa específica e precisa ser trocado no tempo certo — geralmente a cada 10 a 14 dias. Usar por mais tempo do que o recomendado pode desalinhar os resultados seguintes e aumentar o <strong>tempo de tratamento com alinhadores invisíveis</strong>. Por isso, seguir o cronograma de trocas e comparecer às consultas de acompanhamento é essencial."
-    },
-    {
-      "tipo": "titulo",
-      "nivel": 2,
-      "texto": "Leitura complementar recomendada"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "Para entender mais sobre os tipos de alinhadores e como funcionam, você pode acessar este artigo da Colgate:"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "👉 <a href=\"https://www.colgate.com.br/oral-health/adult-orthodontics/what-is-an-essix-retainer\" target=\"_blank\" rel=\"noopener\">O que são os alinhadores Essix?</a>"
+      "texto": "Segundo a <a href=\"https://aaoinfo.org/whats-trending/clear-aligner-therapy/\" target=\"_blank\" rel=\"noopener\">American Association of Orthodontists</a>, como os alinhadores são removíveis, o uso inconsistente pode atrasar o progresso, estendendo o tempo de tratamento ou comprometendo os resultados — reforçando que a disciplina do paciente é o fator mais determinante para cumprir o prazo estimado."
     }
   ]
 }
