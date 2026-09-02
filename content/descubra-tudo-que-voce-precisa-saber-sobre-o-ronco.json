@@ -14,7 +14,7 @@
   },
   "publicado": true,
   "publicado_em": "2024-12-26",
-  "atualizado_em": "2024-12-28",
+  "atualizado_em": "2026-09-02",
   "blocos": [
     {
       "tipo": "paragrafo",
@@ -48,11 +48,7 @@
     },
     {
       "tipo": "paragrafo",
-      "texto": "Nos últimos anos, diversas&nbsp;<strong>principais descobertas</strong>&nbsp;têm sido feitas sobre os efeitos do ronco. Estudos mostram que roncar não é apenas um incômodo; ele pode estar relacionado a problemas de saúde como hipertensão e doenças cardíacas. Além disso, o ronco pode afetar a qualidade do sono de quem está ao lado, causando irritação e até conflitos no relacionamento."
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "Sabia que Problemas do sono afetam 76% dos brasileiros, diz pesquisa: <a href=\"https://noticias.r7.com/minas-gerais/problemas-do-sono-afetam-76-dos-brasileiros-diz-pesquisa-28092018/\" target=\"_blank\" rel=\"noopener\">Acessa aqui a reportagem</a>"
+      "texto": "Segundo a <a href=\"https://www.mayoclinic.org/diseases-conditions/snoring/symptoms-causes/syc-20377694\" target=\"_blank\" rel=\"noopener\">Mayo Clinic</a>, o ronco não é apenas um incômodo — quando associado à apneia obstrutiva do sono, pode indicar uma condição de saúde mais séria. Além disso, o ronco pode afetar a qualidade do sono de quem está ao lado, causando irritação e até conflitos no relacionamento."
     },
     {
       "tipo": "titulo",
@@ -92,7 +88,7 @@
     },
     {
       "tipo": "paragrafo",
-      "texto": "Um dos tratamentos mais comuns é o uso de dispositivos orais, que ajudam a manter as vias aéreas abertas. Em casos mais graves, a cirurgia pode ser uma opção, principalmente se houver anomalias físicas que contribuem para o problema."
+      "texto": "Um dos tratamentos mais comuns é o uso de dispositivos orais feitos sob medida por um dentista especializado em <a href=\"/odontologia-do-sono/\">odontologia do sono</a>, que ajudam a manter as vias aéreas abertas durante a noite. Em casos mais graves, a cirurgia pode ser uma opção, principalmente se houver anomalias físicas que contribuem para o problema."
     },
     {
       "tipo": "titulo",
@@ -144,30 +140,15 @@
       ]
     },
     {
-      "tipo": "paragrafo",
-      "texto": "É essencial lembrar que o ronco é mais do que um simples incômodo noturno. Ele pode ser um sinal de problemas de saúde que merecem atenção. Preste atenção nos sinais do seu corpo e não hesite em buscar ajuda profissional se necessário."
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "Por fim, o ronco pode parecer apenas uma questão de barulho, mas seu impacto pode ser profundo, afetando a saúde física e mental de quem ronca e de quem está ao seu lado. Portanto, saiba que é possível encontrar formas de lidar com isso e melhorar a qualidade do seu sono e, consequentemente, a qualidade de vida. Vamos juntos desmistificar o ronco e trazer mais tranquilidade para as noites de sono!"
-    },
-    {
       "tipo": "titulo",
-      "nivel": 3,
+      "nivel": 2,
       "texto": "Conclusão"
     },
     {
       "tipo": "paragrafo",
-      "texto": "Então, para fechar nossa conversa sobre&nbsp;<strong>Tudo que você precisa saber sobre o ronco</strong>, é essencial entender que esse fenômeno, embora comum, pode ser um sinal de que algo não está legal com a saúde. O ronco não é apenas uma questão de barulho à noite; ele pode impactar a qualidade do sono e até mesmo o bem-estar geral de quem ronca e de quem dorme ao lado. Então, se você ou alguém próximo enfrenta esse problema, vale a pena buscar soluções e, quem sabe, até mesmo uma consulta médica."
+      "texto": "O ronco é mais do que um simples incômodo noturno — pode ser sinal de um problema de saúde que merece atenção, principalmente quando associado a pausas na respiração durante o sono. Mudanças simples (posição para dormir, perda de peso, evitar álcool à noite) já ajudam muitos casos, mas se o ronco for persistente ou vier acompanhado de sonolência excessiva durante o dia, vale buscar avaliação profissional — inclusive odontológica, já que existem tratamentos específicos e eficazes disponíveis."
     },
-    {
-      "tipo": "paragrafo",
-      "texto": "Além disso, lembrar que existem algumas dicas e truques que podem ajudar a reduzir ou até eliminar o ronco. Mudanças na posição de dormir, perda de peso e evitar álcool antes de dormir são algumas delas. E, claro, o mais importante:&nbsp;<strong>tudo que você precisa saber sobre o ronco</strong>&nbsp;pode começar com uma boa conversa e um pouco de pesquisa. O conhecimento é poder, certo?"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "Por fim, espero que você tenha encontrado informações úteis e até curiosas aqui. Se você se interessou, não hesite em continuar explorando os artigos do nosso blog. Tem muita coisa bacana por aí! Vamos juntos nessa jornada de aprendizado e descobertas? Valeu pela leitura!"
-    },
+    { "tipo": "callout", "texto": "O ronco tem atrapalhado suas noites (ou as de quem dorme ao seu lado)? Agende uma avaliação.", "cta_texto": "Agendar avaliação", "cta_link": "https://wa.me/5521976939004?text=Gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20sobre%20ronco" },
     {
       "tipo": "faq",
       "titulo": "Perguntas Frequentes",
