@@ -14,7 +14,7 @@
   },
   "publicado": true,
   "publicado_em": "2024-12-17",
-  "atualizado_em": "2024-12-28",
+  "atualizado_em": "2026-09-01",
   "blocos": [
     {
       "tipo": "titulo",
@@ -1044,127 +1044,16 @@
       "tipo": "paragrafo",
       "texto": "Ao buscar esse procedimento, é importante contar com profissionais especializados, que garantirão um resultado seguro e alinhado com as expectativas do paciente."
     },
-    {
-      "tipo": "titulo",
-      "nivel": 2,
-      "texto": "10. Perguntas frequentes sobre gengivectomia (FAQ)"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "A seguir, respondemos às dúvidas mais comuns sobre a gengivectomia, para que você tenha todas as informações necessárias sobre o procedimento."
-    },
-    {
-      "tipo": "titulo",
-      "nivel": 3,
-      "texto": "10.1 As gengivas voltam a crescer após a gengivectomia?"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "Não, o tecido gengival removido durante a gengivectomia <strong>não volta a crescer</strong>. Isso ocorre porque o procedimento é definitivo e remove a parte do tecido em excesso. No entanto, é importante manter uma boa higiene bucal para evitar inflamações e outros problemas gengivais no futuro."
-    },
-    {
-      "tipo": "titulo",
-      "nivel": 3,
-      "texto": "10.2 A gengivectomia dói?"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "A gengivectomia é realizada sob <strong>anestesia local</strong>, portanto, o paciente não sente dor durante o procedimento. Após o término da cirurgia, pode haver <strong>desconforto leve ou moderado</strong>, mas isso é facilmente controlado com analgésicos recomendados pelo dentista."
-    },
-    {
-      "tipo": "titulo",
-      "nivel": 3,
-      "texto": "10.3 Quanto tempo dura a recuperação da gengivectomia?"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "O tempo de recuperação varia conforme a técnica utilizada (bisturi ou laser) e a extensão do procedimento. Em média:"
-    },
-    {
-      "tipo": "lista",
-      "itens": [
-        "<strong>Gengivectomia a laser:</strong> Recuperação mais rápida, geralmente de <strong>7 a 10 dias</strong>.",
-        "<strong>Gengivectomia com bisturi:</strong> Pode levar de <strong>10 a 14 dias</strong> para uma cicatrização inicial completa."
-      ]
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "Durante esse período, o paciente deve seguir todas as orientações pós-operatórias, como evitar alimentos duros ou quentes e manter uma boa higiene bucal."
-    },
-    {
-      "tipo": "titulo",
-      "nivel": 3,
-      "texto": "10.4 Quanto custa uma gengivectomia?"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "O preço da gengivectomia pode variar bastante, dependendo de fatores como:"
-    },
-    {
-      "tipo": "lista",
-      "itens": [
-        "<strong>Técnica utilizada:</strong> O procedimento a laser tende a ser mais caro do que o realizado com bisturi.",
-        "<strong>Região geográfica:</strong> Valores podem variar conforme a cidade ou estado.",
-        "<strong>Complexidade do caso:</strong> Procedimentos que exigem mais tempo ou sessões tendem a ter um custo maior."
-      ]
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "Em média, o preço pode variar entre <strong>R$ 500 e R$ 2.000 por sessão</strong>. Consulte seu dentista para um orçamento personalizado."
-    },
-    {
-      "tipo": "titulo",
-      "nivel": 3,
-      "texto": "10.5 Quem pode fazer gengivectomia?"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "A gengivectomia pode ser realizada por qualquer paciente que tenha indicação médica ou estética, desde que esteja com a saúde bucal em dia. No entanto, o procedimento pode ser contraindicado em casos como:"
-    },
-    {
-      "tipo": "lista",
-      "itens": [
-        "Pacientes com <strong>doenças sistêmicas descontroladas</strong> (como diabetes não controlado).",
-        "Indivíduos que fazem uso de <strong>anticoagulantes</strong>, sem orientação médica prévia.",
-        "Pessoas com <strong>infecções agudas</strong> na cavidade oral."
-      ]
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "Por isso, uma avaliação com um <strong>dentista especializado</strong> é essencial para determinar a viabilidade do procedimento."
-    },
-    {
-      "tipo": "titulo",
-      "nivel": 3,
-      "texto": "10.6 Gengivectomia é indicada para sorriso gengival?"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "Sim! A gengivectomia é um procedimento comum para <strong>corrigir sorriso gengival</strong>, que é caracterizado pelo excesso de gengiva exposta ao sorrir. A cirurgia remove o tecido gengival em excesso, proporcionando um sorriso mais harmônico e equilibrado."
-    },
-    {
-      "tipo": "titulo",
-      "nivel": 3,
-      "texto": "10.7 Quais cuidados devo ter após a gengivectomia?"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "Os cuidados pós-operatórios são fundamentais para uma boa recuperação. Algumas recomendações importantes incluem:"
-    },
-    {
-      "tipo": "lista",
-      "itens": [
-        "<strong>Evitar alimentos duros, quentes ou condimentados</strong> durante a primeira semana.",
-        "<strong>Manter a higiene bucal</strong> conforme orientação do dentista (evitando escovar a área operada nos primeiros dias).",
-        "<strong>Trocar os curativos</strong> conforme recomendação.",
-        "<strong>Não fumar ou consumir bebidas alcoólicas</strong> durante o período de recuperação.",
-        "<strong>Tomar os medicamentos prescritos</strong> pelo profissional, como analgésicos e antibióticos."
-      ]
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "Seguir essas orientações ajudará a acelerar a cicatrização e evitar complicações."
-    },
+    { "tipo": "callout", "texto": "Tem excesso de gengiva ou sorriso gengival e quer saber se a gengivectomia é indicada para o seu caso? Agende uma avaliação.", "cta_texto": "Agendar avaliação", "cta_link": "https://wa.me/5521976939004?text=Gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20sobre%20gengivectomia" },
+    { "tipo": "faq", "titulo": "Perguntas Frequentes sobre Gengivectomia", "perguntas": [
+      { "pergunta": "As gengivas voltam a crescer após a gengivectomia?", "resposta": "Não. Segundo a <a href=\"https://my.clevelandclinic.org/health/treatments/24749-gingivectomy\" target=\"_blank\" rel=\"noopener\">Cleveland Clinic</a>, o tecido gengival removido durante a gengivectomia não volta a crescer, porque o procedimento é definitivo. Ainda assim, é importante manter uma boa higiene bucal para evitar inflamações e outros problemas gengivais no futuro." },
+      { "pergunta": "A gengivectomia dói?", "resposta": "A gengivectomia é realizada sob anestesia local, então o paciente não sente dor durante o procedimento. Após o término da cirurgia, pode haver desconforto leve ou moderado, facilmente controlado com analgésicos recomendados pelo dentista." },
+      { "pergunta": "Quanto tempo dura a recuperação da gengivectomia?", "resposta": "Varia conforme a técnica: a gengivectomia a laser tem recuperação mais rápida, geralmente de 7 a 10 dias; com bisturi, pode levar de 10 a 14 dias para a cicatrização inicial completa. Nesse período, evite alimentos duros ou quentes e mantenha a higiene bucal recomendada." },
+      { "pergunta": "Quanto custa uma gengivectomia?", "resposta": "O preço varia conforme a técnica (laser costuma ser mais caro que bisturi), a região e a complexidade do caso — em média entre R$ 500 e R$ 2.000 por sessão. Consulte seu dentista para um orçamento personalizado." },
+      { "pergunta": "Quem pode fazer gengivectomia?", "resposta": "Qualquer paciente com indicação médica ou estética e saúde bucal em dia. Pode ser contraindicada em casos de doenças sistêmicas descontroladas (como diabetes não controlado), uso de anticoagulantes sem orientação médica, ou infecções agudas na boca — por isso a avaliação prévia é essencial." },
+      { "pergunta": "Gengivectomia é indicada para sorriso gengival?", "resposta": "Sim. É um procedimento comum para corrigir o sorriso gengival (excesso de gengiva exposta ao sorrir), removendo o tecido em excesso para um sorriso mais harmônico." },
+      { "pergunta": "Quais cuidados devo ter após a gengivectomia?", "resposta": "Evite alimentos duros, quentes ou condimentados na primeira semana; mantenha a higiene bucal conforme orientação (sem escovar a área operada nos primeiros dias); troque os curativos como recomendado; evite fumo e álcool durante a recuperação; e tome os medicamentos prescritos pelo profissional." }
+    ]},
     {
       "tipo": "titulo",
       "nivel": 2,
