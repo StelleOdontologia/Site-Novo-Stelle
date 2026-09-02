@@ -14,7 +14,7 @@
   },
   "publicado": true,
   "publicado_em": "2024-12-30",
-  "atualizado_em": "2024-12-30",
+  "atualizado_em": "2026-09-02",
   "blocos": [
     {
       "tipo": "titulo",
@@ -345,8 +345,8 @@
       "tipo": "lista",
       "itens": [
         "<strong>Doenças Cardiovasculares</strong><br>Pesquisas sugerem que a inflamação crônica associada às doenças periodontais pode contribuir para a formação de placas de gordura nos vasos sanguíneos, aumentando o <strong>risco de eventos como infarto e AVC</strong>. Um estudo publicado pela <em>American Heart Association</em> identificou uma correlação significativa entre periodontite e aterosclerose, <strong>sugerindo que bactérias bucais podem migrar para a corrente sanguínea,</strong> desencadeando processos inflamatórios em outras partes do corpo.<br>➡ <a href=\"/assets/recovered/2024/12/ARelacaoEntreDoencasPeriodontaisEDoencasCardiovascularesImplicacoesParaASaudeColetiva-1.pdf\" target=\"_blank\" rel=\"noopener\">Leia o estudo completo aqui</a>",
-        "<strong>Diabetes Mellitus</strong><br>A relação entre <strong>periodontite e diabetes é uma via de mão dupla:</strong> enquanto o diabetes pode aumentar a predisposição à doença periodontal devido à redução da imunidade, a inflamação periodontal pode dificultar o controle glicêmico, piorando a condição metabólica. Um artigo publicado no <em>Journal of Clinical Periodontology</em> destaca que <strong>pacientes com diabetes são mais propensos a apresentar inflamações gengivais severas.</strong><br>➡ <a href=\"https://www.scielo.br/j/abem/a/mhBhwkvsjcTnBDDzFD93tND/?utm_source=chatgpt.com\" target=\"_blank\" rel=\"noopener\">Acesse a revisão sistemática sobre o tema</a>",
-        "<strong>Complicações na Gravidez</strong><br><strong>Gestantes com doença periodontal têm maior risco de complicações como parto prematuro, pré-eclâmpsia e baixo peso ao nascer.</strong> Um estudo brasileiro publicado na <em>Revista Brasileira de Ginecologia e Obstetrícia</em> explica que a inflamação gengival pode liberar mediadores químicos, como prostaglandinas, que desencadeiam contrações uterinas precoces.<br>➡ <a href=\"https://repositorio.unesp.br/server/api/core/bitstreams/51e25c09-b990-49f4-9839-4f55fbbb47f5/content\" target=\"_blank\" rel=\"noopener\">Confira o estudo brasileiro aqui</a>"
+        "<strong>Diabetes Mellitus</strong><br>A relação entre <strong>periodontite e diabetes é uma via de mão dupla:</strong> enquanto o diabetes pode aumentar a predisposição à doença periodontal devido à redução da imunidade, a inflamação periodontal pode dificultar o controle glicêmico, piorando a condição metabólica. Uma revisão publicada nos <em>Arquivos Brasileiros de Endocrinologia & Metabologia</em> destaca que <strong>pacientes com diabetes são mais propensos a apresentar inflamações gengivais severas.</strong><br>➡ <a href=\"https://www.scielo.br/j/abem/a/mhBhwkvsjcTnBDDzFD93tND/\" target=\"_blank\" rel=\"noopener\">Acesse a revisão sobre o tema</a>",
+        "<strong>Complicações na Gravidez</strong><br><strong>Gestantes com doença periodontal têm maior risco de complicações como parto prematuro, pré-eclâmpsia e baixo peso ao nascer.</strong> Uma dissertação de mestrado da <em>Faculdade de Medicina da UNESP</em> sobre doença periodontal em gestantes explica que a inflamação gengival pode liberar mediadores químicos, como prostaglandinas, que desencadeiam contrações uterinas precoces.<br>➡ <a href=\"https://repositorio.unesp.br/server/api/core/bitstreams/51e25c09-b990-49f4-9839-4f55fbbb47f5/content\" target=\"_blank\" rel=\"noopener\">Confira o estudo completo aqui</a>"
       ]
     },
     {
@@ -412,11 +412,17 @@
     },
     {
       "tipo": "paragrafo",
-      "texto": "Manter consultas regulares é também uma forma de preservar o investimento em tratamentos odontológicos já realizados, como implantes, facetas ou <a href=\"https://stelleodontologia.com.br/aparelho-ortodontico/\">aparelhos ortodônticos</a>. O acompanhamento periódico ajuda a prolongar a vida útil desses procedimentos, além de assegurar que a boca continue saudável e funcional ao longo dos anos."
+      "texto": "Manter consultas regulares é também uma forma de preservar o investimento em tratamentos odontológicos já realizados, como implantes, facetas ou <a href=\"https://stelleodontologia.com.br/cuidados-com-aparelho-fixo/\">aparelhos ortodônticos</a>. O acompanhamento periódico ajuda a prolongar a vida útil desses procedimentos, além de assegurar que a boca continue saudável e funcional ao longo dos anos."
     },
     {
       "tipo": "paragrafo",
       "texto": "Cuidar da saúde gengival por meio de visitas regulares ao especialista não é apenas uma questão de estética ou bem-estar imediato, mas um compromisso com a <strong>longevidade dos dentes e a qualidade de vida</strong>. Afinal, um sorriso saudável é um reflexo direto de um corpo bem cuidado."
+    },
+    {
+      "tipo": "callout",
+      "texto": "Notou sangramento na gengiva, mau hálito persistente ou outros sinais de alerta? Agende uma avaliação periodontal.",
+      "cta_texto": "Agendar avaliação",
+      "cta_link": "https://wa.me/5521976939004?text=Gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20periodontal"
     },
     {
       "tipo": "faq",
