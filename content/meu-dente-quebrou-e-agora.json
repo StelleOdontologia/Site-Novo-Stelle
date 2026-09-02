@@ -1,8 +1,8 @@
 {
   "slug": "meu-dente-quebrou-e-agora",
-  "titulo_meta": "Meu Dente Quebrou e Agora? 5 Dicas - Stelle Odontologia",
-  "titulo_h1": "Meu Dente Quebrou e Agora? Descubra 5 Dicas Essenciais!",
-  "meta_description": "Meu dente quebrou e agora? Veja dicas práticas para agir rápido, evitar complicações e manter seu sorriso saudável com a Stelle Odontologia.",
+  "titulo_meta": "Meu Dente Quebrou, e Agora? O Que Fazer - Stelle",
+  "titulo_h1": "Meu Dente Quebrou, e Agora? O Que Fazer",
+  "meta_description": "Dente quebrou? Veja o que fazer nos primeiros minutos, como guardar o fragmento e as opções de tratamento (restauração, coroa, canal).",
   "categoria": "saude-bucal",
   "autor": "dra-kesya-nogueira",
   "cluster_pai": null,
@@ -14,245 +14,55 @@
   },
   "publicado": true,
   "publicado_em": "2024-12-27",
-  "atualizado_em": "2024-12-28",
+  "atualizado_em": "2026-09-02",
   "blocos": [
-    {
-      "tipo": "paragrafo",
-      "texto": "Descubra o que fazer se o seu&nbsp;<strong>Meu Dente Quebrou e Agora</strong>&nbsp;neste artigo informativo. Saiba como agir rápido para prevenir danos maiores."
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "Meu dente quebrou e agora, o que fazer? Essa pergunta pode surgir num momento de desespero, e a verdade é que muitos de nós já passamos por isso. A sensação de pânico quando um dente se quebra é normal, mas é importante saber como lidar com a situação de maneira racional e tranquila. Neste artigo, vamos explorar o que você deve fazer se um dente se quebrar, quais são as opções de tratamento e algumas dicas valiosas para cuidar da sua saúde bucal. Vamos nessa!"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "Quando você se depara com a situação de um dente quebrado, a primeira coisa que passa pela sua mente pode ser o medo de sentir dor ou de enfrentar um problema maior. Mas calma! O primeiro passo é manter a calma e avaliar a situação. Há várias razões pelas quais um dente pode se quebrar, incluindo acidentes, cáries ou até mesmo desgaste natural ao longo do tempo. Seja qual for o motivo, o importante é agir rapidamente."
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "É fundamental lembrar que, ao se deparar com um dente quebrado, você deve procurar um dentista o mais rápido possível. Não só para tratar o problema imediato, mas também para evitar complicações futuras. O dentista poderá analisar a extensão do dano e sugerir o tratamento mais adequado. Agora, vamos dar uma olhada nas etapas práticas que você pode seguir após ter a infeliz experiência de quebrar um dente."
-    },
-    {
-      "tipo": "titulo",
-      "nivel": 2,
-      "texto": "O que fazer quando meu dente quebrou?"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "Existem algumas ações que você pode tomar imediatamente após o incidente. Vamos conferir:"
-    },
-    {
-      "tipo": "lista",
-      "itens": [
-        "<strong>Enxágue a boca com água morna</strong>: Isso ajuda a limpar a área e a remover qualquer resíduo de alimento que possa ter ficado preso.",
-        "<strong>Controle a dor</strong>: Se você sentir dor, pode tomar um analgésico de venda livre, como paracetamol ou ibuprofeno, para aliviar o desconforto.",
-        "<strong>Guarde a parte quebrada</strong>: Se o pedaço do dente quebrado estiver intacto, coloque-o em um recipiente com leite ou água salgada. Isso pode ajudar a preservar a estrutura para que o dentista possa examiná-lo.",
-        "<strong>Evite alimentos duros</strong>: Enquanto aguarda a consulta, evite comer alimentos que possam piorar a situação, como doces pegajosos ou alimentos muito duros.",
-        "<strong>Agende uma consulta com o dentista</strong>: Como já mencionado, essa é a etapa mais importante. Quanto mais cedo você conseguir ajuda profissional, melhor será o resultado para a saúde do seu dente."
-      ]
-    },
-    {
-      "tipo": "titulo",
-      "nivel": 2,
-      "texto": "Tipos de tratamento para dentes quebrados"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "Após a avaliação do dentista, ele poderá sugerir diferentes opções de tratamento para o seu dente quebrado. Dependendo da gravidade do dano, os tratamentos podem variar. Aqui estão algumas das opções mais comuns:"
-    },
-    {
-      "tipo": "titulo",
-      "nivel": 3,
-      "texto": "1. Restauração dental"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "Se a quebra for pequena, uma&nbsp;<strong>restauração dental</strong>&nbsp;pode ser suficiente. O dentista irá limpar a área e aplicar um material restaurador que se assemelha à cor natural do dente, cobrindo a parte danificada."
-    },
-    {
-      "tipo": "titulo",
-      "nivel": 3,
-      "texto": "2. Coroa dental"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "Se o dente estiver significativamente danificado, o dentista pode recomendar uma&nbsp;<strong>coroa dental</strong>. A coroa é uma &#8220;capa&#8221; que envolve o dente, proporcionando proteção e força adicionais."
-    },
-    {
-      "tipo": "titulo",
-      "nivel": 3,
-      "texto": "3. Tratamento de canal"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "Em casos onde a quebra expõe a polpa do dente, pode ser necessário um <strong><a href=\"https://stelleodontologia.com.br/tratamento-de-canal-tudo-o-que-voce-precisa-saber-para-salvar-seu-sorriso/\">tratamento de canal</a></strong>. Esse procedimento envolve a remoção da polpa danificada e a limpeza do interior do dente, seguido pela colocação de um material de selagem."
-    },
-    {
-      "tipo": "titulo",
-      "nivel": 3,
-      "texto": "4. Extração do dente"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "Infelizmente, se o dente estiver muito danificado e não puder ser salvo, pode ser necessário realizar a&nbsp;<strong>extração do dente</strong>. Nesse caso, o dentista discutirá opções para substituir o dente, como implantes ou próteses."
-    },
-    {
-      "tipo": "titulo",
-      "nivel": 2,
-      "texto": "Cuidados pós-tratamento"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "Depois de tratar um dente quebrado, é essencial seguir algumas orientações para garantir que a recuperação ocorra da melhor forma possível. Aqui estão algumas dicas que podem ajudar:"
-    },
-    {
-      "tipo": "lista",
-      "itens": [
-        "<strong>Evite alimentos duros</strong>: Após o tratamento, evite comer alimentos muito duros ou pegajosos nas primeiras semanas.",
-        "<strong>Mantenha uma boa higiene bucal</strong>: Escove os dentes regularmente e use fio dental para evitar problemas futuros.",
-        "<strong>Agende consultas de rotina</strong>: Visitas regulares ao dentista são fundamentais para monitorar a saúde da sua boca."
-      ]
-    },
-    {
-      "tipo": "titulo",
-      "nivel": 2,
-      "texto": "Prevenção de dentes quebrados"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "Como diz o ditado, &#8220;melhor prevenir do que remediar&#8221;. Aqui vão algumas dicas para evitar que isso aconteça novamente:"
-    },
-    {
-      "tipo": "lista",
-      "itens": [
-        "<strong>Use protetores bucais</strong>: Se você pratica esportes, considere usar um protetor bucal para proteger seus dentes.",
-        "<strong>Evite hábitos ruins</strong>: Não use os dentes como ferramentas, como para abrir pacotes ou quebrar nozes.",
-        "<strong>Mantenha consultas regulares com o dentista</strong>: Isso pode ajudar a identificar problemas antes que eles se tornem sérios."
-      ]
-    },
-    {
-      "tipo": "titulo",
-      "nivel": 2,
-      "texto": "Factores que contribuem para dentes quebrados"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "Vários fatores podem contribuir para a quebra de um dente. Conhecê-los pode ajudar você a tomar medidas para evitá-los no futuro. Vamos ver alguns deles:"
-    },
-    {
-      "tipo": "lista",
-      "itens": [
-        "<strong>Cáries</strong>: Dentes danificados por cáries estão em maior risco de quebra.",
-        "<strong>Acidentes</strong>: Um golpe forte na boca pode facilmente quebrar um dente.",
-        "<strong>Desgaste natural</strong>: Com o tempo, os dentes podem se desgastar, tornando-se mais frágeis.",
-        "<strong>Bruxismo</strong>: O hábito de ranger os dentes pode causar uma pressão excessiva e levar à quebra."
-      ]
-    },
-    {
-      "tipo": "titulo",
-      "nivel": 2,
-      "texto": "Tabela de cuidados para dentes quebrados"
-    },
-    {
-      "tipo": "tabela",
-      "linhas": [
-        [
-          "Cuidados",
-          "Importância",
-          "Dicas"
-        ],
-        [
-          "Consulta ao dentista",
-          "Alta",
-          "Agende imediatamente após o incidente."
-        ],
-        [
-          "Higiene bucal",
-          "Alta",
-          "Escove e use fio dental regularmente."
-        ],
-        [
-          "Alimentação",
-          "Média",
-          "Evite alimentos muito duros após o tratamento."
-        ],
-        [
-          "Protetores bucais",
-          "Alta",
-          "Utilize durante esportes."
-        ]
-      ]
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "Então, se você se pegou pensando &#8220;meu dente quebrou e agora?&#8221;, saiba que não está sozinho. Lidar com um dente quebrado pode ser desconfortável, mas com as informações certas e a orientação de um dentista, você pode superar esse desafio. O mais importante é agir rapidamente e cuidar da sua saúde bucal no dia a dia."
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "Esperamos que essas dicas tenham ajudado e que você se sinta mais preparado caso esse imprevisto aconteça. Lembre-se, a prevenção é sempre o melhor caminho para manter seu sorriso saudável e bonito!"
-    },
-    {
-      "tipo": "titulo",
-      "nivel": 3,
-      "texto": "Conclusão"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "Então, depois de tudo que discutimos sobre o tema&nbsp;<strong>Meu Dente Quebrou e Agora</strong>, fica claro que essa situação pode ser bem preocupante, não é mesmo? A quebra de um dente pode gerar não só um desconforto físico, mas também um baita estresse emocional. Mas, calma! Existem várias opções para lidar com isso e garantir que seu sorriso continue bonito e saudável."
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "Primeiro, é super importante lembrar que buscar ajuda profissional é o primeiro passo. Um dentista vai saber exatamente como tratar seu dente quebrado e oferecer as melhores soluções, seja com restaurações ou até mesmo com uma coroa. E, olha, não se esqueça de cuidar da saúde bucal diariamente, pois isso pode evitar muitos problemas no futuro!"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "Além disso, é fundamental não entrar em pânico. Sim, eu sei que é fácil falar, mas já passei por isso e, no fim das contas, tudo se resolve. O importante é não deixar a situação piorar e agir rápido. Assim, você pode voltar a sorrir sem medo!"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "Em resumo, quando pensamos em&nbsp;<strong>Meu Dente Quebrou e Agora</strong>, a mensagem principal é: mantenha a calma, procure ajuda e cuide bem do seu sorriso. Afinal, um sorriso bonito é sempre um cartão de visitas, né? Então, não deixe para depois!"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "Se você curtiu esse conteúdo e quer mais dicas sobre saúde bucal e outros assuntos, não hesite em continuar navegando pelo nosso blog. Tem muita informação bacana esperando por você! Até a próxima!"
-    },
-    {
-      "tipo": "faq",
-      "titulo": "Perguntas Frequentes",
-      "perguntas": [
-        {
-          "pergunta": "O que devo fazer imediatamente se meu dente quebrou?",
-          "resposta": "Se seu dente quebrou, o primeiro passo é manter a calma. Enxágue a boca com água morna para limpar a área afetada e, se houver sangramento, aplique uma compressa de gaze. Evite tocar na parte quebrada do dente."
-        },
-        {
-          "pergunta": "Preciso ir ao dentista imediatamente?",
-          "resposta": "É recomendável que você procure um dentista o mais rápido possível, especialmente se estiver sentindo dor ou se houver partes do dente soltas. O dentista poderá avaliar a extensão do dano e sugerir o tratamento adequado."
-        },
-        {
-          "pergunta": "O que o dentista pode fazer se meu dente quebrou?",
-          "resposta": "O tratamento varia conforme a gravidade do dano. O dentista pode realizar um reparo com resina composta, fazer uma coroa ou, em casos mais severos, pode ser necessária uma extração."
-        },
-        {
-          "pergunta": "Meu dente quebrou, mas não sinto dor. Devo me preocupar?",
-          "resposta": "Mesmo que você não sinta dor, é importante consultar um dentista. O dano pode afetar as raízes do dente ou causar problemas futuros se não for tratado."
-        },
-        {
-          "pergunta": "Existem tratamentos caseiros para um dente quebrado?",
-          "resposta": "Embora existam remédios caseiros que podem ajudar a aliviar a dor, como bochechos com água morna e sal, eles não substituem o tratamento profissional. É essencial visitar um dentista."
-        },
-        {
-          "pergunta": "Quanto custa o tratamento para um dente quebrado?",
-          "resposta": "Os custos podem variar amplamente, dependendo do tipo de tratamento necessário e da localização do dentista. É melhor consultar seu dentista para uma estimativa precisa."
-        },
-        {
-          "pergunta": "Meu dente quebrou e eu tenho medo de ir ao dentista. O que fazer?",
-          "resposta": "É comum sentir medo de ir ao dentista, mas é importante lembrar que o tratamento é essencial para a saúde bucal. Converse com seu dentista sobre suas preocupações; muitos profissionais estão preparados para ajudar pacientes ansiosos."
-        },
-        {
-          "pergunta": "Posso evitar que um dente quebre novamente no futuro?",
-          "resposta": "Sim, você pode tomar medidas preventivas, como evitar alimentos duros, usar protetores bucais durante atividades esportivas e manter uma boa higiene dental. Consultas regulares ao dentista também são importantes para a prevenção de problemas dentários."
-        }
-      ]
-    }
+    { "tipo": "paragrafo", "texto": "<strong>Se o dente quebrou, guarde o fragmento em leite (se conseguir) e procure um dentista o quanto antes</strong> — quanto mais rápido o atendimento, maior a chance de um tratamento simples e de bom resultado. Enquanto isso, controle a dor com compressa fria e evite mastigar do lado afetado." },
+
+    { "tipo": "titulo", "nivel": 2, "texto": "O Que Fazer Nos Primeiros Minutos" },
+    { "tipo": "paragrafo", "texto": "Segundo a <a href=\"https://my.clevelandclinic.org/health/diseases/chipped-tooth\" target=\"_blank\" rel=\"noopener\">Cleveland Clinic</a>, estas são as medidas recomendadas logo após o incidente:" },
+    { "tipo": "lista", "itens": [
+        "<strong>Enxágue a boca com água morna</strong> para limpar a área e remover resíduos;",
+        "<strong>Guarde o fragmento em leite</strong>, se conseguir recuperá-lo — isso ajuda a preservar o pedaço até a consulta, onde o dentista pode conseguir reencaixá-lo;",
+        "<strong>Controle a dor</strong> com analgésico de venda livre (como ibuprofeno) e compressa fria do lado de fora da bochecha, para reduzir o inchaço;",
+        "<strong>Proteja a área</strong> com cera ortodôntica, um protetor bucal ou até goma de mascar sem açúcar, para evitar que a parte quebrada machuque a língua ou a bochecha até a consulta;",
+        "<strong>Evite alimentos duros ou pegajosos</strong> enquanto aguarda o atendimento;",
+        "<strong>Agende a consulta o quanto antes</strong> — não espere os sintomas piorarem."
+    ]},
+
+    { "tipo": "titulo", "nivel": 2, "texto": "Tipos de Tratamento para Dente Quebrado" },
+    { "tipo": "paragrafo", "texto": "O tratamento depende da extensão do dano, avaliada pelo dentista:" },
+    { "tipo": "lista", "itens": [
+        "<strong>Restauração/colagem:</strong> para quebras pequenas, o dentista aplica resina composta (ou recola o próprio fragmento, se preservado) na cor natural do dente;",
+        "<strong>Coroa dental:</strong> quando o dano é maior, uma coroa cobre e protege o dente restante;",
+        "<strong><a href=\"https://stelleodontologia.com.br/tratamento-de-canal-tudo-o-que-voce-precisa-saber-para-salvar-seu-sorriso/\">Tratamento de canal</a>:</strong> necessário quando a quebra expõe a polpa (o nervo) do dente, geralmente seguido de coroa;",
+        "<strong>Extração:</strong> em casos de dano severo, quando o dente não pode ser salvo — o dentista discute opções de substituição, como implante ou prótese."
+    ]},
+
+    { "tipo": "titulo", "nivel": 2, "texto": "Fatores Que Contribuem para a Quebra de Dentes" },
+    { "tipo": "lista", "itens": [
+        "<strong>Cáries:</strong> dentes enfraquecidos por cárie têm mais risco de fraturar;",
+        "<strong>Acidentes/impacto:</strong> um golpe na boca pode quebrar um dente saudável;",
+        "<strong>Desgaste natural:</strong> ao longo dos anos, os dentes ficam mais frágeis;",
+        "<strong>Bruxismo:</strong> ranger ou apertar os dentes gera pressão excessiva que pode causar fraturas."
+    ]},
+
+    { "tipo": "titulo", "nivel": 2, "texto": "Como Prevenir" },
+    { "tipo": "lista", "itens": [
+        "<strong>Use protetor bucal</strong> em esportes de contato;",
+        "<strong>Não use os dentes como ferramenta</strong> — para abrir embalagens ou quebrar objetos;",
+        "<strong>Trate o bruxismo</strong>, se for o seu caso — veja nosso <a href=\"/bruxismo/\">guia completo sobre bruxismo</a>;",
+        "<strong>Mantenha consultas regulares</strong>, que ajudam a identificar dentes enfraquecidos antes que quebrem."
+    ]},
+
+    { "tipo": "callout", "texto": "Quebrou um dente? Não espere a dor piorar. Agende uma avaliação com urgência.", "cta_texto": "Agendar avaliação", "cta_link": "https://wa.me/5521976939004?text=Quebrei%20um%20dente%20e%20preciso%20de%20atendimento" },
+
+    { "tipo": "faq", "titulo": "Perguntas Frequentes", "perguntas": [
+      { "pergunta": "O que fazer imediatamente se meu dente quebrou?", "resposta": "Enxágue a boca com água morna, guarde o fragmento em leite se conseguir recuperá-lo, controle a dor com analgésico e compressa fria, e procure um dentista o quanto antes." },
+      { "pergunta": "Preciso ir ao dentista imediatamente?", "resposta": "Sim, o quanto antes. Quanto mais rápido o atendimento, maior a chance de um tratamento simples e de o fragmento ser reaproveitado." },
+      { "pergunta": "Meu dente quebrou mas não sinto dor. Ainda preciso ir ao dentista?", "resposta": "Sim. Mesmo sem dor, o dano pode afetar a raiz ou a estrutura interna do dente e causar problemas futuros se não for avaliado." },
+      { "pergunta": "Existe tratamento caseiro para dente quebrado?", "resposta": "Não substituem o atendimento profissional. Bochecho com água morna e analgésico ajudam a aliviar temporariamente, mas o tratamento definitivo precisa de um dentista." },
+      { "pergunta": "Posso guardar o pedaço do dente que quebrou?", "resposta": "Sim, e vale a pena — guarde em leite e leve à consulta. Em alguns casos o dentista consegue recolar o próprio fragmento no dente." },
+      { "pergunta": "Como evitar que um dente quebre de novo?", "resposta": "Use protetor bucal em esportes, evite usar os dentes como ferramenta, trate o bruxismo se for o caso, e mantenha consultas regulares para identificar dentes fragilizados a tempo." }
+    ]}
   ]
 }
