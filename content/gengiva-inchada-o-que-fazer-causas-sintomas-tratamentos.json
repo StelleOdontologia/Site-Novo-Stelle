@@ -39,6 +39,10 @@
       "texto": "Se você quer saber <strong>como desinchar a gengiva rapidamente</strong>, prevenir inflamações e garantir uma boca saudável, continue lendo!"
     },
     {
+      "tipo": "paragrafo",
+      "texto": "Este é o nosso guia completo sobre gengiva inchada. Ao longo do texto, você vai encontrar links para artigos mais específicos, como <a href=\"/gengiva-inflamada-causas-sintomas/\">gengiva inflamada</a>, <a href=\"/gengivite-o-que-e-sintomas-tratamento/\">gengivite</a> e <a href=\"/gengiva-sangrando-ao-escovar-os-dentes/\">gengiva sangrando ao escovar</a>."
+    },
+    {
       "tipo": "titulo",
       "nivel": 2,
       "texto": "2. Gengiva Inchada é Normal?"
@@ -110,7 +114,7 @@
     },
     {
       "tipo": "paragrafo",
-      "texto": "Segundo o <a href=\"https://magazine.medlineplus.gov/article/gum-disease-by-the-numbers\" target=\"_blank\" rel=\"noopener\">NIH MedlinePlus</a>, cerca de <strong>47% dos adultos com mais de 30 anos</strong> têm algum grau de doença gengival — e essa proporção sobe para quase 60% depois dos 65 anos."
+      "texto": "Segundo o <a href=\"https://magazine.medlineplus.gov/article/gum-disease-by-the-numbers\" target=\"_blank\" rel=\"noopener\">NIH MedlinePlus</a>, cerca de <strong>47% dos adultos com mais de 30 anos</strong> têm algum grau de doença gengival — e essa proporção sobe para quase 60% depois dos 65 anos. Veja nossos artigos completos sobre <a href=\"/gengivite-o-que-e-sintomas-tratamento/\">gengivite</a> e <a href=\"/periodontite-o-que-e-causas-sintomas-e-tratamentos/\">periodontite</a> para entender cada estágio em detalhe."
     },
     {
       "tipo": "titulo",
@@ -273,7 +277,7 @@
       "tipo": "lista",
       "itens": [
         "O sangramento frequente <strong>não é normal</strong> e pode indicar gengivite ou periodontite.",
-        "<strong>O que fazer?</strong> Reforce a higiene bucal e marque uma consulta odontológica."
+        "<strong>O que fazer?</strong> Reforce a higiene bucal e marque uma consulta odontológica. Veja mais no nosso artigo sobre <a href=\"/gengiva-sangrando-ao-escovar-os-dentes/\">gengiva sangrando ao escovar os dentes</a>."
       ]
     },
     {
@@ -285,7 +289,7 @@
       "tipo": "lista",
       "itens": [
         "O aparelho pode reter resíduos e irritar a gengiva, causando inchaço.",
-        "<strong>O que fazer?</strong> Use <strong>escova interdental, enxaguante bucal e fio dental ortodôntico</strong> para melhorar a limpeza."
+        "<strong>O que fazer?</strong> Use <strong>escova interdental, enxaguante bucal e fio dental ortodôntico</strong> para melhorar a limpeza. Veja o guia completo em <a href=\"/aparelho-ortodontico-gengiva-inchada-causas-tratamentos/\">aparelho ortodôntico e gengiva inchada</a>."
       ]
     },
     {
@@ -346,6 +350,10 @@
         "<strong>Chá de camomila ou cravo-da-índia</strong>: tem propriedades anti-inflamatórias.",
         "<strong>Água oxigenada bem diluída</strong> (1 parte de água oxigenada 10 volumes para 1 parte de água) pode ser usada ocasionalmente, mas não diariamente por longos períodos — o uso incorreto ou muito frequente pode irritar o tecido gengival. Use com moderação e, se possível, com orientação do dentista."
       ]
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Veja mais opções em nosso artigo sobre <a href=\"/remedios-para-gengiva-inflamada-tratamento/\">remédios para gengiva inflamada</a>."
     },
     {
       "tipo": "titulo",
