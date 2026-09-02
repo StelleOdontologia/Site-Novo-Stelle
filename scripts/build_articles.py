@@ -33,6 +33,21 @@ def esc(s):
     return s.replace('"', "&quot;")
 
 
+_ACCENT_MAP = str.maketrans(
+    "áàâãäéèêëíìîïóòôõöúùûüçñ",
+    "aaaaaeeeeiiiiooooouuuucn",
+)
+
+
+def slugify(texto):
+    """Gera um slug de ancora a partir de um titulo (usado no id do H2/H3)."""
+    s = re.sub(r"<[^>]+>", "", texto)
+    s = s.lower().translate(_ACCENT_MAP)
+    s = re.sub(r"[^a-z0-9\s-]", "", s)
+    s = re.sub(r"\s+", "-", s.strip())
+    return s
+
+
 def render_bloco(bloco, article):
     tipo = bloco["tipo"]
 
@@ -41,7 +56,8 @@ def render_bloco(bloco, article):
 
     if tipo == "titulo":
         nivel = bloco.get("nivel", 2)
-        return f'<h{nivel}>{bloco["texto"]}</h{nivel}>'
+        anchor_id = slugify(bloco["texto"])
+        return f'<h{nivel} id="{anchor_id}">{bloco["texto"]}</h{nivel}>'
 
     if tipo == "lista":
         itens = "".join(f"<li>{item}</li>" for item in bloco["itens"])
