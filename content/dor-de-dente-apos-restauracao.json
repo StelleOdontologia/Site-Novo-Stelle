@@ -14,7 +14,7 @@
   },
   "publicado": true,
   "publicado_em": "2019-12-27",
-  "atualizado_em": "2024-12-20",
+  "atualizado_em": "2026-09-01",
   "blocos": [
     {
       "tipo": "paragrafo",
@@ -148,7 +148,7 @@
     },
     {
       "tipo": "paragrafo",
-      "texto": "Normalmente, a dor ou a sensibilidade após uma restauração desaparecem em até <strong>7 a 14 dias</strong>. No entanto, esse tempo pode variar de acordo com fatores como:"
+      "texto": "Normalmente, a dor ou a sensibilidade após uma restauração desaparecem em até <strong>7 a 14 dias</strong>, segundo a <a href=\"https://www.colgate.com/en-us/oral-health/fillings/tooth-pain-after-a-filling-is-it-normal\" target=\"_blank\" rel=\"noopener\">Colgate</a>. No entanto, esse tempo pode variar de acordo com fatores como:"
     },
     {
       "tipo": "lista",
@@ -299,14 +299,9 @@
     {
       "tipo": "lista",
       "itens": [
-        "<strong>Sintomas</strong>: <ul> <li>Dor latejante ou constante;",
-        "Sensibilidade extrema a líquidos quentes e frios que <strong>não desaparece rapidamente</strong>."
-      ]
-    },
-    {
-      "tipo": "lista",
-      "itens": [
-        "Pode ser necessário realizar um <strong>tratamento de canal</strong> para remover o tecido inflamado e preservar o dente."
+        "<strong>Sintomas:</strong> dor latejante ou constante;",
+        "Sensibilidade extrema a líquidos quentes e frios que <strong>não desaparece rapidamente</strong>;",
+        "<strong>Tratamento:</strong> pode ser necessário um <a href=\"https://stelleodontologia.com.br/tratamento-de-canal-tudo-o-que-voce-precisa-saber-para-salvar-seu-sorriso/\">tratamento de canal</a> para remover o tecido inflamado e preservar o dente."
       ]
     },
     {
@@ -321,14 +316,9 @@
     {
       "tipo": "lista",
       "itens": [
-        "<strong>Sintomas</strong>: <ul> <li>Sensibilidade persistente;",
-        "Escurecimento do dente ou alteração da cor da restauração."
-      ]
-    },
-    {
-      "tipo": "lista",
-      "itens": [
-        "Remoção da restauração antiga e substituição por uma nova."
+        "<strong>Sintomas:</strong> sensibilidade persistente;",
+        "Escurecimento do dente ou alteração da cor da restauração;",
+        "<strong>Tratamento:</strong> remoção da restauração antiga e substituição por uma nova."
       ]
     },
     {
@@ -343,14 +333,9 @@
     {
       "tipo": "lista",
       "itens": [
-        "<strong>Sintomas</strong>: <ul> <li>Desconforto ao mastigar;",
-        "Pequenos estalos ou sensação de vazio no dente."
-      ]
-    },
-    {
-      "tipo": "lista",
-      "itens": [
-        "Revisão da restauração e, se necessário, sua substituição."
+        "<strong>Sintomas:</strong> desconforto ao mastigar;",
+        "Pequenos estalos ou sensação de vazio no dente;",
+        "<strong>Tratamento:</strong> revisão da restauração e, se necessário, sua substituição."
       ]
     },
     {
