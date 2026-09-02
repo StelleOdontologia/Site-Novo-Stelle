@@ -14,7 +14,7 @@
   },
   "publicado": true,
   "publicado_em": "2019-11-08",
-  "atualizado_em": "2025-01-15",
+  "atualizado_em": "2026-09-01",
   "blocos": [
     {
       "tipo": "titulo",
@@ -23,11 +23,11 @@
     },
     {
       "tipo": "paragrafo",
-      "texto": "A <strong>gestação</strong> é um período especial e desafiador na vida de qualquer mulher. Além de todas as mudanças físicas e emocionais, é fundamental dar atenção à <strong>saúde bucal</strong>, que muitas vezes é negligenciada. Durante a gravidez, as alterações hormonais podem influenciar diretamente a saúde dos dentes e gengivas, aumentando a suscetibilidade a problemas como <strong>gengivite</strong> e <strong>cárie dentária</strong>."
+      "texto": "<strong>As doenças bucais mais comuns na gravidez são gengivite gestacional, cárie e, em casos mais avançados, periodontite</strong> — todas ligadas às alterações hormonais da gestação. A <strong>gestação</strong> é um período especial e desafiador na vida de qualquer mulher. Além de todas as mudanças físicas e emocionais, é fundamental dar atenção à <strong>saúde bucal</strong>, que muitas vezes é negligenciada. Durante a gravidez, as alterações hormonais podem influenciar diretamente a saúde dos dentes e gengivas, aumentando a suscetibilidade a problemas como <strong>gengivite</strong> e <strong>cárie dentária</strong>."
     },
     {
       "tipo": "paragrafo",
-      "texto": "Estudos mostram que doenças bucais não tratadas podem impactar não apenas a saúde da mãe, mas também a do bebê. Problemas como <strong>periodontite</strong> estão relacionados a complicações obstétricas, incluindo parto prematuro e baixo peso ao nascer. Por isso, manter uma rotina de cuidados com a boca e consultar um dentista regularmente é essencial para garantir uma gravidez saudável e tranquila."
+      "texto": "Doenças bucais não tratadas podem impactar não apenas a saúde da mãe, mas também a do bebê. Uma <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC5075444/\" target=\"_blank\" rel=\"noopener\">revisão sistemática</a> encontrou associação entre periodontite e maior risco de parto prematuro e baixo peso ao nascer em 9 de 10 estudos analisados — mas os próprios autores destacam que ainda são necessários ensaios clínicos mais robustos para confirmar a relação de causa e efeito. Na dúvida, cuidar da saúde bucal continua sendo a atitude mais segura: no mínimo, evita dor, infecção e desconforto para a gestante, independente do efeito sobre o parto."
     },
     {
       "tipo": "paragrafo",
@@ -221,7 +221,7 @@
     },
     {
       "tipo": "paragrafo",
-      "texto": "Caso haja necessidade de tratamentos, como extrações ou restaurações, o segundo trimestre é considerado o período mais seguro. Entretanto, qualquer procedimento deve ser discutido com o dentista e o obstetra para garantir total segurança."
+      "texto": "O segundo trimestre costuma ser o período mais confortável para tratamentos de rotina, como restaurações e limpezas — mas isso é uma questão de conforto, não de segurança: emergências como extração ou canal podem e devem ser tratadas em qualquer fase da gravidez, sem necessidade de esperar. Veja mais detalhes no nosso <a href=\"https://stelleodontologia.com.br/saude-bucal-na-gravidez/\">guia prático por trimestre</a>, com a orientação da American Dental Association sobre anestesia e raio-X."
     },
     {
       "tipo": "paragrafo",
@@ -368,16 +368,13 @@
       "nivel": 2,
       "texto": "Perguntas frequentes (FAQ)"
     },
-    {
-      "tipo": "lista",
-      "itens": [
-        "<p><strong>Quais são as doenças bucais mais comuns durante a gravidez?</strong><br>As doenças bucais mais comuns durante a <strong>gestação</strong> incluem <strong>gengivite gestacional</strong>, <strong>cárie dentária</strong> e <strong>periodontite</strong>. Estas condições estão relacionadas a mudanças hormonais e, se não tratadas, podem afetar a saúde bucal e geral da grávida.</p>",
-        "<p><strong>A saúde bucal da grávida pode afetar o bebê?</strong><br>Sim. Problemas como <strong>periodontite</strong> têm sido associados a complicações como parto prematuro e baixo peso ao nascer, uma vez que as bactérias e substâncias inflamatórias podem atingir a corrente sanguínea e impactar a gestação.</p>",
-        "<p><strong>É seguro ir ao dentista durante a gravidez?</strong><br>Sim, é seguro ir ao dentista durante a <strong>gestação</strong>. O segundo trimestre é considerado o período mais seguro para a realização de tratamentos odontológicos simples, como limpezas e restaurações. No entanto, tratamentos mais invasivos devem ser evitados, salvo em casos de urgência.</p>",
-        "<p><strong>Quais cuidados devo ter para prevenir cáries na gravidez?</strong><br>Para prevenir <strong>cáries</strong>, é essencial manter uma boa rotina de higiene bucal, com escovação regular, uso de fio dental e consultas periódicas ao dentista. Além disso, evite o consumo excessivo de doces e bebidas açucaradas, comuns durante a gravidez.</p>",
-        "<p><strong>Como a gengivite gestacional pode ser tratada?</strong><br>A <strong>gengivite gestacional</strong> é tratada com uma boa higiene bucal, incluindo escovação adequada e uso do fio dental, além de visitas regulares ao dentista para limpeza profissional e controle da inflamação.</p>",
-        "<p><strong>O que fazer se sentir dor de dente ou sangramento nas gengivas?</strong><br>Caso perceba dor de dente ou sangramento nas gengivas, procure um dentista o mais rápido possível. Esses podem ser sinais de doenças bucais, como <strong>gengivite</strong> ou <strong>cárie</strong>, e precisam de atenção especializada.</p>"
-      ]
-    }
+    { "tipo": "faq", "perguntas": [
+      { "pergunta": "Quais são as doenças bucais mais comuns durante a gravidez?", "resposta": "As doenças bucais mais comuns durante a gestação incluem gengivite gestacional, cárie dentária e periodontite. Estas condições estão relacionadas a mudanças hormonais e, se não tratadas, podem afetar a saúde bucal e geral da grávida." },
+      { "pergunta": "A saúde bucal da grávida pode afetar o bebê?", "resposta": "Estudos encontram associação entre periodontite e maior risco de parto prematuro e baixo peso ao nascer, mas a relação de causa e efeito ainda não é totalmente confirmada pela ciência. De qualquer forma, tratar a periodontite é importante para a saúde da própria gestante." },
+      { "pergunta": "É seguro ir ao dentista durante a gravidez?", "resposta": "Sim, é seguro ir ao dentista em qualquer fase da gestação, incluindo anestesia local e radiografia com os devidos cuidados. O segundo trimestre costuma ser o mais confortável para tratamentos de rotina, mas emergências podem ser tratadas a qualquer momento." },
+      { "pergunta": "Quais cuidados devo ter para prevenir cáries na gravidez?", "resposta": "Para prevenir cáries, é essencial manter uma boa rotina de higiene bucal, com escovação regular, uso de fio dental e consultas periódicas ao dentista. Além disso, evite o consumo excessivo de doces e bebidas açucaradas, comuns durante a gravidez." },
+      { "pergunta": "Como a gengivite gestacional pode ser tratada?", "resposta": "A gengivite gestacional é tratada com uma boa higiene bucal, incluindo escovação adequada e uso do fio dental, além de visitas regulares ao dentista para limpeza profissional e controle da inflamação." },
+      { "pergunta": "O que fazer se sentir dor de dente ou sangramento nas gengivas?", "resposta": "Caso perceba dor de dente ou sangramento nas gengivas, procure um dentista o mais rápido possível. Esses podem ser sinais de doenças bucais, como gengivite ou cárie, e precisam de atenção especializada." }
+    ]}
   ]
 }
