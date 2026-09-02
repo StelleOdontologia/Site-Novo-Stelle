@@ -17,6 +17,7 @@
   "atualizado_em": "2026-09-01",
   "blocos": [
     { "tipo": "pillar_badge", "texto": "Parte do Guia Completo sobre Bruxismo", "link": "/bruxismo/" },
+    { "tipo": "paragrafo", "texto": "<strong>O bruxismo do sono é o hábito involuntário de ranger ou apertar os dentes enquanto dorme, geralmente ligado a estresse, apneia do sono ou má oclusão dentária — e o tratamento mais comum é a placa de bruxismo, que protege os dentes enquanto a causa é investigada.</strong>" },
     { "tipo": "paragrafo", "texto": "Quem tem <strong>bruxismo do sono</strong> quase nunca percebe sozinho — o hábito de ranger ou apertar os dentes acontece de forma inconsciente, durante o sono profundo. Na maioria das vezes, quem descobre primeiro é a pessoa que dorme ao lado, ao ouvir o ranger, ou o próprio dentista, ao notar o desgaste característico nos dentes durante uma consulta de rotina." },
     { "tipo": "paragrafo", "texto": "Este artigo faz parte do nosso <a href=\"/bruxismo/\">guia completo sobre bruxismo</a> e aprofunda especificamente o tipo que acontece à noite: como identificar, por que acontece durante o sono e o que fazer a respeito." },
 
