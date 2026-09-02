@@ -1,11 +1,11 @@
 {
   "slug": "gengiva-inflamada-causas-sintomas",
-  "titulo_meta": "Gengiva Inflamada: Causas e Tratamento - Stelle Odontologia",
+  "titulo_meta": "Gengiva Inflamada: Causas, Sintomas e Tratamento - Stelle",
   "titulo_h1": "Gengiva Inflamada – Causas, Sintomas e Como Tratar Rapidamente",
-  "meta_description": "Gengiva inflamada? Descubra as principais causas, sintomas e o que fazer para tratar e prevenir esse problema bucal com a Stelle Odontologia.",
+  "meta_description": "Gengiva inflamada: descubra as principais causas, sintomas de alerta e o que fazer para tratar e prevenir esse problema bucal rapidamente.",
   "categoria": "saude-bucal",
   "autor": "dra-kesya-nogueira",
-  "cluster_pai": null,
+  "cluster_pai": "gengiva-inchada-o-que-fazer-causas-sintomas-tratamentos",
   "capa": {
     "url": "/assets/recovered/2025/03/Gengiva-Inflamada-CausasSintomas-e-Como-Tratar-Rapidamente-1024x683.webp",
     "srcset": "/assets/recovered/2025/03/Gengiva-Inflamada-CausasSintomas-e-Como-Tratar-Rapidamente-1024x683.webp 1024w, /assets/recovered/2025/03/Gengiva-Inflamada-CausasSintomas-e-Como-Tratar-Rapidamente-300x200.webp 300w, /assets/recovered/2025/03/Gengiva-Inflamada-CausasSintomas-e-Como-Tratar-Rapidamente-768x512.webp 768w, /assets/recovered/2025/03/Gengiva-Inflamada-CausasSintomas-e-Como-Tratar-Rapidamente.webp 1200w",
@@ -14,504 +14,90 @@
   },
   "publicado": true,
   "publicado_em": "2025-03-07",
-  "atualizado_em": "2025-03-12",
+  "atualizado_em": "2026-09-02",
   "blocos": [
-    {
-      "tipo": "paragrafo",
-      "texto": "<!-- /wp:html --><!-- wp:heading -->"
-    },
-    {
-      "tipo": "titulo",
-      "nivel": 2,
-      "texto": "📝 Introdução"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "<!-- /wp:heading --><!-- wp:paragraph -->"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "A <strong>gengiva inflamada</strong> é um dos primeiros sinais de que algo não está certo com a saúde bucal. Muitas vezes, esse problema surge de forma silenciosa, sem dor intensa no início, mas se não for tratado pode evoluir para <strong>complicações mais graves, como gengivite e periodontite</strong>."
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "<!-- /wp:paragraph --><!-- wp:paragraph -->"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "Se você percebeu <strong>vermelhidão, inchaço ou sangramento ao escovar os dentes</strong>, isso pode ser um alerta. A inflamação gengival pode ter diversas causas, como <strong>má higiene bucal, acúmulo de tártaro, deficiências nutricionais e até mesmo doenças sistêmicas</strong>."
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "<!-- /wp:paragraph --><!-- wp:paragraph -->"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "Neste artigo, você vai aprender <strong>as principais causas da gengiva inflamada, como identificar os sintomas e quais são os melhores tratamentos para aliviar o problema rapidamente</strong>."
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "<!-- /wp:paragraph --><!-- wp:paragraph -->"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "📌 <strong>Se sua gengiva está inchada e dolorida, veja neste <a href=\"https://stelleodontologia.com.br/gengiva-inchada-o-que-fazer-causas-sintomas-tratamentos/\">artigo completo</a> como tratar esse problema antes que piore.</strong>"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "<!-- /wp:paragraph --><!-- wp:heading -->"
-    },
-    {
-      "tipo": "titulo",
-      "nivel": 2,
-      "texto": "1. O Que é Gengiva Inflamada?"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "<!-- /wp:heading --><!-- wp:paragraph -->"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "A <strong>gengiva inflamada</strong> ocorre quando há uma resposta do organismo a <strong>irritações ou infecções na região gengival</strong>. O sistema imunológico reage ao acúmulo de bactérias na boca, causando <strong>vermelhidão, inchaço e sensibilidade</strong>."
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "<!-- /wp:paragraph --><!-- wp:paragraph -->"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "Essa inflamação pode ser temporária, resolvendo-se com <strong>melhores hábitos de higiene bucal</strong>, ou pode evoluir para <strong>gengivite e periodontite</strong>, levando até à perda dos dentes em casos mais avançados."
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "<!-- /wp:paragraph --><!-- wp:paragraph -->"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "🔹 <strong>Diferença entre gengiva inflamada e gengivite:</strong>"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "<!-- /wp:paragraph --><!-- wp:list -->"
-    },
-    {
-      "tipo": "lista",
-      "itens": []
-    },
-    {
-      "tipo": "lista",
-      "itens": [
-        "<ul class=\"wp-block-list\"> <li>A <strong>gengiva inflamada</strong> pode ser um problema temporário causado por irritações ou escovação incorreta."
-      ]
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "<!-- /wp:list-item --><!-- wp:list-item -->"
-    },
-    {
-      "tipo": "lista",
-      "itens": [
-        "<ul class=\"wp-block-list\"> <li>A <strong>gengivite</strong> é uma condição crônica que surge quando a inflamação não é tratada e pode levar à periodontite."
-      ]
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "<!-- /wp:list-item -->"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "<!-- /wp:list --><!-- wp:paragraph -->"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "📌 <strong>Se o seu problema já evoluiu para gengivite, veja como tratar neste <a href=\"https://stelleodontologia.com.br/gengivite-o-que-e-sintomas-tratamento/\">artigo completo</a>.</strong>"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "<!-- /wp:paragraph --><!-- wp:heading -->"
-    },
-    {
-      "tipo": "titulo",
-      "nivel": 2,
-      "texto": "2. Principais Causas da Gengiva Inflamada"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "<!-- /wp:heading --><!-- wp:paragraph -->"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "A inflamação na gengiva pode ter diversas origens, desde problemas simples, como <strong>falta de higiene bucal</strong>, até condições mais graves, como <strong>doenças sistêmicas</strong>. Conhecer as <strong>principais causas</strong> pode ajudar a prevenir e tratar o problema antes que ele se agrave."
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "<!-- /wp:paragraph --><!-- wp:heading {\"level\":3} -->"
-    },
-    {
-      "tipo": "titulo",
-      "nivel": 3,
-      "texto": "🦷 1. Acúmulo de Placa Bacteriana e Tártaro"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "<!-- /wp:heading --><!-- wp:paragraph -->"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "A <strong>placa bacteriana</strong> é uma película pegajosa composta por bactérias e restos de alimentos que se acumulam nos dentes ao longo do dia. Se essa placa <strong>não for removida corretamente</strong> com escovação e fio dental, ela se solidifica, formando o <strong>tártaro</strong>, que irrita e inflama a gengiva."
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "<!-- /wp:paragraph --><!-- wp:paragraph -->"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "➡️ <strong>Como prevenir?</strong><br />✔️ Escovar os dentes <strong>ao menos duas vezes ao dia</strong> com creme dental fluoretado.<br />✔️ <strong>Usar fio dental diariamente</strong> para remover resíduos entre os dentes.<br />✔️ Realizar <strong>limpezas profissionais periódicas</strong> para remoção do tártaro."
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "<!-- /wp:paragraph --><!-- wp:paragraph -->"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "<strong style=\"color: #000000; font-family: Rubik, sans-serif; font-size: 1.76471rem; font-style: inherit; background-color: var(--ast-global-color-5);\">🥗 2. Deficiências Nutricionais (Vitamina C e K)</strong>"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "<!-- /wp:heading --><!-- wp:paragraph -->"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "A alimentação tem um papel fundamental na <strong>saúde da gengiva</strong>. A falta de <strong>vitamina C</strong> pode enfraquecer o tecido gengival, tornando-o mais suscetível à inflamação e sangramento. Já a <strong>deficiência de vitamina K</strong> pode afetar a coagulação sanguínea, aumentando o risco de sangramento gengival."
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "<!-- /wp:paragraph --><!-- wp:heading {\"level\":4} -->"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "<!-- /wp:heading --><!-- wp:paragraph -->"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "🍊 Laranja, kiwi, acerola, morango<br />🥦 Brócolis, pimentão, couve"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "<!-- /wp:paragraph --><!-- wp:heading {\"level\":4} -->"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "<!-- /wp:heading --><!-- wp:paragraph -->"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "🥬 Espinafre, couve, brócolis<br />🥑 Abacate, fígado, ovos"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "<!-- /wp:paragraph --><!-- wp:paragraph -->"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "<strong style=\"color: #000000; font-family: Rubik, sans-serif; font-size: 1.76471rem; font-style: inherit; background-color: var(--ast-global-color-5);\">🚬 3. Tabagismo e Consumo de Álcool</strong>"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "<!-- /wp:heading --><!-- wp:paragraph -->"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "O <strong>cigarro</strong> é um dos grandes vilões da saúde bucal. A nicotina prejudica a circulação sanguínea da gengiva, dificultando a cicatrização e aumentando a inflamação. Além disso, <strong>fumantes têm um risco maior de desenvolver gengivite e periodontite</strong>."
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "<!-- /wp:paragraph --><!-- wp:paragraph -->"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "➡️ <strong>Como o cigarro afeta a gengiva?</strong><br />✔️ Reduz o fluxo sanguíneo, dificultando a cicatrização.<br />✔️ Aumenta o acúmulo de placa bacteriana.<br />✔️ Pode mascarar sinais de inflamação, retardando o diagnóstico."
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "<!-- /wp:paragraph --><!-- wp:paragraph -->"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "O consumo excessivo de <strong>bebidas alcoólicas</strong> também pode prejudicar a gengiva, pois reduz a hidratação da boca e favorece o crescimento bacteriano."
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "<!-- /wp:paragraph --><!-- wp:paragraph -->"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "<strong style=\"color: #000000; font-family: Rubik, sans-serif; font-size: 1.76471rem; font-style: inherit; background-color: var(--ast-global-color-5);\">🪥 4. Higiene Bucal Deficiente ou Excessiva</strong>"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "<!-- /wp:heading --><!-- wp:paragraph -->"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "Tanto a falta quanto o excesso de higiene podem causar gengiva inflamada. <strong>Escovar os dentes com muita força</strong> ou <strong>usar escovas de cerdas duras</strong> pode machucar a gengiva, provocando inflamação e até retração gengival."
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "<!-- /wp:paragraph --><!-- wp:paragraph -->"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "➡️ <strong>Dicas para evitar o problema:</strong><br />✔️ Use <strong>escovas de cerdas macias</strong> para evitar agressões.<br />✔️ <strong>Evite pressionar a escova com força</strong> – movimentos suaves são mais eficazes.<br />✔️ <strong>Não exagere no enxaguante bucal com álcool</strong>, pois pode ressecar a gengiva."
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "<!-- /wp:paragraph --><!-- wp:paragraph -->"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "📌 <strong>Se sua gengiva sangra ao escovar os dentes, veja como evitar esse problema neste <a href=\"https://stelleodontologia.com.br/gengiva-sangrando-ao-escovar-os-dentes/\">artigo completo</a>.</strong>"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "<!-- /wp:paragraph --><!-- wp:heading -->"
-    },
-    {
-      "tipo": "titulo",
-      "nivel": 2,
-      "texto": "3. Sintomas da Gengiva Inflamada: Como Identificar o Problema?"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "<!-- /wp:heading --><!-- wp:paragraph -->"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "A gengiva inflamada pode se manifestar de várias formas. Se você notar <strong>dois ou mais desses sintomas</strong>, é importante buscar tratamento antes que o problema se agrave."
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "<!-- /wp:paragraph --><!-- wp:heading {\"level\":3} -->"
-    },
-    {
-      "tipo": "titulo",
-      "nivel": 3,
-      "texto": "🚨 Sinais de Gengiva Inflamada:"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "<!-- /wp:heading --><!-- wp:paragraph -->"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "✔️ <strong>Vermelhidão</strong> – Gengiva com tom avermelhado ao invés do rosa saudável.<br />✔️ <strong>Inchaço</strong> – Sensação de volume aumentado na gengiva.<br />✔️ <strong>Sangramento</strong> – Ao escovar os dentes ou passar fio dental.<br />✔️ <strong>Sensibilidade</strong> – Desconforto ao comer ou beber alimentos frios/quentes.<br />✔️ <strong>Mau hálito persistente</strong> – Pode indicar a presença de bactérias na gengiva."
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "<!-- /wp:paragraph --><!-- wp:paragraph -->"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "<!-- /wp:paragraph --><!-- wp:heading -->"
-    },
-    {
-      "tipo": "titulo",
-      "nivel": 2,
-      "texto": "4. Como Tratar a Gengiva Inflamada?"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "<!-- /wp:heading --><!-- wp:paragraph -->"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "Se sua gengiva está inflamada, o ideal é agir rapidamente para evitar que o problema se agrave e evolua para gengivite ou periodontite. A boa notícia é que, na maioria dos casos, a inflamação pode ser controlada com hábitos simples e cuidados adequados."
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "<!-- /wp:paragraph --><!-- wp:paragraph -->"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "Aqui estão as <strong>melhores formas de tratar a gengiva inflamada</strong> e restaurar a saúde bucal."
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "<!-- /wp:paragraph --><!-- wp:heading {\"level\":3} -->"
-    },
-    {
-      "tipo": "titulo",
-      "nivel": 3,
-      "texto": "🪥 1. Melhorando a Higiene Bucal"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "<!-- /wp:heading --><!-- wp:paragraph -->"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "Um dos principais motivos para a inflamação gengival é o <strong>acúmulo de placa bacteriana e tártaro</strong>. Melhorar a rotina de higiene bucal é o primeiro passo para resolver o problema."
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "<!-- /wp:paragraph --><!-- wp:paragraph -->"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "✔️ <strong>Use uma escova de dentes de cerdas macias</strong>, que limpa sem agredir a gengiva.<br />✔️ <strong>Evite escovar com muita força</strong>, pois isso pode piorar a inflamação.<br />✔️ <strong>Passe fio dental corretamente</strong> todos os dias para remover a placa entre os dentes.<br />✔️ <strong>Use um enxaguante bucal sem álcool</strong>, como o <a href=\"https://amzn.to/41L0EYa\" target=\"_blank\" rel=\"noopener\">Listerine Zero Álcool</a>."
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "<!-- /wp:paragraph --><!-- wp:paragraph -->"
-    },
-    {
-      "tipo": "titulo",
-      "nivel": 3,
-      "texto": "🌿 2. Remédios Caseiros para Aliviar a Inflamação"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "<!-- /wp:heading --><!-- wp:paragraph -->"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "Algumas soluções naturais podem ajudar a reduzir a inflamação da gengiva e aliviar o desconforto. No entanto, esses métodos devem ser usados <strong>como complemento</strong>, e não substituem a higiene bucal correta ou a consulta ao dentista."
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "<!-- /wp:paragraph --><!-- wp:paragraph -->"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "✔️ <strong>Água morna com sal:</strong> Faz bochechos para reduzir o inchaço e matar bactérias.<br />✔️ <strong>Chá de camomila e cravo-da-índia:</strong> Possuem ação calmante e anti-inflamatória.<br />✔️ <strong>Óleo de coco ou óleo de melaleuca:</strong> Possuem propriedades antibacterianas naturais."
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "<!-- /wp:paragraph --><!-- wp:paragraph -->"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "📌 <strong>Quer saber mais sobre tratamentos caseiros? Veja neste <a href=\"https://stelleodontologia.com.br/remedios-para-gengiva-inflamada-tratamento/\">artigo completo sobre remédios para gengiva inflamada</a>.</strong>"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "<!-- /wp:paragraph --><!-- wp:paragraph -->"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "🔗 <strong>Fonte externa:</strong> A Mayo Clinic explica mais sobre tratamentos gengivais <a href=\"https://www.mayoclinic.org/diseases-conditions/gum-disease/symptoms-causes/syc-20354475\" target=\"_blank\" rel=\"noopener\">aqui</a>."
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "<!-- /wp:paragraph --><!-- wp:heading {\"level\":3} -->"
-    },
-    {
-      "tipo": "titulo",
-      "nivel": 3,
-      "texto": "💊 3. Tratamentos Odontológicos para Gengiva Inflamada"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "<!-- /wp:heading --><!-- wp:paragraph -->"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "Se a inflamação gengival persistir <strong>por mais de uma semana</strong>, mesmo com a higiene adequada, é essencial procurar um dentista. Algumas opções de tratamento profissional incluem:"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "<!-- /wp:paragraph --><!-- wp:paragraph -->"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "✔️ <strong>Raspagem gengival profissional</strong> – Remove o tártaro acumulado abaixo da gengiva.<br />✔️ <strong>Uso de antibióticos tópicos ou orais</strong> – Indicado em casos de infecção mais severa.<br />✔️ <strong>Acompanhamento odontológico regular</strong> – Consultas periódicas para evitar recorrências."
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "<!-- /wp:paragraph --><!-- wp:paragraph -->"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "📌 <strong>Se o seu problema já avançou para gengivite, veja como tratar neste <a href=\"https://stelleodontologia.com.br/gengivite-o-que-e-sintomas-tratamento/\">artigo sobre gengivite</a>.</strong>"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "<!-- /wp:paragraph --><!-- wp:paragraph -->"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "🔗 <strong>Fonte externa:</strong> Veja mais sobre os tratamentos para gengivite na <a href=\"https://www.abo.org.br\" target=\"_blank\" rel=\"noopener\">Associação Brasileira de Odontologia (ABO)</a>."
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "<!-- /wp:paragraph --><!-- wp:heading -->"
-    },
-    {
-      "tipo": "titulo",
-      "nivel": 2,
-      "texto": "5. Como Prevenir a Inflamação na Gengiva?"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "<!-- /wp:heading --><!-- wp:paragraph -->"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "A prevenção é sempre o melhor caminho para evitar problemas bucais e manter um sorriso saudável. Algumas mudanças na rotina podem impedir que a gengiva fique inflamada novamente."
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "<!-- /wp:paragraph --><!-- wp:paragraph -->"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "✔️ <strong>Escove os dentes pelo menos duas vezes ao dia</strong>, com creme dental fluoretado.<br />✔️ <strong>Use fio dental diariamente</strong> para remover restos de comida entre os dentes.<br />✔️ <strong>Evite o tabagismo e o consumo excessivo de álcool</strong>, pois prejudicam a gengiva.<br />✔️ <strong>Inclua alimentos ricos em vitamina C e K na dieta</strong> para fortalecer a gengiva.<br />✔️ <strong>Realize visitas regulares ao dentista</strong>, pelo menos a cada 6 meses."
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "<!-- /wp:paragraph --><!-- wp:paragraph -->"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "🔗 <strong>Fonte externa:</strong> Veja mais sobre nutrição para a saúde bucal no site da <a href=\"https://nutritionsource.hsph.harvard.edu/\" target=\"_blank\" rel=\"noopener\">Harvard T.H. Chan School of Public Health</a>."
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "<!-- /wp:paragraph --><!-- wp:heading -->"
-    },
-    {
-      "tipo": "faq",
-      "titulo": "6. Perguntas Frequentes sobre Gengiva Inflamada",
-      "perguntas": [
-        {
-          "pergunta": "Gengiva inflamada sempre significa gengivite?",
-          "resposta": ""
-        },
-        {
-          "pergunta": "Quanto tempo dura uma gengiva inflamada?",
-          "resposta": ""
-        },
-        {
-          "pergunta": "O que fazer se a inflamação da gengiva não melhorar?",
-          "resposta": ""
-        },
-        {
-          "pergunta": "Quais alimentos ajudam a fortalecer a gengiva?",
-          "resposta": ""
-        },
-        {
-          "pergunta": "O uso de enxaguantes bucais pode ajudar na gengiva inflamada?",
-          "resposta": ""
-        },
-        {
-          "pergunta": "Quando procurar um dentista por causa da gengiva inflamada?",
-          "resposta": ""
-        },
-        {
-          "pergunta": "Dra. Késya Nogueira",
-          "resposta": "CRO-RJ 45996 &bull; Dentista na Taquara, Especialista em Ortodontia"
-        }
-      ]
-    }
+    { "tipo": "pillar_badge", "texto": "Parte do Guia Completo sobre Gengiva Inchada", "link": "/gengiva-inchada-o-que-fazer-causas-sintomas-tratamentos/" },
+    { "tipo": "paragrafo", "texto": "<strong>Gengiva inflamada é a resposta do corpo a irritação ou infecção na região gengival</strong> — vermelhidão, inchaço e sensibilidade são os primeiros sinais. Muitas vezes começa sem dor, mas sem tratamento pode evoluir para <a href=\"/gengivite-o-que-e-sintomas-tratamento/\">gengivite</a> e depois periodontite." },
+    { "tipo": "paragrafo", "texto": "Este artigo faz parte do nosso <a href=\"/gengiva-inchada-o-que-fazer-causas-sintomas-tratamentos/\">guia completo sobre gengiva inchada</a> e detalha as causas, sintomas e tratamentos específicos da inflamação gengival." },
+
+    { "tipo": "titulo", "nivel": 2, "texto": "Gengiva Inflamada x Gengivite: Qual a Diferença?" },
+    { "tipo": "lista", "itens": [
+        "<strong>Gengiva inflamada:</strong> pode ser um problema temporário, causado por irritação pontual ou escovação incorreta;",
+        "<strong>Gengivite:</strong> é a condição crônica que surge quando essa inflamação não é tratada e persiste, podendo evoluir para periodontite."
+    ]},
+
+    { "tipo": "titulo", "nivel": 2, "texto": "Principais Causas da Gengiva Inflamada" },
+
+    { "tipo": "titulo", "nivel": 3, "texto": "1. Acúmulo de Placa Bacteriana e Tártaro" },
+    { "tipo": "paragrafo", "texto": "A placa bacteriana é uma película pegajosa de bactérias e restos de alimentos que se acumula nos dentes. Sem remoção correta pela escovação e fio dental, ela se solidifica em tártaro, que irrita e inflama a gengiva." },
+    { "tipo": "paragrafo", "texto": "<strong>Como prevenir:</strong> escove os dentes ao menos 2 vezes ao dia com creme dental fluoretado, use fio dental diariamente e faça limpezas profissionais periódicas." },
+
+    { "tipo": "titulo", "nivel": 3, "texto": "2. Deficiências Nutricionais (Vitamina C e K)" },
+    { "tipo": "paragrafo", "texto": "A falta de vitamina C enfraquece o tecido gengival, deixando-o mais suscetível a inflamação e sangramento. Já a deficiência de vitamina K afeta a coagulação, aumentando o risco de sangramento gengival." },
+    { "tipo": "lista", "itens": [
+        "<strong>Alimentos ricos em vitamina C:</strong> laranja, kiwi, acerola, morango, brócolis, pimentão, couve;",
+        "<strong>Alimentos ricos em vitamina K:</strong> espinafre, couve, brócolis, abacate, fígado, ovos."
+    ]},
+
+    { "tipo": "titulo", "nivel": 3, "texto": "3. Tabagismo e Consumo de Álcool" },
+    { "tipo": "paragrafo", "texto": "A nicotina prejudica a circulação sanguínea da gengiva, dificultando a cicatrização e aumentando a inflamação — fumantes têm risco maior de gengivite e periodontite. O cigarro também pode mascarar sinais de inflamação, atrasando o diagnóstico. O consumo excessivo de álcool reduz a hidratação da boca, favorecendo o crescimento bacteriano." },
+
+    { "tipo": "titulo", "nivel": 3, "texto": "4. Higiene Bucal Deficiente ou Excessiva" },
+    { "tipo": "paragrafo", "texto": "Tanto a falta quanto o excesso de força na higiene podem inflamar a gengiva. Escovar com muita força ou usar cerdas duras machuca o tecido, podendo causar retração gengival." },
+    { "tipo": "paragrafo", "texto": "<strong>Dicas:</strong> use escova de cerdas macias, evite pressionar com força (movimentos suaves são mais eficazes) e não abuse de enxaguante bucal com álcool, que resseca a gengiva. Se sua gengiva sangra ao escovar, veja nosso artigo sobre <a href=\"/gengiva-sangrando-ao-escovar-os-dentes/\">gengiva sangrando ao escovar os dentes</a>." },
+
+    { "tipo": "titulo", "nivel": 2, "texto": "Sintomas: Como Identificar o Problema" },
+    { "tipo": "paragrafo", "texto": "Se você notar dois ou mais desses sinais, vale buscar tratamento antes que o problema se agrave:" },
+    { "tipo": "lista", "itens": [
+        "<strong>Vermelhidão:</strong> gengiva com tom avermelhado, em vez do rosa saudável;",
+        "<strong>Inchaço:</strong> sensação de volume aumentado na gengiva;",
+        "<strong>Sangramento:</strong> ao escovar os dentes ou passar fio dental;",
+        "<strong>Sensibilidade:</strong> desconforto ao comer ou beber algo frio ou quente;",
+        "<strong>Mau hálito persistente:</strong> pode indicar acúmulo de bactérias na gengiva."
+    ]},
+
+    { "tipo": "titulo", "nivel": 2, "texto": "Como Tratar a Gengiva Inflamada" },
+
+    { "tipo": "titulo", "nivel": 3, "texto": "1. Melhorar a Higiene Bucal" },
+    { "tipo": "paragrafo", "texto": "Use escova de cerdas macias, evite escovar com força, passe fio dental todos os dias e use um enxaguante bucal sem álcool — como o <a href=\"https://amzn.to/41L0EYa\" target=\"_blank\" rel=\"sponsored noopener\">Listerine Zero Álcool</a> <em>(link de afiliado — podemos receber uma comissão sobre a compra, sem custo adicional para você)</em>." },
+
+    { "tipo": "titulo", "nivel": 3, "texto": "2. Opções Caseiras Para Alívio" },
+    { "tipo": "paragrafo", "texto": "Algumas soluções naturais podem ajudar a reduzir o desconforto, mas são complemento — não substituem a higiene correta nem a consulta ao dentista:" },
+    { "tipo": "lista", "itens": [
+        "<strong>Água morna com sal:</strong> bochecho para reduzir inchaço e limitar bactérias;",
+        "<strong>Chá de camomila:</strong> ação calmante local;",
+        "<strong>Óleo de coco ou melaleuca:</strong> propriedades antibacterianas naturais, usados com moderação."
+    ]},
+    { "tipo": "paragrafo", "texto": "Veja mais opções em nosso artigo sobre <a href=\"/remedios-para-gengiva-inflamada-tratamento/\">remédios para gengiva inflamada</a>. A <a href=\"https://www.mayoclinic.org/diseases-conditions/gum-disease/symptoms-causes/syc-20354475\" target=\"_blank\" rel=\"noopener\">Mayo Clinic</a> também explica mais sobre tratamentos gengivais." },
+
+    { "tipo": "titulo", "nivel": 3, "texto": "3. Tratamentos Odontológicos" },
+    { "tipo": "paragrafo", "texto": "Se a inflamação persistir por mais de uma semana, mesmo com boa higiene, procure um dentista. As opções profissionais incluem:" },
+    { "tipo": "lista", "itens": [
+        "<strong>Raspagem gengival profissional:</strong> remove o tártaro acumulado abaixo da gengiva;",
+        "<strong>Antibióticos tópicos ou orais:</strong> indicados em casos de infecção mais severa;",
+        "<strong>Acompanhamento odontológico regular:</strong> consultas periódicas para evitar recorrência."
+    ]},
+    { "tipo": "paragrafo", "texto": "Se o quadro já evoluiu, veja nosso artigo sobre <a href=\"/gengivite-o-que-e-sintomas-tratamento/\">gengivite</a>. Saiba mais também na <a href=\"https://www.abo.org.br\" target=\"_blank\" rel=\"noopener\">Associação Brasileira de Odontologia</a>." },
+
+    { "tipo": "titulo", "nivel": 2, "texto": "Como Prevenir" },
+    { "tipo": "lista", "itens": [
+        "Escove os dentes ao menos 2 vezes ao dia, com creme dental fluoretado;",
+        "Use fio dental diariamente;",
+        "Evite tabagismo e modere o consumo de álcool;",
+        "Inclua alimentos ricos em vitamina C e K na dieta;",
+        "Visite o dentista regularmente, pelo menos a cada 6 meses."
+    ]},
+    { "tipo": "paragrafo", "texto": "Saiba mais sobre nutrição e saúde bucal no site da <a href=\"https://nutritionsource.hsph.harvard.edu/\" target=\"_blank\" rel=\"noopener\">Harvard T.H. Chan School of Public Health</a>." },
+
+    { "tipo": "callout", "texto": "Gengiva inflamada há mais de uma semana? Agende uma avaliação.", "cta_texto": "Agendar avaliação", "cta_link": "https://wa.me/5521976939004?text=Minha%20gengiva%20est%C3%A1%20inflamada%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o" },
+
+    { "tipo": "faq", "titulo": "Perguntas Frequentes", "perguntas": [
+      { "pergunta": "Gengiva inflamada sempre significa gengivite?", "resposta": "Não. A gengiva inflamada pode ser um problema temporário e pontual. Ela só é chamada de gengivite quando a inflamação persiste e se torna crônica." },
+      { "pergunta": "Quanto tempo dura uma gengiva inflamada?", "resposta": "Com bons hábitos de higiene, a melhora costuma aparecer em poucos dias a uma semana. Se persistir além disso, vale procurar um dentista." },
+      { "pergunta": "O que fazer se a inflamação da gengiva não melhorar?", "resposta": "Se durar mais de uma semana mesmo com boa higiene, procure um dentista — pode ser necessária raspagem profissional ou avaliação de outras causas." },
+      { "pergunta": "Quais alimentos ajudam a fortalecer a gengiva?", "resposta": "Alimentos ricos em vitamina C (laranja, kiwi, morango) e vitamina K (espinafre, couve, abacate) ajudam a fortalecer o tecido gengival." },
+      { "pergunta": "O uso de enxaguantes bucais pode ajudar na gengiva inflamada?", "resposta": "Sim, principalmente enxaguantes sem álcool, que não ressecam a gengiva. Eles complementam a escovação e o fio dental, mas não substituem a limpeza profissional quando há tártaro." },
+      { "pergunta": "Quando procurar um dentista por causa da gengiva inflamada?", "resposta": "Se a inflamação persistir por mais de uma semana, vier com pus, dor intensa ou dentes amolecidos, procure um dentista o quanto antes." }
+    ]}
   ]
 }

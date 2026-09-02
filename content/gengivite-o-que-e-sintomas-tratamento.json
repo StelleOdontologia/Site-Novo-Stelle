@@ -5,7 +5,7 @@
   "meta_description": "Gengivite: entenda as causas, os sinais de alerta e como tratar e prevenir essa inflamação gengival antes que evolua para periodontite.",
   "categoria": "saude-bucal",
   "autor": "dra-kesya-nogueira",
-  "cluster_pai": null,
+  "cluster_pai": "gengiva-inchada-o-que-fazer-causas-sintomas-tratamentos",
   "capa": {
     "url": "/assets/recovered/2025/02/Gengivite-1024x683.webp",
     "srcset": "/assets/recovered/2025/02/Gengivite-1024x683.webp 1024w, /assets/recovered/2025/02/Gengivite-300x200.webp 300w, /assets/recovered/2025/02/Gengivite-768x512.webp 768w, /assets/recovered/2025/02/Gengivite.webp 1200w",
@@ -16,67 +16,170 @@
   "publicado_em": "2025-02-10",
   "atualizado_em": "2026-09-02",
   "blocos": [
-    { "tipo": "paragrafo", "texto": "<strong>Gengivite é a inflamação da gengiva causada pelo acúmulo de placa bacteriana</strong> — gengiva avermelhada, inchada ou sangrando ao escovar são os sinais mais comuns. A boa notícia: é reversível quando tratada a tempo. Se ignorada, pode evoluir para <a href=\"/periodontite-o-que-e-causas-sintomas-e-tratamentos/\">periodontite</a>, com risco real de perda dentária." },
-
-    { "tipo": "titulo", "nivel": 2, "texto": "O Que É Gengivite?" },
-    { "tipo": "paragrafo", "texto": "É uma inflamação na gengiva causada pelo acúmulo de placa bacteriana, que gruda na superfície dos dentes e na linha da gengiva, causando irritação. Segundo a <a href=\"https://www.colgate.com.br/\" target=\"_blank\" rel=\"noopener\">Colgate</a>, a gengivite pode ser revertida com bons hábitos de higiene bucal antes que se transforme em um problema mais sério." },
-
-    { "tipo": "titulo", "nivel": 2, "texto": "Principais Causas da Gengivite" },
-    { "tipo": "lista", "itens": [
+    {
+      "tipo": "pillar_badge",
+      "texto": "Parte do Guia Completo sobre Gengiva Inchada",
+      "link": "/gengiva-inchada-o-que-fazer-causas-sintomas-tratamentos/"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "<strong>Gengivite é a inflamação da gengiva causada pelo acúmulo de placa bacteriana</strong> — gengiva avermelhada, inchada ou sangrando ao escovar são os sinais mais comuns. A boa notícia: é reversível quando tratada a tempo. Se ignorada, pode evoluir para <a href=\"/periodontite-o-que-e-causas-sintomas-e-tratamentos/\">periodontite</a>, com risco real de perda dentária."
+    },
+    {
+      "tipo": "titulo",
+      "nivel": 2,
+      "texto": "O Que É Gengivite?"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "É uma inflamação na gengiva causada pelo acúmulo de placa bacteriana, que gruda na superfície dos dentes e na linha da gengiva, causando irritação. Segundo a <a href=\"https://www.colgate.com.br/\" target=\"_blank\" rel=\"noopener\">Colgate</a>, a gengivite pode ser revertida com bons hábitos de higiene bucal antes que se transforme em um problema mais sério."
+    },
+    {
+      "tipo": "titulo",
+      "nivel": 2,
+      "texto": "Principais Causas da Gengivite"
+    },
+    {
+      "tipo": "lista",
+      "itens": [
         "<strong>Placa bacteriana e tártaro:</strong> restos de comida e saliva formam a placa; sem remoção, ela se calcifica e vira tártaro, agravando a inflamação;",
         "<strong>Higiene bucal inadequada:</strong> falta de escovação regular ou uso incorreto da escova/fio dental permite que a placa se acumule;",
         "<strong>Tabagismo e álcool:</strong> fumar reduz o fluxo sanguíneo na gengiva, enfraquecendo a resposta imunológica; álcool resseca a boca, favorecendo a placa;",
         "<strong>Mudanças hormonais:</strong> gravidez, puberdade e menopausa podem aumentar o fluxo sanguíneo para a gengiva, deixando-a mais sensível (é a chamada gengivite gravídica);",
         "<strong>Doenças sistêmicas:</strong> diabetes descontrolado, leucemia e deficiências nutricionais aumentam o risco de gengivite."
-    ]},
-
-    { "tipo": "titulo", "nivel": 2, "texto": "Causas e Soluções, Resumidas" },
-    { "tipo": "tabela", "linhas": [
-        ["Causa", "Descrição", "Solução"],
-        ["Placa bacteriana", "Acúmulo de restos de comida e bactérias", "Melhorar a higiene bucal"],
-        ["Tártaro", "Placa endurecida que irrita a gengiva", "Raspagem profissional"],
-        ["Falta de higiene", "Uso incorreto da escova ou do fio dental", "Consultar um dentista"],
-        ["Tabagismo e álcool", "Reduzem a defesa natural da gengiva", "Evitar esses hábitos"],
-        ["Mudanças hormonais", "Gravidez e menopausa aumentam a sensibilidade", "Acompanhamento odontológico"],
-        ["Doenças sistêmicas", "Diabetes e leucemia afetam a gengiva", "Tratar a condição de base"]
-    ]},
-
-    { "tipo": "titulo", "nivel": 2, "texto": "Sintomas da Gengivite" },
-    { "tipo": "lista", "itens": [
+      ]
+    },
+    {
+      "tipo": "titulo",
+      "nivel": 2,
+      "texto": "Causas e Soluções, Resumidas"
+    },
+    {
+      "tipo": "tabela",
+      "linhas": [
+        [
+          "Causa",
+          "Descrição",
+          "Solução"
+        ],
+        [
+          "Placa bacteriana",
+          "Acúmulo de restos de comida e bactérias",
+          "Melhorar a higiene bucal"
+        ],
+        [
+          "Tártaro",
+          "Placa endurecida que irrita a gengiva",
+          "Raspagem profissional"
+        ],
+        [
+          "Falta de higiene",
+          "Uso incorreto da escova ou do fio dental",
+          "Consultar um dentista"
+        ],
+        [
+          "Tabagismo e álcool",
+          "Reduzem a defesa natural da gengiva",
+          "Evitar esses hábitos"
+        ],
+        [
+          "Mudanças hormonais",
+          "Gravidez e menopausa aumentam a sensibilidade",
+          "Acompanhamento odontológico"
+        ],
+        [
+          "Doenças sistêmicas",
+          "Diabetes e leucemia afetam a gengiva",
+          "Tratar a condição de base"
+        ]
+      ]
+    },
+    {
+      "tipo": "titulo",
+      "nivel": 2,
+      "texto": "Sintomas da Gengivite"
+    },
+    {
+      "tipo": "lista",
+      "itens": [
         "Gengiva avermelhada, em vez do tom rosado saudável;",
         "Sangramento ao escovar os dentes ou passar fio dental;",
         "Inchaço visível, deixando a gengiva volumosa;",
         "Mau hálito persistente, mesmo após a escovação;",
         "Dor e sensibilidade ao toque ou ao mastigar."
-    ]},
-
-    { "tipo": "titulo", "nivel": 2, "texto": "Como Tratar a Gengivite" },
-    { "tipo": "lista", "itens": [
+      ]
+    },
+    {
+      "tipo": "titulo",
+      "nivel": 2,
+      "texto": "Como Tratar a Gengivite"
+    },
+    {
+      "tipo": "lista",
+      "itens": [
         "<strong>Higiene bucal correta:</strong> escove os dentes ao menos 2 vezes ao dia com creme dental com flúor, use fio dental diariamente e escove também a língua;",
         "<strong>Limpeza profissional:</strong> se a placa já virou tártaro, só um dentista pode removê-lo — a raspagem gengival elimina acúmulos abaixo da gengiva;",
         "<strong>Enxaguantes bucais:</strong> clorexidina 0,12% para casos mais graves (uso orientado pelo dentista), ou enxaguantes com flúor para prevenção;",
         "<strong>Alimentação:</strong> vitamina C ajuda na cicatrização da gengiva, vitamina D fortalece dentes e gengivas, zinco e ferro ajudam na imunidade bucal."
-    ]},
-    { "tipo": "paragrafo", "texto": "Alguns remédios caseiros — como bochecho de água morna com sal ou chá de camomila — podem aliviar desconforto leve, mas <strong>não substituem o tratamento odontológico</strong> quando há tártaro ou inflamação persistente. Saiba mais sobre limpeza profissional no site da <a href=\"https://www.abo.org.br\" target=\"_blank\" rel=\"noopener\">Associação Brasileira de Odontologia</a>." },
-
-    { "tipo": "titulo", "nivel": 2, "texto": "Como Prevenir a Gengivite" },
-    { "tipo": "paragrafo", "texto": "A grande maioria dos casos de gengivite pode ser evitada com hábitos simples, segundo a <a href=\"https://www.mayoclinic.org/diseases-conditions/gingivitis\" target=\"_blank\" rel=\"noopener\">Mayo Clinic</a>:" },
-    { "tipo": "lista", "itens": [
+      ]
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Alguns remédios caseiros — como bochecho de água morna com sal ou chá de camomila — podem aliviar desconforto leve, mas <strong>não substituem o tratamento odontológico</strong> quando há tártaro ou inflamação persistente. Saiba mais sobre limpeza profissional no site da <a href=\"https://www.abo.org.br\" target=\"_blank\" rel=\"noopener\">Associação Brasileira de Odontologia</a>."
+    },
+    {
+      "tipo": "titulo",
+      "nivel": 2,
+      "texto": "Como Prevenir a Gengivite"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "A grande maioria dos casos de gengivite pode ser evitada com hábitos simples, segundo a <a href=\"https://www.mayoclinic.org/diseases-conditions/gingivitis\" target=\"_blank\" rel=\"noopener\">Mayo Clinic</a>:"
+    },
+    {
+      "tipo": "lista",
+      "itens": [
         "Use escova de cerdas macias e escove por pelo menos 2 minutos, cobrindo todas as superfícies dos dentes, sem pressão excessiva (que pode causar retração gengival);",
         "Use fio dental todos os dias — de preferência encerado, pra facilitar o manuseio;",
         "Evite tabaco e modere o álcool;",
         "Faça check-ups a cada 6 meses, para limpeza profissional e diagnóstico precoce."
-    ]},
-
-    { "tipo": "callout", "texto": "Notou gengiva sangrando ou inchada? Não espere virar periodontite. Agende uma avaliação.", "cta_texto": "Agendar avaliação", "cta_link": "https://wa.me/5521976939004?text=Minha%20gengiva%20est%C3%A1%20inflamada%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o" },
-
-    { "tipo": "faq", "titulo": "Perguntas Frequentes", "perguntas": [
-      { "pergunta": "Gengivite pode ser curada apenas com escovação?", "resposta": "Se for leve, sim, com boa higiene. Se já houver tártaro formado, é necessária raspagem profissional." },
-      { "pergunta": "Quanto tempo leva para a gengivite desaparecer?", "resposta": "Com bons hábitos, a melhora costuma aparecer em 1 a 2 semanas. Casos mais avançados precisam de tratamento odontológico." },
-      { "pergunta": "A gengivite pode causar mau hálito permanente?", "resposta": "Sim, se não for tratada — o acúmulo de bactérias pode levar à halitose crônica." },
-      { "pergunta": "Gengivite pode virar periodontite?", "resposta": "Sim. Se não tratada, a gengivite pode evoluir para periodontite, com perda óssea e risco de perda dos dentes." },
-      { "pergunta": "Quais são os melhores enxaguantes para gengivite?", "resposta": "Clorexidina 0,12% para casos mais graves (com orientação do dentista), e enxaguantes com flúor para prevenção no dia a dia." },
-      { "pergunta": "Como saber se minha gengivite está grave?", "resposta": "Sangramento constante, presença de pus ou retração gengival são sinais de que já não é um caso leve — procure um dentista." }
-    ]}
+      ]
+    },
+    {
+      "tipo": "callout",
+      "texto": "Notou gengiva sangrando ou inchada? Não espere virar periodontite. Agende uma avaliação.",
+      "cta_texto": "Agendar avaliação",
+      "cta_link": "https://wa.me/5521976939004?text=Minha%20gengiva%20est%C3%A1%20inflamada%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o"
+    },
+    {
+      "tipo": "faq",
+      "titulo": "Perguntas Frequentes",
+      "perguntas": [
+        {
+          "pergunta": "Gengivite pode ser curada apenas com escovação?",
+          "resposta": "Se for leve, sim, com boa higiene. Se já houver tártaro formado, é necessária raspagem profissional."
+        },
+        {
+          "pergunta": "Quanto tempo leva para a gengivite desaparecer?",
+          "resposta": "Com bons hábitos, a melhora costuma aparecer em 1 a 2 semanas. Casos mais avançados precisam de tratamento odontológico."
+        },
+        {
+          "pergunta": "A gengivite pode causar mau hálito permanente?",
+          "resposta": "Sim, se não for tratada — o acúmulo de bactérias pode levar à halitose crônica."
+        },
+        {
+          "pergunta": "Gengivite pode virar periodontite?",
+          "resposta": "Sim. Se não tratada, a gengivite pode evoluir para periodontite, com perda óssea e risco de perda dos dentes."
+        },
+        {
+          "pergunta": "Quais são os melhores enxaguantes para gengivite?",
+          "resposta": "Clorexidina 0,12% para casos mais graves (com orientação do dentista), e enxaguantes com flúor para prevenção no dia a dia."
+        },
+        {
+          "pergunta": "Como saber se minha gengivite está grave?",
+          "resposta": "Sangramento constante, presença de pus ou retração gengival são sinais de que já não é um caso leve — procure um dentista."
+        }
+      ]
+    }
   ]
 }

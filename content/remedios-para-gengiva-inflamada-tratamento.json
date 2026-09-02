@@ -5,7 +5,7 @@
   "meta_description": "Remédios para gengiva inflamada: enxaguantes, opções caseiras e analgésicos, com cuidados de segurança e quando procurar um dentista.",
   "categoria": "saude-bucal",
   "autor": "dra-kesya-nogueira",
-  "cluster_pai": null,
+  "cluster_pai": "gengiva-inchada-o-que-fazer-causas-sintomas-tratamentos",
   "capa": {
     "url": "/assets/recovered/2025/02/Melhores-Remedios-para-Gengiva-Inflamada-1024x683.webp",
     "srcset": "/assets/recovered/2025/02/Melhores-Remedios-para-Gengiva-Inflamada-1024x683.webp 1024w, /assets/recovered/2025/02/Melhores-Remedios-para-Gengiva-Inflamada-300x200.webp 300w, /assets/recovered/2025/02/Melhores-Remedios-para-Gengiva-Inflamada-768x512.webp 768w, /assets/recovered/2025/02/Melhores-Remedios-para-Gengiva-Inflamada.webp 1200w",
@@ -16,72 +16,165 @@
   "publicado_em": "2025-02-10",
   "atualizado_em": "2026-09-02",
   "blocos": [
-    { "tipo": "paragrafo", "texto": "<strong>Gengiva inflamada avermelhada ou sensível?</strong> Enxaguantes antissépticos, algumas opções caseiras e analgésicos podem aliviar rápido — mas se não tratada, a inflamação pode evoluir para gengivite e periodontite. Este artigo cobre as opções seguras e quando procurar um dentista." },
-
-    { "tipo": "titulo", "nivel": 2, "texto": "O Que é Gengiva Inflamada?" },
-    { "tipo": "paragrafo", "texto": "É a irritação dos tecidos gengivais, causando inchaço, dor, vermelhidão e, em alguns casos, sangramento." },
-    { "tipo": "lista", "itens": [
+    {
+      "tipo": "pillar_badge",
+      "texto": "Parte do Guia Completo sobre Gengiva Inchada",
+      "link": "/gengiva-inchada-o-que-fazer-causas-sintomas-tratamentos/"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "<strong>Gengiva inflamada avermelhada ou sensível?</strong> Enxaguantes antissépticos, algumas opções caseiras e analgésicos podem aliviar rápido — mas se não tratada, a inflamação pode evoluir para gengivite e periodontite. Este artigo cobre as opções seguras e quando procurar um dentista."
+    },
+    {
+      "tipo": "titulo",
+      "nivel": 2,
+      "texto": "O Que é Gengiva Inflamada?"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "É a irritação dos tecidos gengivais, causando inchaço, dor, vermelhidão e, em alguns casos, sangramento."
+    },
+    {
+      "tipo": "lista",
+      "itens": [
         "Gengiva avermelhada ou inchada;",
         "Sensibilidade ao toque ou ao mastigar;",
         "Mau hálito persistente;",
         "Pequenos sangramentos ao escovar os dentes ou passar fio dental."
-    ]},
-    { "tipo": "paragrafo", "texto": "Se não tratada a tempo, a inflamação pode evoluir para <a href=\"/gengivite-o-que-e-sintomas-tratamento/\">gengivite</a> e periodontite, com danos permanentes à gengiva e aos dentes." },
-
-    { "tipo": "titulo", "nivel": 2, "texto": "Causas da Gengiva Inflamada" },
-    { "tipo": "lista", "itens": [
+      ]
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Se não tratada a tempo, a inflamação pode evoluir para <a href=\"/gengivite-o-que-e-sintomas-tratamento/\">gengivite</a> e periodontite, com danos permanentes à gengiva e aos dentes."
+    },
+    {
+      "tipo": "titulo",
+      "nivel": 2,
+      "texto": "Causas da Gengiva Inflamada"
+    },
+    {
+      "tipo": "lista",
+      "itens": [
         "<strong>Placa bacteriana e higiene deficiente:</strong> o acúmulo de bactérias e restos de alimentos forma a placa, principal causa da inflamação; sem remoção, ela endurece e vira tártaro;",
         "<strong>Aparelhos ortodônticos ou próteses mal ajustados:</strong> causam irritação constante e acumulam restos de alimentos ao redor dos brackets;",
         "<strong>Deficiências nutricionais:</strong> a falta de vitamina C pode levar ao escorbuto, que afeta a saúde das gengivas; a vitamina D também é importante para a saúde óssea e gengival;",
         "<strong>Doenças sistêmicas:</strong> diabetes mal controlado afeta a resposta do corpo a infecções gengivais; doenças autoimunes podem tornar a gengiva mais vulnerável."
-    ]},
-
-    { "tipo": "titulo", "nivel": 2, "texto": "Remédios para Gengiva Inflamada" },
-    { "tipo": "paragrafo", "texto": "Existem três tipos principais de tratamento: enxaguantes antissépticos, opções caseiras e, quando necessário, anti-inflamatórios/analgésicos." },
-
-    { "tipo": "titulo", "nivel": 3, "texto": "1. Enxaguantes Bucais e Antissépticos" },
-    { "tipo": "lista", "itens": [
+      ]
+    },
+    {
+      "tipo": "titulo",
+      "nivel": 2,
+      "texto": "Remédios para Gengiva Inflamada"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Existem três tipos principais de tratamento: enxaguantes antissépticos, opções caseiras e, quando necessário, anti-inflamatórios/analgésicos."
+    },
+    {
+      "tipo": "titulo",
+      "nivel": 3,
+      "texto": "1. Enxaguantes Bucais e Antissépticos"
+    },
+    {
+      "tipo": "lista",
+      "itens": [
         "<strong>Clorexidina 0,12%:</strong> ação antibacteriana, auxilia na cicatrização da gengiva — geralmente por tempo limitado, sob orientação do dentista;",
         "<strong>Peróxido de hidrogênio (água oxigenada 10 volumes):</strong> pode ajudar a reduzir bactérias, mas exige cuidado real — dilua na proporção de 1 parte de água oxigenada para 1 ou 2 partes de água, bocheche por no máximo 30 a 60 segundos e não use com frequência diária prolongada. Uso incorreto ou concentrado pode queimar o tecido da gengiva;",
         "<strong>Enxaguantes com flúor:</strong> fortalecem os dentes e ajudam a proteger a gengiva."
-    ]},
-    { "tipo": "paragrafo", "texto": "Saiba mais sobre o uso correto de enxaguantes bucais no site da <a href=\"https://www.colgate.com.br/\" target=\"_blank\" rel=\"noopener\">Colgate</a>." },
-
-    { "tipo": "titulo", "nivel": 3, "texto": "2. Opções Caseiras Para Alívio" },
-    { "tipo": "lista", "itens": [
+      ]
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Saiba mais sobre o uso correto de enxaguantes bucais no site da <a href=\"https://www.colgate.com.br/\" target=\"_blank\" rel=\"noopener\">Colgate</a>."
+    },
+    {
+      "tipo": "titulo",
+      "nivel": 3,
+      "texto": "2. Opções Caseiras Para Alívio"
+    },
+    {
+      "tipo": "lista",
+      "itens": [
         "<strong>Água morna com sal:</strong> ajuda a reduzir o inchaço e limitar bactérias;",
         "<strong>Chá de camomila:</strong> tem propriedade calmante, tradicionalmente usada para alívio local;",
         "<strong>Compressa fria</strong> do lado de fora do rosto, para reduzir inchaço e dor."
-    ]},
-    { "tipo": "paragrafo", "texto": "Essas opções ajudam a aliviar o desconforto em casos leves, mas não substituem tratamento profissional se a inflamação persistir." },
-
-    { "tipo": "titulo", "nivel": 3, "texto": "3. Anti-inflamatórios e Analgésicos" },
-    { "tipo": "lista", "itens": [
+      ]
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Essas opções ajudam a aliviar o desconforto em casos leves, mas não substituem tratamento profissional se a inflamação persistir."
+    },
+    {
+      "tipo": "titulo",
+      "nivel": 3,
+      "texto": "3. Anti-inflamatórios e Analgésicos"
+    },
+    {
+      "tipo": "lista",
+      "itens": [
         "<strong>Ibuprofeno:</strong> reduz inflamação e alivia a dor;",
         "<strong>Paracetamol:</strong> indicado para dores gengivais leves;",
         "<strong>Pomadas anestésicas bucais</strong> (benzocaína ou lidocaína): ajudam no alívio imediato local."
-    ]},
-    { "tipo": "paragrafo", "texto": "Medicamentos de venda livre ajudam a controlar o sintoma, mas devem ser usados com moderação — se a dor persistir, é sinal de que a causa precisa ser tratada. Saiba mais sobre o tratamento de doenças gengivais na <a href=\"https://www.mayoclinic.org/diseases-conditions/gum-disease/symptoms-causes/syc-20354475\" target=\"_blank\" rel=\"noopener\">Mayo Clinic</a>." },
-
-    { "tipo": "titulo", "nivel": 2, "texto": "Quando Procurar um Dentista" },
-    { "tipo": "lista", "itens": [
+      ]
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Medicamentos de venda livre ajudam a controlar o sintoma, mas devem ser usados com moderação — se a dor persistir, é sinal de que a causa precisa ser tratada. Saiba mais sobre o tratamento de doenças gengivais na <a href=\"https://www.mayoclinic.org/diseases-conditions/gum-disease/symptoms-causes/syc-20354475\" target=\"_blank\" rel=\"noopener\">Mayo Clinic</a>."
+    },
+    {
+      "tipo": "titulo",
+      "nivel": 2,
+      "texto": "Quando Procurar um Dentista"
+    },
+    {
+      "tipo": "lista",
+      "itens": [
         "Inflamação persistente por mais de 7 dias, mesmo após remédios caseiros;",
         "Sangramento constante ao escovar os dentes ou usar fio dental;",
         "Dor intensa na gengiva, dificultando a mastigação;",
         "Mau hálito persistente, mesmo após boa higiene;",
         "Presença de pus ou secreção, sinal de infecção mais grave."
-    ]},
-    { "tipo": "paragrafo", "texto": "Esses sinais podem indicar gengivite avançada ou periodontite, que exigem tratamento profissional. Saiba mais em quando procurar um dentista, segundo a <a href=\"https://www.abo.org.br\" target=\"_blank\" rel=\"noopener\">Associação Brasileira de Odontologia</a>." },
-
-    { "tipo": "callout", "texto": "Gengiva inflamada há mais de uma semana? Não espere piorar. Agende uma avaliação.", "cta_texto": "Agendar avaliação", "cta_link": "https://wa.me/5521976939004?text=Minha%20gengiva%20est%C3%A1%20inflamada%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o" },
-
-    { "tipo": "faq", "titulo": "Perguntas Frequentes", "perguntas": [
-      { "pergunta": "Qual o melhor remédio para gengiva inflamada?", "resposta": "Depende da causa. Para reduzir bactérias, enxaguantes como clorexidina são eficazes. Para alívio da dor, analgésicos como ibuprofeno podem ajudar — mas o ideal é tratar a causa de base." },
-      { "pergunta": "Água oxigenada pode ser usada na gengiva inflamada?", "resposta": "Com cuidado: dilua 1 parte de água oxigenada 10 volumes para 1-2 partes de água, bocheche por no máximo 30-60 segundos e evite uso frequente prolongado — a forma concentrada ou o uso excessivo pode queimar o tecido gengival." },
-      { "pergunta": "Remédio caseiro funciona para gengiva inflamada?", "resposta": "Pode ajudar a aliviar em casos leves — água morna com sal e chá de camomila são opções tradicionais. Mas não substituem avaliação profissional se a inflamação persistir." },
-      { "pergunta": "Quando devo procurar um dentista para gengiva inflamada?", "resposta": "Se a inflamação durar mais de 7 dias, ou houver sangramento intenso, pus ou dor forte, procure um profissional." },
-      { "pergunta": "Posso tomar antibiótico para gengiva inflamada sem receita?", "resposta": "Não. O uso de antibióticos deve ser prescrito por um dentista, já que o uso inadequado pode gerar resistência bacteriana." },
-      { "pergunta": "A inflamação gengival sempre significa gengivite?", "resposta": "Não. Pode ser causada por irritação mecânica, deficiência nutricional ou infecção localizada, sem necessariamente ser gengivite." }
-    ]}
+      ]
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Esses sinais podem indicar gengivite avançada ou periodontite, que exigem tratamento profissional. Saiba mais em quando procurar um dentista, segundo a <a href=\"https://www.abo.org.br\" target=\"_blank\" rel=\"noopener\">Associação Brasileira de Odontologia</a>."
+    },
+    {
+      "tipo": "callout",
+      "texto": "Gengiva inflamada há mais de uma semana? Não espere piorar. Agende uma avaliação.",
+      "cta_texto": "Agendar avaliação",
+      "cta_link": "https://wa.me/5521976939004?text=Minha%20gengiva%20est%C3%A1%20inflamada%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o"
+    },
+    {
+      "tipo": "faq",
+      "titulo": "Perguntas Frequentes",
+      "perguntas": [
+        {
+          "pergunta": "Qual o melhor remédio para gengiva inflamada?",
+          "resposta": "Depende da causa. Para reduzir bactérias, enxaguantes como clorexidina são eficazes. Para alívio da dor, analgésicos como ibuprofeno podem ajudar — mas o ideal é tratar a causa de base."
+        },
+        {
+          "pergunta": "Água oxigenada pode ser usada na gengiva inflamada?",
+          "resposta": "Com cuidado: dilua 1 parte de água oxigenada 10 volumes para 1-2 partes de água, bocheche por no máximo 30-60 segundos e evite uso frequente prolongado — a forma concentrada ou o uso excessivo pode queimar o tecido gengival."
+        },
+        {
+          "pergunta": "Remédio caseiro funciona para gengiva inflamada?",
+          "resposta": "Pode ajudar a aliviar em casos leves — água morna com sal e chá de camomila são opções tradicionais. Mas não substituem avaliação profissional se a inflamação persistir."
+        },
+        {
+          "pergunta": "Quando devo procurar um dentista para gengiva inflamada?",
+          "resposta": "Se a inflamação durar mais de 7 dias, ou houver sangramento intenso, pus ou dor forte, procure um profissional."
+        },
+        {
+          "pergunta": "Posso tomar antibiótico para gengiva inflamada sem receita?",
+          "resposta": "Não. O uso de antibióticos deve ser prescrito por um dentista, já que o uso inadequado pode gerar resistência bacteriana."
+        },
+        {
+          "pergunta": "A inflamação gengival sempre significa gengivite?",
+          "resposta": "Não. Pode ser causada por irritação mecânica, deficiência nutricional ou infecção localizada, sem necessariamente ser gengivite."
+        }
+      ]
+    }
   ]
 }

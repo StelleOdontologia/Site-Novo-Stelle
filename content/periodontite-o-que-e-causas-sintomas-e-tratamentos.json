@@ -5,7 +5,7 @@
   "meta_description": "Periodontite: entenda as causas, os sintomas de alerta e os tratamentos (raspagem, antibióticos, cirurgia) para evitar a perda dentária.",
   "categoria": "saude-bucal",
   "autor": "dra-kesya-nogueira",
-  "cluster_pai": null,
+  "cluster_pai": "gengiva-inchada-o-que-fazer-causas-sintomas-tratamentos",
   "capa": {
     "url": "/assets/recovered/2025/02/Periodontite-1024x683.webp",
     "srcset": "/assets/recovered/2025/02/Periodontite-1024x683.webp 1024w, /assets/recovered/2025/02/Periodontite-300x200.webp 300w, /assets/recovered/2025/02/Periodontite-768x512.webp 768w, /assets/recovered/2025/02/Periodontite.webp 1200w",
@@ -16,73 +16,198 @@
   "publicado_em": "2025-02-10",
   "atualizado_em": "2026-09-02",
   "blocos": [
-    { "tipo": "paragrafo", "texto": "<strong>Periodontite é a principal causa de perda dentária em adultos</strong> — uma doença inflamatória crônica que começa como gengivite não tratada e pode destruir o osso que sustenta os dentes. A boa notícia: com diagnóstico cedo, é possível controlar e até evitar." },
-    { "tipo": "paragrafo", "texto": "A periodontite se desenvolve a partir da <a href=\"/gengivite-o-que-e-sintomas-tratamento/\">gengivite não tratada</a>, evoluindo para um quadro que pode aumentar o risco de doenças cardíacas e diabetes." },
-
-    { "tipo": "titulo", "nivel": 2, "texto": "O Que é Periodontite?" },
-    { "tipo": "paragrafo", "texto": "É uma doença inflamatória crônica que afeta a gengiva e os tecidos de suporte dos dentes, podendo levar à perda óssea e à queda dos dentes. A causa principal é o acúmulo de placa bacteriana que, sem remoção, vira tártaro e se infiltra na gengiva, formando bolsas periodontais." },
-    { "tipo": "paragrafo", "texto": "Segundo a <a href=\"https://www.mayoclinic.org/diseases-conditions/periodontitis/symptoms-causes/syc-20354473\" target=\"_blank\" rel=\"noopener\">Mayo Clinic</a>, a periodontite pode causar infecções severas na gengiva e no osso, tornando o tratamento mais complexo conforme a doença avança." },
-    { "tipo": "imagem", "url": "/assets/recovered/2025/02/image.png", "alt": "Comparação entre gengiva saudável, gengivite e periodontite" },
-
-    { "tipo": "titulo", "nivel": 2, "texto": "Principais Causas da Periodontite" },
-    { "tipo": "lista", "itens": [
+    {
+      "tipo": "pillar_badge",
+      "texto": "Parte do Guia Completo sobre Gengiva Inchada",
+      "link": "/gengiva-inchada-o-que-fazer-causas-sintomas-tratamentos/"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "<strong>Periodontite é a principal causa de perda dentária em adultos</strong> — uma doença inflamatória crônica que começa como gengivite não tratada e pode destruir o osso que sustenta os dentes. A boa notícia: com diagnóstico cedo, é possível controlar e até evitar."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "A periodontite se desenvolve a partir da <a href=\"/gengivite-o-que-e-sintomas-tratamento/\">gengivite não tratada</a>, evoluindo para um quadro que pode aumentar o risco de doenças cardíacas e diabetes."
+    },
+    {
+      "tipo": "titulo",
+      "nivel": 2,
+      "texto": "O Que é Periodontite?"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "É uma doença inflamatória crônica que afeta a gengiva e os tecidos de suporte dos dentes, podendo levar à perda óssea e à queda dos dentes. A causa principal é o acúmulo de placa bacteriana que, sem remoção, vira tártaro e se infiltra na gengiva, formando bolsas periodontais."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Segundo a <a href=\"https://www.mayoclinic.org/diseases-conditions/periodontitis/symptoms-causes/syc-20354473\" target=\"_blank\" rel=\"noopener\">Mayo Clinic</a>, a periodontite pode causar infecções severas na gengiva e no osso, tornando o tratamento mais complexo conforme a doença avança."
+    },
+    {
+      "tipo": "imagem",
+      "url": "/assets/recovered/2025/02/image.png",
+      "alt": "Comparação entre gengiva saudável, gengivite e periodontite"
+    },
+    {
+      "tipo": "titulo",
+      "nivel": 2,
+      "texto": "Principais Causas da Periodontite"
+    },
+    {
+      "tipo": "lista",
+      "itens": [
         "<strong>Placa bacteriana e tártaro:</strong> restos de alimentos e saliva não removidos formam a placa; sem remoção, ela endurece e vira tártaro, que só o dentista remove;",
         "<strong>Gengivite não tratada:</strong> a periodontite sempre começa como gengivite — gengiva sangrando com frequência é sinal de inflamação já avançada;",
         "<strong>Tabagismo e álcool:</strong> fumar reduz a circulação sanguínea na gengiva, dificultando a resposta imunológica; álcool resseca a boca, facilitando o crescimento de bactérias;",
         "<strong>Doenças sistêmicas:</strong> diabetes favorece a proliferação de bactérias; osteoporose enfraquece o osso ao redor dos dentes; doenças cardíacas estão associadas a infecções bucais."
-    ]},
-    { "tipo": "paragrafo", "texto": "Uma <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC10466628/\" target=\"_blank\" rel=\"noopener\">revisão sistemática com mais de 11 mil participantes</a> encontrou risco 85% maior de periodontite em fumantes comparados a não fumantes — e o risco é ainda maior em fumantes mais jovens (quase 4x entre 19-30 anos, segundo a mesma revisão)." },
-
-    { "tipo": "titulo", "nivel": 2, "texto": "Gengivite x Periodontite: as Diferenças" },
-    { "tipo": "tabela", "linhas": [
-        ["Característica", "Gengivite", "Periodontite"],
-        ["Causa", "Placa bacteriana acumulada", "Gengivite não tratada"],
-        ["Sangramento gengival", "Frequente", "Frequente e mais intenso"],
-        ["Mau hálito persistente", "Sim", "Sim, mais grave"],
-        ["Danos ao osso", "Não", "Sim, pode levar à perda dentária"],
-        ["Dor ao mastigar", "Raro", "Comum nos estágios avançados"],
-        ["Tratamento", "Higiene bucal adequada", "Raspagem, antibióticos e, em casos graves, cirurgia periodontal"]
-    ]},
-
-    { "tipo": "titulo", "nivel": 2, "texto": "Sintomas da Periodontite" },
-    { "tipo": "paragrafo", "texto": "A periodontite é progressiva — os sintomas se agravam com o tempo se não forem tratados:" },
-    { "tipo": "lista", "itens": [
+      ]
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Uma <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC10466628/\" target=\"_blank\" rel=\"noopener\">revisão sistemática com mais de 11 mil participantes</a> encontrou risco 85% maior de periodontite em fumantes comparados a não fumantes — e o risco é ainda maior em fumantes mais jovens (quase 4x entre 19-30 anos, segundo a mesma revisão)."
+    },
+    {
+      "tipo": "titulo",
+      "nivel": 2,
+      "texto": "Gengivite x Periodontite: as Diferenças"
+    },
+    {
+      "tipo": "tabela",
+      "linhas": [
+        [
+          "Característica",
+          "Gengivite",
+          "Periodontite"
+        ],
+        [
+          "Causa",
+          "Placa bacteriana acumulada",
+          "Gengivite não tratada"
+        ],
+        [
+          "Sangramento gengival",
+          "Frequente",
+          "Frequente e mais intenso"
+        ],
+        [
+          "Mau hálito persistente",
+          "Sim",
+          "Sim, mais grave"
+        ],
+        [
+          "Danos ao osso",
+          "Não",
+          "Sim, pode levar à perda dentária"
+        ],
+        [
+          "Dor ao mastigar",
+          "Raro",
+          "Comum nos estágios avançados"
+        ],
+        [
+          "Tratamento",
+          "Higiene bucal adequada",
+          "Raspagem, antibióticos e, em casos graves, cirurgia periodontal"
+        ]
+      ]
+    },
+    {
+      "tipo": "titulo",
+      "nivel": 2,
+      "texto": "Sintomas da Periodontite"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "A periodontite é progressiva — os sintomas se agravam com o tempo se não forem tratados:"
+    },
+    {
+      "tipo": "lista",
+      "itens": [
         "Sangramento frequente ao escovar os dentes ou usar fio dental;",
         "Gengiva retraída, deixando a raiz do dente exposta;",
         "Dentes amolecidos ou se afastando uns dos outros;",
         "Formação de bolsas periodontais (espaços entre a gengiva e o dente);",
         "Mau hálito persistente, causado pelo acúmulo de bactérias;",
         "Dor ao mastigar, devido à perda óssea ao redor do dente."
-    ]},
-
-    { "tipo": "titulo", "nivel": 2, "texto": "Como Tratar a Periodontite" },
-    { "tipo": "paragrafo", "texto": "O tratamento depende do estágio — quanto mais cedo diagnosticada, mais simples é o tratamento." },
-    { "tipo": "lista", "itens": [
+      ]
+    },
+    {
+      "tipo": "titulo",
+      "nivel": 2,
+      "texto": "Como Tratar a Periodontite"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "O tratamento depende do estágio — quanto mais cedo diagnosticada, mais simples é o tratamento."
+    },
+    {
+      "tipo": "lista",
+      "itens": [
         "<strong>Raspagem gengival:</strong> remove o tártaro acumulado e limpa as bolsas periodontais, eliminando bactérias;",
         "<strong>Antibióticos e terapia a laser:</strong> em casos mais graves, o dentista pode prescrever antibióticos tópicos ou orais, ou usar terapia a laser para remover bactérias profundas;",
         "<strong>Cirurgia periodontal</strong> (casos avançados): cirurgia de retalho gengival para limpeza profunda, enxerto ósseo para repor osso perdido, ou regeneração tecidual guiada;",
         "<strong>Mudança de hábitos:</strong> parar de fumar, reduzir açúcar e álcool — fatores que pioram diretamente a progressão da doença."
-    ]},
-    { "tipo": "paragrafo", "texto": "Saiba mais sobre raspagem gengival no site da <a href=\"https://www.abo.org.br\" target=\"_blank\" rel=\"noopener\">Associação Brasileira de Odontologia</a>, e sobre cirurgia periodontal na <a href=\"https://www.mayoclinic.org/diseases-conditions/periodontitis/symptoms-causes/syc-20354473\" target=\"_blank\" rel=\"noopener\">Mayo Clinic</a>." },
-
-    { "tipo": "titulo", "nivel": 2, "texto": "Como Prevenir a Periodontite" },
-    { "tipo": "lista", "itens": [
+      ]
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Saiba mais sobre raspagem gengival no site da <a href=\"https://www.abo.org.br\" target=\"_blank\" rel=\"noopener\">Associação Brasileira de Odontologia</a>, e sobre cirurgia periodontal na <a href=\"https://www.mayoclinic.org/diseases-conditions/periodontitis/symptoms-causes/syc-20354473\" target=\"_blank\" rel=\"noopener\">Mayo Clinic</a>."
+    },
+    {
+      "tipo": "titulo",
+      "nivel": 2,
+      "texto": "Como Prevenir a Periodontite"
+    },
+    {
+      "tipo": "lista",
+      "itens": [
         "<strong>Escovação e fio dental corretos:</strong> escove os dentes ao menos 2 vezes ao dia com creme dental com flúor, e passe fio dental diariamente antes de dormir;",
         "<strong>Alimentação equilibrada:</strong> vitamina C fortalece a gengiva; cálcio e vitamina D ajudam na regeneração óssea; alimentos fibrosos ajudam a remover resíduos;",
         "<strong>Consultas regulares:</strong> check-ups a cada 6 meses permitem diagnóstico precoce, identificando inflamações que não são visíveis a olho nu."
-    ]},
-    { "tipo": "paragrafo", "texto": "Segundo a <a href=\"https://www.colgate.com.br/\" target=\"_blank\" rel=\"noopener\">Colgate</a>, uma boa alimentação é essencial na prevenção da periodontite." },
-
-    { "tipo": "callout", "texto": "Notou gengiva retraída, sangramento frequente ou dentes amolecidos? Não espere a doença avançar. Agende uma avaliação.", "cta_texto": "Agendar avaliação", "cta_link": "https://wa.me/5521976939004?text=Gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20sobre%20periodontite" },
-
-    { "tipo": "faq", "titulo": "Perguntas Frequentes", "perguntas": [
-      { "pergunta": "Periodontite tem cura?", "resposta": "Pode ser controlada com tratamento adequado, mas a perda óssea já causada é irreversível — por isso o diagnóstico precoce é tão importante." },
-      { "pergunta": "A periodontite pode ser revertida?", "resposta": "Nos estágios iniciais, sim, com tratamento adequado. Em casos avançados, o tratamento profissional evita a progressão, mas não reverte o dano ósseo já causado." },
-      { "pergunta": "A doença periodontal causa perda dentária?", "resposta": "Sim. Se não tratada, a periodontite é a principal causa de perda dentária em adultos." },
-      { "pergunta": "Qual a diferença entre gengivite e periodontite?", "resposta": "A gengivite é reversível e não afeta o osso. A periodontite é a evolução da gengivite não tratada e envolve danos permanentes ao osso de sustentação dos dentes." },
-      { "pergunta": "Como saber se minha periodontite está avançada?", "resposta": "Dor ao mastigar, dentes amolecidos ou se afastando, e retração gengival são sinais de estágio avançado — procure um dentista." },
-      { "pergunta": "Fumantes têm mais risco de periodontite?", "resposta": "Sim. Uma revisão sistemática com mais de 11 mil participantes encontrou risco 85% maior em fumantes, chegando a quase 4 vezes maior em fumantes mais jovens (19-30 anos)." },
-      { "pergunta": "Quais são os tratamentos mais eficazes para periodontite?", "resposta": "Raspagem gengival é o tratamento inicial mais comum; casos mais graves podem exigir antibióticos, terapia a laser ou cirurgia periodontal." }
-    ]}
+      ]
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Segundo a <a href=\"https://www.colgate.com.br/\" target=\"_blank\" rel=\"noopener\">Colgate</a>, uma boa alimentação é essencial na prevenção da periodontite."
+    },
+    {
+      "tipo": "callout",
+      "texto": "Notou gengiva retraída, sangramento frequente ou dentes amolecidos? Não espere a doença avançar. Agende uma avaliação.",
+      "cta_texto": "Agendar avaliação",
+      "cta_link": "https://wa.me/5521976939004?text=Gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20sobre%20periodontite"
+    },
+    {
+      "tipo": "faq",
+      "titulo": "Perguntas Frequentes",
+      "perguntas": [
+        {
+          "pergunta": "Periodontite tem cura?",
+          "resposta": "Pode ser controlada com tratamento adequado, mas a perda óssea já causada é irreversível — por isso o diagnóstico precoce é tão importante."
+        },
+        {
+          "pergunta": "A periodontite pode ser revertida?",
+          "resposta": "Nos estágios iniciais, sim, com tratamento adequado. Em casos avançados, o tratamento profissional evita a progressão, mas não reverte o dano ósseo já causado."
+        },
+        {
+          "pergunta": "A doença periodontal causa perda dentária?",
+          "resposta": "Sim. Se não tratada, a periodontite é a principal causa de perda dentária em adultos."
+        },
+        {
+          "pergunta": "Qual a diferença entre gengivite e periodontite?",
+          "resposta": "A gengivite é reversível e não afeta o osso. A periodontite é a evolução da gengivite não tratada e envolve danos permanentes ao osso de sustentação dos dentes."
+        },
+        {
+          "pergunta": "Como saber se minha periodontite está avançada?",
+          "resposta": "Dor ao mastigar, dentes amolecidos ou se afastando, e retração gengival são sinais de estágio avançado — procure um dentista."
+        },
+        {
+          "pergunta": "Fumantes têm mais risco de periodontite?",
+          "resposta": "Sim. Uma revisão sistemática com mais de 11 mil participantes encontrou risco 85% maior em fumantes, chegando a quase 4 vezes maior em fumantes mais jovens (19-30 anos)."
+        },
+        {
+          "pergunta": "Quais são os tratamentos mais eficazes para periodontite?",
+          "resposta": "Raspagem gengival é o tratamento inicial mais comum; casos mais graves podem exigir antibióticos, terapia a laser ou cirurgia periodontal."
+        }
+      ]
+    }
   ]
 }

@@ -6,6 +6,7 @@
   "categoria": "saude-bucal",
   "autor": "dra-kesya-nogueira",
   "cluster_pai": null,
+  "cluster_filhos": ["gengiva-inflamada-causas-sintomas", "gengivite-o-que-e-sintomas-tratamento", "periodontite-o-que-e-causas-sintomas-e-tratamentos", "remedios-para-gengiva-inflamada-tratamento", "gengiva-sangrando-ao-escovar-os-dentes"],
   "capa": {
     "url": "/assets/recovered/2024/12/Gengiva-Inchada-1024x683.jpg",
     "srcset": "/assets/recovered/2024/12/Gengiva-Inchada-1024x683.jpg 1024w, /assets/recovered/2024/12/Gengiva-Inchada-300x200.jpg 300w, /assets/recovered/2024/12/Gengiva-Inchada-768x512.jpg 768w, /assets/recovered/2024/12/Gengiva-Inchada.jpg 1200w",
