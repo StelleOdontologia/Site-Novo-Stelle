@@ -14,7 +14,7 @@
   },
   "publicado": true,
   "publicado_em": "2024-12-14",
-  "atualizado_em": "2024-12-28",
+  "atualizado_em": "2026-09-01",
   "blocos": [
     {
       "tipo": "titulo",
@@ -246,17 +246,19 @@
     },
     {
       "tipo": "paragrafo",
-      "texto": "Aqui estão alguns dos medicamentos mais comuns utilizados para dor de dente, com exemplos e orientações detalhadas:"
+      "texto": "Aqui estão alguns dos medicamentos mais comuns utilizados para dor de dente, com exemplos e orientações detalhadas — segundo a <a href=\"https://medlineplus.gov/druginfo/meds/a682159.html\" target=\"_blank\" rel=\"noopener\">MedlinePlus</a> (base de informação sobre medicamentos da Biblioteca Nacional de Medicina dos EUA):"
     },
+    { "tipo": "titulo", "nivel": 4, "texto": "Ibuprofeno" },
     {
       "tipo": "lista",
       "itens": [
         "<strong>Quando usar</strong>: em casos de inflamação associada à dor, como gengivite ou abscessos.",
-        "<strong>Como usar</strong>: a dose habitual para adultos é de 400 mg a cada 6-8 horas, conforme orientação médica.",
+        "<strong>Como usar</strong>: a dose habitual para adultos, sem receita, é de 400 mg a cada 6-8 horas, sem exceder 6 doses em 24 horas — sempre conforme orientação médica ou da bula.",
         "<strong>Efeitos colaterais</strong>: dor de estômago, tontura e, em uso prolongado, risco de lesões gástricas.",
         "<strong>Contraindicações</strong>: não deve ser usado por pessoas com úlceras gástricas ou insuficiência renal."
       ]
     },
+    { "tipo": "titulo", "nivel": 4, "texto": "Paracetamol" },
     {
       "tipo": "lista",
       "itens": [
@@ -266,6 +268,7 @@
         "<strong>Contraindicações</strong>: não recomendado para pessoas com doenças hepáticas."
       ]
     },
+    { "tipo": "titulo", "nivel": 4, "texto": "Benzocaína (anestésico tópico)" },
     {
       "tipo": "lista",
       "itens": [
@@ -463,55 +466,13 @@
       "tipo": "paragrafo",
       "texto": "Se perceber sintomas preocupantes, procure imediatamente um pronto-socorro odontológico ou entre em contato com seu dentista de confiança. <strong>Evite automedicação em situações emergenciais</strong>, pois isso pode agravar o problema."
     },
-    {
-      "tipo": "titulo",
-      "nivel": 2,
-      "texto": "FAQ: Perguntas Frequentes sobre Remédios para Dor de Dente"
-    },
-    {
-      "tipo": "titulo",
-      "nivel": 3,
-      "texto": "1. Qual é o melhor remédio para dor de dente?"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "O melhor remédio depende da causa da dor. Analgésicos como o paracetamol ajudam em dores leves, enquanto anti-inflamatórios como ibuprofeno são úteis para casos associados à inflamação. Em todos os casos, o dentista deve ser consultado para um diagnóstico preciso."
-    },
-    {
-      "tipo": "titulo",
-      "nivel": 3,
-      "texto": "2. Posso usar benzocaína sem prescrição?"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "Embora a benzocaína seja vendida sem receita em muitos locais, seu uso deve ser feito com cuidado, seguindo as instruções do fabricante. Aplicar o gel em excesso ou em áreas infeccionadas pode causar efeitos colaterais graves."
-    },
-    {
-      "tipo": "titulo",
-      "nivel": 3,
-      "texto": "3. É seguro usar remédios caseiros para dor de dente?"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "Sim, mas apenas como solução temporária. Opções como compressa fria e bochecho com água e sal podem ajudar. No entanto, <strong>não substituem uma consulta odontológica</strong>."
-    },
-    {
-      "tipo": "titulo",
-      "nivel": 3,
-      "texto": "4. Quanto tempo leva para a dor de dente passar com o remédio certo?"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "Isso varia dependendo do medicamento e da causa do problema. Em geral, analgésicos começam a aliviar a dor em cerca de 30 minutos a 1 hora. Porém, a dor só desaparecerá completamente após o tratamento adequado."
-    },
-    {
-      "tipo": "titulo",
-      "nivel": 3,
-      "texto": "5. Por que a dor de dente piora à noite?"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "A posição deitada pode aumentar a pressão nos vasos sanguíneos próximos ao dente, intensificando a dor. Além disso, à noite, há menos distrações, o que torna o desconforto mais perceptível."
-    }
+    { "tipo": "callout", "texto": "Está com dor de dente e precisa de um diagnóstico definitivo, não só alívio temporário? Agende uma avaliação.", "cta_texto": "Agendar avaliação", "cta_link": "https://wa.me/5521976939004?text=Estou%20com%20dor%20de%20dente%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o" },
+    { "tipo": "faq", "titulo": "Perguntas Frequentes sobre Remédios para Dor de Dente", "perguntas": [
+      { "pergunta": "Qual é o melhor remédio para dor de dente?", "resposta": "O melhor remédio depende da causa da dor. Analgésicos como o paracetamol ajudam em dores leves, enquanto anti-inflamatórios como ibuprofeno são úteis para casos associados à inflamação. Em todos os casos, o dentista deve ser consultado para um diagnóstico preciso." },
+      { "pergunta": "Posso usar benzocaína sem prescrição?", "resposta": "Embora a benzocaína seja vendida sem receita em muitos locais, seu uso deve ser feito com cuidado, seguindo as instruções do fabricante. Aplicar o gel em excesso ou em áreas infeccionadas pode causar efeitos colaterais graves." },
+      { "pergunta": "É seguro usar remédios caseiros para dor de dente?", "resposta": "Sim, mas apenas como solução temporária. Opções como compressa fria e bochecho com água e sal podem ajudar. No entanto, não substituem uma consulta odontológica." },
+      { "pergunta": "Quanto tempo leva para a dor de dente passar com o remédio certo?", "resposta": "Isso varia dependendo do medicamento e da causa do problema. Em geral, analgésicos começam a aliviar a dor em cerca de 30 minutos a 1 hora. Porém, a dor só desaparecerá completamente após o tratamento adequado." },
+      { "pergunta": "Por que a dor de dente piora à noite?", "resposta": "A posição deitada pode aumentar a pressão nos vasos sanguíneos próximos ao dente, intensificando a dor. Além disso, à noite há menos distrações, o que torna o desconforto mais perceptível." }
+    ]}
   ]
 }
