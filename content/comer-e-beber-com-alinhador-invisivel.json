@@ -32,7 +32,7 @@
     },
     {
       "tipo": "paragrafo",
-      "texto": "Diferente do aparelho fixo, o <a href=\"https://stelleodontologia.com.br/alinhadores-invisiveis-guia-completo-2025/\">alinhador invisível</a> é removível — e deve ser removido em todas as refeições, sem exceção. Comer com o alinhador na boca pode:"
+      "texto": "Diferente do aparelho fixo, o <a href=\"https://stelleodontologia.com.br/alinhadores-invisiveis-guia-completo-2025/\">alinhador invisível</a> é removível — e, segundo a <a href=\"https://aaoinfo.org/treatments/aligners/\" target=\"_blank\" rel=\"noopener\">American Association of Orthodontists</a>, deve ser removido em todas as refeições e para beber (com exceção de água), sem exceção. Comer com o alinhador na boca pode:"
     },
     {
       "tipo": "lista",
@@ -180,7 +180,7 @@
     },
     {
       "tipo": "paragrafo",
-      "texto": "Nunca recoloque o alinhador sem pelo menos enxaguar — resíduos presos entre o plástico e o dente são a principal causa de cárie durante o tratamento com alinhadores. Saiba mais sobre higiene e cuidados no nosso artigo completo sobre <a href=\"https://stelleodontologia.com.br/alinhadores-invisiveis-guia-completo-2025/#cuidados\">cuidados e manutenção dos alinhadores invisíveis</a>."
+      "texto": "Nunca recoloque o alinhador sem pelo menos enxaguar — resíduos presos entre o plástico e o dente são a principal causa de cárie durante o tratamento com alinhadores. Saiba mais sobre higiene e cuidados no nosso artigo completo sobre <a href=\"https://stelleodontologia.com.br/alinhadores-invisiveis-guia-completo-2025/#cuidados-e-manutencao-dos-alinhadores-invisiveis\">cuidados e manutenção dos alinhadores invisíveis</a>."
     },
     {
       "tipo": "titulo",
@@ -196,33 +196,22 @@
       "texto": "Se o alinhador quebrar por conta de pressão ao mastigar, entre em contato com o ortodontista. Dependendo da fase do tratamento, ele vai orientar se você usa o anterior, avança para o próximo ou precisa de uma reposição."
     },
     {
-      "tipo": "titulo",
-      "nivel": 2,
-      "texto": "Perguntas frequentes"
+      "tipo": "faq",
+      "titulo": "Perguntas frequentes",
+      "perguntas": [
+        { "pergunta": "Posso tomar água quente com o alinhador?", "resposta": "Não. A temperatura pode deformar o material termoplástico, comprometendo o encaixe e a eficácia do alinhador. Use sempre água em temperatura ambiente ou fria." },
+        { "pergunta": "Posso mascar chiclete com alinhador?", "resposta": "Não. O chiclete cola no alinhador e pode deformá-lo. Remova antes de mascar." },
+        { "pergunta": "Posso fumar com o alinhador?", "resposta": "Não é recomendado. O tabaco mancha permanentemente o alinhador e pode comprometer o material ao longo do tempo." },
+        { "pergunta": "E chimarrão ou tereré?", "resposta": "O chimarrão é quente — remove o alinhador antes. O tereré é frio, mas tem erva e resíduos — também melhor remover para evitar acúmulo." },
+        { "pergunta": "Posso beber água com gás?", "resposta": "A água com gás pura (sem sabor, sem açúcar) é geralmente aceita, mas por ser levemente ácida, o ideal é preferir a sem gás. Confirme com seu ortodontista." },
+        { "pergunta": "O alinhador vai amargar a bebida?", "resposta": "Alguns pacientes relatam uma leve sensação diferente nas primeiras semanas, que some com a adaptação. Não há alteração real no sabor da água." }
+      ]
     },
     {
-      "tipo": "paragrafo",
-      "texto": "<strong>Posso tomar água quente com o alinhador?</strong><br> Não. A temperatura pode deformar o material termoplástico, comprometendo o encaixe e a eficácia do alinhador. Use sempre água em temperatura ambiente ou fria."
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "<strong>Posso mascar chiclete com alinhador?</strong><br> Não. O chiclete cola no alinhador e pode deformá-lo. Remova antes de mascar."
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "<strong>Posso fumar com o alinhador?</strong><br> Não é recomendado. O tabaco mancha permanentemente o alinhador e pode comprometer o material ao longo do tempo."
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "<strong>E chimarrão ou tereré?</strong><br> O chimarrão é quente — remove o alinhador antes. O tereré é frio, mas tem erva e resíduos — também melhor remover para evitar acúmulo."
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "<strong>Posso beber água com gás?</strong><br> A água com gás pura (sem sabor, sem açúcar) é geralmente aceita, mas por ser levemente ácida, o ideal é preferir a sem gás. Confirme com seu ortodontista."
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "<strong>O alinhador vai amargar a bebida?</strong><br> Alguns pacientes relatam uma leve sensação diferente nas primeiras semanas, que some com a adaptação. Não há alteração real no sabor da água."
+      "tipo": "callout",
+      "texto": "Tem mais dúvidas sobre o dia a dia com alinhador invisível? Agende uma avaliação com a Dra. Késya Nogueira.",
+      "cta_texto": "Falar no WhatsApp",
+      "cta_link": "https://wa.me/5521976939004?text=Ol%C3%A1!%20Vi%20o%20artigo%20sobre%20comer%20e%20beber%20com%20alinhador%20invis%C3%ADvel%20e%20gostaria%20de%20uma%20avalia%C3%A7%C3%A3o."
     },
     {
       "tipo": "titulo",
@@ -241,7 +230,6 @@
       "tipo": "lista",
       "itens": [
         "<a href=\"https://stelleodontologia.com.br/alinhadores-invisiveis-guia-completo-2025/\">Alinhadores Invisíveis: O Guia Completo</a>",
-        "<a href=\"https://stelleodontologia.com.br/alinhador-invisivel-doi/\">Alinhador Invisível Dói? O Que Esperar em Cada Fase</a>",
         "<a href=\"https://stelleodontologia.com.br/mitos-e-verdades-alinhador-invisivel/\">Mitos e Verdades Sobre o Alinhador Invisível</a>",
         "<a href=\"https://stelleodontologia.com.br/quanto-custam-alinhadores-invisiveis-2026/\">Quanto Custam Alinhadores Invisíveis em 2026?</a>",
         "<a href=\"https://stelleodontologia.com.br/alinhadores-invisiveis-no-ambiente-de-trabalho/\">Alinhadores Invisíveis no Ambiente de Trabalho</a>"
