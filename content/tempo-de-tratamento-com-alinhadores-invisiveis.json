@@ -5,7 +5,7 @@
   "meta_description": "Tempo de tratamento com alinhadores invisíveis pode variar entre 6 a 24 meses. Saiba o que influencia esse tempo e como acelerar o resultado com segurança.",
   "categoria": "ortodontia",
   "autor": "dra-kesya-nogueira",
-  "cluster_pai": null,
+  "cluster_pai": "alinhadores-invisiveis-guia-completo-2025",
   "capa": {
     "url": "/assets/recovered/2025/03/Tempo-de-Tratamento-com-Alinhadores-Invisiveis-O-Que-Esperar-e-Como-Acelerar-1024x683.webp",
     "srcset": "/assets/recovered/2025/03/Tempo-de-Tratamento-com-Alinhadores-Invisiveis-O-Que-Esperar-e-Como-Acelerar-1024x683.webp 1024w, /assets/recovered/2025/03/Tempo-de-Tratamento-com-Alinhadores-Invisiveis-O-Que-Esperar-e-Como-Acelerar-300x200.webp 300w, /assets/recovered/2025/03/Tempo-de-Tratamento-com-Alinhadores-Invisiveis-O-Que-Esperar-e-Como-Acelerar-768x512.webp 768w, /assets/recovered/2025/03/Tempo-de-Tratamento-com-Alinhadores-Invisiveis-O-Que-Esperar-e-Como-Acelerar.webp 1200w",
@@ -16,6 +16,11 @@
   "publicado_em": "2025-03-22",
   "atualizado_em": "2025-03-22",
   "blocos": [
+    {
+      "tipo": "pillar_badge",
+      "texto": "Parte do Guia Completo sobre Alinhadores Invisíveis",
+      "link": "/alinhadores-invisiveis-guia-completo-2025/"
+    },
     {
       "tipo": "paragrafo",
       "texto": "<strong>O tempo de tratamento com alinhadores invisíveis</strong> é uma das dúvidas mais frequentes entre quem deseja alinhar os dentes com conforto, praticidade e discrição. Esses aparelhos transparentes oferecem uma alternativa moderna aos modelos tradicionais, unindo estética e eficiência."

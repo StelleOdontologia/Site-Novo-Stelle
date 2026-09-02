@@ -5,7 +5,7 @@
   "meta_description": "Posso comer e beber com alinhador invisível? Descubra o que é permitido, o que deve ser evitado e como manter o tratamento sem abrir mão da sua rotina.",
   "categoria": "ortodontia",
   "autor": "dra-kesya-nogueira",
-  "cluster_pai": null,
+  "cluster_pai": "alinhadores-invisiveis-guia-completo-2025",
   "capa": {
     "url": "https://stelleodontologia.com.br/comer-e-beber-com-alinhador-invisivel/capa.png",
     "srcset": "https://stelleodontologia.com.br/comer-e-beber-com-alinhador-invisivel/capa.png 1024w",
@@ -16,6 +16,11 @@
   "publicado_em": "2026-07-21",
   "atualizado_em": "2026-07-21",
   "blocos": [
+    {
+      "tipo": "pillar_badge",
+      "texto": "Parte do Guia Completo sobre Alinhadores Invisíveis",
+      "link": "/alinhadores-invisiveis-guia-completo-2025/"
+    },
     {
       "tipo": "paragrafo",
       "texto": "Uma das primeiras perguntas de quem começa o tratamento com alinhadores invisíveis é: posso continuar comendo e bebendo normalmente? A resposta curta é <strong>sim para comer — com o alinhador removido — e depende para beber</strong>. Mas os detalhes fazem toda a diferença para quem tem reuniões, viagens, almoços sociais e uma rotina que não para. Este guia explica tudo o que você precisa saber sobre alimentação durante o tratamento."

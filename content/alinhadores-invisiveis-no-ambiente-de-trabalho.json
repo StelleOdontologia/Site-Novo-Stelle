@@ -5,7 +5,7 @@
   "meta_description": "Alinhe seus dentes com discrição e conforto! Veja como os alinhadores invisíveis se encaixam na rotina profissional sem atrapalhar seu dia a dia.",
   "categoria": "ortodontia",
   "autor": "dra-kesya-nogueira",
-  "cluster_pai": null,
+  "cluster_pai": "alinhadores-invisiveis-guia-completo-2025",
   "capa": {
     "url": "/assets/recovered/2025/04/Alinhadores-Invisiveis-no-Ambiente-de-Trabalho-Sorria-com-Discricao-e-Profissionalismo-1024x683.png",
     "srcset": "/assets/recovered/2025/04/Alinhadores-Invisiveis-no-Ambiente-de-Trabalho-Sorria-com-Discricao-e-Profissionalismo-1024x683.png 1024w, /assets/recovered/2025/04/Alinhadores-Invisiveis-no-Ambiente-de-Trabalho-Sorria-com-Discricao-e-Profissionalismo-300x200.png 300w, /assets/recovered/2025/04/Alinhadores-Invisiveis-no-Ambiente-de-Trabalho-Sorria-com-Discricao-e-Profissionalismo-768x512.png 768w, /assets/recovered/2025/04/Alinhadores-Invisiveis-no-Ambiente-de-Trabalho-Sorria-com-Discricao-e-Profissionalismo.png 1200w",
@@ -16,6 +16,11 @@
   "publicado_em": "2025-04-10",
   "atualizado_em": "2025-04-10",
   "blocos": [
+    {
+      "tipo": "pillar_badge",
+      "texto": "Parte do Guia Completo sobre Alinhadores Invisíveis",
+      "link": "/alinhadores-invisiveis-guia-completo-2025/"
+    },
     {
       "tipo": "paragrafo",
       "texto": "<strong>Última atualização: 10 de julho de 2026</strong>"

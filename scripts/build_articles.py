@@ -91,7 +91,7 @@ def render_bloco(bloco, article):
 
     if tipo == "faq":
         titulo = bloco.get("titulo", "Perguntas Frequentes")
-        html = [f"<h2>{titulo}</h2>"]
+        html = [f'<h2 id="{slugify(titulo)}">{titulo}</h2>']
         for qa in bloco["perguntas"]:
             html.append(f'<h3>{qa["pergunta"]}</h3>')
             html.append(f'<p>{qa["resposta"]}</p>')

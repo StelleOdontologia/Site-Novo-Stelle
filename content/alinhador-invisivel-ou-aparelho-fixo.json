@@ -5,7 +5,7 @@
   "meta_description": "Alinhador invisível é mais discreto e confortável; aparelho fixo não depende de disciplina e resolve casos mais complexos. Veja a comparação completa.",
   "categoria": "ortodontia",
   "autor": "dra-kesya-nogueira",
-  "cluster_pai": null,
+  "cluster_pai": "alinhadores-invisiveis-guia-completo-2025",
   "capa": {
     "url": "/assets/recovered/2022/03/Alinhador-invisível-ou-aparelho-fixo-qual-a-melhor-escolha.jpg",
     "srcset": "/assets/recovered/2022/03/Alinhador-invisível-ou-aparelho-fixo-qual-a-melhor-escolha.jpg 1002w, /assets/recovered/2022/03/Alinhador-invisível-ou-aparelho-fixo-qual-a-melhor-escolha-300x200.jpg 300w, /assets/recovered/2022/03/Alinhador-invisível-ou-aparelho-fixo-qual-a-melhor-escolha-768x512.jpg 768w",
@@ -16,46 +16,130 @@
   "publicado_em": "2021-07-27",
   "atualizado_em": "2026-09-01",
   "blocos": [
-    { "tipo": "paragrafo", "texto": "<strong>Não existe uma resposta única — a melhor escolha depende do seu caso.</strong> Em resumo: o alinhador invisível ganha em estética, conforto e facilidade de higiene, mas exige disciplina (uso de 20 a 22 horas por dia). O aparelho fixo não depende de disciplina do paciente e continua sendo a opção mais confiável para casos ortodônticos mais complexos." },
-    { "tipo": "paragrafo", "texto": "Este artigo compara os dois de forma direta, para você decidir com o seu ortodontista qual se encaixa melhor no seu caso." },
-
-    { "tipo": "titulo", "nivel": 2, "texto": "Comparação Direta: Alinhador x Aparelho Fixo" },
-    { "tipo": "tabela", "linhas": [
-        ["Critério", "Alinhador Invisível", "Aparelho Fixo"],
-        ["Estética", "Quase imperceptível", "Visível (metal ou cerâmica)"],
-        ["Remoção", "Removível para comer e higienizar", "Fixo, não é removido durante o tratamento"],
-        ["Higiene bucal", "Mais fácil — escova e fio dental sem obstáculo", "Mais trabalhosa, exige mais cuidado ao redor dos brackets"],
-        ["Depende de disciplina?", "Sim — precisa usar 20 a 22h por dia para funcionar", "Não — o resultado não depende do paciente lembrar de usar"],
-        ["Casos complexos", "Mais indicado para casos leves a moderados", "Preferido para casos complexos (apinhamento severo, rotações, mordida muito desalinhada)"],
-        ["Tempo de tratamento", "Costuma ser mais rápido em casos simples; pode ser mais longo em casos complexos", "Costuma ser mais previsível em casos complexos"]
-    ]},
-    { "tipo": "paragrafo", "texto": "Essa comparação segue o que mostram <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC12697465/\" target=\"_blank\" rel=\"noopener\">estudos comparativos</a> entre os dois tipos de tratamento: os alinhadores têm melhor avaliação de conforto, estética e higiene, mas o próprio estudo destaca que \"alinhadores podem não conseguir tratar casos mais complicados, e o resultado depende de alta disciplina do paciente\"." },
-
-    { "tipo": "titulo", "nivel": 2, "texto": "Quando o Alinhador Invisível é a Melhor Escolha" },
-    { "tipo": "lista", "itens": [
+    {
+      "tipo": "pillar_badge",
+      "texto": "Parte do Guia Completo sobre Alinhadores Invisíveis",
+      "link": "/alinhadores-invisiveis-guia-completo-2025/"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "<strong>Não existe uma resposta única — a melhor escolha depende do seu caso.</strong> Em resumo: o alinhador invisível ganha em estética, conforto e facilidade de higiene, mas exige disciplina (uso de 20 a 22 horas por dia). O aparelho fixo não depende de disciplina do paciente e continua sendo a opção mais confiável para casos ortodônticos mais complexos."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Este artigo compara os dois de forma direta, para você decidir com o seu ortodontista qual se encaixa melhor no seu caso."
+    },
+    {
+      "tipo": "titulo",
+      "nivel": 2,
+      "texto": "Comparação Direta: Alinhador x Aparelho Fixo"
+    },
+    {
+      "tipo": "tabela",
+      "linhas": [
+        [
+          "Critério",
+          "Alinhador Invisível",
+          "Aparelho Fixo"
+        ],
+        [
+          "Estética",
+          "Quase imperceptível",
+          "Visível (metal ou cerâmica)"
+        ],
+        [
+          "Remoção",
+          "Removível para comer e higienizar",
+          "Fixo, não é removido durante o tratamento"
+        ],
+        [
+          "Higiene bucal",
+          "Mais fácil — escova e fio dental sem obstáculo",
+          "Mais trabalhosa, exige mais cuidado ao redor dos brackets"
+        ],
+        [
+          "Depende de disciplina?",
+          "Sim — precisa usar 20 a 22h por dia para funcionar",
+          "Não — o resultado não depende do paciente lembrar de usar"
+        ],
+        [
+          "Casos complexos",
+          "Mais indicado para casos leves a moderados",
+          "Preferido para casos complexos (apinhamento severo, rotações, mordida muito desalinhada)"
+        ],
+        [
+          "Tempo de tratamento",
+          "Costuma ser mais rápido em casos simples; pode ser mais longo em casos complexos",
+          "Costuma ser mais previsível em casos complexos"
+        ]
+      ]
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Essa comparação segue o que mostram <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC12697465/\" target=\"_blank\" rel=\"noopener\">estudos comparativos</a> entre os dois tipos de tratamento: os alinhadores têm melhor avaliação de conforto, estética e higiene, mas o próprio estudo destaca que \"alinhadores podem não conseguir tratar casos mais complicados, e o resultado depende de alta disciplina do paciente\"."
+    },
+    {
+      "tipo": "titulo",
+      "nivel": 2,
+      "texto": "Quando o Alinhador Invisível é a Melhor Escolha"
+    },
+    {
+      "tipo": "lista",
+      "itens": [
         "Você quer discrição — ninguém percebe que está em tratamento;",
         "Seu caso é leve a moderado (apinhamento leve, diastema, pequenas rotações);",
         "Você valoriza poder tirar o aparelho para comer e escovar os dentes normalmente;",
         "Você tem disciplina para usar o alinhador quase o dia todo, todos os dias."
-    ]},
-
-    { "tipo": "titulo", "nivel": 2, "texto": "Quando o Aparelho Fixo é a Melhor Escolha" },
-    { "tipo": "lista", "itens": [
+      ]
+    },
+    {
+      "tipo": "titulo",
+      "nivel": 2,
+      "texto": "Quando o Aparelho Fixo é a Melhor Escolha"
+    },
+    {
+      "tipo": "lista",
+      "itens": [
         "Seu caso é mais complexo — apinhamento severo, rotações acentuadas ou mordida muito desalinhada;",
         "Você prefere um tratamento que não depende de lembrar de usar o aparelho todos os dias;",
         "O custo é um fator decisivo — o aparelho fixo tradicional costuma ser mais acessível;",
         "Seu ortodontista avalia que o controle mecânico do aparelho fixo é necessário pra esse movimento específico."
-    ]},
-    { "tipo": "paragrafo", "texto": "Importante: dentes desalinhados podem, em casos mais severos, dificultar a higiene e contribuir para desgaste irregular do esmalte — mas isso é uma questão da má oclusão em si, não do tipo de aparelho escolhido para corrigi-la. Os dois tratamentos, bem indicados e bem conduzidos, resolvem o problema." },
-
-    { "tipo": "callout", "texto": "Não sabe qual tratamento é ideal pro seu caso? Agende uma avaliação e receba uma indicação personalizada.", "cta_texto": "Agendar avaliação", "cta_link": "https://wa.me/5521976939004?text=Gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20para%20saber%20se%20alinhador%20ou%20aparelho%20fixo%20%C3%A9%20melhor%20para%20mim" },
-
-    { "tipo": "faq", "perguntas": [
-      { "pergunta": "Alinhador invisível é sempre mais rápido que aparelho fixo?", "resposta": "Não sempre. Em casos simples, o alinhador costuma ser mais rápido. Mas em casos complexos, o tratamento com alinhador pode demorar mais que o aparelho fixo, porque tem limitações mecânicas para certos movimentos." },
-      { "pergunta": "Qual é mais barato, alinhador ou aparelho fixo?", "resposta": "Em geral, o aparelho fixo tradicional tende a ser mais acessível que o alinhador invisível, mas o valor final depende da marca, complexidade do caso e da clínica." },
-      { "pergunta": "Posso trocar de alinhador para aparelho fixo no meio do tratamento?", "resposta": "Sim, é possível em alguns casos, mas é uma decisão do ortodontista com base na resposta do seu tratamento. O ideal é discutir isso diretamente com quem está acompanhando seu caso." },
-      { "pergunta": "Aparelho fixo dói mais que alinhador?", "resposta": "O aparelho fixo costuma causar mais desconforto no início (brackets e fios) e após ajustes. O alinhador é geralmente mais confortável, mas também pode gerar pressão nos primeiros dias de cada novo par." },
-      { "pergunta": "Meu caso é muito complexo para usar alinhador?", "resposta": "Só uma avaliação com o ortodontista pode confirmar isso. Casos de apinhamento severo, grandes rotações ou mordidas muito desalinhadas costumam responder melhor ao aparelho fixo, mas cada caso é único." }
-    ]}
+      ]
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Importante: dentes desalinhados podem, em casos mais severos, dificultar a higiene e contribuir para desgaste irregular do esmalte — mas isso é uma questão da má oclusão em si, não do tipo de aparelho escolhido para corrigi-la. Os dois tratamentos, bem indicados e bem conduzidos, resolvem o problema."
+    },
+    {
+      "tipo": "callout",
+      "texto": "Não sabe qual tratamento é ideal pro seu caso? Agende uma avaliação e receba uma indicação personalizada.",
+      "cta_texto": "Agendar avaliação",
+      "cta_link": "https://wa.me/5521976939004?text=Gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20para%20saber%20se%20alinhador%20ou%20aparelho%20fixo%20%C3%A9%20melhor%20para%20mim"
+    },
+    {
+      "tipo": "faq",
+      "perguntas": [
+        {
+          "pergunta": "Alinhador invisível é sempre mais rápido que aparelho fixo?",
+          "resposta": "Não sempre. Em casos simples, o alinhador costuma ser mais rápido. Mas em casos complexos, o tratamento com alinhador pode demorar mais que o aparelho fixo, porque tem limitações mecânicas para certos movimentos."
+        },
+        {
+          "pergunta": "Qual é mais barato, alinhador ou aparelho fixo?",
+          "resposta": "Em geral, o aparelho fixo tradicional tende a ser mais acessível que o alinhador invisível, mas o valor final depende da marca, complexidade do caso e da clínica."
+        },
+        {
+          "pergunta": "Posso trocar de alinhador para aparelho fixo no meio do tratamento?",
+          "resposta": "Sim, é possível em alguns casos, mas é uma decisão do ortodontista com base na resposta do seu tratamento. O ideal é discutir isso diretamente com quem está acompanhando seu caso."
+        },
+        {
+          "pergunta": "Aparelho fixo dói mais que alinhador?",
+          "resposta": "O aparelho fixo costuma causar mais desconforto no início (brackets e fios) e após ajustes. O alinhador é geralmente mais confortável, mas também pode gerar pressão nos primeiros dias de cada novo par."
+        },
+        {
+          "pergunta": "Meu caso é muito complexo para usar alinhador?",
+          "resposta": "Só uma avaliação com o ortodontista pode confirmar isso. Casos de apinhamento severo, grandes rotações ou mordidas muito desalinhadas costumam responder melhor ao aparelho fixo, mas cada caso é único."
+        }
+      ]
+    }
   ]
 }

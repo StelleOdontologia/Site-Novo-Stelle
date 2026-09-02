@@ -5,7 +5,7 @@
   "meta_description": "Veja a comparação visual entre aparelho transparente e alinhadores invisíveis. Entenda as diferenças e escolha o melhor tratamento para você",
   "categoria": "ortodontia",
   "autor": "dra-kesya-nogueira",
-  "cluster_pai": null,
+  "cluster_pai": "alinhadores-invisiveis-guia-completo-2025",
   "capa": {
     "url": "/assets/recovered/2025/03/Aparelho-Transparente-x-Alinhadores-Invisiveis-1024x683.webp",
     "srcset": "/assets/recovered/2025/03/Aparelho-Transparente-x-Alinhadores-Invisiveis-1024x683.webp 1024w, /assets/recovered/2025/03/Aparelho-Transparente-x-Alinhadores-Invisiveis-300x200.webp 300w, /assets/recovered/2025/03/Aparelho-Transparente-x-Alinhadores-Invisiveis-768x512.webp 768w, /assets/recovered/2025/03/Aparelho-Transparente-x-Alinhadores-Invisiveis.webp 1200w",
@@ -16,6 +16,11 @@
   "publicado_em": "2026-03-31",
   "atualizado_em": "2026-03-31",
   "blocos": [
+    {
+      "tipo": "pillar_badge",
+      "texto": "Parte do Guia Completo sobre Alinhadores Invisíveis",
+      "link": "/alinhadores-invisiveis-guia-completo-2025/"
+    },
     {
       "tipo": "paragrafo",
       "texto": "Ter um sorriso alinhado melhora não apenas a estética, mas também a mastigação, a respiração e a saúde geral. Com os avanços da ortodontia, já é possível corrigir o posicionamento dos dentes sem precisar recorrer aos tradicionais aparelhos metálicos."

@@ -6,6 +6,7 @@
   "categoria": "ortodontia",
   "autor": "dra-kesya-nogueira",
   "cluster_pai": null,
+  "cluster_filhos": ["alinhador-invisivel-ou-aparelho-fixo", "alinhadores-invisiveis-no-ambiente-de-trabalho", "aparelho-transparente-vs-alinhadores", "comer-e-beber-com-alinhador-invisivel", "mitos-e-verdades-alinhador-invisivel", "quanto-custam-alinhadores-invisiveis-2026", "tempo-de-tratamento-com-alinhadores-invisiveis"],
   "capa": {
     "url": "/assets/recovered/2025/03/Alinhadores-Invisiveis-_1_-1-1024x683.webp",
     "srcset": "/assets/recovered/2025/03/Alinhadores-Invisiveis-_1_-1-1024x683.webp 1024w, /assets/recovered/2025/03/Alinhadores-Invisiveis-_1_-1-300x200.webp 300w, /assets/recovered/2025/03/Alinhadores-Invisiveis-_1_-1-768x512.webp 768w, /assets/recovered/2025/03/Alinhadores-Invisiveis-_1_-1.webp 1200w",
@@ -18,6 +19,10 @@
   "blocos": [
     {
       "tipo": "paragrafo",
+      "texto": "<strong>Alinhadores invisíveis são placas transparentes e removíveis que corrigem o alinhamento dos dentes de forma gradual, sem os brackets e fios dos aparelhos convencionais — indicados para casos de leves a moderadamente complexos, com tratamento de 6 a 24 meses e investimento entre R$ 4.000 e R$ 25.000 no Brasil.</strong>"
+    },
+    {
+      "tipo": "paragrafo",
       "texto": "<strong>Última atualização: 09 de julho de 2026</strong>"
     },
     {
@@ -28,19 +33,19 @@
     {
       "tipo": "lista",
       "itens": [
-        "<a href=\"#o-que-sao\">O que são alinhadores invisíveis</a>",
-        "<a href=\"#vs-convencionais\">Alinhadores invisíveis vs. aparelhos convencionais</a>",
-        "<a href=\"#como-funcionam\">Como funcionam os alinhadores invisíveis</a>",
-        "<a href=\"#marcas\">Principais marcas e tipos de alinhadores invisíveis</a>",
-        "<a href=\"#quem-pode-usar\">Quem pode usar alinhadores invisíveis</a>",
-        "<a href=\"#processo\">Processo de tratamento com alinhadores invisíveis</a>",
-        "<a href=\"#tempo\">Tempo de tratamento com alinhadores invisíveis</a>",
-        "<a href=\"#custos\">Quanto custam os alinhadores invisíveis</a>",
-        "<a href=\"#cuidados\">Cuidados e manutenção dos alinhadores invisíveis</a>",
-        "<a href=\"#vs-transparente\">Alinhadores invisíveis vs. aparelho transparente</a>",
-        "<a href=\"#resultados\">Resultados e eficácia dos alinhadores invisíveis</a>",
-        "<a href=\"#desvantagens\">Desvantagens dos alinhadores invisíveis</a>",
-        "<a href=\"#faq\">Perguntas frequentes sobre alinhadores invisíveis</a>",
+        "<a href=\"#o-que-sao-alinhadores-invisiveis\">O que são alinhadores invisíveis</a>",
+        "<a href=\"#alinhadores-invisiveis-vs-aparelhos-convencionais\">Alinhadores invisíveis vs. aparelhos convencionais</a>",
+        "<a href=\"#como-funcionam-os-alinhadores-invisiveis\">Como funcionam os alinhadores invisíveis</a>",
+        "<a href=\"#principais-marcas-e-tipos-de-alinhadores-invisiveis\">Principais marcas e tipos de alinhadores invisíveis</a>",
+        "<a href=\"#quem-pode-usar-alinhadores-invisiveis\">Quem pode usar alinhadores invisíveis</a>",
+        "<a href=\"#processo-de-tratamento-com-alinhadores-invisiveis\">Processo de tratamento com alinhadores invisíveis</a>",
+        "<a href=\"#tempo-de-tratamento-com-alinhadores-invisiveis\">Tempo de tratamento com alinhadores invisíveis</a>",
+        "<a href=\"#quanto-custam-os-alinhadores-invisiveis\">Quanto custam os alinhadores invisíveis</a>",
+        "<a href=\"#cuidados-e-manutencao-dos-alinhadores-invisiveis\">Cuidados e manutenção dos alinhadores invisíveis</a>",
+        "<a href=\"#alinhadores-invisiveis-vs-aparelho-transparente\">Alinhadores invisíveis vs. aparelho transparente</a>",
+        "<a href=\"#resultados-e-eficacia-dos-alinhadores-invisiveis\">Resultados e eficácia dos alinhadores invisíveis</a>",
+        "<a href=\"#desvantagens-dos-alinhadores-invisiveis\">Desvantagens dos alinhadores invisíveis</a>",
+        "<a href=\"#perguntas-frequentes-sobre-alinhadores-invisiveis\">Perguntas frequentes sobre alinhadores invisíveis</a>",
         "<a href=\"#conclusao\">Conclusão</a>"
       ]
     },
@@ -161,29 +166,12 @@
     },
     {
       "tipo": "paragrafo",
-      "texto": "O material dos alinhadores é especialmente desenvolvido para exercer a força adequada sem causar desconforto excessivo. A cada troca de alinhador, o paciente pode sentir uma leve pressão nos primeiros dias, que diminui gradualmente à medida que os dentes se movem."
+      "texto": "O material dos alinhadores é especialmente desenvolvido para exercer a força adequada sem causar desconforto excessivo. A cada troca de alinhador, o paciente pode sentir uma leve pressão nos primeiros dias, que diminui gradualmente à medida que os dentes se movem. Segundo a <a href=\"https://aaoinfo.org/treatments/aligners/\" target=\"_blank\" rel=\"noopener\">American Association of Orthodontists</a>, os alinhadores devem ser usados por pelo menos 22 horas diárias e nem todo caso é indicado para esse tipo de tratamento — o ortodontista avalia se alinhadores, aparelho fixo ou uma combinação dos dois é a melhor abordagem."
     },
     {
       "tipo": "titulo",
       "nivel": 2,
       "texto": "Principais marcas e tipos de alinhadores invisíveis"
-    },
-    {
-      "tipo": "titulo",
-      "nivel": 3,
-      "texto": "Escova Elétrica Recarregável Oral-B Pro 2000 Sensi Ultrafino 220v…"
-    },
-    {
-      "tipo": "lista",
-      "itens": [
-        "Melhor relação custo-benefício: recursos tecnológicos avançados",
-        "Sensor de Pressão: a escova elétrica diminui a velocidade e emite uma luz vermelha de alerta",
-        "Design Profissional: o formato arredondado da cabeça da escova elétrica dental foi inspirado nos instrumentos odontológicos"
-      ]
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "R$417,63"
     },
     {
       "tipo": "paragrafo",
@@ -328,7 +316,7 @@
     },
     {
       "tipo": "paragrafo",
-      "texto": "É importante ressaltar que os alinhadores invisíveis evoluíram significativamente nos últimos anos, permitindo tratar casos cada vez mais complexos que antes eram exclusivos dos aparelhos convencionais."
+      "texto": "É importante ressaltar que os alinhadores invisíveis evoluíram significativamente nos últimos anos, permitindo tratar casos cada vez mais complexos que antes eram exclusivos dos aparelhos convencionais. Ainda em dúvida entre as duas opções? Veja nosso comparativo dedicado: <a href=\"/alinhador-invisivel-ou-aparelho-fixo/\">Alinhador Invisível ou Aparelho Fixo: Qual Escolher?</a>"
     },
     {
       "tipo": "titulo",
@@ -462,45 +450,6 @@
     {
       "tipo": "paragrafo",
       "texto": "É importante destacar que o sucesso do tratamento com alinhadores invisíveis depende significativamente da colaboração do paciente. Usar os alinhadores pelo tempo recomendado e seguir todas as orientações do ortodontista são fatores cruciais para alcançar os resultados desejados."
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "Mais vendido #1"
-    },
-    {
-      "tipo": "titulo",
-      "nivel": 3,
-      "texto": "Kit de Viagem Curaprox Black Is White para Cuidados com o Cabelo …"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "R$91,90"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "Mais vendido #2"
-    },
-    {
-      "tipo": "titulo",
-      "nivel": 3,
-      "texto": "Escova de Dente Curaprox Kids Soft Duo Graffiti Edition CS5460 2 …"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "R$79,90"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "Mais vendido #3"
-    },
-    {
-      "tipo": "titulo",
-      "nivel": 3,
-      "texto": "Curaprox Escova de dentes Ultrasoft 5460, pacote com 3"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "R$101,90"
     },
     {
       "tipo": "titulo",
@@ -743,7 +692,7 @@
     },
     {
       "tipo": "paragrafo",
-      "texto": "Seguindo estas orientações de cuidado e manutenção, você garantirá que seus alinhadores permaneçam limpos, transparentes e eficazes durante todo o tratamento ortodôntico."
+      "texto": "Seguindo estas orientações de cuidado e manutenção, você garantirá que seus alinhadores permaneçam limpos, transparentes e eficazes durante todo o tratamento ortodôntico. Tem dúvidas específicas sobre o que pode ou não consumir durante o tratamento? Veja nosso guia sobre <a href=\"/comer-e-beber-com-alinhador-invisivel/\">como comer e beber usando alinhador invisível</a>."
     },
     {
       "tipo": "titulo",
@@ -772,10 +721,6 @@
       "tipo": "titulo",
       "nivel": 3,
       "texto": "O que são aparelhos transparentes"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "<em>Os alinhadores invisíveis oferecem um tratamento ortodôntico discreto, confortável e removível para quem busca um sorriso perfeito</em>"
     },
     {
       "tipo": "lista",
@@ -1003,7 +948,7 @@
     },
     {
       "tipo": "paragrafo",
-      "texto": "Os alinhadores invisíveis evoluíram significativamente nas últimas décadas, e sua eficácia continua a melhorar com os avanços tecnológicos. Para a maioria dos casos adequadamente selecionados, os resultados são excelentes tanto em termos estéticos quanto funcionais."
+      "texto": "Os alinhadores invisíveis evoluíram significativamente nas últimas décadas, e sua eficácia continua a melhorar com os avanços tecnológicos. Para a maioria dos casos adequadamente selecionados, os resultados são excelentes tanto em termos estéticos quanto funcionais. Existem muitos mitos sobre o tratamento — confira nosso artigo com <a href=\"/mitos-e-verdades-alinhador-invisivel/\">mitos e verdades sobre alinhador invisível</a> para separar fato de boato."
     },
     {
       "tipo": "titulo",
@@ -1079,7 +1024,7 @@
         "Dificuldade em manter a disciplina ao longo do tempo",
         "<strong>Aspectos sociais</strong> <ul> <li>Necessidade de remoção em refeições sociais",
         "Higienização em ambientes públicos",
-        "Explicações sobre o tratamento",
+        "Explicações sobre o tratamento (veja nosso guia sobre <a href=\"/alinhadores-invisiveis-no-ambiente-de-trabalho/\">alinhadores invisíveis no ambiente de trabalho</a>)",
         "<strong>Limitações em algumas atividades</strong> <ul> <li>Esportes de contato podem exigir protetor bucal adicional",
         "Dificuldade para beber líquidos quentes (necessidade de remoção)",
         "Inconveniência em lanches frequentes"
@@ -1105,85 +1050,30 @@
       "texto": "Conhecer essas desvantagens é essencial para tomar uma decisão informada sobre o tratamento. É importante discutir todas estas questões com seu ortodontista durante a avaliação inicial para determinar se os alinhadores invisíveis são a melhor opção para seu caso específico."
     },
     {
-      "tipo": "titulo",
-      "nivel": 2,
-      "texto": "Perguntas frequentes sobre alinhadores invisíveis"
+      "tipo": "faq",
+      "titulo": "Perguntas frequentes sobre alinhadores invisíveis",
+      "perguntas": [
+        { "pergunta": "Por quanto tempo devo usar os alinhadores diariamente?", "resposta": "Os alinhadores invisíveis devem ser usados entre 20 e 22 horas por dia. Devem ser removidos apenas para comer, beber (exceto água) e para higiene bucal." },
+        { "pergunta": "Posso beber água com os alinhadores?", "resposta": "Sim, beber água com os alinhadores é permitido e não causa danos. Porém, para outras bebidas, especialmente as quentes, coloridas ou açucaradas, recomenda-se a remoção." },
+        { "pergunta": "Como limpo meus alinhadores?", "resposta": "Limpe os alinhadores duas vezes ao dia com escova de dentes macia e água fria ou morna. Evite água quente ou produtos abrasivos. Existem também produtos específicos para limpeza de alinhadores recomendados pelos fabricantes, como pastilhas efervescentes especiais para aparelhos ortodônticos." },
+        { "pergunta": "Posso fumar com os alinhadores?", "resposta": "Não é recomendado fumar com os alinhadores, pois o tabaco pode manchá-los permanentemente, comprometendo a estética do tratamento." },
+        { "pergunta": "O que fazer se eu perder um alinhador?", "resposta": "Entre em contato imediatamente com seu ortodontista. Dependendo da fase do tratamento, ele pode orientar você a usar o alinhador anterior ou avançar para o próximo. Em alguns casos, será necessário refazer o alinhador perdido." },
+        { "pergunta": "Sentirei dor durante o tratamento?", "resposta": "É comum sentir um leve desconforto ou pressão nos primeiros dias após colocar um novo alinhador. Esta sensação é normal e indica que os alinhadores estão funcionando." },
+        { "pergunta": "O tratamento com alinhadores é mais rápido que com aparelhos convencionais?", "resposta": "Para casos similares, o tempo de tratamento com alinhadores pode ser equivalente ou ligeiramente mais rápido que com aparelhos convencionais, dependendo da complexidade e da colaboração do paciente." },
+        { "pergunta": "Precisarei usar contenção após o tratamento?", "resposta": "Sim, assim como em qualquer tratamento ortodôntico, será necessário usar contenção após o tratamento com alinhadores invisíveis para manter os resultados." },
+        { "pergunta": "Os alinhadores afetam a fala?", "resposta": "Inicialmente pode haver um leve impacto na fala, como uma discreta \"língua presa\". Esta adaptação geralmente dura de 3 a 5 dias." },
+        { "pergunta": "Como os alinhadores afetam minha alimentação?", "resposta": "Os alinhadores devem ser removidos para comer qualquer alimento. Isso significa que não há restrições alimentares, diferentemente dos aparelhos fixos." },
+        { "pergunta": "Posso praticar esportes com os alinhadores?", "resposta": "Sim, você pode praticar esportes normalmente com os alinhadores. Para esportes de contato, avalie com seu ortodontista se é necessário um protetor bucal adicional." },
+        { "pergunta": "Os alinhadores funcionam para todos os problemas ortodônticos?", "resposta": "Não. Embora sejam eficazes para muitos casos, problemas ortodônticos complexos podem exigir outras abordagens ou tratamentos combinados." },
+        { "pergunta": "Posso usar alinhadores invisíveis se tiver restaurações, coroas ou implantes?", "resposta": "Em muitos casos sim, mas isso depende da avaliação individual. Seu ortodontista precisará analisar se as restaurações existentes são compatíveis com o tratamento." },
+        { "pergunta": "Os alinhadores invisíveis são adequados para crianças?", "resposta": "Existem alinhadores específicos para adolescentes, mas para crianças em fase de dentição mista (com dentes de leite e permanentes), os aparelhos convencionais geralmente são mais indicados." }
+      ]
     },
     {
-      "tipo": "titulo",
-      "nivel": 3,
-      "texto": "Uso e cuidados diários"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "<strong>Por quanto tempo devo usar os alinhadores diariamente?</strong><br> Os alinhadores invisíveis devem ser usados entre 20 e 22 horas por dia. Devem ser removidos apenas para comer, beber (exceto água) e para higiene bucal."
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "<strong>Posso beber água com os alinhadores?</strong><br> Sim, beber água com os alinhadores é permitido e não causa danos. Porém, para outras bebidas, especialmente as quentes, coloridas ou açucaradas, recomenda-se a remoção."
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "<strong>Como limpo meus alinhadores?</strong><br> Limpe os alinhadores duas vezes ao dia com escova de dentes macia e água fria ou morna. Evite água quente ou produtos abrasivos. Existem também produtos específicos para limpeza de alinhadores recomendados pelos fabricantes, como pastilhas efervescentes especiais para aparelhos ortodônticos."
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "<strong>Posso fumar com os alinhadores?</strong><br> Não é recomendado fumar com os alinhadores, pois o tabaco pode manchá-los permanentemente, comprometendo a estética do tratamento."
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "<strong>O que fazer se eu perder um alinhador?</strong><br> Entre em contato imediatamente com seu ortodontista. Dependendo da fase do tratamento, ele pode orientar você a usar o alinhador anterior ou avançar para o próximo. Em alguns casos, será necessário refazer o alinhador perdido."
-    },
-    {
-      "tipo": "titulo",
-      "nivel": 3,
-      "texto": "Tratamento e resultados"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "<strong>Sentirei dor durante o tratamento?</strong><br> É comum sentir um leve desconforto ou pressão nos primeiros dias após colocar um novo alinhador. Esta sensação é normal e indica que os alinhadores estão funcionando."
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "<strong>O tratamento com alinhadores é mais rápido que com aparelhos convencionais?</strong><br> Para casos similares, o tempo de tratamento com alinhadores pode ser equivalente ou ligeiramente mais rápido que com aparelhos convencionais, dependendo da complexidade e da colaboração do paciente."
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "<strong>Precisarei usar contenção após o tratamento?</strong><br> Sim, assim como em qualquer tratamento ortodôntico, será necessário usar contenção após o tratamento com alinhadores invisíveis para manter os resultados."
-    },
-    {
-      "tipo": "titulo",
-      "nivel": 3,
-      "texto": "Adaptação e cotidiano"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "<strong>Os alinhadores afetam a fala?</strong><br> Inicialmente pode haver um leve impacto na fala, como uma discreta \"língua presa\". Esta adaptação geralmente dura de 3 a 5 dias."
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "<strong>Como os alinhadores afetam minha alimentação?</strong><br> Os alinhadores devem ser removidos para comer qualquer alimento. Isso significa que não há restrições alimentares, diferentemente dos aparelhos fixos."
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "<strong>Posso praticar esportes com os alinhadores?</strong><br> Sim, você pode praticar esportes normalmente com os alinhadores. Para esportes de contato, avalie com seu ortodontista se é necessário um protetor bucal adicional."
-    },
-    {
-      "tipo": "titulo",
-      "nivel": 3,
-      "texto": "Considerações médicas"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "<strong>Os alinhadores funcionam para todos os problemas ortodônticos?</strong><br> Não. Embora sejam eficazes para muitos casos, problemas ortodônticos complexos podem exigir outras abordagens ou tratamentos combinados."
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "<strong>Posso usar alinhadores invisíveis se tiver restaurações, coroas ou implantes?</strong><br> Em muitos casos sim, mas isso depende da avaliação individual. Seu ortodontista precisará analisar se as restaurações existentes são compatíveis com o tratamento."
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "<strong>Os alinhadores invisíveis são adequados para crianças?</strong><br> Existem alinhadores específicos para adolescentes, mas para crianças em fase de dentição mista (com dentes de leite e permanentes), os aparelhos convencionais geralmente são mais indicados."
+      "tipo": "callout",
+      "texto": "Quer saber se os alinhadores invisíveis são indicados para o seu caso? Agende uma avaliação com a Dra. Késya Nogueira.",
+      "cta_texto": "Falar no WhatsApp",
+      "cta_link": "https://wa.me/5521976939004?text=Ol%C3%A1!%20Vi%20o%20guia%20sobre%20alinhadores%20invis%C3%ADveis%20e%20gostaria%20de%20uma%20avalia%C3%A7%C3%A3o."
     },
     {
       "tipo": "titulo",
