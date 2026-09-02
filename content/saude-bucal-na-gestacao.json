@@ -363,11 +363,6 @@
       "tipo": "paragrafo",
       "texto": "Adotar esses hábitos simples ao longo da <strong>gestação</strong> garante que a <strong>saúde bucal</strong> se mantenha em dia e evita complicações que podem afetar a mãe e o bebê."
     },
-    {
-      "tipo": "titulo",
-      "nivel": 2,
-      "texto": "Perguntas frequentes (FAQ)"
-    },
     { "tipo": "faq", "perguntas": [
       { "pergunta": "Quais são as doenças bucais mais comuns durante a gravidez?", "resposta": "As doenças bucais mais comuns durante a gestação incluem gengivite gestacional, cárie dentária e periodontite. Estas condições estão relacionadas a mudanças hormonais e, se não tratadas, podem afetar a saúde bucal e geral da grávida." },
       { "pergunta": "A saúde bucal da grávida pode afetar o bebê?", "resposta": "Estudos encontram associação entre periodontite e maior risco de parto prematuro e baixo peso ao nascer, mas a relação de causa e efeito ainda não é totalmente confirmada pela ciência. De qualquer forma, tratar a periodontite é importante para a saúde da própria gestante." },
