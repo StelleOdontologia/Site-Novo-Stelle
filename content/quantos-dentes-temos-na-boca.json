@@ -388,6 +388,7 @@
       "tipo": "paragrafo",
       "texto": "Para manter a saúde bucal em dia, siga os cuidados mencionados anteriormente e consulte um especialista sempre que notar algo fora do comum. Confira em <a href=\"/assets/recovered/2024/12/Cuidados-Preventivos-com-os-Dentes-Um-Guia-Rapido-para-um-Sorriso-Saudavel-1.pdf\">nosso ebook Dicas de Prevenção para manter seus dentes sadios por mais tempo</a>."
     },
+    { "tipo": "callout", "texto": "Notou algo diferente na sua dentição ou tem dúvidas sobre a saúde dos seus dentes? Agende uma avaliação.", "cta_texto": "Agendar avaliação", "cta_link": "https://wa.me/5521976939004?text=Gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20odontol%C3%B3gica" },
     {
       "tipo": "titulo",
       "nivel": 2,
