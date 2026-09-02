@@ -1,2 +1,4 @@
 scripts/credenciais-google.json
 scripts/indexacao-log.json
+scripts/__pycache__/
+__pycache__/
