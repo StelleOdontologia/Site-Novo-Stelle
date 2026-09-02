@@ -23,6 +23,10 @@
     },
     {
       "tipo": "paragrafo",
+      "texto": "<strong>A principal diferença é que o aparelho transparente é fixo (com braquetes de porcelana ou safira colados aos dentes) enquanto os alinhadores invisíveis são placas removíveis — o aparelho costuma ser mais indicado para casos complexos, e os alinhadores oferecem mais conforto e praticidade no dia a dia.</strong>"
+    },
+    {
+      "tipo": "paragrafo",
       "texto": "Ter um sorriso alinhado melhora não apenas a estética, mas também a mastigação, a respiração e a saúde geral. Com os avanços da ortodontia, já é possível corrigir o posicionamento dos dentes sem precisar recorrer aos tradicionais aparelhos metálicos."
     },
     {
@@ -162,32 +166,17 @@
     },
     {
       "tipo": "paragrafo",
-      "texto": "Veja também no artigo <a href=\"https://stelleodontologia.com.br/tempo-de-tratamento-com-alinhadores-invisiveis/\"><strong>&#8220;Tempo de Tratamento com Alinhadores Invisíveis: O Que Esperar e Como Acelerar'&#8221;</strong></a> o tempo estimado de tratamentos com os Alinhadores Invisíveis."
-    },
-    {
-      "tipo": "titulo",
-      "nivel": 2,
-      "texto": "📖 Leitura Complementar"
+      "texto": "Veja também no artigo <a href=\"https://stelleodontologia.com.br/tempo-de-tratamento-com-alinhadores-invisiveis/\"><strong>&#8220;Tempo de Tratamento com Alinhadores Invisíveis: O Que Esperar e Como Acelerar&#8221;</strong></a> o tempo estimado de tratamentos com os Alinhadores Invisíveis."
     },
     {
       "tipo": "paragrafo",
-      "texto": "Se você deseja se aprofundar mais sobre o tema, aqui estão algumas fontes confiáveis que explicam detalhes sobre aparelhos ortodônticos e alinhadores invisíveis:"
+      "texto": "Segundo a <a href=\"https://aaoinfo.org/whats-trending/braces-vs-clear-aligners/\" target=\"_blank\" rel=\"noopener\">American Association of Orthodontists</a>, a escolha entre aparelho e alinhadores depende dos objetivos e do estilo de vida de cada paciente: aparelhos (incluindo os estéticos) conseguem tratar a maioria dos problemas ortodônticos, enquanto os alinhadores são eficazes para muitos casos, mas a indicação depende da avaliação individual."
     },
     {
-      "tipo": "paragrafo",
-      "texto": "🔹 <strong>O que são os alinhadores Essix? E como funcionam?</strong> – Explicação detalhada sobre um dos tipos de alinhadores removíveis, abordando seu funcionamento e benefícios.<br>👉 <a href=\"https://www.colgate.com.br/oral-health/adult-orthodontics/what-is-an-essix-retainer\" target=\"_blank\" rel=\"noopener\">https://www.colgate.com.br/oral-health/adult-orthodontics/what-is-an-essix-retainer</a>"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "🔹 <strong>Aparelho Ortodôntico: História, tipos e funcionamento</strong> – Informações gerais sobre os diferentes tipos de aparelhos ortodônticos e suas indicações.<br>👉 <a href=\"https://pt.wikipedia.org/wiki/Aparelho_ortod%C3%B4ntico\" target=\"_blank\" rel=\"noopener\">https://pt.wikipedia.org/wiki/Aparelho_ortod%C3%B4ntico</a>"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "🔹 <strong>Saúde e Higiene Bucal: Problemas e Tratamentos</strong> – Guia completo sobre cuidados com a saúde bucal, incluindo informações sobre tratamentos ortodônticos.<br>👉 <a href=\"https://www.colgate.com.br/oral-health\" target=\"_blank\" rel=\"noopener\">https://www.colgate.com.br/oral-health</a>"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "Essas leituras são ótimas para complementar o conhecimento sobre aparelhos ortodônticos e ajudar na decisão do melhor tratamento para cada caso."
+      "tipo": "callout",
+      "texto": "Ainda em dúvida entre aparelho transparente e alinhadores invisíveis? Agende uma avaliação com a Dra. Késya Nogueira e descubra qual tratamento é ideal para o seu caso.",
+      "cta_texto": "Falar no WhatsApp",
+      "cta_link": "https://wa.me/5521976939004?text=Ol%C3%A1!%20Vi%20o%20artigo%20sobre%20aparelho%20transparente%20x%20alinhadores%20e%20gostaria%20de%20uma%20avalia%C3%A7%C3%A3o."
     },
     {
       "tipo": "faq",
