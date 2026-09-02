@@ -40,7 +40,7 @@ def build_card_html(article):
     cat_slug = CAT_SLUG_MAP.get(cat_id, cat_id)
     cat_label = CAT_LABELS.get(cat_id, cat_id.title())
     thumb = ba._thumb_url(article)
-    date_display = format_date(max(article["publicado_em"], article["atualizado_em"]))
+    date_display = format_date(article["publicado_em"])
     excerpt = article["meta_description"]
 
     return (
