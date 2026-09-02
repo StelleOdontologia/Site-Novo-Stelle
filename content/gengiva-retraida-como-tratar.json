@@ -5,7 +5,7 @@
   "meta_description": "Gengiva retraída pode ser revertida? Descubra as causas, sintomas e os melhores tratamentos para evitar complicações e proteger sua saúde bucal!",
   "categoria": "saude-bucal",
   "autor": "dra-kesya-nogueira",
-  "cluster_pai": null,
+  "cluster_pai": "gengiva-inchada-o-que-fazer-causas-sintomas-tratamentos",
   "capa": {
     "url": "/assets/recovered/2025/03/gengiva-retraida-1024x683.webp",
     "srcset": "/assets/recovered/2025/03/gengiva-retraida-1024x683.webp 1024w, /assets/recovered/2025/03/gengiva-retraida-300x200.webp 300w, /assets/recovered/2025/03/gengiva-retraida-768x512.webp 768w, /assets/recovered/2025/03/gengiva-retraida.webp 1200w",
@@ -17,13 +17,18 @@
   "atualizado_em": "2025-03-19",
   "blocos": [
     {
+      "tipo": "pillar_badge",
+      "texto": "Parte do Guia Completo sobre Gengiva Inchada",
+      "link": "/gengiva-inchada-o-que-fazer-causas-sintomas-tratamentos/"
+    },
+    {
       "tipo": "titulo",
       "nivel": 2,
       "texto": "Introdução"
     },
     {
       "tipo": "paragrafo",
-      "texto": "Você já notou que seus dentes parecem mais longos do que antes ou sente maior sensibilidade ao consumir alimentos frios ou quentes? Isso pode ser um sinal de <strong>gengiva retraída</strong>, um problema que afeta muitas pessoas e pode ter consequências graves se não tratado corretamente."
+      "texto": "<strong>A gengiva retraída não volta ao normal sozinha, mas o tratamento certo — que vai de mudanças na escovação até o enxerto gengival, dependendo do grau do problema — consegue estabilizar a retração e proteger a raiz do dente exposta.</strong> Você já notou que seus dentes parecem mais longos do que antes ou sente maior sensibilidade ao consumir alimentos frios ou quentes? Isso pode ser um sinal de <strong>gengiva retraída</strong>, um problema que afeta muitas pessoas e pode ter consequências graves se não tratado corretamente."
     },
     {
       "tipo": "paragrafo",
@@ -61,7 +66,7 @@
     },
     {
       "tipo": "paragrafo",
-      "texto": "📌 <strong>Se você tem gengiva sensível e sente dor ao escovar, veja este <a href=\"#\">artigo sobre os melhores enxaguantes bucais para gengiva inflamada</a>.</strong>"
+      "texto": "📌 <strong>Se você tem gengiva sensível e sente dor ao escovar, veja este <a href=\"/remedios-para-gengiva-inflamada-tratamento/\">artigo sobre remédios e tratamentos para gengiva inflamada</a>.</strong>"
     },
     {
       "tipo": "titulo",
@@ -202,7 +207,7 @@
     },
     {
       "tipo": "paragrafo",
-      "texto": "📌 <strong>Se você sente muita sensibilidade, veja este <a href=\"#\">artigo sobre os melhores enxaguantes bucais para gengiva sensível</a>.</strong>"
+      "texto": "📌 <strong>Se você sente muita sensibilidade, veja este <a href=\"/gengiva-sangrando-ao-escovar-os-dentes/\">artigo sobre gengiva sangrando ao escovar os dentes</a>.</strong>"
     },
     {
       "tipo": "titulo",
@@ -223,7 +228,7 @@
     },
     {
       "tipo": "paragrafo",
-      "texto": "📌 <strong>Se a retração gengival está associada a tártaro, veja este <a href=\"#\">artigo sobre como remover e prevenir o tártaro nos dentes</a>.</strong>"
+      "texto": "📌 <strong>Se a retração gengival está associada ao acúmulo de tártaro, veja este <a href=\"/gengivite-o-que-e-sintomas-tratamento/\">artigo sobre gengivite</a> para entender como a raspagem profissional trata o problema na origem.</strong>"
     },
     {
       "tipo": "paragrafo",
@@ -272,6 +277,16 @@
       "texto": "📌 <strong>Se você quer proteger sua gengiva, veja este <a href=\"https://stelleodontologia.com.br/gengiva-inflamada-causas-sintomas/\">artigo sobre gengiva inflamada</a> e descubra os melhores cuidados para evitar inflamações.</strong>"
     },
     {
+      "tipo": "paragrafo",
+      "texto": "Segundo a <a href=\"https://my.clevelandclinic.org/health/diseases/22753-gum-recession\" target=\"_blank\" rel=\"noopener\">Cleveland Clinic</a>, a gengiva retraída não volta a crescer sozinha — mas o tratamento correto evita que a retração piore, e o <strong>enxerto gengival</strong> é considerado a opção mais previsível e duradoura para corrigir totalmente o problema nos casos moderados a graves."
+    },
+    {
+      "tipo": "callout",
+      "texto": "Notou que sua gengiva está retraída ou sensível? Agende uma avaliação com a Dra. Késya Nogueira e descubra o tratamento mais indicado para o seu caso.",
+      "cta_texto": "Falar no WhatsApp",
+      "cta_link": "https://wa.me/5521976939004?text=Ol%C3%A1!%20Vi%20o%20artigo%20sobre%20gengiva%20retra%C3%ADda%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o."
+    },
+    {
       "tipo": "faq",
       "titulo": "Perguntas Frequentes",
       "perguntas": [
@@ -294,14 +309,6 @@
         {
           "pergunta": "A retração gengival pode causar a perda do dente?",
           "resposta": "Sim, se não for tratada. A retração pode expor a raiz do dente, aumentando o risco de cáries e infecções que podem levar à perda dentária."
-        },
-        {
-          "pergunta": "🔹 Para Saber Mais Sobre Saúde Gengival",
-          "resposta": "Se você deseja aprofundar ainda mais seus conhecimentos sobre gengiva retraída e outros problemas gengivais, confira estes conteúdos de fontes confiáveis:"
-        },
-        {
-          "pergunta": "Dra. Késya Nogueira",
-          "resposta": "CRO-RJ 45996 &bull; Dentista na Taquara, Especialista em Ortodontia"
         }
       ]
     }

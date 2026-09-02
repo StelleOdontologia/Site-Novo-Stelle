@@ -6,7 +6,7 @@
   "categoria": "saude-bucal",
   "autor": "dra-kesya-nogueira",
   "cluster_pai": null,
-  "cluster_filhos": ["gengiva-inflamada-causas-sintomas", "gengivite-o-que-e-sintomas-tratamento", "periodontite-o-que-e-causas-sintomas-e-tratamentos", "remedios-para-gengiva-inflamada-tratamento", "gengiva-sangrando-ao-escovar-os-dentes", "aparelho-ortodontico-gengiva-inchada-causas-tratamentos", "gengivite-x-periodontite-tratamento"],
+  "cluster_filhos": ["gengiva-inflamada-causas-sintomas", "gengivite-o-que-e-sintomas-tratamento", "periodontite-o-que-e-causas-sintomas-e-tratamentos", "remedios-para-gengiva-inflamada-tratamento", "gengiva-sangrando-ao-escovar-os-dentes", "aparelho-ortodontico-gengiva-inchada-causas-tratamentos", "gengivite-x-periodontite-tratamento", "gengiva-retraida-como-tratar"],
   "capa": {
     "url": "/assets/recovered/2024/12/Gengiva-Inchada-1024x683.jpg",
     "srcset": "/assets/recovered/2024/12/Gengiva-Inchada-1024x683.jpg 1024w, /assets/recovered/2024/12/Gengiva-Inchada-300x200.jpg 300w, /assets/recovered/2024/12/Gengiva-Inchada-768x512.jpg 768w, /assets/recovered/2024/12/Gengiva-Inchada.jpg 1200w",
@@ -244,7 +244,7 @@
     },
     {
       "tipo": "paragrafo",
-      "texto": "Se você apresenta um ou mais desses sintomas, fique atento! O <strong>diagnóstico precoce</strong> evita complicações mais sérias."
+      "texto": "Se você apresenta um ou mais desses sintomas, fique atento! O <strong>diagnóstico precoce</strong> evita complicações mais sérias. Em alguns casos, a inflamação prolongada também leva à retração do tecido gengival — veja nosso artigo sobre <a href=\"/gengiva-retraida-como-tratar/\">como tratar a gengiva retraída</a> se notar que seus dentes parecem mais longos ou mais sensíveis do que antes."
     },
     {
       "tipo": "titulo",
