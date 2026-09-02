@@ -14,7 +14,7 @@
   },
   "publicado": true,
   "publicado_em": "2024-12-21",
-  "atualizado_em": "2025-03-12",
+  "atualizado_em": "2026-09-02",
   "blocos": [
     {
       "tipo": "titulo",
@@ -52,8 +52,12 @@
       "texto": "Casos em que a gengiva inchada pode ser passageira:"
     },
     {
-      "tipo": "paragrafo",
-      "texto": "✅ Pequenas irritações causadas por alimentos duros ou escovação muito forte.<br>✅ Uso recente de aparelho ortodôntico ou prótese nova.<br>✅ Mudanças hormonais temporárias, como no ciclo menstrual."
+      "tipo": "lista",
+      "itens": [
+        "Pequenas irritações causadas por alimentos duros ou escovação muito forte;",
+        "Uso recente de aparelho ortodôntico ou prótese nova;",
+        "Mudanças hormonais temporárias, como no ciclo menstrual."
+      ]
     },
     {
       "tipo": "titulo",
@@ -61,8 +65,13 @@
       "texto": "Quando a gengiva inchada é um problema sério?"
     },
     {
-      "tipo": "paragrafo",
-      "texto": "⚠️ Se o inchaço durar mais de <strong>uma semana</strong> sem melhora.<br>⚠️ Se vier acompanhado de <strong>dor intensa, sangramento ou mau hálito persistente</strong>.<br>⚠️ Se houver sinais de infecção, como <strong>pus ou febre</strong>.<br>⚠️ Se houver retração gengival, expondo a raiz do dente."
+      "tipo": "lista",
+      "itens": [
+        "Se o inchaço durar mais de <strong>uma semana</strong> sem melhora;",
+        "Se vier acompanhado de <strong>dor intensa, sangramento ou mau hálito persistente</strong>;",
+        "Se houver sinais de infecção, como <strong>pus ou febre</strong>;",
+        "Se houver retração gengival, expondo a raiz do dente."
+      ]
     },
     {
       "tipo": "paragrafo",
@@ -80,7 +89,7 @@
     {
       "tipo": "titulo",
       "nivel": 3,
-      "texto": "🦷 1. Higiene Bucal Inadequada"
+      "texto": "1. Higiene Bucal Inadequada"
     },
     {
       "tipo": "paragrafo",
@@ -89,7 +98,7 @@
     {
       "tipo": "titulo",
       "nivel": 3,
-      "texto": "🦠 2. Gengivite e Periodontite"
+      "texto": "2. Gengivite e Periodontite"
     },
     {
       "tipo": "lista",
@@ -100,12 +109,12 @@
     },
     {
       "tipo": "paragrafo",
-      "texto": "👉 <strong>Estudos indicam que cerca de 80% dos adultos</strong> apresentam algum grau de gengivite!"
+      "texto": "Segundo o <a href=\"https://magazine.medlineplus.gov/article/gum-disease-by-the-numbers\" target=\"_blank\" rel=\"noopener\">NIH MedlinePlus</a>, cerca de <strong>47% dos adultos com mais de 30 anos</strong> têm algum grau de doença gengival — e essa proporção sobe para quase 60% depois dos 65 anos."
     },
     {
       "tipo": "titulo",
       "nivel": 3,
-      "texto": "👶 3. Alterações Hormonais"
+      "texto": "3. Alterações Hormonais"
     },
     {
       "tipo": "paragrafo",
@@ -114,7 +123,7 @@
     {
       "tipo": "titulo",
       "nivel": 3,
-      "texto": "🥦 4. Deficiências Nutricionais"
+      "texto": "4. Deficiências Nutricionais"
     },
     {
       "tipo": "paragrafo",
@@ -123,7 +132,7 @@
     {
       "tipo": "titulo",
       "nivel": 3,
-      "texto": "🦷 5. Uso de Aparelhos Ortodônticos ou Próteses"
+      "texto": "5. Uso de Aparelhos Ortodônticos ou Próteses"
     },
     {
       "tipo": "paragrafo",
@@ -132,7 +141,7 @@
     {
       "tipo": "titulo",
       "nivel": 3,
-      "texto": "😫 6. Estresse e Impacto na Saúde Bucal"
+      "texto": "6. Estresse e Impacto na Saúde Bucal"
     },
     {
       "tipo": "paragrafo",
@@ -141,7 +150,7 @@
     {
       "tipo": "titulo",
       "nivel": 3,
-      "texto": "🦠 7. Infecções e Doenças Sistêmicas"
+      "texto": "7. Infecções e Doenças Sistêmicas"
     },
     {
       "tipo": "paragrafo",
@@ -150,7 +159,7 @@
     {
       "tipo": "titulo",
       "nivel": 3,
-      "texto": "📊 Tabela Resumo: Principais Causas da Gengiva Inchada"
+      "texto": "Tabela Resumo: Principais Causas da Gengiva Inchada"
     },
     {
       "tipo": "tabela",
@@ -214,11 +223,19 @@
     {
       "tipo": "titulo",
       "nivel": 3,
-      "texto": "🚨 Sinais de Alerta: Como Identificar a Inflamação Gengival"
+      "texto": "Sinais de Alerta: Como Identificar a Inflamação Gengival"
     },
     {
-      "tipo": "paragrafo",
-      "texto": "✔️ <strong>Inchaço visível</strong> na gengiva, deixando-a volumosa.<br>✔️ <strong>Vermelhidão intensa</strong>, ao invés do tom rosado saudável.<br>✔️ <strong>Sangramento ao escovar os dentes ou passar fio dental.</strong><br>✔️ <strong>Dor e sensibilidade</strong>, especialmente ao mastigar.<br>✔️ <strong>Mau hálito persistente</strong> (indica presença de bactérias).<br>✔️ <strong>Retração gengival</strong>, expondo a raiz dos dentes.<br>✔️ <strong>Bolhas ou pus</strong>, o que pode ser um sinal de infecção."
+      "tipo": "lista",
+      "itens": [
+        "<strong>Inchaço visível</strong> na gengiva, deixando-a volumosa;",
+        "<strong>Vermelhidão intensa</strong>, ao invés do tom rosado saudável;",
+        "<strong>Sangramento ao escovar os dentes ou passar fio dental;</strong>",
+        "<strong>Dor e sensibilidade</strong>, especialmente ao mastigar;",
+        "<strong>Mau hálito persistente</strong> (indica presença de bactérias);",
+        "<strong>Retração gengival</strong>, expondo a raiz dos dentes;",
+        "<strong>Bolhas ou pus</strong>, o que pode ser um sinal de infecção."
+      ]
     },
     {
       "tipo": "paragrafo",
@@ -236,7 +253,7 @@
     {
       "tipo": "titulo",
       "nivel": 3,
-      "texto": "🔹 Gengiva inchada no fundo da boca: pode ser o siso?"
+      "texto": "Gengiva inchada no fundo da boca: pode ser o siso?"
     },
     {
       "tipo": "lista",
@@ -249,7 +266,7 @@
     {
       "tipo": "titulo",
       "nivel": 3,
-      "texto": "🔹 Gengiva inchada e sangrando: devo me preocupar?"
+      "texto": "Gengiva inchada e sangrando: devo me preocupar?"
     },
     {
       "tipo": "lista",
@@ -261,7 +278,7 @@
     {
       "tipo": "titulo",
       "nivel": 3,
-      "texto": "🔹 Gengiva inchada por aparelho ortodôntico"
+      "texto": "Gengiva inchada por aparelho ortodôntico"
     },
     {
       "tipo": "lista",
@@ -273,7 +290,7 @@
     {
       "tipo": "titulo",
       "nivel": 3,
-      "texto": "🔹 Gengiva inchada na prótese dentária"
+      "texto": "Gengiva inchada na prótese dentária"
     },
     {
       "tipo": "lista",
@@ -285,7 +302,7 @@
     {
       "tipo": "titulo",
       "nivel": 3,
-      "texto": "🔹 Gengiva inchada e dolorida ao toque"
+      "texto": "Gengiva inchada e dolorida ao toque"
     },
     {
       "tipo": "lista",
@@ -306,7 +323,7 @@
     {
       "tipo": "titulo",
       "nivel": 3,
-      "texto": "1️⃣ Reforce a Higiene Bucal"
+      "texto": "1. Reforce a Higiene Bucal"
     },
     {
       "tipo": "lista",
@@ -319,20 +336,20 @@
     {
       "tipo": "titulo",
       "nivel": 3,
-      "texto": "2️⃣ Enxaguantes Caseiros Naturais"
+      "texto": "2. Enxaguantes Caseiros Naturais"
     },
     {
       "tipo": "lista",
       "itens": [
         "<strong>Água morna com sal</strong>: ajuda a reduzir o inchaço e combate bactérias.",
         "<strong>Chá de camomila ou cravo-da-índia</strong>: tem propriedades anti-inflamatórias.",
-        "<strong>Bochechos com água oxigenada 10 volumes</strong> (misturada com água) podem reduzir infecções."
+        "<strong>Água oxigenada bem diluída</strong> (1 parte de água oxigenada 10 volumes para 1 parte de água) pode ser usada ocasionalmente, mas não diariamente por longos períodos — o uso incorreto ou muito frequente pode irritar o tecido gengival. Use com moderação e, se possível, com orientação do dentista."
       ]
     },
     {
       "tipo": "titulo",
       "nivel": 3,
-      "texto": "3️⃣ Evite Alimentos que Pioram a Inflamação"
+      "texto": "3. Evite Alimentos que Pioram a Inflamação"
     },
     {
       "tipo": "lista",
@@ -344,7 +361,7 @@
     {
       "tipo": "titulo",
       "nivel": 3,
-      "texto": "4️⃣ Reduza o Estresse"
+      "texto": "4. Reduza o Estresse"
     },
     {
       "tipo": "lista",
@@ -356,7 +373,7 @@
     {
       "tipo": "titulo",
       "nivel": 3,
-      "texto": "5️⃣ Mantenha uma Dieta Rica em Vitaminas"
+      "texto": "5. Mantenha uma Dieta Rica em Vitaminas"
     },
     {
       "tipo": "lista",
@@ -369,7 +386,7 @@
     {
       "tipo": "titulo",
       "nivel": 3,
-      "texto": "6️⃣ Evite Tabaco e Bebidas Alcoólicas"
+      "texto": "6. Evite Tabaco e Bebidas Alcoólicas"
     },
     {
       "tipo": "lista",
@@ -381,7 +398,7 @@
     {
       "tipo": "titulo",
       "nivel": 3,
-      "texto": "7️⃣ Consulte um Dentista se o Inchaço Persistir"
+      "texto": "7. Consulte um Dentista se o Inchaço Persistir"
     },
     {
       "tipo": "lista",
@@ -402,11 +419,20 @@
     {
       "tipo": "titulo",
       "nivel": 3,
-      "texto": "🚨 Sinais de Alerta: Hora de Consultar um Dentista"
+      "texto": "Sinais de Alerta: Hora de Consultar um Dentista"
     },
     {
-      "tipo": "paragrafo",
-      "texto": "✔️ <strong>Inchaço persistente por mais de 7 dias</strong>, mesmo com higiene adequada.<br>✔️ <strong>Sangramento excessivo ao escovar os dentes ou passar fio dental.</strong><br>✔️ <strong>Dor intensa ou dificuldade para mastigar.</strong><br>✔️ <strong>Pus ou abscesso gengival</strong>, indicando uma infecção grave.<br>✔️ <strong>Mau hálito forte e persistente, mesmo após a escovação.</strong><br>✔️ <strong>Dentes moles ou sensação de gengiva &#8220;solta&#8221;.</strong><br>✔️ <strong>Retração gengival</strong>, expondo a raiz dos dentes.<br>✔️ <strong>Febre e inchaço na mandíbula</strong>, possíveis sinais de infecção avançada."
+      "tipo": "lista",
+      "itens": [
+        "<strong>Inchaço persistente por mais de 7 dias</strong>, mesmo com higiene adequada;",
+        "<strong>Sangramento excessivo ao escovar os dentes ou passar fio dental;</strong>",
+        "<strong>Dor intensa ou dificuldade para mastigar;</strong>",
+        "<strong>Pus ou abscesso gengival</strong>, indicando uma infecção grave;",
+        "<strong>Mau hálito forte e persistente, mesmo após a escovação;</strong>",
+        "<strong>Dentes moles ou sensação de gengiva \"solta\";</strong>",
+        "<strong>Retração gengival</strong>, expondo a raiz dos dentes;",
+        "<strong>Febre e inchaço na mandíbula</strong>, possíveis sinais de infecção avançada."
+      ]
     },
     {
       "tipo": "paragrafo",
@@ -424,7 +450,7 @@
     {
       "tipo": "titulo",
       "nivel": 3,
-      "texto": "🦷 1. Limpeza Profunda e Raspagem Gengival"
+      "texto": "1. Limpeza Profunda e Raspagem Gengival"
     },
     {
       "tipo": "lista",
@@ -436,7 +462,7 @@
     {
       "tipo": "titulo",
       "nivel": 3,
-      "texto": "💊 2. Uso de Medicamentos"
+      "texto": "2. Uso de Medicamentos"
     },
     {
       "tipo": "lista",
@@ -448,7 +474,7 @@
     {
       "tipo": "titulo",
       "nivel": 3,
-      "texto": "🦠 3. Tratamento para Periodontite"
+      "texto": "3. Tratamento para Periodontite"
     },
     {
       "tipo": "lista",
@@ -460,7 +486,7 @@
     {
       "tipo": "titulo",
       "nivel": 3,
-      "texto": "🤕 4. Ajuste de Próteses e Aparelhos"
+      "texto": "4. Ajuste de Próteses e Aparelhos"
     },
     {
       "tipo": "lista",
@@ -471,7 +497,7 @@
     {
       "tipo": "titulo",
       "nivel": 3,
-      "texto": "🌱 5. Terapias Naturais de Apoio"
+      "texto": "5. Terapias Naturais de Apoio"
     },
     {
       "tipo": "lista",
@@ -492,57 +518,77 @@
     {
       "tipo": "titulo",
       "nivel": 3,
-      "texto": "🦷 1. Escovação Correta"
+      "texto": "1. Escovação Correta"
     },
     {
-      "tipo": "paragrafo",
-      "texto": "✅ Use uma escova de cerdas macias para evitar traumas na gengiva.<br>✅ Faça movimentos suaves e circulares ao escovar os dentes.<br>✅ Escove os dentes pelo menos <strong>duas vezes ao dia</strong>."
-    },
-    {
-      "tipo": "titulo",
-      "nivel": 3,
-      "texto": "🧵 2. Uso Regular do Fio Dental"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "✅ Remova resíduos de comida entre os dentes para evitar placa bacteriana.<br>✅ Passe o fio dental <strong>com delicadeza</strong> para não machucar a gengiva."
+      "tipo": "lista",
+      "itens": [
+        "Use uma escova de cerdas macias para evitar traumas na gengiva.",
+        "Faça movimentos suaves e circulares ao escovar os dentes.",
+        "Escove os dentes pelo menos <strong>duas vezes ao dia</strong>."
+      ]
     },
     {
       "tipo": "titulo",
       "nivel": 3,
-      "texto": "🥦 3. Alimentação Saudável"
+      "texto": "2. Uso Regular do Fio Dental"
     },
     {
-      "tipo": "paragrafo",
-      "texto": "✅ Inclua <strong>frutas, legumes e proteínas</strong> na dieta.<br>✅ Evite <strong>refrigerantes e doces</strong>, que favorecem a proliferação de bactérias."
-    },
-    {
-      "tipo": "titulo",
-      "nivel": 3,
-      "texto": "🚰 4. Hidratação Adequada"
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "✅ A saliva ajuda a manter a boca limpa e equilibrada.<br>✅ Beba bastante água para evitar o ressecamento bucal."
+      "tipo": "lista",
+      "itens": [
+        "Remova resíduos de comida entre os dentes para evitar placa bacteriana.",
+        "Passe o fio dental <strong>com delicadeza</strong> para não machucar a gengiva."
+      ]
     },
     {
       "tipo": "titulo",
       "nivel": 3,
-      "texto": "🚭 5. Evitar Tabaco e Álcool"
+      "texto": "3. Alimentação Saudável"
     },
     {
-      "tipo": "paragrafo",
-      "texto": "✅ O cigarro reduz a circulação sanguínea na gengiva e agrava inflamações.<br>✅ O álcool resseca a boca, facilitando a ação de bactérias."
+      "tipo": "lista",
+      "itens": [
+        "Inclua <strong>frutas, legumes e proteínas</strong> na dieta.",
+        "Evite <strong>refrigerantes e doces</strong>, que favorecem a proliferação de bactérias."
+      ]
     },
     {
       "tipo": "titulo",
       "nivel": 3,
-      "texto": "🦷 6. Visitas Regulares ao Dentista"
+      "texto": "4. Hidratação Adequada"
     },
     {
-      "tipo": "paragrafo",
-      "texto": "✅ Faça check-ups <strong>a cada 6 meses</strong> para prevenir problemas gengivais.<br>✅ O dentista pode identificar problemas no estágio inicial e evitar complicações."
+      "tipo": "lista",
+      "itens": [
+        "A saliva ajuda a manter a boca limpa e equilibrada.",
+        "Beba bastante água para evitar o ressecamento bucal."
+      ]
     },
+    {
+      "tipo": "titulo",
+      "nivel": 3,
+      "texto": "5. Evitar Tabaco e Álcool"
+    },
+    {
+      "tipo": "lista",
+      "itens": [
+        "O cigarro reduz a circulação sanguínea na gengiva e agrava inflamações.",
+        "O álcool resseca a boca, facilitando a ação de bactérias."
+      ]
+    },
+    {
+      "tipo": "titulo",
+      "nivel": 3,
+      "texto": "6. Visitas Regulares ao Dentista"
+    },
+    {
+      "tipo": "lista",
+      "itens": [
+        "Faça check-ups <strong>a cada 6 meses</strong> para prevenir problemas gengivais.",
+        "O dentista pode identificar problemas no estágio inicial e evitar complicações."
+      ]
+    },
+    { "tipo": "callout", "texto": "Sua gengiva está inchada há mais de uma semana ou vem com outros sintomas de alerta? Agende uma avaliação.", "cta_texto": "Agendar avaliação", "cta_link": "https://wa.me/5521976939004?text=Minha%20gengiva%20est%C3%A1%20inchada%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o" },
     {
       "tipo": "titulo",
       "nivel": 2,
@@ -566,7 +612,7 @@
       "perguntas": [
         {
           "pergunta": "O que causa gengiva inchada?",
-          "resposta": "A gengiva inchada pode ser causada por diversos fatores, como acúmulo de placa bacteriana, gengivite ou até mesmo infecções mais graves. De acordo com a Colgate, problemas gengivais podem ser prevenidos com uma boa rotina de higiene bucal e visitas regulares ao dentista."
+          "resposta": "A gengiva inchada pode ser causada por diversos fatores, como acúmulo de placa bacteriana e gengivite, mas também por dente com abscesso, alterações hormonais (gravidez, menopausa) ou efeito colateral de certos medicamentos, segundo a <a href=\"https://www.colgate.com/en-us/oral-health/gum-disease/what-to-do-about-gum-swelling\" target=\"_blank\" rel=\"noopener\">Colgate</a>. Uma boa rotina de higiene bucal e visitas regulares ao dentista ajudam a prevenir e identificar a causa."
         },
         {
           "pergunta": "A gengiva inchada sempre significa gengivite?",
@@ -582,7 +628,7 @@
         },
         {
           "pergunta": "Gengiva inchada pode ser um sinal de doença grave?",
-          "resposta": "Pesquisas indicam que inflamações gengivais não afetam apenas a boca, mas podem ter impacto na saúde geral. Segundo a Biblioteca Virtual em Saúde, doenças gengivais estão associadas a condições como diabetes e problemas cardiovasculares, tornando essencial o cuidado com a saúde bucal."
+          "resposta": "Pode ser. Segundo a <a href=\"https://www.health.harvard.edu/diseases-and-conditions/gum-disease-and-the-connection-to-heart-disease\" target=\"_blank\" rel=\"noopener\">Harvard Health</a>, existe uma associação entre doenças gengivais e condições como diabetes e problemas cardiovasculares — a relação de causa e efeito ainda está sendo estudada, mas a ligação já é motivo suficiente para não negligenciar a saúde bucal."
         },
         {
           "pergunta": "O que é bom para desinchar a gengiva rápido?",
