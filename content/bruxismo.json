@@ -6,7 +6,7 @@
   "categoria": "tratamentos",
   "autor": "dra-kesya-nogueira",
   "cluster_pai": null,
-  "cluster_filhos": ["bruxismo-do-sono", "placa-de-bruxismo", "bruxismo-infantil", "botox-para-bruxismo", "bruxismo-e-dor-de-cabeca", "bruxismo-causa-dtm", "como-saber-se-tenho-bruxismo", "bruxismo-por-ansiedade", "bruxismo-e-apneia-do-sono", "bruxismo-e-alinhador-invisivel", "bruxismo-e-implante-dentario", "voce-pode-ter-bruxismo-sem-perceber", "fisioterapia-e-exercicios-para-bruxismo", "odontologia-do-sono", "cara-de-brava-bruxismo", "bruxismo-em-vigilia-atletas"],
+  "cluster_filhos": ["bruxismo-do-sono", "placa-de-bruxismo", "bruxismo-infantil", "botox-para-bruxismo", "bruxismo-e-dor-de-cabeca", "bruxismo-causa-dtm", "como-saber-se-tenho-bruxismo", "bruxismo-por-ansiedade", "bruxismo-e-apneia-do-sono", "bruxismo-e-alinhador-invisivel", "bruxismo-e-implante-dentario", "voce-pode-ter-bruxismo-sem-perceber", "fisioterapia-e-exercicios-para-bruxismo", "odontologia-do-sono", "cara-de-brava-bruxismo", "bruxismo-em-vigilia-atletas", "bruxismo-e-medicamentos"],
   "capa": {
     "url": "/assets/recovered/2023/11/O-que-e-Bruxismo-1024x576.png",
     "srcset": "/assets/recovered/2023/11/O-que-e-Bruxismo-300x169.png 300w, /assets/recovered/2023/11/O-que-e-Bruxismo-768x432.png 768w, /assets/recovered/2023/11/O-que-e-Bruxismo-1024x576.png 1024w, /assets/recovered/2023/11/O-que-e-Bruxismo.png 1366w",
@@ -38,7 +38,7 @@
         "<strong>Má oclusão dentária:</strong> quando os dentes superiores e inferiores não se encaixam corretamente, o corpo tende a \"buscar\" um encaixe, gerando o ranger.",
         "<strong>Respiração bucal:</strong> a boca seca pela passagem constante de ar pode estimular movimentos involuntários dos dentes.",
         "<strong>Distúrbios do sono:</strong> como <a href=\"https://stelleodontologia.com.br/bruxismo-e-apneia-do-sono/\">apneia do sono</a> — nesses casos, o bruxismo pode ser uma resposta do corpo a microdespertares durante episódios de obstrução respiratória. Um <a href=\"https://jcsm.aasm.org/doi/10.5664/jcsm.10348\" target=\"_blank\" rel=\"noopener\">estudo polissonográfico publicado no Journal of Clinical Sleep Medicine</a>, da American Academy of Sleep Medicine, encontrou bruxismo do sono em até 50% dos pacientes com apneia obstrutiva do sono.",
-        "<strong>Uso de estimulantes:</strong> cafeína em excesso, álcool, tabagismo e alguns medicamentos também são apontados como fatores de risco.",
+        "<strong>Uso de estimulantes e medicamentos:</strong> cafeína em excesso, álcool, tabagismo e alguns medicamentos também são apontados como fatores de risco — inclusive antidepressivos, como explicamos em <a href=\"https://stelleodontologia.com.br/bruxismo-e-medicamentos/\">bruxismo e medicamentos</a>.",
         "<strong>Fatores genéticos:</strong> quem tem histórico familiar de bruxismo tem mais chance de desenvolver o hábito."
     ]},
     { "tipo": "paragrafo", "texto": "Descobrir a causa por trás do seu bruxismo é o primeiro passo para um tratamento eficaz — por isso a avaliação com um dentista é sempre o ponto de partida, e não apenas o uso de uma placa por conta própria." },

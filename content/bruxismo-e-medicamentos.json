@@ -1,0 +1,64 @@
+{
+  "slug": "bruxismo-e-medicamentos",
+  "titulo_meta": "Bruxismo e Medicamentos: Antidepressivos Podem Causar? - Stelle",
+  "titulo_h1": "Bruxismo e Medicamentos: Antidepressivos Podem Causar o Problema?",
+  "meta_description": "Alguns antidepressivos (ISRS) podem causar ou piorar o bruxismo. Entenda quais medicamentos estão envolvidos, por que isso acontece e o que fazer.",
+  "categoria": "tratamentos",
+  "autor": "dra-kesya-nogueira",
+  "cluster_pai": "bruxismo",
+  "capa": {
+    "url": "/assets/recovered/2023/11/O-que-e-Bruxismo-1024x576.png",
+    "srcset": "/assets/recovered/2023/11/O-que-e-Bruxismo-300x169.png 300w, /assets/recovered/2023/11/O-que-e-Bruxismo-768x432.png 768w, /assets/recovered/2023/11/O-que-e-Bruxismo-1024x576.png 1024w, /assets/recovered/2023/11/O-que-e-Bruxismo.png 1366w",
+    "og": "https://stelleodontologia.com.br/assets/recovered/2023/11/O-que-e-Bruxismo-1024x576.png",
+    "alt": "Ilustração representando o bruxismo, o hábito de ranger os dentes"
+  },
+  "publicado": true,
+  "publicado_em": "2026-09-03",
+  "atualizado_em": "2026-09-03",
+  "blocos": [
+    { "tipo": "pillar_badge", "texto": "Parte do Guia Completo sobre Bruxismo", "link": "/bruxismo/" },
+    { "tipo": "paragrafo", "texto": "<strong>Sim, alguns medicamentos podem causar ou piorar o bruxismo</strong> — principalmente antidepressivos da classe ISRS (inibidores seletivos de recaptação de serotonina), como fluoxetina, sertralina e paroxetina. O mecanismo é bem documentado na literatura médica, mas isso não significa que você deva parar o medicamento por conta própria: a conduta certa é conversar com quem prescreveu, nunca interromper sozinho." },
+    { "tipo": "paragrafo", "texto": "Este artigo faz parte do nosso <a href=\"/bruxismo/\">guia completo sobre bruxismo</a> e explica quais medicamentos estão envolvidos, por que isso acontece e o que fazer se você suspeita dessa relação no seu caso." },
+
+    { "tipo": "titulo", "nivel": 2, "texto": "Quais Medicamentos Podem Causar ou Piorar o Bruxismo" },
+    { "tipo": "paragrafo", "texto": "Segundo a <a href=\"https://my.clevelandclinic.org/health/diseases/10955-teeth-grinding-bruxism\" target=\"_blank\" rel=\"noopener\">Cleveland Clinic</a>, os antidepressivos da classe ISRS estão entre os principais fatores de risco medicamentosos para o bruxismo. Os grupos mais associados ao problema na literatura científica são:" },
+    { "tipo": "lista", "itens": [
+        "<strong>ISRS (inibidores seletivos de recaptação de serotonina):</strong> fluoxetina, sertralina, paroxetina, citalopram, escitalopram e fluvoxamina — a classe mais estudada e mais frequentemente associada ao bruxismo induzido por medicamento;",
+        "<strong>IRSN (inibidores de recaptação de serotonina e noradrenalina):</strong> venlafaxina e duloxetina também aparecem com frequência em estudos sobre o tema;",
+        "<strong>Estimulantes usados no tratamento de TDAH:</strong> podem aumentar a atividade muscular da mastigação em alguns pacientes;",
+        "<strong>Antipsicóticos:</strong> em casos mais raros, também são associados a movimentos involuntários da mandíbula."
+    ]},
+    { "tipo": "paragrafo", "texto": "Isso não significa que todo mundo que usa esses medicamentos vai desenvolver bruxismo — é um efeito colateral possível, não garantido, e a intensidade varia muito de pessoa para pessoa." },
+
+    { "tipo": "titulo", "nivel": 2, "texto": "O Que Mostra a Pesquisa" },
+    { "tipo": "paragrafo", "texto": "Um <a href=\"https://pubmed.ncbi.nlm.nih.gov/26536018/\" target=\"_blank\" rel=\"noopener\">estudo publicado na revista Clinical Neuropharmacology</a>, com 807 pacientes (506 em uso de antidepressivos e 301 no grupo controle), encontrou uma prevalência de bruxismo de <strong>24,3% no grupo em uso de antidepressivos, contra 15,3% no grupo controle</strong>. A incidência de bruxismo relacionado diretamente ao início do uso do medicamento foi de <strong>14%</strong> — ou seja, quase 1 em cada 7 pacientes que começaram a tomar o antidepressivo desenvolveu o hábito de ranger ou apertar os dentes que não tinha antes." },
+    { "tipo": "paragrafo", "texto": "Esses números ajudam a explicar por que, em consultório, é comum encontrar pacientes que notaram o início do bruxismo logo depois de começar (ou trocar) um antidepressivo — uma coincidência de tempo que, na verdade, não é coincidência." },
+
+    { "tipo": "titulo", "nivel": 2, "texto": "Por Que Isso Acontece?" },
+    { "tipo": "paragrafo", "texto": "O mecanismo mais aceito envolve um desequilíbrio entre dois neurotransmissores: serotonina e dopamina. Os ISRS aumentam a quantidade de serotonina disponível no cérebro — é assim que ajudam no tratamento da depressão e da ansiedade — mas esse aumento pode, em alguns receptores específicos, reduzir a atividade da dopamina em uma região do cérebro (os núcleos da base) que ajuda a controlar os movimentos musculares. O resultado é uma espécie de \"desinibição\" de padrões motores repetitivos, incluindo a atividade dos músculos da mastigação — o que pode se manifestar como bruxismo." },
+
+    { "tipo": "titulo", "nivel": 2, "texto": "O Que Fazer Se Você Suspeita Dessa Relação" },
+    { "tipo": "paragrafo", "texto": "Se você começou (ou aumentou a dose de) um antidepressivo e notou sinais de bruxismo — dor na mandíbula ao acordar, desgaste nos dentes, dor de cabeça nas têmporas — o passo mais importante é <strong>não interromper o medicamento por conta própria</strong>. Parar um antidepressivo de forma abrupta pode causar sintomas de descontinuação e comprometer o tratamento psiquiátrico ou psicológico em curso." },
+    { "tipo": "lista", "itens": [
+        "<strong>Converse com quem prescreveu o medicamento:</strong> o médico pode avaliar se vale ajustar a dose, trocar por outro fármaco com menor associação ao bruxismo, ou associar outro medicamento para controlar o efeito colateral;",
+        "<strong>Procure um dentista para proteção imediata:</strong> enquanto a questão médica é avaliada, uma <a href=\"/placa-de-bruxismo/\">placa de bruxismo</a> sob medida protege os dentes do desgaste;",
+        "<strong>Não troque de remédio por conta própria:</strong> a decisão sobre manter, trocar ou ajustar a medicação psiquiátrica é sempre do médico responsável, nunca do dentista ou do próprio paciente."
+    ]},
+    { "tipo": "paragrafo", "texto": "O acompanhamento ideal é conjunto: o médico cuida da causa (o tratamento psiquiátrico em si) e o dentista cuida da proteção dos dentes enquanto isso é resolvido." },
+
+    { "tipo": "titulo", "nivel": 2, "texto": "Bruxismo por Medicamento é Diferente do Bruxismo \"Comum\"?" },
+    { "tipo": "paragrafo", "texto": "Na prática clínica, não — os sinais são os mesmos (desgaste dentário, dor na mandíbula, dor de cabeça) e o tratamento de proteção também: a <a href=\"/placa-de-bruxismo/\">placa de bruxismo</a> funciona da mesma forma, independentemente da causa. A diferença está na origem: aqui, em vez de estresse, má oclusão ou apneia do sono, o gatilho é o efeito do medicamento sobre a química cerebral. Por isso, é importante informar ao dentista quais medicamentos você usa — essa informação muda a forma como a causa é investigada, mesmo que não mude o tratamento odontológico de proteção em si." },
+
+    { "tipo": "callout", "texto": "Notou sinais de bruxismo depois de começar um novo medicamento? Agende uma avaliação para proteger seus dentes enquanto a questão é investigada com seu médico.", "cta_texto": "Agendar avaliação", "cta_link": "https://wa.me/5521976939004?text=Gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20sobre%20bruxismo%20e%20medicamentos" },
+
+    { "tipo": "faq", "titulo": "Perguntas frequentes sobre bruxismo e medicamentos", "perguntas": [
+      { "pergunta": "Devo parar de tomar meu antidepressivo se ele estiver causando bruxismo?", "resposta": "Não, nunca por conta própria. Interromper um antidepressivo sem orientação médica pode causar sintomas de descontinuação e prejudicar o tratamento em curso. Converse com o médico que prescreveu — ele pode ajustar a dose, trocar o medicamento ou associar outro para controlar o efeito colateral." },
+      { "pergunta": "Todo mundo que toma ISRS desenvolve bruxismo?", "resposta": "Não. É um efeito colateral possível, não garantido. Estudos mostram prevalência maior em quem usa esses medicamentos (cerca de 24%) comparado a quem não usa (cerca de 15%), mas a maioria dos usuários não desenvolve o problema." },
+      { "pergunta": "Quanto tempo depois de começar o medicamento o bruxismo pode aparecer?", "resposta": "Varia de pessoa para pessoa. Em muitos casos relatados na literatura, os sinais aparecem nas primeiras semanas após o início ou o aumento da dose do medicamento." },
+      { "pergunta": "A placa de bruxismo funciona mesmo se a causa for o medicamento?", "resposta": "Sim. A placa protege os dentes do desgaste independentemente da causa do bruxismo — ela trata o efeito (o desgaste), não a causa. Por isso pode ser usada enquanto a questão da medicação é avaliada com o médico." },
+      { "pergunta": "Quais antidepressivos têm menos relação com bruxismo?", "resposta": "Isso é uma decisão médica que depende do quadro clínico de cada paciente — não é algo que o próprio paciente deve decidir trocar sozinho. Se você tem essa preocupação, converse diretamente com o psiquiatra ou médico responsável pela prescrição." }
+    ]},
+
+    { "tipo": "paragrafo", "texto": "Quer entender o quadro completo sobre bruxismo? Volte ao <a href=\"/bruxismo/\">guia completo sobre bruxismo</a> para ver todas as causas, sintomas e opções de tratamento." }
+  ]
+}
