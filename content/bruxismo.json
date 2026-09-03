@@ -6,7 +6,7 @@
   "categoria": "tratamentos",
   "autor": "dra-kesya-nogueira",
   "cluster_pai": null,
-  "cluster_filhos": ["bruxismo-do-sono", "placa-de-bruxismo", "bruxismo-infantil", "botox-para-bruxismo", "bruxismo-e-dor-de-cabeca", "bruxismo-causa-dtm", "como-saber-se-tenho-bruxismo", "bruxismo-por-ansiedade", "bruxismo-e-apneia-do-sono", "bruxismo-e-alinhador-invisivel", "bruxismo-e-implante-dentario", "voce-pode-ter-bruxismo-sem-perceber", "fisioterapia-e-exercicios-para-bruxismo", "odontologia-do-sono", "cara-de-brava-bruxismo", "bruxismo-em-vigilia-atletas", "bruxismo-e-medicamentos"],
+  "cluster_filhos": ["bruxismo-do-sono", "placa-de-bruxismo", "bruxismo-infantil", "botox-para-bruxismo", "bruxismo-e-dor-de-cabeca", "bruxismo-causa-dtm", "como-saber-se-tenho-bruxismo", "bruxismo-por-ansiedade", "bruxismo-e-apneia-do-sono", "bruxismo-e-alinhador-invisivel", "bruxismo-e-implante-dentario", "voce-pode-ter-bruxismo-sem-perceber", "fisioterapia-e-exercicios-para-bruxismo", "odontologia-do-sono", "cara-de-brava-bruxismo", "bruxismo-em-vigilia-atletas", "bruxismo-e-medicamentos", "bruxismo-e-aparelho-fixo"],
   "capa": {
     "url": "/assets/recovered/2023/11/O-que-e-Bruxismo-1024x576.png",
     "srcset": "/assets/recovered/2023/11/O-que-e-Bruxismo-300x169.png 300w, /assets/recovered/2023/11/O-que-e-Bruxismo-768x432.png 768w, /assets/recovered/2023/11/O-que-e-Bruxismo-1024x576.png 1024w, /assets/recovered/2023/11/O-que-e-Bruxismo.png 1366w",
@@ -87,7 +87,7 @@
         "<strong>Ajuste oclusal:</strong> em casos de má oclusão, o tratamento ortodôntico pode ser necessário para eliminar o gatilho do bruxismo.",
         "<strong><a href=\"https://stelleodontologia.com.br/fisioterapia-e-exercicios-para-bruxismo/\">Fisioterapia e exercícios mandibulares</a>:</strong> ajudam a tratar a musculatura e a articulação já sobrecarregadas, principalmente em casos com dor ou DTM associada."
     ]},
-    { "tipo": "paragrafo", "texto": "O tratamento ideal depende da causa identificada na avaliação — por isso reforçamos: evite comprar uma placa \"genérica\" sem antes passar por um dentista. Se você está pensando em corrigir os dentes ou repor algum que falta, também vale ler nossos artigos sobre <a href=\"https://stelleodontologia.com.br/bruxismo-e-alinhador-invisivel/\">bruxismo e alinhador invisível</a> e <a href=\"https://stelleodontologia.com.br/bruxismo-e-implante-dentario/\">bruxismo e implante dentário</a>." },
+    { "tipo": "paragrafo", "texto": "O tratamento ideal depende da causa identificada na avaliação — por isso reforçamos: evite comprar uma placa \"genérica\" sem antes passar por um dentista. Se você está pensando em corrigir os dentes ou repor algum que falta, também vale ler nossos artigos sobre <a href=\"https://stelleodontologia.com.br/bruxismo-e-alinhador-invisivel/\">bruxismo e alinhador invisível</a>, <a href=\"https://stelleodontologia.com.br/bruxismo-e-aparelho-fixo/\">bruxismo e aparelho fixo</a> e <a href=\"https://stelleodontologia.com.br/bruxismo-e-implante-dentario/\">bruxismo e implante dentário</a>." },
 
     { "tipo": "titulo", "nivel": 2, "texto": "8. Convivendo com o Bruxismo: Cuidados no Dia a Dia" },
     { "tipo": "lista", "itens": [

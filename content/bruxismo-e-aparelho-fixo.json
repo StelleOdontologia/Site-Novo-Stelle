@@ -1,0 +1,62 @@
+{
+  "slug": "bruxismo-e-aparelho-fixo",
+  "titulo_meta": "Bruxismo e Aparelho Fixo: É Possível Fazer o Tratamento? - Stelle",
+  "titulo_h1": "Bruxismo e Aparelho Fixo: É Possível Fazer o Tratamento?",
+  "meta_description": "Quem tem bruxismo pode usar aparelho fixo tradicional? Entenda os cuidados extras, os riscos para brackets e fios, e como proteger os dentes durante o tratamento.",
+  "categoria": "ortodontia",
+  "autor": "dra-kesya-nogueira",
+  "cluster_pai": "bruxismo",
+  "capa": {
+    "url": "/assets/recovered/2023/11/O-que-e-Bruxismo-1024x576.png",
+    "srcset": "/assets/recovered/2023/11/O-que-e-Bruxismo-300x169.png 300w, /assets/recovered/2023/11/O-que-e-Bruxismo-768x432.png 768w, /assets/recovered/2023/11/O-que-e-Bruxismo-1024x576.png 1024w, /assets/recovered/2023/11/O-que-e-Bruxismo.png 1366w",
+    "og": "https://stelleodontologia.com.br/assets/recovered/2023/11/O-que-e-Bruxismo-1024x576.png",
+    "alt": "Ilustração representando o bruxismo, o hábito de ranger os dentes"
+  },
+  "publicado": true,
+  "publicado_em": "2026-09-03",
+  "atualizado_em": "2026-09-03",
+  "blocos": [
+    { "tipo": "pillar_badge", "texto": "Parte do Guia Completo sobre Bruxismo", "link": "/bruxismo/" },
+    { "tipo": "paragrafo", "texto": "<strong>Sim, é possível usar aparelho fixo tradicional mesmo tendo bruxismo</strong> — não é uma contraindicação. O que muda é o cuidado extra: a força do ranger e do aperto pode soltar brackets, entortar fios e, em alguns casos, prolongar o tratamento, então o ortodontista precisa saber do diagnóstico desde a avaliação inicial." },
+    { "tipo": "paragrafo", "texto": "Este artigo faz parte do nosso <a href=\"/bruxismo/\">guia completo sobre bruxismo</a> e explica como o hábito interage com o aparelho fixo (metálico ou estético), o que muda no planejamento e como proteger os dentes durante o tratamento." },
+
+    { "tipo": "titulo", "nivel": 2, "texto": "Bruxismo Impede o Uso de Aparelho Fixo?" },
+    { "tipo": "paragrafo", "texto": "Não. O aparelho fixo continua sendo, inclusive, a opção mais indicada para os casos mais complexos de desalinhamento — justamente os pacientes que mais se beneficiam dele. Segundo a <a href=\"https://aaoinfo.org/treatments/braces/\" target=\"_blank\" rel=\"noopener\">American Association of Orthodontists</a>, os aparelhos fixos tratam uma gama mais ampla de problemas ortodônticos do que os alinhadores, incluindo mordidas muito desalinhadas. O bruxismo não muda essa indicação — só exige um acompanhamento mais atento." },
+
+    { "tipo": "titulo", "nivel": 2, "texto": "Como o Bruxismo Afeta o Aparelho Fixo Durante o Tratamento" },
+    { "tipo": "paragrafo", "texto": "O aparelho fixo é colado diretamente aos dentes e depende de uma força controlada e constante, aplicada pelos fios, para mover os dentes de forma previsível. O ranger e o aperto excessivo introduzem uma força extra e descontrolada nessa equação, o que pode:" },
+    { "tipo": "lista", "itens": [
+        "Soltar ou quebrar brackets com mais frequência do que o esperado;",
+        "Entortar ou deformar os fios ortodônticos, alterando o movimento planejado;",
+        "Aumentar o número de consultas de reparo, o que pode estender o tempo total de tratamento;",
+        "Sobrecarregar dentes e gengiva, com risco maior de desgaste e sensibilidade nas regiões de contato."
+    ]},
+    { "tipo": "paragrafo", "texto": "Por isso, informar o bruxismo já na primeira consulta ajuda o ortodontista a planejar retornos mais frequentes e, em alguns casos, usar recursos específicos — como um <strong>bite turbo</strong> (pequeno reforço colado nos dentes que impede o contato direto e completo entre as arcadas) — para reduzir a sobrecarga sobre o aparelho." },
+
+    { "tipo": "titulo", "nivel": 2, "texto": "Corrigir os Dentes com Aparelho Fixo Cura o Bruxismo?" },
+    { "tipo": "paragrafo", "texto": "Não necessariamente — e vale um alerta aqui contra uma expectativa comum. A <a href=\"https://www.colgate.com/en-us/oral-health/bruxism/bruxism-signs-and-symptoms\" target=\"_blank\" rel=\"noopener\">Colgate</a> lista a má oclusão (dentes que não se encaixam corretamente) entre os fatores associados ao bruxismo, então corrigir esse desalinhamento <em>pode</em> ajudar a reduzir a frequência do hábito em alguns casos. Mas a <a href=\"https://my.clevelandclinic.org/health/diseases/10955-teeth-grinding-bruxism\" target=\"_blank\" rel=\"noopener\">Cleveland Clinic</a> não inclui a correção ortodôntica entre os tratamentos padrão recomendados para bruxismo — a lista se concentra em placa de proteção, controle de estresse e, em casos mais intensos, toxina botulínica. Ou seja: o aparelho fixo alinha os dentes por um motivo próprio (estética, função, saúde bucal), e uma eventual melhora no bruxismo é um efeito possível, não a razão para escolher esse tratamento nem uma garantia de resultado." },
+
+    { "tipo": "titulo", "nivel": 2, "texto": "Posso Usar Placa de Bruxismo Junto com o Aparelho Fixo?" },
+    { "tipo": "paragrafo", "texto": "É mais complicado do que parece. Uma <a href=\"/placa-de-bruxismo/\">placa de bruxismo</a> convencional é feita sob medida para o formato atual dos dentes — mas com o aparelho fixo, os dentes estão se movendo constantemente, o que faria a placa parar de encaixar em poucas semanas. Por esse motivo:" },
+    { "tipo": "lista", "itens": [
+        "Na maioria dos casos leves a moderados, o próprio acompanhamento mais frequente do ortodontista (ajustando fios e brackets) já é suficiente durante o tratamento;",
+        "Em casos de bruxismo mais intenso, o ortodontista pode indicar dispositivos específicos, compatíveis com o aparelho, avaliados caso a caso — nunca uma placa genérica comprada sem orientação;",
+        "Após o término do tratamento ortodôntico, se o bruxismo persistir, a contenção final (usada para manter os dentes na nova posição) pode ser confeccionada já com função de proteção contra o desgaste, unindo as duas necessidades."
+    ]},
+
+    { "tipo": "titulo", "nivel": 2, "texto": "Aparelho Fixo ou Alinhador Invisível para Quem Tem Bruxismo?" },
+    { "tipo": "paragrafo", "texto": "Os dois tratamentos são possíveis para quem tem bruxismo, mas lidam com o problema de formas diferentes: o aparelho fixo é mais resistente à força do bruxismo em si (embora sujeito a brackets soltando), enquanto o alinhador invisível oferece uma proteção parcial contra o desgaste dos dentes enquanto está sendo usado. Veja a comparação completa em <a href=\"https://stelleodontologia.com.br/bruxismo-e-alinhador-invisivel/\">bruxismo e alinhador invisível</a> para entender qual se encaixa melhor no seu caso." },
+
+    { "tipo": "callout", "texto": "Tem bruxismo e está pensando em colocar aparelho fixo? Agende uma avaliação e descubra o plano de tratamento ideal para o seu caso.", "cta_texto": "Agendar avaliação", "cta_link": "https://wa.me/5521976939004?text=Tenho%20bruxismo%20e%20gostaria%20de%20saber%20sobre%20aparelho%20fixo" },
+
+    { "tipo": "faq", "titulo": "Perguntas frequentes", "perguntas": [
+      { "pergunta": "Bruxismo aumenta o risco de quebrar o aparelho fixo?", "resposta": "Sim, a força extra do ranger e do aperto pode soltar brackets e entortar fios com mais frequência. Por isso é importante informar o dentista sobre o bruxismo já na avaliação inicial, para um acompanhamento mais próximo." },
+      { "pergunta": "Preciso avisar o ortodontista se eu tenho bruxismo?", "resposta": "Sim, é fundamental. Essa informação muda a frequência dos retornos e pode levar à indicação de recursos como o bite turbo para reduzir a sobrecarga sobre o aparelho." },
+      { "pergunta": "Aparelho fixo cura o bruxismo?", "resposta": "Não necessariamente. Corrigir a má oclusão pode ajudar a reduzir a frequência do hábito em alguns casos, mas a correção ortodôntica não está entre os tratamentos padrão recomendados para bruxismo — o foco continua sendo a proteção dos dentes e o controle da causa de base." },
+      { "pergunta": "Posso usar uma placa de bruxismo comum durante o tratamento com aparelho fixo?", "resposta": "Não é recomendado. Como os dentes estão em movimento constante, uma placa convencional perde o encaixe rapidamente. O ortodontista avalia, caso a caso, se algum dispositivo compatível com o aparelho é necessário." },
+      { "pergunta": "O bruxismo pode prolongar o tempo de tratamento com aparelho fixo?", "resposta": "Pode, principalmente se causar quebras frequentes de brackets ou deformação dos fios, exigindo consultas extras de reparo que atrasam o cronograma planejado." }
+    ]},
+
+    { "tipo": "paragrafo", "texto": "Quer entender o quadro completo sobre bruxismo? Volte ao <a href=\"/bruxismo/\">guia completo sobre bruxismo</a> para ver todas as causas, sintomas e opções de tratamento." }
+  ]
+}
