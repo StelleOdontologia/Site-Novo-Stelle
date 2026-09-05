@@ -1,11 +1,12 @@
 {
   "slug": "guia-completo-sobre-remedio-para-dor-de-dente-dicas-e-recomendacoes",
-  "titulo_meta": "Remédio para Dor de Dente - Stelle Odontologia",
-  "titulo_h1": "Remédio para Dor de Dente - Stelle Odontologia",
-  "meta_description": "Descubra como aliviar a dor de dente! Veja nossa imagem que retrata a busca por informações sobre remédios eficazes para tratar esse desconforto.",
+  "titulo_meta": "Remédio para Dor de Dente: Guia Completo - Stelle Odontologia",
+  "titulo_h1": "Remédio para Dor de Dente: Causas, Alívio e Quando Procurar um Dentista",
+  "meta_description": "Descubra como aliviar a dor de dente, os remédios mais indicados, causas comuns (cárie, siso, pós-tratamento) e sinais de quando procurar um dentista.",
   "categoria": "saude-bucal",
   "autor": "dra-kesya-nogueira",
   "cluster_pai": null,
+  "cluster_filhos": ["dor-de-dente-apos-restauracao", "o-que-fazer-quando-o-dente-esta-cariado", "o-que-uma-carie-profunda-pode-causar", "dente-do-siso-esta-inflamado"],
   "capa": {
     "url": "/assets/recovered/2024/12/Remedio-para-dor-de-dente-1024x585.webp",
     "srcset": "/assets/recovered/2024/12/Remedio-para-dor-de-dente-1024x585.webp 1024w, /assets/recovered/2024/12/Remedio-para-dor-de-dente-300x171.webp 300w, /assets/recovered/2024/12/Remedio-para-dor-de-dente-768x439.webp 768w, /assets/recovered/2024/12/Remedio-para-dor-de-dente-1536x878.webp 1536w, /assets/recovered/2024/12/Remedio-para-dor-de-dente.webp 1792w",
@@ -102,7 +103,7 @@
     },
     {
       "tipo": "paragrafo",
-      "texto": "Identificar a causa da dor é essencial para evitar o agravamento da condição e determinar o tratamento correto."
+      "texto": "Identificar a causa da dor é essencial para evitar o agravamento da condição e determinar o tratamento correto. Duas causas específicas merecem atenção à parte: veja o que fazer quando <a href=\"https://stelleodontologia.com.br/o-que-fazer-quando-o-dente-esta-cariado/\">o dente está cariado</a> e o que <a href=\"https://stelleodontologia.com.br/o-que-uma-carie-profunda-pode-causar/\">uma cárie profunda pode causar</a> se não for tratada a tempo."
     },
     {
       "tipo": "titulo",
@@ -455,7 +456,7 @@
     },
     {
       "tipo": "paragrafo",
-      "texto": "Esses sinais podem indicar condições graves, como infecções generalizadas (sepse), que requerem tratamento de urgência."
+      "texto": "Esses sinais podem indicar condições graves, como infecções generalizadas (sepse), que requerem tratamento de urgência. Duas situações específicas costumam gerar dúvida: quando <a href=\"https://stelleodontologia.com.br/dente-do-siso-esta-inflamado/\">o dente do siso está inflamado</a> e quando surge <a href=\"https://stelleodontologia.com.br/dor-de-dente-apos-restauracao/\">dor de dente depois de uma restauração</a> — em ambos os casos, vale entender se é esperado ou se precisa de avaliação."
     },
     {
       "tipo": "titulo",

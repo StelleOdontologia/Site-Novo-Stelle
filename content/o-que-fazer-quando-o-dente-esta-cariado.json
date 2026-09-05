@@ -5,7 +5,7 @@
   "meta_description": "O dente cariado deve ser avaliado por um dentista o quanto antes. Veja os tipos de cárie, o que fazer diante de cada um e quando é possível evitar a extração.",
   "categoria": "saude-bucal",
   "autor": "dra-kesya-nogueira",
-  "cluster_pai": null,
+  "cluster_pai": "guia-completo-sobre-remedio-para-dor-de-dente-dicas-e-recomendacoes",
   "capa": {
     "url": "/assets/recovered/2019/12/O-que-Fazer-Quando-o-Dente-esta-Cariado.jpg",
     "srcset": "/assets/recovered/2019/12/O-que-Fazer-Quando-o-Dente-esta-Cariado.jpg 915w, /assets/recovered/2019/12/O-que-Fazer-Quando-o-Dente-esta-Cariado-300x200.jpg 300w, /assets/recovered/2019/12/O-que-Fazer-Quando-o-Dente-esta-Cariado-768x512.jpg 768w",
@@ -16,38 +16,110 @@
   "publicado_em": "2019-12-27",
   "atualizado_em": "2026-09-01",
   "blocos": [
-    { "tipo": "paragrafo", "texto": "<strong>Quando o dente está cariado, o certo é procurar um dentista o quanto antes</strong> — não existe cuidado caseiro que trate a cárie, só que evite que ela piore enquanto você não vai à consulta. Quanto antes for avaliada, maior a chance de resolver com uma restauração simples, sem precisar de canal ou extração." },
-    { "tipo": "paragrafo", "texto": "Este artigo explica os tipos de cárie e o que fazer diante de cada um. Se a cárie já está avançada e dolorida, veja também <a href=\"https://stelleodontologia.com.br/o-que-uma-carie-profunda-pode-causar/\">o que uma cárie profunda pode causar</a> e os estágios até chegar nesse ponto." },
-
-    { "tipo": "titulo", "nivel": 2, "texto": "O Que é Cárie?" },
-    { "tipo": "paragrafo", "texto": "A cárie é uma doença causada por bactérias que destroem os tecidos duros do dente, formando pequenos pontos escuros que evoluem para cavidades. Pode aparecer em qualquer idade, mas crianças são mais vulneráveis, geralmente por hábitos alimentares e higiene bucal ainda em desenvolvimento." },
-    { "tipo": "paragrafo", "texto": "Como é um processo infeccioso causado por bactéria, a cárie também é <strong>transmissível</strong> — inclusive de mãe para bebê, pela saliva. Veja como isso acontece e como se prevenir em <a href=\"https://stelleodontologia.com.br/carie-na-gravidez/\">cárie na gravidez: mito ou verdade</a>." },
-
-    { "tipo": "titulo", "nivel": 2, "texto": "Os 3 Principais Tipos de Cárie" },
-    { "tipo": "tabela", "linhas": [
-        ["Tipo", "Onde ocorre", "O que fazer"],
-        ["Coronária", "Superfície de mastigação ou entre os dentes — a mais comum em crianças e adultos", "Boa higiene bucal e selante preventivo nos dentes de trás"],
-        ["Radicular", "Na raiz do dente, quando a gengiva retrai e a raiz fica exposta (sem esmalte de proteção)", "Avaliação rápida — a raiz se deteriora mais rápido por não ter esmalte"],
-        ["Recorrente", "Ao redor de restaurações ou coroas já existentes", "Troca da restauração antiga e nova avaliação de higiene na região"]
-    ]},
-
-    { "tipo": "titulo", "nivel": 2, "texto": "O Que Fazer Quando o Dente Está Cariado" },
-    { "tipo": "lista", "itens": [
+    {
+      "tipo": "pillar_badge",
+      "texto": "Parte do Guia Completo sobre Remédio para Dor de Dente",
+      "link": "/guia-completo-sobre-remedio-para-dor-de-dente-dicas-e-recomendacoes/"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "<strong>Quando o dente está cariado, o certo é procurar um dentista o quanto antes</strong> — não existe cuidado caseiro que trate a cárie, só que evite que ela piore enquanto você não vai à consulta. Quanto antes for avaliada, maior a chance de resolver com uma restauração simples, sem precisar de canal ou extração."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Este artigo explica os tipos de cárie e o que fazer diante de cada um. Se a cárie já está avançada e dolorida, veja também <a href=\"https://stelleodontologia.com.br/o-que-uma-carie-profunda-pode-causar/\">o que uma cárie profunda pode causar</a> e os estágios até chegar nesse ponto."
+    },
+    {
+      "tipo": "titulo",
+      "nivel": 2,
+      "texto": "O Que é Cárie?"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "A cárie é uma doença causada por bactérias que destroem os tecidos duros do dente, formando pequenos pontos escuros que evoluem para cavidades. Pode aparecer em qualquer idade, mas crianças são mais vulneráveis, geralmente por hábitos alimentares e higiene bucal ainda em desenvolvimento."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Como é um processo infeccioso causado por bactéria, a cárie também é <strong>transmissível</strong> — inclusive de mãe para bebê, pela saliva. Veja como isso acontece e como se prevenir em <a href=\"https://stelleodontologia.com.br/carie-na-gravidez/\">cárie na gravidez: mito ou verdade</a>."
+    },
+    {
+      "tipo": "titulo",
+      "nivel": 2,
+      "texto": "Os 3 Principais Tipos de Cárie"
+    },
+    {
+      "tipo": "tabela",
+      "linhas": [
+        [
+          "Tipo",
+          "Onde ocorre",
+          "O que fazer"
+        ],
+        [
+          "Coronária",
+          "Superfície de mastigação ou entre os dentes — a mais comum em crianças e adultos",
+          "Boa higiene bucal e selante preventivo nos dentes de trás"
+        ],
+        [
+          "Radicular",
+          "Na raiz do dente, quando a gengiva retrai e a raiz fica exposta (sem esmalte de proteção)",
+          "Avaliação rápida — a raiz se deteriora mais rápido por não ter esmalte"
+        ],
+        [
+          "Recorrente",
+          "Ao redor de restaurações ou coroas já existentes",
+          "Troca da restauração antiga e nova avaliação de higiene na região"
+        ]
+      ]
+    },
+    {
+      "tipo": "titulo",
+      "nivel": 2,
+      "texto": "O Que Fazer Quando o Dente Está Cariado"
+    },
+    {
+      "tipo": "lista",
+      "itens": [
         "<strong>Agende uma avaliação com o dentista</strong> assim que notar dor, sensibilidade ou uma mancha escura — não espere a dor piorar;",
         "<strong>Não tente \"tratar\" a cárie sozinho</strong> com remédios caseiros — eles não removem a cárie, só mascaram o sintoma enquanto ela continua avançando;",
         "<strong>Evite açúcar e alimentos muito ácidos</strong> na região afetada até a consulta, para não acelerar o processo;",
         "<strong>Mantenha a escovação e o fio dental</strong> normalmente, com cuidado extra na área sensível."
-    ]},
-    { "tipo": "paragrafo", "texto": "Depois da avaliação, o dentista indica o tratamento adequado: geralmente uma restauração, removendo a parte afetada pela cárie. Só em casos mais avançados — quando não há mais como restaurar o dente — a extração é indicada. Com as técnicas atuais, a grande maioria dos casos tratados a tempo não chega a esse ponto." },
-
-    { "tipo": "callout", "texto": "Notou uma cárie ou sente dor de dente? Não deixe para depois. Agende uma avaliação.", "cta_texto": "Agendar avaliação", "cta_link": "https://wa.me/5521976939004?text=Notei%20uma%20c%C3%A1rie%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o" },
-
-    { "tipo": "faq", "perguntas": [
-      { "pergunta": "Dá para esperar um pouco antes de tratar uma cárie?", "resposta": "Não é recomendado. A cárie não regride sozinha e tende a avançar com o tempo — quanto antes tratada, mais simples costuma ser o tratamento e menor o risco de precisar de canal ou extração." },
-      { "pergunta": "Existe algum remédio caseiro que trata cárie?", "resposta": "Não. Nenhum remédio caseiro remove ou reverte uma cárie já formada. Algumas medidas (evitar açúcar, manter a higiene) ajudam a não piorar o quadro até a consulta, mas o tratamento definitivo é sempre odontológico." },
-      { "pergunta": "Cárie dói sempre?", "resposta": "Não necessariamente. Cáries no início podem não doer, e a ausência de dor não significa ausência de problema. Por isso consultas regulares são importantes, mesmo sem sintomas." },
-      { "pergunta": "Cárie pode pegar de uma pessoa para outra?", "resposta": "Sim, é um processo infeccioso transmissível pela bactéria causadora, principalmente pela saliva — inclusive de mãe para filho. Veja mais em nosso artigo sobre cárie na gravidez." },
-      { "pergunta": "Toda cárie precisa de restauração?", "resposta": "No estágio mais inicial (antes de formar cavidade), a cárie pode às vezes ser revertida com flúor. Mas assim que há cavidade formada, a restauração (ou tratamento mais avançado, dependendo do estágio) é necessária." }
-    ]}
+      ]
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Depois da avaliação, o dentista indica o tratamento adequado: geralmente uma restauração, removendo a parte afetada pela cárie. Só em casos mais avançados — quando não há mais como restaurar o dente — a extração é indicada. Com as técnicas atuais, a grande maioria dos casos tratados a tempo não chega a esse ponto."
+    },
+    {
+      "tipo": "callout",
+      "texto": "Notou uma cárie ou sente dor de dente? Não deixe para depois. Agende uma avaliação.",
+      "cta_texto": "Agendar avaliação",
+      "cta_link": "https://wa.me/5521976939004?text=Notei%20uma%20c%C3%A1rie%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o"
+    },
+    {
+      "tipo": "faq",
+      "perguntas": [
+        {
+          "pergunta": "Dá para esperar um pouco antes de tratar uma cárie?",
+          "resposta": "Não é recomendado. A cárie não regride sozinha e tende a avançar com o tempo — quanto antes tratada, mais simples costuma ser o tratamento e menor o risco de precisar de canal ou extração."
+        },
+        {
+          "pergunta": "Existe algum remédio caseiro que trata cárie?",
+          "resposta": "Não. Nenhum remédio caseiro remove ou reverte uma cárie já formada. Algumas medidas (evitar açúcar, manter a higiene) ajudam a não piorar o quadro até a consulta, mas o tratamento definitivo é sempre odontológico."
+        },
+        {
+          "pergunta": "Cárie dói sempre?",
+          "resposta": "Não necessariamente. Cáries no início podem não doer, e a ausência de dor não significa ausência de problema. Por isso consultas regulares são importantes, mesmo sem sintomas."
+        },
+        {
+          "pergunta": "Cárie pode pegar de uma pessoa para outra?",
+          "resposta": "Sim, é um processo infeccioso transmissível pela bactéria causadora, principalmente pela saliva — inclusive de mãe para filho. Veja mais em nosso artigo sobre cárie na gravidez."
+        },
+        {
+          "pergunta": "Toda cárie precisa de restauração?",
+          "resposta": "No estágio mais inicial (antes de formar cavidade), a cárie pode às vezes ser revertida com flúor. Mas assim que há cavidade formada, a restauração (ou tratamento mais avançado, dependendo do estágio) é necessária."
+        }
+      ]
+    }
   ]
 }

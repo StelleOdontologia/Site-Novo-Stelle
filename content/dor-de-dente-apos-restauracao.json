@@ -5,7 +5,7 @@
   "meta_description": "É alguns casos é comum surgir dor de dente após restauração, mas, o que deve ser feito quando essas dores após uma restauração surgem?",
   "categoria": "saude-bucal",
   "autor": "dra-kesya-nogueira",
-  "cluster_pai": null,
+  "cluster_pai": "guia-completo-sobre-remedio-para-dor-de-dente-dicas-e-recomendacoes",
   "capa": {
     "url": "/assets/recovered/2019/12/Dor-de-dente-apos-restauracao.jpg",
     "srcset": "/assets/recovered/2019/12/Dor-de-dente-apos-restauracao.jpg 915w, /assets/recovered/2019/12/Dor-de-dente-apos-restauracao-300x200.jpg 300w, /assets/recovered/2019/12/Dor-de-dente-apos-restauracao-768x512.jpg 768w",
@@ -16,6 +16,11 @@
   "publicado_em": "2019-12-27",
   "atualizado_em": "2026-09-01",
   "blocos": [
+    {
+      "tipo": "pillar_badge",
+      "texto": "Parte do Guia Completo sobre Remédio para Dor de Dente",
+      "link": "/guia-completo-sobre-remedio-para-dor-de-dente-dicas-e-recomendacoes/"
+    },
     {
       "tipo": "paragrafo",
       "texto": "A dor de dente após a restauração é uma preocupação comum entre os pacientes que acabam de realizar o procedimento. <strong>Por que isso acontece? É normal sentir dor? Quanto tempo ela dura?</strong> Se essas dúvidas estão passando pela sua cabeça, saiba que você não está sozinho."

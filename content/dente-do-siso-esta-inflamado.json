@@ -5,7 +5,7 @@
   "meta_description": "Dente do siso inflamado (pericoronarite) causa dor, inchaço e mau hálito. Veja os sintomas, por que acontece e quando é preciso extrair o dente.",
   "categoria": "saude-bucal",
   "autor": "dra-kesya-nogueira",
-  "cluster_pai": null,
+  "cluster_pai": "guia-completo-sobre-remedio-para-dor-de-dente-dicas-e-recomendacoes",
   "capa": {
     "url": "/assets/recovered/2019/12/O-que-Fazer-quando-o-Dente-do-Siso-esta-Inflamado.jpg",
     "srcset": "/assets/recovered/2019/12/O-que-Fazer-quando-o-Dente-do-Siso-esta-Inflamado.jpg 915w, /assets/recovered/2019/12/O-que-Fazer-quando-o-Dente-do-Siso-esta-Inflamado-300x200.jpg 300w, /assets/recovered/2019/12/O-que-Fazer-quando-o-Dente-do-Siso-esta-Inflamado-768x512.jpg 768w",
@@ -16,37 +16,96 @@
   "publicado_em": "2019-12-27",
   "atualizado_em": "2026-09-01",
   "blocos": [
-    { "tipo": "paragrafo", "texto": "<strong>Dente do siso inflamado tem nome clínico: pericoronarite</strong> — a inflamação da gengiva ao redor de um siso que ainda não nasceu completamente. É uma das causas mais comuns de dor na região posterior da boca, e o tratamento definitivo é sempre com um dentista, não em casa." },
-    { "tipo": "paragrafo", "texto": "O siso costuma inflamar porque fica na parte mais escondida da boca, de difícil acesso pra escova, e frequentemente nasce parcialmente coberto por um pedaço de gengiva (o \"opérculo\") onde resíduos de comida se acumulam." },
-
-    { "tipo": "titulo", "nivel": 2, "texto": "Sintomas do Dente do Siso Inflamado" },
-    { "tipo": "paragrafo", "texto": "Segundo a <a href=\"https://my.clevelandclinic.org/health/diseases/24142-pericoronitis\" target=\"_blank\" rel=\"noopener\">Cleveland Clinic</a>, os sintomas variam entre um quadro leve (crônico) e um quadro mais grave (agudo):" },
-    { "tipo": "lista", "itens": [
+    {
+      "tipo": "pillar_badge",
+      "texto": "Parte do Guia Completo sobre Remédio para Dor de Dente",
+      "link": "/guia-completo-sobre-remedio-para-dor-de-dente-dicas-e-recomendacoes/"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "<strong>Dente do siso inflamado tem nome clínico: pericoronarite</strong> — a inflamação da gengiva ao redor de um siso que ainda não nasceu completamente. É uma das causas mais comuns de dor na região posterior da boca, e o tratamento definitivo é sempre com um dentista, não em casa."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "O siso costuma inflamar porque fica na parte mais escondida da boca, de difícil acesso pra escova, e frequentemente nasce parcialmente coberto por um pedaço de gengiva (o \"opérculo\") onde resíduos de comida se acumulam."
+    },
+    {
+      "tipo": "titulo",
+      "nivel": 2,
+      "texto": "Sintomas do Dente do Siso Inflamado"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Segundo a <a href=\"https://my.clevelandclinic.org/health/diseases/24142-pericoronitis\" target=\"_blank\" rel=\"noopener\">Cleveland Clinic</a>, os sintomas variam entre um quadro leve (crônico) e um quadro mais grave (agudo):"
+    },
+    {
+      "tipo": "lista",
+      "itens": [
         "<strong>Quadro leve:</strong> incômodo ou dor leve perto do siso, mau hálito e gosto ruim na boca;",
         "<strong>Quadro mais grave:</strong> dor intensa, vermelhidão, inchaço, saída de pus, dificuldade para engolir ou abrir bem a boca, e até inchaço no rosto ou gânglios do pescoço inflamados."
-    ]},
-    { "tipo": "paragrafo", "texto": "Se você notar os sinais do quadro mais grave — principalmente inchaço no rosto ou dificuldade para abrir a boca — procure atendimento com urgência, não espere a consulta de rotina." },
-
-    { "tipo": "titulo", "nivel": 2, "texto": "O que Fazer Quando o Dente do Siso Está Inflamado" },
-    { "tipo": "paragrafo", "texto": "É necessário visitar um dentista o mais breve possível para ele avaliar as condições do siso e prescrever o tratamento adequado. Usar analgésico ou anti-inflamatório por conta própria pode aliviar a dor temporariamente, mas não trata a causa — e é comum a dor voltar mais forte, com o risco da infecção se espalhar." },
-    { "tipo": "paragrafo", "texto": "Dependendo da gravidade, o tratamento pode incluir:" },
-    { "tipo": "lista", "itens": [
+      ]
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Se você notar os sinais do quadro mais grave — principalmente inchaço no rosto ou dificuldade para abrir a boca — procure atendimento com urgência, não espere a consulta de rotina."
+    },
+    {
+      "tipo": "titulo",
+      "nivel": 2,
+      "texto": "O que Fazer Quando o Dente do Siso Está Inflamado"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "É necessário visitar um dentista o mais breve possível para ele avaliar as condições do siso e prescrever o tratamento adequado. Usar analgésico ou anti-inflamatório por conta própria pode aliviar a dor temporariamente, mas não trata a causa — e é comum a dor voltar mais forte, com o risco da infecção se espalhar."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Dependendo da gravidade, o tratamento pode incluir:"
+    },
+    {
+      "tipo": "lista",
+      "itens": [
         "<strong>Limpeza da região</strong>, removendo resíduos e bactérias sob a gengiva que cobre o siso;",
         "<strong>Antibiótico</strong>, quando há infecção ativa;",
         "<strong>Enxaguante bucal específico</strong>, prescrito para reduzir a bactéria local;",
         "<strong>Remoção do opérculo</strong> (o pedaço de gengiva que cobre o dente), em pequeno procedimento cirúrgico;",
         "<strong>Extração do siso</strong>, quando a inflamação é recorrente e o dente não tem espaço adequado para nascer corretamente."
-    ]},
-    { "tipo": "paragrafo", "texto": "Com o tratamento certo, a recuperação costuma levar de uma a duas semanas — casos mais graves podem levar mais tempo." },
-
-    { "tipo": "callout", "texto": "Sente dor ou inchaço perto do siso? Não espere a dor piorar. Agende uma avaliação.", "cta_texto": "Agendar avaliação", "cta_link": "https://wa.me/5521976939004?text=Estou%20com%20o%20dente%20do%20siso%20inflamado%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o" },
-
-    { "tipo": "faq", "perguntas": [
-      { "pergunta": "Dente do siso inflamado sempre precisa ser extraído?", "resposta": "Não sempre. Em casos leves, limpeza e cuidados podem resolver. A extração é indicada quando a inflamação é recorrente ou o siso não tem espaço para nascer corretamente." },
-      { "pergunta": "Posso tomar anti-inflamatório sozinho para o siso inflamado?", "resposta": "Não é recomendado como solução definitiva. Pode aliviar a dor temporariamente, mas não trata a causa, e a dor pode voltar mais forte. O ideal é avaliação com um dentista." },
-      { "pergunta": "Quanto tempo demora para a inflamação do siso melhorar?", "resposta": "Com o tratamento adequado, a recuperação costuma levar de uma a duas semanas. Casos mais graves, com infecção mais avançada, podem levar mais tempo." },
-      { "pergunta": "Quais sinais indicam que preciso de atendimento urgente?", "resposta": "Inchaço no rosto, dificuldade para abrir a boca ou engolir, e gânglios inchados no pescoço são sinais de que a infecção pode estar se espalhando — procure atendimento com urgência nesses casos." },
-      { "pergunta": "Por que o siso inflama com mais facilidade que outros dentes?", "resposta": "Porque fica na parte mais posterior e escondida da boca, de difícil acesso para a escova, e muitas vezes nasce parcialmente coberto por gengiva, onde resíduos de alimentos se acumulam." }
-    ]}
+      ]
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Com o tratamento certo, a recuperação costuma levar de uma a duas semanas — casos mais graves podem levar mais tempo."
+    },
+    {
+      "tipo": "callout",
+      "texto": "Sente dor ou inchaço perto do siso? Não espere a dor piorar. Agende uma avaliação.",
+      "cta_texto": "Agendar avaliação",
+      "cta_link": "https://wa.me/5521976939004?text=Estou%20com%20o%20dente%20do%20siso%20inflamado%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o"
+    },
+    {
+      "tipo": "faq",
+      "perguntas": [
+        {
+          "pergunta": "Dente do siso inflamado sempre precisa ser extraído?",
+          "resposta": "Não sempre. Em casos leves, limpeza e cuidados podem resolver. A extração é indicada quando a inflamação é recorrente ou o siso não tem espaço para nascer corretamente."
+        },
+        {
+          "pergunta": "Posso tomar anti-inflamatório sozinho para o siso inflamado?",
+          "resposta": "Não é recomendado como solução definitiva. Pode aliviar a dor temporariamente, mas não trata a causa, e a dor pode voltar mais forte. O ideal é avaliação com um dentista."
+        },
+        {
+          "pergunta": "Quanto tempo demora para a inflamação do siso melhorar?",
+          "resposta": "Com o tratamento adequado, a recuperação costuma levar de uma a duas semanas. Casos mais graves, com infecção mais avançada, podem levar mais tempo."
+        },
+        {
+          "pergunta": "Quais sinais indicam que preciso de atendimento urgente?",
+          "resposta": "Inchaço no rosto, dificuldade para abrir a boca ou engolir, e gânglios inchados no pescoço são sinais de que a infecção pode estar se espalhando — procure atendimento com urgência nesses casos."
+        },
+        {
+          "pergunta": "Por que o siso inflama com mais facilidade que outros dentes?",
+          "resposta": "Porque fica na parte mais posterior e escondida da boca, de difícil acesso para a escova, e muitas vezes nasce parcialmente coberto por gengiva, onde resíduos de alimentos se acumulam."
+        }
+      ]
+    }
   ]
 }
