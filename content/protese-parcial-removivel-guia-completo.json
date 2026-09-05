@@ -6,6 +6,7 @@
   "categoria": "tratamentos",
   "autor": "dra-kesya-nogueira",
   "cluster_pai": null,
+  "cluster_filhos": ["protese-parcial-removivel-ou-fixa"],
   "capa": {
     "url": "/assets/recovered/2025/02/Protese-Removivel-1024x683.webp",
     "srcset": "/assets/recovered/2025/02/Protese-Removivel-1024x683.webp 1024w, /assets/recovered/2025/02/Protese-Removivel-300x200.webp 300w, /assets/recovered/2025/02/Protese-Removivel-768x512.webp 768w, /assets/recovered/2025/02/Protese-Removivel.webp 1200w",
@@ -74,11 +75,11 @@
     },
     {
       "tipo": "paragrafo",
-      "texto": "✅ <strong>Pacientes que não podem <a href=\"https://stelleodontologia.com.br/implante-dentario/\">fazer implantes</a></strong> – Algumas pessoas não têm estrutura óssea suficiente para implantes dentários ou possuem restrições médicas que inviabilizam o procedimento cirúrgico."
+      "texto": "✅ <strong>Pacientes que não podem <a href=\"https://stelleodontologia.com.br/implantes/\">fazer implantes</a></strong> – Algumas pessoas não têm estrutura óssea suficiente para implantes dentários ou possuem restrições médicas que inviabilizam o procedimento cirúrgico."
     },
     {
       "tipo": "paragrafo",
-      "texto": "✅ <strong>Pessoas que buscam uma <a href=\"https://stelleodontologia.com.br/\">solução mais acessíve</a>l</strong> – A PPR tem um custo <strong>significativamente menor</strong> em comparação com os implantes e outras opções fixas, sendo uma alternativa viável para muitos pacientes."
+      "texto": "✅ <strong>Pessoas que buscam uma solução mais acessível</strong> – A PPR tem um custo <strong>significativamente menor</strong> em comparação com os implantes e outras opções fixas, sendo uma alternativa viável para muitos pacientes. Veja a comparação completa de custos e indicações em <a href=\"https://stelleodontologia.com.br/protese-parcial-removivel-ou-fixa/\">prótese parcial removível ou fixa</a>."
     },
     {
       "tipo": "paragrafo",
