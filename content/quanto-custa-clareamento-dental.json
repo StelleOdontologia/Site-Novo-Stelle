@@ -1,0 +1,63 @@
+{
+  "slug": "quanto-custa-clareamento-dental",
+  "titulo_meta": "Quanto Custa Clareamento Dental em 2026? Veja os Preços - Stelle",
+  "titulo_h1": "Quanto Custa Clareamento Dental em 2026? Veja os Preços por Tipo",
+  "meta_description": "Quanto custa clareamento dental? Veja os preços por tipo (consultório, caseiro, interno), o que influencia o valor final e cuidados com kits baratos.",
+  "categoria": "tratamentos",
+  "autor": "dra-kesya-nogueira",
+  "cluster_pai": "clareamento-dental-guia-completo",
+  "capa": {
+    "url": "/assets/recovered/2024/12/Facetas-de-Resina-1024x683.jpg",
+    "srcset": "/assets/recovered/2024/12/Facetas-de-Resina-1024x683.jpg 1024w, /assets/recovered/2024/12/Facetas-de-Resina-300x200.jpg 300w, /assets/recovered/2024/12/Facetas-de-Resina-768x512.jpg 768w, /assets/recovered/2024/12/Facetas-de-Resina.jpg 1200w",
+    "og": "https://stelleodontologia.com.br/assets/recovered/2024/12/Facetas-de-Resina-1024x683.jpg",
+    "alt": "Pessoa sorrindo mostrando dentes clareados, ilustrando o custo do clareamento dental"
+  },
+  "publicado": true,
+  "publicado_em": "2026-09-10",
+  "atualizado_em": "2026-09-10",
+  "blocos": [
+    { "tipo": "pillar_badge", "texto": "Parte do Guia Completo sobre Clareamento Dental", "link": "/clareamento-dental-guia-completo/" },
+    { "tipo": "paragrafo", "texto": "<strong>O clareamento dental no Brasil custa, em média, entre R$ 500 e R$ 3.000</strong>, variando principalmente pelo tipo de procedimento: o caseiro supervisionado pelo dentista fica entre R$ 500 e R$ 1.500, enquanto o feito em consultório varia de R$ 1.000 a R$ 3.000. O valor final depende do método escolhido, da complexidade do caso e da região onde você mora." },
+    { "tipo": "paragrafo", "texto": "Este artigo faz parte do nosso <a href=\"/clareamento-dental-guia-completo/\">guia completo sobre clareamento dental</a> e detalha os preços por tipo de tratamento, o que influencia o valor final e os cuidados com opções baratas demais." },
+
+    { "tipo": "titulo", "nivel": 2, "texto": "Preço por Tipo de Clareamento Dental" },
+    { "tipo": "paragrafo", "texto": "Segundo a <a href=\"https://www.colgate.com.br/oral-health/clareamento-dental/dental-whitening-price\" target=\"_blank\" rel=\"noopener\">Colgate</a>, os valores no Brasil variam assim, dependendo do tipo de tratamento:" },
+    { "tipo": "tabela", "linhas": [
+        ["Tipo de clareamento", "Faixa de preço"],
+        ["Caseiro com moldeira (supervisionado pelo dentista)", "R$ 500 a R$ 1.500"],
+        ["Em consultório (laser ou gel de alta concentração)", "R$ 1.000 a R$ 3.000"],
+        ["Clareamento interno (dente com tratamento de canal)", "R$ 800 a R$ 2.000 por dente"],
+        ["Produtos de venda livre (tiras, canetas, pastas)", "R$ 20 a R$ 200"]
+    ]},
+    { "tipo": "paragrafo", "texto": "Vale notar que os produtos de venda livre, apesar de mais baratos, têm ação bem mais limitada — segundo a <a href=\"https://www.mouthhealthy.org/all-topics-a-z/teeth-whitening\" target=\"_blank\" rel=\"noopener\">American Dental Association</a>, eles não substituem o acompanhamento profissional, e o resultado costuma ser bem mais discreto do que os métodos supervisionados. Saiba mais sobre os tipos de clareamento no nosso <a href=\"https://stelleodontologia.com.br/clareamento-dental-guia-completo/\">guia completo</a>." },
+
+    { "tipo": "titulo", "nivel": 2, "texto": "O Que Influencia o Preço Final" },
+    { "tipo": "paragrafo", "texto": "A Colgate lista seis fatores principais que fazem o preço variar de paciente para paciente:" },
+    { "tipo": "lista", "itens": [
+        "<strong>Tipo de procedimento:</strong> tratamentos em consultório com laser ou géis de alta concentração custam mais do que as opções caseiras ou de venda livre.",
+        "<strong>Número de sessões e complexidade do caso:</strong> dentes muito manchados ou escurecidos por medicamentos exigem mais sessões, aumentando o custo total.",
+        "<strong>Tecnologia e produtos utilizados:</strong> equipamentos modernos e géis testados clinicamente têm preço mais alto por conta dos padrões de segurança.",
+        "<strong>Experiência do profissional e localização da clínica:</strong> dentistas com formação específica e clínicas em regiões de custo mais alto tendem a cobrar mais.",
+        "<strong>Avaliação prévia e tratamentos complementares:</strong> limpeza profissional, restaurações ou troca de coroas antes do clareamento somam ao valor final.",
+        "<strong>Personalização do tratamento:</strong> moldeiras feitas sob medida custam mais do que modelos padronizados, mas entregam resultado melhor."
+    ]},
+
+    { "tipo": "titulo", "nivel": 2, "texto": "Vale a Pena Pagar Mais no Consultório?" },
+    { "tipo": "paragrafo", "texto": "Depende da sua prioridade. O clareamento em consultório é mais caro, mas entrega resultado mais rápido (1 a 3 sessões) com concentração de gel mais alta, aplicada com segurança sob supervisão direta. Já o caseiro é mais barato, mas o resultado é gradual, ao longo de 1 a 4 semanas. Nenhum dos dois é \"melhor\" de forma absoluta — a escolha certa depende do prazo que você tem e do quanto está disposto a investir de uma vez." },
+
+    { "tipo": "titulo", "nivel": 2, "texto": "Cuidado com Preços Muito Baixos" },
+    { "tipo": "paragrafo", "texto": "Kits de clareamento vendidos em farmácias, lojas online ou redes sociais por valores muito abaixo da média costumam usar concentrações de gel não reguladas e moldeiras genéricas, que não se ajustam corretamente aos seus dentes. Isso aumenta o risco de irritação na gengiva e sensibilidade excessiva, sem a garantia de resultado que um tratamento supervisionado oferece. O barato, nesse caso, pode sair caro — principalmente se causar um problema que precise ser corrigido depois." },
+
+    { "tipo": "callout", "texto": "Quer saber quanto custaria o seu clareamento dental? Agende uma avaliação com a Dra. Késya Nogueira e receba um orçamento personalizado.", "cta_texto": "Falar no WhatsApp", "cta_link": "https://wa.me/5521976939004?text=Ol%C3%A1!%20Gostaria%20de%20saber%20o%20valor%20do%20clareamento%20dental." },
+
+    { "tipo": "faq", "titulo": "Perguntas frequentes sobre o preço do clareamento dental", "perguntas": [
+      { "pergunta": "Qual é o clareamento dental mais barato?", "resposta": "Os produtos de venda livre (tiras, canetas clareadoras) são os mais baratos, entre R$ 20 e R$ 200, mas têm ação bem mais limitada. Entre as opções supervisionadas por um dentista, o clareamento caseiro com moldeira costuma ser o mais acessível." },
+      { "pergunta": "Plano odontológico cobre clareamento dental?", "resposta": "Normalmente não, porque é considerado um procedimento estético. Vale confirmar diretamente com o seu convênio, já que algumas coberturas variam conforme o plano contratado." },
+      { "pergunta": "Dá para parcelar o clareamento dental?", "resposta": "Sim, a maioria das clínicas oferece parcelamento no cartão de crédito ou direto com a clínica. Vale perguntar as condições na avaliação inicial." },
+      { "pergunta": "Kit de farmácia vale a pena pelo preço mais baixo?", "resposta": "Vale a pena em custo, mas não necessariamente em resultado ou segurança. Como não é feito sob medida nem supervisionado, o risco de irritação e o resultado mais discreto costumam compensar menos do que parece à primeira vista." },
+      { "pergunta": "Por que o clareamento interno custa mais por dente?", "resposta": "Porque é um procedimento diferente, feito de dentro para fora em dentes que já passaram por tratamento de canal — exige técnica específica e acompanhamento mais próximo, o que justifica o valor por dente em vez de um pacote único." }
+    ]},
+
+    { "tipo": "paragrafo", "texto": "Quer entender o quadro completo? Volte ao <a href=\"/clareamento-dental-guia-completo/\">guia completo sobre clareamento dental</a> para ver como funciona, os tipos disponíveis e os cuidados necessários." }
+  ]
+}
