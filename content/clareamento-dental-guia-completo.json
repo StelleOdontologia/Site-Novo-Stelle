@@ -6,7 +6,7 @@
   "categoria": "tratamentos",
   "autor": "dra-kesya-nogueira",
   "cluster_pai": null,
-  "cluster_filhos": ["quanto-custa-clareamento-dental"],
+  "cluster_filhos": ["quanto-custa-clareamento-dental", "clareamento-dental-doi"],
   "capa": {
     "url": "/assets/blog/clareamento-dental-guia-completo-capa-1024x576.webp",
     "srcset": "/assets/blog/clareamento-dental-guia-completo-capa-300x169.webp 300w, /assets/blog/clareamento-dental-guia-completo-capa-768x432.webp 768w, /assets/blog/clareamento-dental-guia-completo-capa-1024x576.webp 1024w, /assets/blog/clareamento-dental-guia-completo-capa.webp 1280w",
@@ -49,7 +49,7 @@
     { "tipo": "paragrafo", "texto": "Por isso, mesmo os kits vendidos livremente em farmácias e lojas online não substituem uma avaliação odontológica prévia." },
 
     { "tipo": "titulo", "nivel": 2, "texto": "5. Sensibilidade Durante e Depois do Clareamento" },
-    { "tipo": "paragrafo", "texto": "É comum sentir sensibilidade dentária temporária durante o tratamento — geralmente melhora dentro de 48 horas após cada sessão ou ao final do tratamento. Se a sensibilidade for muito intensa ou persistente, vale conversar com o dentista sobre ajustar a concentração do gel ou o tempo de aplicação." },
+    { "tipo": "paragrafo", "texto": "É comum sentir sensibilidade dentária temporária durante o tratamento — geralmente melhora dentro de 48 horas após cada sessão ou ao final do tratamento. Se a sensibilidade for muito intensa ou persistente, vale conversar com o dentista sobre ajustar a concentração do gel ou o tempo de aplicação. Veja o detalhamento completo em <a href=\"https://stelleodontologia.com.br/clareamento-dental-doi/\">clareamento dental dói? Sensibilidade e como evitar</a>." },
 
     { "tipo": "callout", "texto": "Quer saber se o clareamento dental é indicado para o seu caso? Agende uma avaliação com a Dra. Késya Nogueira.", "cta_texto": "Falar no WhatsApp", "cta_link": "https://wa.me/5521976939004?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20para%20clareamento%20dental." },
 

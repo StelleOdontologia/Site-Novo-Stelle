@@ -1,0 +1,63 @@
+{
+  "slug": "clareamento-dental-doi",
+  "titulo_meta": "Clareamento Dental Dói? Sensibilidade e Como Evitar - Stelle",
+  "titulo_h1": "Clareamento Dental Dói? Sensibilidade e Como Evitar",
+  "meta_description": "Clareamento dental dói? Entenda por que causa sensibilidade, quanto tempo dura e como reduzir o desconforto durante e depois do tratamento.",
+  "categoria": "tratamentos",
+  "autor": "dra-kesya-nogueira",
+  "cluster_pai": "clareamento-dental-guia-completo",
+  "capa": {
+    "url": "/assets/recovered/2024/12/Facetas-de-Resina-1024x683.jpg",
+    "srcset": "/assets/recovered/2024/12/Facetas-de-Resina-1024x683.jpg 1024w, /assets/recovered/2024/12/Facetas-de-Resina-300x200.jpg 300w, /assets/recovered/2024/12/Facetas-de-Resina-768x512.jpg 768w, /assets/recovered/2024/12/Facetas-de-Resina.jpg 1200w",
+    "og": "https://stelleodontologia.com.br/assets/recovered/2024/12/Facetas-de-Resina-1024x683.jpg",
+    "alt": "Mulher com a mão no rosto, sentindo sensibilidade nos dentes após o clareamento dental"
+  },
+  "publicado": true,
+  "publicado_em": "2026-09-10",
+  "atualizado_em": "2026-09-10",
+  "blocos": [
+    { "tipo": "pillar_badge", "texto": "Parte do Guia Completo sobre Clareamento Dental", "link": "/clareamento-dental-guia-completo/" },
+    { "tipo": "paragrafo", "texto": "<strong>O clareamento dental não costuma doer, mas é comum sentir sensibilidade temporária durante e logo após o tratamento</strong> — geralmente dura de alguns dias a duas semanas, e existem formas eficazes de reduzir esse desconforto, tanto na hora de escolher o tipo de clareamento quanto nos cuidados durante o processo." },
+    { "tipo": "paragrafo", "texto": "Este artigo faz parte do nosso <a href=\"/clareamento-dental-guia-completo/\">guia completo sobre clareamento dental</a> e explica por que a sensibilidade acontece, quanto tempo costuma durar e como reduzi-la." },
+
+    { "tipo": "titulo", "nivel": 2, "texto": "Por Que o Clareamento Causa Sensibilidade" },
+    { "tipo": "paragrafo", "texto": "Segundo a <a href=\"https://www.colgate.com/en-us/oral-health/tooth-sensitivity/managing-sensitive-teeth-after-whitening\" target=\"_blank\" rel=\"noopener\">Colgate</a>, o gel clareador remove minerais do esmalte durante o processo de clareamento, expondo temporariamente os <strong>túbulos dentinários</strong> — canais microscópicos que vão da superfície do dente até o centro, onde se conectam aos nervos. É essa exposição temporária que causa a sensação de sensibilidade, principalmente ao contato com frio, calor ou ar." },
+    { "tipo": "paragrafo", "texto": "Não é um sinal de que algo deu errado — é uma reação esperada do próprio mecanismo do clareamento, que normalmente se resolve sozinha conforme o esmalte se remineraliza." },
+
+    { "tipo": "titulo", "nivel": 2, "texto": "Quanto Tempo a Sensibilidade Costuma Durar" },
+    { "tipo": "paragrafo", "texto": "Para a maioria das pessoas, a sensibilidade dura <strong>apenas alguns dias</strong>. Mas alguns fatores podem estender esse período, segundo a Colgate:" },
+    { "tipo": "lista", "itens": [
+        "<strong>Tratamentos em consultório</strong>, por usarem géis de concentração mais alta, podem causar sensibilidade que dura até duas semanas ou mais;",
+        "<strong>Esmalte mais fino ou já desgastado</strong> antes do clareamento aumenta o risco de sensibilidade prolongada;",
+        "A duração também depende de <strong>quanto peróxido é usado, por quanto tempo, e do histórico de saúde bucal individual</strong> de cada pessoa."
+    ]},
+    { "tipo": "paragrafo", "texto": "Se a sensibilidade persistir por muito mais tempo do que isso ou vier acompanhada de dor intensa, vale interromper o tratamento e procurar o dentista." },
+
+    { "tipo": "titulo", "nivel": 2, "texto": "Como Reduzir ou Evitar a Sensibilidade" },
+    { "tipo": "paragrafo", "texto": "A Colgate recomenda algumas estratégias práticas, que devem ser combinadas com a orientação do seu dentista:" },
+    { "tipo": "lista", "itens": [
+        "<strong>Usar concentrações mais baixas de gel</strong>, mesmo que o resultado demore um pouco mais para aparecer;",
+        "<strong>Reduzir a quantidade de produto</strong> aplicada na moldeira, no caso do clareamento caseiro;",
+        "<strong>Aumentar o intervalo entre as sessões</strong>, dando mais tempo para o esmalte se recuperar;",
+        "<strong>Fazer pausas no tratamento</strong> até a sensibilidade diminuir, se necessário;",
+        "<strong>Aplicar dessensibilizantes ou vernizes</strong> no consultório, indicados pelo dentista;",
+        "<strong>Usar creme dental ou gel para dentes sensíveis</strong> antes, durante e depois do tratamento;",
+        "<strong>Passar por uma avaliação personalizada com o dentista</strong> antes de começar, para adequar o protocolo ao seu caso."
+    ]},
+
+    { "tipo": "titulo", "nivel": 2, "texto": "Quando a Sensibilidade é Motivo de Preocupação" },
+    { "tipo": "paragrafo", "texto": "A própria Colgate alerta que <strong>o uso incorreto de produtos de venda livre pode causar sensibilidade permanente</strong> — um risco real de quem tenta economizar com kits genéricos sem acompanhamento. É mais um motivo para levar a sério a <a href=\"/clareamento-dental-guia-completo/\">avaliação prévia com o dentista</a> antes de qualquer tipo de clareamento, mesmo os vendidos livremente." },
+
+    { "tipo": "callout", "texto": "Tem receio da sensibilidade durante o clareamento? Agende uma avaliação e descubra o protocolo mais confortável para o seu caso.", "cta_texto": "Falar no WhatsApp", "cta_link": "https://wa.me/5521976939004?text=Ol%C3%A1!%20Tenho%20receio%20da%20sensibilidade%20do%20clareamento%20dental%20e%20gostaria%20de%20uma%20avalia%C3%A7%C3%A3o." },
+
+    { "tipo": "faq", "titulo": "Perguntas frequentes sobre a dor do clareamento dental", "perguntas": [
+      { "pergunta": "Clareamento dental dói na hora de fazer?", "resposta": "Na maioria dos casos, não dói durante o procedimento em si — o que costuma aparecer é sensibilidade nas horas ou dias seguintes, principalmente ao contato com frio ou calor." },
+      { "pergunta": "Todo mundo sente sensibilidade no clareamento?", "resposta": "Não. A intensidade varia bastante de pessoa para pessoa, dependendo da espessura do esmalte, da concentração do gel usado e do histórico de sensibilidade dentária prévio." },
+      { "pergunta": "Sensibilidade forte significa que o clareamento não é indicado para mim?", "resposta": "Não necessariamente. Muitas vezes o dentista consegue ajustar a concentração do gel, o tempo de aplicação ou usar dessensibilizantes para tornar o tratamento mais confortável, mesmo em pessoas com dentes sensíveis." },
+      { "pergunta": "Posso tomar analgésico para a sensibilidade do clareamento?", "resposta": "Em geral não é necessário, já que a sensibilidade costuma ser leve a moderada e passageira. Se estiver muito incômoda, o ideal é conversar com o dentista sobre ajustar o protocolo, em vez de mascarar com medicação." },
+      { "pergunta": "Sensibilidade depois do clareamento pode ser permanente?", "resposta": "É raro quando o tratamento é feito com supervisão profissional. O risco de sensibilidade permanente existe principalmente no uso incorreto de produtos de venda livre, sem acompanhamento de um dentista." }
+    ]},
+
+    { "tipo": "paragrafo", "texto": "Quer entender o quadro completo sobre clareamento dental? Volte ao <a href=\"/clareamento-dental-guia-completo/\">guia completo</a> para ver os tipos disponíveis, quem pode fazer e os cuidados necessários. Também vale conferir <a href=\"/quanto-custa-clareamento-dental/\">quanto custa cada tipo de clareamento</a>." }
+  ]
+}
