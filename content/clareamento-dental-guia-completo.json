@@ -1,0 +1,65 @@
+{
+  "slug": "clareamento-dental-guia-completo",
+  "titulo_meta": "Clareamento Dental: Guia Completo - Stelle Odontologia",
+  "titulo_h1": "Clareamento Dental: Guia Completo sobre Tipos, Funcionamento e Cuidados",
+  "meta_description": "Guia completo sobre clareamento dental: como funciona, tipos disponíveis (caseiro, consultório, a laser), quem pode fazer e os cuidados necessários.",
+  "categoria": "tratamentos",
+  "autor": "dra-kesya-nogueira",
+  "cluster_pai": null,
+  "capa": {
+    "url": "/assets/recovered/2024/12/Facetas-de-Resina-1024x683.jpg",
+    "srcset": "/assets/recovered/2024/12/Facetas-de-Resina-1024x683.jpg 1024w, /assets/recovered/2024/12/Facetas-de-Resina-300x200.jpg 300w, /assets/recovered/2024/12/Facetas-de-Resina-768x512.jpg 768w, /assets/recovered/2024/12/Facetas-de-Resina.jpg 1200w",
+    "og": "https://stelleodontologia.com.br/assets/recovered/2024/12/Facetas-de-Resina-1024x683.jpg",
+    "alt": "Sorriso com dentes clareados, ilustrando o guia completo sobre clareamento dental"
+  },
+  "publicado": true,
+  "publicado_em": "2026-09-10",
+  "atualizado_em": "2026-09-10",
+  "blocos": [
+    { "tipo": "paragrafo", "texto": "<strong>O clareamento dental é um procedimento que usa peróxido de hidrogênio ou peróxido de carbamida para remover manchas de dentro do esmalte, deixando os dentes mais claros.</strong> Pode ser feito em consultório (mais rápido, com concentração mais alta) ou em casa com moldeira sob orientação do dentista (mais gradual, com concentração menor) — mas em ambos os casos, a avaliação prévia com um profissional é essencial para saber se você é um bom candidato." },
+    { "tipo": "paragrafo", "texto": "Este é o nosso <strong>guia completo sobre clareamento dental</strong>: aqui você entende como funciona, os tipos disponíveis, quem pode fazer, os cuidados necessários e os principais riscos de fazer sem acompanhamento profissional." },
+
+    { "tipo": "titulo", "nivel": 2, "texto": "1. Como Funciona o Clareamento Dental" },
+    { "tipo": "paragrafo", "texto": "Segundo a <a href=\"https://www.colgate.com.br/oral-health/clareamento-dental/clareamento-dental-caseiro\" target=\"_blank\" rel=\"noopener\">Colgate</a>, o clareamento funciona a partir de compostos à base de peróxido — principalmente <strong>peróxido de hidrogênio</strong> e <strong>peróxido de carbamida</strong> (que se decompõe em peróxido de hidrogênio e ureia). Esses compostos penetram o esmalte e a dentina, quebrando as moléculas responsáveis pelas manchas e clareando o dente de dentro para fora — diferente de uma pasta de dente comum, que só remove manchas superficiais." },
+    { "tipo": "paragrafo", "texto": "A principal diferença entre os métodos está na <strong>concentração do gel</strong>: produtos caseiros usam entre 10% e 22% de peróxido de carbamida, enquanto o clareamento feito em consultório pode chegar a 25%-40% de peróxido de hidrogênio — uma concentração bem mais alta, que só deve ser aplicada sob supervisão profissional." },
+
+    { "tipo": "titulo", "nivel": 2, "texto": "2. Tipos de Clareamento Dental" },
+    { "tipo": "paragrafo", "texto": "A <a href=\"https://www.mouthhealthy.org/all-topics-a-z/teeth-whitening\" target=\"_blank\" rel=\"noopener\">American Dental Association (ADA)</a> lista quatro categorias principais de clareamento:" },
+    { "tipo": "lista", "itens": [
+        "<strong>Clareamento em consultório:</strong> feito pelo dentista, com gel de alta concentração e, geralmente, ativação por luz LED ou laser. Costuma ser concluído em 1 a 3 sessões, com resultado mais rápido.",
+        "<strong>Clareamento caseiro com moldeira:</strong> o dentista faz uma moldeira sob medida e prescreve um gel de concentração mais baixa, usado em casa por algumas horas ao dia ou durante a noite, por um período determinado (geralmente 1 a 4 semanas).",
+        "<strong>Clareamento misto:</strong> combina uma sessão em consultório com o uso complementar da moldeira em casa, buscando equilibrar rapidez e durabilidade do resultado.",
+        "<strong>Produtos de venda livre e pastas dentais clareadoras:</strong> têm ação mais superficial e resultado bem mais limitado — a ADA reforça que o uso sem orientação e o excesso podem danificar o esmalte e a gengiva."
+    ]},
+    { "tipo": "paragrafo", "texto": "Cada tipo tem prós e contras diferentes em termos de velocidade, sensibilidade e custo — vamos detalhar essas comparações nos próximos artigos deste guia." },
+
+    { "tipo": "titulo", "nivel": 2, "texto": "3. Quem Pode Fazer Clareamento Dental" },
+    { "tipo": "paragrafo", "texto": "Antes de qualquer procedimento, o dentista avalia a saúde bucal geral — segundo a <a href=\"https://www.colgate.com/en-us/oral-health/cosmetic-dentistry/teeth-whitening/am-i-a-candidate-for-tooth-whitening\" target=\"_blank\" rel=\"noopener\">Colgate</a>, é preciso tratar cáries e doenças gengivais antes de iniciar o clareamento, já que o gel pode irritar tecidos já inflamados ou penetrar em dentes com cáries não tratadas." },
+    { "tipo": "paragrafo", "texto": "De modo geral, bons candidatos são pessoas com boa saúde bucal, sem restaurações extensas nos dentes da frente e com manchas causadas por café, chá, vinho, tabaco ou pelo envelhecimento natural do esmalte — esse último tipo de mancha costuma responder melhor ao clareamento." },
+
+    { "tipo": "titulo", "nivel": 2, "texto": "4. Contraindicações e Cuidados Importantes" },
+    { "tipo": "paragrafo", "texto": "Nem todo mundo é candidato ao clareamento, e alguns pontos merecem atenção antes de decidir:" },
+    { "tipo": "lista", "itens": [
+        "<strong>Gravidez:</strong> a <a href=\"https://www.colgate.com/en-us/oral-health/oral-care-during-pregnancy/teeth-whitening-when-pregnant-is-it-safe\" target=\"_blank\" rel=\"noopener\">Colgate</a> recomenda adiar o clareamento durante a gravidez, já que as alterações hormonais aumentam a sensibilidade dentária e a irritação gengival nesse período.",
+        "<strong>Doença gengival ou dentes muito sensíveis:</strong> o gel à base de peróxido pode irritar ainda mais uma gengiva já inflamada.",
+        "<strong>Coroas, facetas, lentes de contato dental e restaurações nos dentes da frente:</strong> segundo a ADA, <strong>o clareamento não altera a cor desses materiais</strong> — ou seja, se você tem alguma restauração visível, ela pode ficar destoante do restante dos dentes recém-clareados.",
+        "<strong>Uso sem orientação profissional:</strong> o excesso ou uso incorreto de produtos clareadores pode danificar o esmalte e a gengiva, segundo a ADA."
+    ]},
+    { "tipo": "paragrafo", "texto": "Por isso, mesmo os kits vendidos livremente em farmácias e lojas online não substituem uma avaliação odontológica prévia." },
+
+    { "tipo": "titulo", "nivel": 2, "texto": "5. Sensibilidade Durante e Depois do Clareamento" },
+    { "tipo": "paragrafo", "texto": "É comum sentir sensibilidade dentária temporária durante o tratamento — geralmente melhora dentro de 48 horas após cada sessão ou ao final do tratamento. Se a sensibilidade for muito intensa ou persistente, vale conversar com o dentista sobre ajustar a concentração do gel ou o tempo de aplicação." },
+
+    { "tipo": "callout", "texto": "Quer saber se o clareamento dental é indicado para o seu caso? Agende uma avaliação com a Dra. Késya Nogueira.", "cta_texto": "Falar no WhatsApp", "cta_link": "https://wa.me/5521976939004?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20para%20clareamento%20dental." },
+
+    { "tipo": "faq", "titulo": "6. Perguntas Frequentes sobre Clareamento Dental", "perguntas": [
+      { "pergunta": "Clareamento dental funciona em qualquer tipo de mancha?", "resposta": "Não. Manchas causadas por café, chá, vinho, tabaco e envelhecimento natural do esmalte costumam responder bem. Já manchas internas mais profundas (causadas por alguns medicamentos ou traumas na infância) podem exigir outras abordagens, avaliadas pelo dentista." },
+      { "pergunta": "Clareamento dental estraga o esmalte dos dentes?", "resposta": "Quando feito com orientação profissional e concentração adequada, não. O risco de dano ao esmalte e à gengiva existe principalmente no uso excessivo ou sem supervisão, segundo a ADA." },
+      { "pergunta": "Posso fazer clareamento se tenho coroa ou faceta nos dentes da frente?", "resposta": "O clareamento não altera a cor de coroas, facetas ou restaurações — por isso, se você tem algum desses materiais visíveis, é importante conversar com o dentista antes, para entender como isso afeta o resultado estético final." },
+      { "pergunta": "Clareamento caseiro é tão eficaz quanto o de consultório?", "resposta": "Costuma ser eficaz, mas mais gradual, já que usa uma concentração menor de gel. O de consultório é mais rápido por usar uma concentração mais alta, aplicada com segurança sob supervisão profissional." },
+      { "pergunta": "Grávidas podem fazer clareamento dental?", "resposta": "Não é recomendado. As alterações hormonais da gravidez aumentam a sensibilidade dentária e a irritação gengival, por isso o ideal é adiar o procedimento para depois do período gestacional." }
+    ]},
+
+    { "tipo": "paragrafo", "texto": "Quer saber quanto custa, se dói, ou qual tipo escolher? Continue acompanhando este guia — vamos atualizá-lo com links para os artigos específicos sobre cada tema à medida que forem publicados." }
+  ]
+}
