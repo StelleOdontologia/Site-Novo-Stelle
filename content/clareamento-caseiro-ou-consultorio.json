@@ -1,0 +1,67 @@
+{
+  "slug": "clareamento-caseiro-ou-consultorio",
+  "titulo_meta": "Clareamento Caseiro, em Consultório ou a Laser? Comparativo - Stelle",
+  "titulo_h1": "Clareamento Caseiro, em Consultório ou a Laser? Qual Escolher",
+  "meta_description": "Clareamento dental caseiro, em consultório ou a laser: compare velocidade, custo e o que a ciência realmente mostra sobre o laser valer (ou não) a pena.",
+  "categoria": "tratamentos",
+  "autor": "dra-kesya-nogueira",
+  "cluster_pai": "clareamento-dental-guia-completo",
+  "capa": {
+    "url": "/assets/recovered/2024/12/Facetas-de-Resina-1024x683.jpg",
+    "srcset": "/assets/recovered/2024/12/Facetas-de-Resina-1024x683.jpg 1024w, /assets/recovered/2024/12/Facetas-de-Resina-300x200.jpg 300w, /assets/recovered/2024/12/Facetas-de-Resina-768x512.jpg 768w, /assets/recovered/2024/12/Facetas-de-Resina.jpg 1200w",
+    "og": "https://stelleodontologia.com.br/assets/recovered/2024/12/Facetas-de-Resina-1024x683.jpg",
+    "alt": "Comparação entre clareamento dental caseiro, em consultório e a laser"
+  },
+  "publicado": true,
+  "publicado_em": "2026-09-14",
+  "atualizado_em": "2026-09-14",
+  "blocos": [
+    { "tipo": "pillar_badge", "texto": "Parte do Guia Completo sobre Clareamento Dental", "link": "/clareamento-dental-guia-completo/" },
+    { "tipo": "paragrafo", "texto": "<strong>O clareamento em consultório é mais rápido (resultado em cerca de 1 hora, com gel de alta concentração); o caseiro é mais lento (2 a 4 semanas), mas mais barato e igualmente eficaz.</strong> Já o \"laser\", segundo revisões científicas recentes, não melhora o resultado final de forma consistente em relação ao gel sozinho — o que pode fazer a diferença de preço não valer a pena para todo mundo." },
+    { "tipo": "paragrafo", "texto": "Este artigo faz parte do nosso <a href=\"/clareamento-dental-guia-completo/\">guia completo sobre clareamento dental</a> e compara os três métodos em detalhe, para você decidir com o seu dentista qual faz mais sentido no seu caso." },
+
+    { "tipo": "titulo", "nivel": 2, "texto": "Clareamento em Consultório" },
+    { "tipo": "paragrafo", "texto": "Feito pelo dentista, com gel de <strong>25% a 40% de peróxido de hidrogênio</strong> — uma concentração bem mais alta do que qualquer produto caseiro. Segundo a <a href=\"https://www.colgate.com/en-us/oral-health/teeth-whitening/is-laser-teeth-whitening-an-option-for-you\" target=\"_blank\" rel=\"noopener\">Colgate</a>, o resultado aparece em cerca de <strong>1 hora</strong>, podendo clarear os dentes em até várias tonalidades numa única sessão." },
+    { "tipo": "lista", "itens": [
+        "<strong>Vantagens:</strong> resultado rápido, aplicação segura sob supervisão direta, ideal para quem tem prazo curto (evento, casamento, viagem).",
+        "<strong>Desvantagens:</strong> custo mais alto, maior chance de sensibilidade temporária logo após a sessão, por usar concentração mais forte."
+    ]},
+
+    { "tipo": "titulo", "nivel": 2, "texto": "Clareamento Caseiro com Moldeira" },
+    { "tipo": "paragrafo", "texto": "O dentista faz uma moldeira sob medida e prescreve um gel de concentração mais baixa (10% a 22% de peróxido de carbamida), usado em casa por algumas horas ao dia ou durante a noite, ao longo de 1 a 4 semanas." },
+    { "tipo": "lista", "itens": [
+        "<strong>Vantagens:</strong> custo mais acessível, menor risco de sensibilidade intensa, resultado final comparável ao de consultório — só que mais gradual.",
+        "<strong>Desvantagens:</strong> exige disciplina para usar todos os dias, resultado demora semanas para aparecer."
+    ]},
+
+    { "tipo": "titulo", "nivel": 2, "texto": "E o Clareamento a Laser? Vale a Pena Pagar Mais?" },
+    { "tipo": "paragrafo", "texto": "Aqui vale um esclarecimento importante. O \"clareamento a laser\" nada mais é do que o clareamento em consultório com um gel ativado por uma luz (LED, halógena ou laser) — a ideia é que a luz aceleraria a reação do peróxido. Mas o que a ciência mostra sobre isso?" },
+    { "tipo": "paragrafo", "texto": "Uma <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC13471886/\" target=\"_blank\" rel=\"noopener\">revisão-guarda-chuva</a> (que reúne múltiplas revisões sistemáticas e meta-análises sobre o tema) concluiu que <strong>a ativação por luz ou laser não melhora o resultado final do clareamento de forma consistente ou clinicamente relevante</strong>, em comparação com o mesmo gel aplicado sem luz. Uma meta-análise com seis estudos randomizados não encontrou diferença significativa na mudança de cor entre os grupos. Além disso, a luz <strong>não reduz a sensibilidade</strong> — e em alguns protocolos mal controlados, pode até aumentar o desconforto." },
+    { "tipo": "paragrafo", "texto": "A exceção encontrada na revisão foi a <strong>fotobiomodulação</strong> (um tipo específico de laser de baixa potência usado para outro fim: reduzir a sensibilidade pós-clareamento, não intensificar o clareamento em si) — essa aplicação específica mostrou benefício real. Ou seja: pagar mais caro \"porque tem laser\" nem sempre significa um resultado melhor — o fator que realmente importa é a concentração e o tempo de contato do gel com o dente." },
+
+    { "tipo": "titulo", "nivel": 2, "texto": "Comparativo Direto" },
+    { "tipo": "tabela", "linhas": [
+        ["Critério", "Consultório", "Caseiro com moldeira", "\"A laser\" (luz ativada)"],
+        ["Velocidade do resultado", "Cerca de 1 hora", "1 a 4 semanas", "Cerca de 1 hora (igual ao de consultório)"],
+        ["Concentração do gel", "25% a 40%", "10% a 22%", "25% a 40% (mesma do consultório)"],
+        ["Custo aproximado", "R$ 1.000 a R$ 3.000", "R$ 500 a R$ 1.500", "Geralmente o mais caro dos três"],
+        ["Melhora o resultado final?", "—", "—", "Evidência científica indica que não, de forma consistente"],
+        ["Risco de sensibilidade", "Moderado", "Baixo a moderado", "Igual ou maior que o consultório sem luz"]
+    ]},
+
+    { "tipo": "titulo", "nivel": 2, "texto": "Qual Escolher?" },
+    { "tipo": "paragrafo", "texto": "Se você tem um prazo curto e não se importa em investir mais, o consultório entrega resultado rápido com segurança. Se o orçamento é mais apertado e você não tem pressa, o caseiro chega a um resultado parecido, só que aos poucos. Quanto ao \"laser\", vale perguntar diretamente ao seu dentista se a diferença de preço se justifica no seu caso — na maioria das vezes, o que determina o resultado é a concentração do gel e o protocolo, não a luz em si. Veja também o <a href=\"/quanto-custa-clareamento-dental/\">detalhamento completo de preços por tipo</a> e o que fazer em relação à <a href=\"/clareamento-dental-doi/\">sensibilidade durante o tratamento</a>." },
+
+    { "tipo": "callout", "texto": "Não sabe qual tipo de clareamento é ideal para o seu caso? Agende uma avaliação e receba uma indicação personalizada.", "cta_texto": "Falar no WhatsApp", "cta_link": "https://wa.me/5521976939004?text=Ol%C3%A1!%20Gostaria%20de%20saber%20qual%20tipo%20de%20clareamento%20dental%20%C3%A9%20ideal%20para%20mim." },
+
+    { "tipo": "faq", "titulo": "Perguntas frequentes sobre os tipos de clareamento dental", "perguntas": [
+      { "pergunta": "Clareamento a laser é sempre melhor que o caseiro?", "resposta": "Não necessariamente. É mais rápido, mas revisões científicas mostram que a luz não melhora o resultado final de forma consistente em comparação com o gel sozinho. O caseiro, com o tempo certo de uso, pode chegar a um resultado parecido." },
+      { "pergunta": "Por que o clareamento a laser é mais caro se não é comprovadamente melhor?", "resposta": "Porque envolve equipamento específico, uma sessão mais rápida e o próprio posicionamento de mercado do serviço. O preço mais alto reflete a conveniência e a tecnologia usada, não necessariamente um resultado final superior." },
+      { "pergunta": "Posso combinar clareamento em consultório com o caseiro?", "resposta": "Sim, muitos dentistas indicam essa combinação: uma sessão em consultório para um resultado inicial mais rápido, seguida de manutenção com moldeira em casa." },
+      { "pergunta": "Qual tipo tem menos risco de sensibilidade?", "resposta": "Em geral, o caseiro com moldeira, por usar concentração mais baixa de gel. Mas isso varia de pessoa para pessoa e depende também do protocolo escolhido pelo dentista." },
+      { "pergunta": "O clareamento caseiro prescrito pelo dentista é igual ao vendido em farmácia?", "resposta": "Não. O caseiro prescrito usa moldeira feita sob medida e gel com concentração regulada, o que garante encaixe correto e aplicação mais segura — diferente dos kits genéricos de venda livre." }
+    ]},
+
+    { "tipo": "paragrafo", "texto": "Quer entender o quadro completo? Volte ao <a href=\"/clareamento-dental-guia-completo/\">guia completo sobre clareamento dental</a> para ver como funciona, quem pode fazer e os cuidados necessários." }
+  ]
+}

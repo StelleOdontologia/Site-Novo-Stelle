@@ -6,7 +6,7 @@
   "categoria": "tratamentos",
   "autor": "dra-kesya-nogueira",
   "cluster_pai": null,
-  "cluster_filhos": ["quanto-custa-clareamento-dental", "clareamento-dental-doi"],
+  "cluster_filhos": ["quanto-custa-clareamento-dental", "clareamento-dental-doi", "clareamento-caseiro-ou-consultorio"],
   "capa": {
     "url": "/assets/blog/clareamento-dental-guia-completo-capa-1024x576.webp",
     "srcset": "/assets/blog/clareamento-dental-guia-completo-capa-300x169.webp 300w, /assets/blog/clareamento-dental-guia-completo-capa-768x432.webp 768w, /assets/blog/clareamento-dental-guia-completo-capa-1024x576.webp 1024w, /assets/blog/clareamento-dental-guia-completo-capa.webp 1280w",
@@ -32,7 +32,7 @@
         "<strong>Clareamento misto:</strong> combina uma sessão em consultório com o uso complementar da moldeira em casa, buscando equilibrar rapidez e durabilidade do resultado.",
         "<strong>Produtos de venda livre e pastas dentais clareadoras:</strong> têm ação mais superficial e resultado bem mais limitado — a ADA reforça que o uso sem orientação e o excesso podem danificar o esmalte e a gengiva."
     ]},
-    { "tipo": "paragrafo", "texto": "Cada tipo tem prós e contras diferentes em termos de velocidade, sensibilidade e custo — vamos detalhar essas comparações nos próximos artigos deste guia." },
+    { "tipo": "paragrafo", "texto": "Cada tipo tem prós e contras diferentes em termos de velocidade, sensibilidade e custo — veja a comparação completa, incluindo o que a ciência mostra sobre o clareamento a laser, em <a href=\"https://stelleodontologia.com.br/clareamento-caseiro-ou-consultorio/\">clareamento caseiro, em consultório ou a laser: qual escolher</a>." },
 
     { "tipo": "titulo", "nivel": 2, "texto": "3. Quem Pode Fazer Clareamento Dental" },
     { "tipo": "paragrafo", "texto": "Antes de qualquer procedimento, o dentista avalia a saúde bucal geral — segundo a <a href=\"https://www.colgate.com/en-us/oral-health/cosmetic-dentistry/teeth-whitening/am-i-a-candidate-for-tooth-whitening\" target=\"_blank\" rel=\"noopener\">Colgate</a>, é preciso tratar cáries e doenças gengivais antes de iniciar o clareamento, já que o gel pode irritar tecidos já inflamados ou penetrar em dentes com cáries não tratadas." },
