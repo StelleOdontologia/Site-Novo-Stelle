@@ -1,0 +1,66 @@
+{
+  "slug": "quanto-tempo-dura-clareamento-dental",
+  "titulo_meta": "Quanto Tempo Dura o Clareamento Dental? - Stelle Odontologia",
+  "titulo_h1": "Quanto Tempo Dura o Clareamento Dental?",
+  "meta_description": "Quanto tempo dura o clareamento dental? Veja a duração por tipo de tratamento, o que faz o resultado durar menos e como prolongar o efeito.",
+  "categoria": "tratamentos",
+  "autor": "dra-kesya-nogueira",
+  "cluster_pai": "clareamento-dental-guia-completo",
+  "capa": {
+    "url": "/assets/recovered/2024/12/Facetas-de-Resina-1024x683.jpg",
+    "srcset": "/assets/recovered/2024/12/Facetas-de-Resina-1024x683.jpg 1024w, /assets/recovered/2024/12/Facetas-de-Resina-300x200.jpg 300w, /assets/recovered/2024/12/Facetas-de-Resina-768x512.jpg 768w, /assets/recovered/2024/12/Facetas-de-Resina.jpg 1200w",
+    "og": "https://stelleodontologia.com.br/assets/recovered/2024/12/Facetas-de-Resina-1024x683.jpg",
+    "alt": "Sorriso branco e duradouro, ilustrando a duração do efeito do clareamento dental"
+  },
+  "publicado": true,
+  "publicado_em": "2026-09-14",
+  "atualizado_em": "2026-09-14",
+  "blocos": [
+    { "tipo": "pillar_badge", "texto": "Parte do Guia Completo sobre Clareamento Dental", "link": "/clareamento-dental-guia-completo/" },
+    { "tipo": "paragrafo", "texto": "<strong>O clareamento dental em consultório dura, em média, até 3 anos; o caseiro supervisionado dura de 6 meses a 2 anos.</strong> A duração real varia bastante de pessoa para pessoa, dependendo principalmente da alimentação, do tabagismo e da qualidade da higiene bucal mantida depois do tratamento." },
+    { "tipo": "paragrafo", "texto": "Este artigo faz parte do nosso <a href=\"/clareamento-dental-guia-completo/\">guia completo sobre clareamento dental</a> e explica a duração por tipo de tratamento, o que faz o efeito durar menos e como prolongar o resultado." },
+
+    { "tipo": "titulo", "nivel": 2, "texto": "Duração por Tipo de Clareamento" },
+    { "tipo": "paragrafo", "texto": "Segundo a <a href=\"https://www.colgate.com.br/oral-health/clareamento-dental\" target=\"_blank\" rel=\"noopener\">Colgate</a>, a duração varia conforme o método escolhido:" },
+    { "tipo": "tabela", "linhas": [
+        ["Tipo de clareamento", "Duração média"],
+        ["Em consultório (profissional)", "Até 3 anos"],
+        ["Caseiro supervisionado (moldeira)", "6 meses a 2 anos"],
+        ["Produtos de uso diário (pastas, tiras)", "Duração mais curta, exige uso contínuo"]
+    ]},
+    { "tipo": "paragrafo", "texto": "Essa é uma média — o tempo real depende muito dos seus hábitos do dia a dia, não só do tipo de tratamento escolhido." },
+
+    { "tipo": "titulo", "nivel": 2, "texto": "O Que Faz o Resultado Durar Menos" },
+    { "tipo": "paragrafo", "texto": "A Colgate aponta que o consumo de determinados alimentos e bebidas, além de certos hábitos, reduz a duração do efeito:" },
+    { "tipo": "lista", "itens": [
+        "<strong>Café, vinho tinto e chás escuros:</strong> contêm pigmentos que mancham o esmalte progressivamente.",
+        "<strong>Tabagismo:</strong> um dos fatores que mais aceleram o retorno das manchas.",
+        "<strong>Má higiene bucal:</strong> a falta de escovação e uso de fio dental regular permite o acúmulo de placa, que favorece novas manchas."
+    ]},
+    { "tipo": "paragrafo", "texto": "Isso não significa que você precisa eliminar café ou vinho da rotina — só que vale a pena adotar alguns cuidados extras se quiser prolongar o resultado." },
+
+    { "tipo": "titulo", "nivel": 2, "texto": "Como Prolongar o Resultado do Clareamento" },
+    { "tipo": "lista", "itens": [
+        "<strong>Reforce a higiene diária:</strong> escove os dentes após as refeições e use fio dental todos os dias.",
+        "<strong>Use produtos de manutenção:</strong> um creme dental clareador no dia a dia ajuda a prevenir pigmentações novas e prolonga o efeito do tratamento principal.",
+        "<strong>Modere alimentos e bebidas escuras:</strong> quando consumir café, vinho ou chá, enxágue a boca com água em seguida.",
+        "<strong>Mantenha as limpezas profissionais regulares:</strong> consultas de rotina ajudam a remover manchas superficiais antes que se acumulem.",
+        "<strong>Evite fumar</strong> ou reduza o quanto puder, já que é um dos fatores que mais aceleram o retorno das manchas."
+    ]},
+
+    { "tipo": "titulo", "nivel": 2, "texto": "Preciso Repetir o Clareamento? Quando?" },
+    { "tipo": "paragrafo", "texto": "Sim, o clareamento não é permanente — é normal precisar de uma manutenção ou de um novo ciclo de tratamento depois que o efeito começa a diminuir, geralmente dentro das faixas de tempo mencionadas acima. O ideal é que essa reavaliação seja feita <strong>pelo dentista</strong>, e não por conta própria: aplicar gel clareador sem orientação, achando que está apenas \"dando uma reforçada\", tem os mesmos riscos do uso incorreto de qualquer produto de venda livre — irritação na gengiva e sensibilidade, sem a segurança do acompanhamento profissional." },
+
+    { "tipo": "callout", "texto": "Já fez clareamento e sente que o efeito está diminuindo? Agende uma avaliação para saber se é hora de reforçar o tratamento.", "cta_texto": "Falar no WhatsApp", "cta_link": "https://wa.me/5521976939004?text=Ol%C3%A1!%20Fiz%20clareamento%20dental%20e%20gostaria%20de%20saber%20se%20%C3%A9%20hora%20de%20reforçar." },
+
+    { "tipo": "faq", "titulo": "Perguntas frequentes sobre a duração do clareamento dental", "perguntas": [
+      { "pergunta": "O clareamento dental é permanente?", "resposta": "Não. É um resultado temporário que dura de alguns meses a alguns anos, dependendo do tipo de tratamento e dos hábitos de alimentação e higiene mantidos depois." },
+      { "pergunta": "Clareamento em consultório dura mais que o caseiro?", "resposta": "Em geral, sim — o de consultório pode durar até 3 anos, enquanto o caseiro supervisionado costuma durar de 6 meses a 2 anos. Mas os hábitos do dia a dia influenciam tanto quanto o método escolhido." },
+      { "pergunta": "Fumar realmente diminui a duração do clareamento?", "resposta": "Sim, o tabagismo é um dos fatores que mais aceleram o retorno das manchas nos dentes, junto com o consumo frequente de café, vinho tinto e chás escuros." },
+      { "pergunta": "Posso usar o mesmo gel de clareamento para 'reforçar' o resultado sozinho?", "resposta": "Não é recomendado. Usar gel clareador sem orientação do dentista tem os mesmos riscos de qualquer produto sem supervisão — irritação na gengiva e sensibilidade. O reforço do tratamento deve ser avaliado e prescrito pelo dentista." },
+      { "pergunta": "Creme dental clareador prolonga o efeito de verdade?", "resposta": "Ajuda a prevenir novas pigmentações do dia a dia, funcionando como manutenção — mas não substitui o tratamento clareador em si, que tem uma ação muito mais profunda no esmalte." }
+    ]},
+
+    { "tipo": "paragrafo", "texto": "Quer entender o quadro completo? Volte ao <a href=\"/clareamento-dental-guia-completo/\">guia completo sobre clareamento dental</a> para ver os tipos disponíveis, <a href=\"/quanto-custa-clareamento-dental/\">quanto custa</a> e <a href=\"/clareamento-dental-doi/\">se o procedimento dói</a>." }
+  ]
+}

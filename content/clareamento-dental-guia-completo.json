@@ -6,7 +6,7 @@
   "categoria": "tratamentos",
   "autor": "dra-kesya-nogueira",
   "cluster_pai": null,
-  "cluster_filhos": ["quanto-custa-clareamento-dental", "clareamento-dental-doi", "clareamento-caseiro-ou-consultorio"],
+  "cluster_filhos": ["quanto-custa-clareamento-dental", "clareamento-dental-doi", "clareamento-caseiro-ou-consultorio", "quanto-tempo-dura-clareamento-dental"],
   "capa": {
     "url": "/assets/blog/clareamento-dental-guia-completo-capa-1024x576.webp",
     "srcset": "/assets/blog/clareamento-dental-guia-completo-capa-300x169.webp 300w, /assets/blog/clareamento-dental-guia-completo-capa-768x432.webp 768w, /assets/blog/clareamento-dental-guia-completo-capa-1024x576.webp 1024w, /assets/blog/clareamento-dental-guia-completo-capa.webp 1280w",
@@ -61,6 +61,6 @@
       { "pergunta": "Grávidas podem fazer clareamento dental?", "resposta": "Não é recomendado. As alterações hormonais da gravidez aumentam a sensibilidade dentária e a irritação gengival, por isso o ideal é adiar o procedimento para depois do período gestacional." }
     ]},
 
-    { "tipo": "paragrafo", "texto": "Quer saber quanto custa, se dói, ou qual tipo escolher? Veja o detalhamento completo de preços em <a href=\"https://stelleodontologia.com.br/quanto-custa-clareamento-dental/\">quanto custa clareamento dental em 2026</a>. Continue acompanhando este guia — vamos atualizá-lo com links para os demais artigos deste cluster à medida que forem publicados." }
+    { "tipo": "paragrafo", "texto": "Quer se aprofundar em algum ponto específico? Veja também <a href=\"https://stelleodontologia.com.br/quanto-custa-clareamento-dental/\">quanto custa clareamento dental em 2026</a>, <a href=\"https://stelleodontologia.com.br/clareamento-dental-doi/\">se o clareamento dói</a>, <a href=\"https://stelleodontologia.com.br/clareamento-caseiro-ou-consultorio/\">a comparação entre caseiro, consultório e laser</a>, e <a href=\"https://stelleodontologia.com.br/quanto-tempo-dura-clareamento-dental/\">quanto tempo dura o resultado</a>." }
   ]
 }
