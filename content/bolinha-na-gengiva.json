@@ -1,0 +1,69 @@
+{
+  "slug": "bolinha-na-gengiva",
+  "titulo_meta": "Bolinha na Gengiva: O Que Pode Ser? - Stelle Odontologia",
+  "titulo_h1": "Bolinha na Gengiva: O Que Pode Ser e Quando se Preocupar",
+  "meta_description": "Apareceu uma bolinha na gengiva? Pode ser abscesso (infecção) ou fibroma (benigno). Entenda como diferenciar e quando procurar um dentista.",
+  "categoria": "saude-bucal",
+  "autor": "dra-kesya-nogueira",
+  "cluster_pai": "sintomas-bucais-quando-se-preocupar",
+  "capa": {
+    "url": "/assets/recovered/2024/12/Remedio-para-dor-de-dente-1024x585.webp",
+    "srcset": "/assets/recovered/2024/12/Remedio-para-dor-de-dente-1024x585.webp 1024w",
+    "og": "https://stelleodontologia.com.br/assets/recovered/2024/12/Remedio-para-dor-de-dente-1024x585.webp",
+    "alt": "Ilustração de bolinha na gengiva, sintoma que pode indicar abscesso ou fibroma"
+  },
+  "publicado": true,
+  "publicado_em": "2026-09-16",
+  "atualizado_em": "2026-09-16",
+  "blocos": [
+    { "tipo": "pillar_badge", "texto": "Parte do Guia sobre Sintomas Bucais Estranhos", "link": "/sintomas-bucais-quando-se-preocupar/" },
+    { "tipo": "paragrafo", "texto": "<strong>Uma bolinha na gengiva geralmente é um abscesso periodontal (sinal de infecção) ou um fibroma (um crescimento benigno causado por irritação).</strong> A diferença mais importante: o abscesso costuma vir com inchaço, dor ou pus, enquanto o fibroma é firme, indolor e de crescimento lento. De qualquer forma, qualquer bolinha nova na gengiva merece uma avaliação." },
+    { "tipo": "paragrafo", "texto": "Este artigo faz parte do nosso <a href=\"/sintomas-bucais-quando-se-preocupar/\">guia sobre sintomas bucais estranhos</a> e explica como diferenciar as causas mais comuns e quando isso é urgente." },
+
+    { "tipo": "titulo", "nivel": 2, "texto": "Abscesso Periodontal: A Causa Mais Comum" },
+    { "tipo": "paragrafo", "texto": "Segundo a <a href=\"https://my.clevelandclinic.org/health/diseases/24573-periodontal-abscess\" target=\"_blank\" rel=\"noopener\">Cleveland Clinic</a>, um abscesso periodontal \"parece um furúnculo ou espinha na gengiva\", geralmente <strong>mais escuro</strong> que o resto do tecido gengival e com aspecto inchado. Ele se forma quando bactérias da boca invadem o espaço entre os dentes e a gengiva — e a <strong>doença gengival é o principal fator de risco</strong> para esse tipo de abscesso." },
+    { "tipo": "paragrafo", "texto": "Outros sinais que costumam acompanhar o abscesso:" },
+    { "tipo": "lista", "itens": [
+        "Sensibilidade dos dentes ao quente ou frio;",
+        "Mau hálito persistente;",
+        "Dor ao mastigar (embora algumas pessoas não sintam dor);",
+        "Gânglios inchados no pescoço ou mandíbula;",
+        "Saída de pus da região."
+    ]},
+    { "tipo": "paragrafo", "texto": "Sem tratamento, a infecção pode destruir os tecidos de sustentação do dente, causar perda óssea e, em casos raros, se espalhar para outras partes do corpo, gerando complicações sérias. Por isso, um abscesso <strong>nunca deve ser ignorado</strong> — procure atendimento assim que perceber os sinais." },
+
+    { "tipo": "titulo", "nivel": 2, "texto": "Fibroma: Quando é Apenas Irritação" },
+    { "tipo": "paragrafo", "texto": "Nem toda bolinha é infecção. O fibroma oral é um crescimento <strong>benigno, firme e indolor</strong>, que costuma se formar por irritação ou trauma repetido — como uma mordida acidental na bochecha ou gengiva, ou uma prótese/aparelho mal ajustado machucando o tecido repetidamente. Diferente do abscesso, ele cresce devagar, ao longo do tempo, e geralmente não dói." },
+
+    { "tipo": "titulo", "nivel": 2, "texto": "Como Diferenciar: Abscesso x Fibroma" },
+    { "tipo": "tabela", "linhas": [
+        ["Característica", "Abscesso periodontal", "Fibroma"],
+        ["Cor", "Mais escura, avermelhada", "Cor semelhante à gengiva"],
+        ["Dor", "Geralmente presente (nem sempre)", "Geralmente indolor"],
+        ["Crescimento", "Aparece rápido", "Cresce devagar"],
+        ["Pus", "Pode haver", "Não"],
+        ["Causa", "Infecção bacteriana", "Irritação ou trauma repetido"]
+    ]},
+
+    { "tipo": "titulo", "nivel": 2, "texto": "Quando Procurar um Dentista" },
+    { "tipo": "paragrafo", "texto": "Só um exame clínico — às vezes com raio-X — confirma a causa exata. Procure avaliação sem demora se a bolinha:" },
+    { "tipo": "lista", "itens": [
+        "Estiver dolorida, inchada ou liberando pus;",
+        "Vier acompanhada de febre ou mal-estar;",
+        "Crescer rapidamente;",
+        "Persistir por mais de duas semanas, mesmo sem dor."
+    ]},
+
+    { "tipo": "callout", "texto": "Apareceu uma bolinha na sua gengiva? Não espere piorar. Agende uma avaliação.", "cta_texto": "Falar no WhatsApp", "cta_link": "https://wa.me/5521976939004?text=Apareceu%20uma%20bolinha%20na%20minha%20gengiva%20e%20gostaria%20de%20uma%20avalia%C3%A7%C3%A3o" },
+
+    { "tipo": "faq", "titulo": "Perguntas frequentes sobre bolinha na gengiva", "perguntas": [
+      { "pergunta": "Bolinha na gengiva sempre significa infecção?", "resposta": "Não. Pode ser um abscesso (infecção) ou um fibroma (crescimento benigno por irritação). A diferença principal está na dor, na cor e na velocidade de crescimento — mas só um exame confirma com certeza." },
+      { "pergunta": "Posso estourar a bolinha sozinho?", "resposta": "Não. Tentar drenar ou estourar a bolinha em casa pode espalhar a infecção (se for um abscesso) ou causar sangramento e machucar ainda mais o tecido. Deixe para o dentista tratar corretamente." },
+      { "pergunta": "Bolinha sem dor na gengiva é menos preocupante?", "resposta": "Pode ser, já que fibromas costumam ser indolores. Mas alguns abscessos também não doem, então a ausência de dor não descarta infecção — vale mostrar ao dentista de qualquer forma." },
+      { "pergunta": "O que causa o fibroma na gengiva?", "resposta": "Geralmente irritação ou trauma repetido no tecido — como mordidas acidentais frequentes, uma prótese mal ajustada ou um aparelho ortodôntico machucando a região continuamente." },
+      { "pergunta": "Abscesso periodontal precisa de antibiótico?", "resposta": "Em muitos casos sim, além da drenagem e tratamento da causa (geralmente a doença gengival de base). Somente o dentista pode avaliar e prescrever o tratamento adequado após o exame." }
+    ]},
+
+    { "tipo": "paragrafo", "texto": "Quer entender outros sintomas bucais incomuns? Volte ao <a href=\"/sintomas-bucais-quando-se-preocupar/\">guia sobre sintomas bucais estranhos</a>." }
+  ]
+}

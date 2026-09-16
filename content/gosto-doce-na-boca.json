@@ -1,0 +1,52 @@
+{
+  "slug": "gosto-doce-na-boca",
+  "titulo_meta": "Gosto Doce na Boca: O Que Pode Ser? - Stelle Odontologia",
+  "titulo_h1": "Gosto Doce na Boca: O Que Pode Ser e Quando Procurar um Médico",
+  "meta_description": "Gosto doce persistente na boca pode ter causas simples ou estar ligado a diabetes. Entenda as possíveis causas e quando procurar avaliação médica.",
+  "categoria": "saude-bucal",
+  "autor": "dra-kesya-nogueira",
+  "cluster_pai": "sintomas-bucais-quando-se-preocupar",
+  "capa": {
+    "url": "/assets/recovered/2024/12/Remedio-para-dor-de-dente-1024x585.webp",
+    "srcset": "/assets/recovered/2024/12/Remedio-para-dor-de-dente-1024x585.webp 1024w",
+    "og": "https://stelleodontologia.com.br/assets/recovered/2024/12/Remedio-para-dor-de-dente-1024x585.webp",
+    "alt": "Pessoa com expressão de dúvida sentindo um gosto doce incomum na boca"
+  },
+  "publicado": true,
+  "publicado_em": "2026-09-16",
+  "atualizado_em": "2026-09-16",
+  "blocos": [
+    { "tipo": "pillar_badge", "texto": "Parte do Guia sobre Sintomas Bucais Estranhos", "link": "/sintomas-bucais-quando-se-preocupar/" },
+    { "tipo": "paragrafo", "texto": "<strong>Um gosto doce ocasional na boca costuma ter causas simples, como higiene bucal ou refluxo — mas se for persistente, vale investigar com um médico, porque também pode estar ligado a alterações no açúcar do sangue.</strong> Não é motivo de pânico, mas também não é um sintoma para ignorar se continuar aparecendo." },
+    { "tipo": "paragrafo", "texto": "Este artigo faz parte do nosso <a href=\"/sintomas-bucais-quando-se-preocupar/\">guia sobre sintomas bucais estranhos</a> e explica as causas mais comuns desse sintoma, da mais simples à que exige mais atenção." },
+
+    { "tipo": "titulo", "nivel": 2, "texto": "Causas Mais Simples e Comuns" },
+    { "tipo": "paragrafo", "texto": "Segundo a <a href=\"https://health.clevelandclinic.org/why-do-i-have-a-sweet-taste-in-my-mouth\" target=\"_blank\" rel=\"noopener\">Cleveland Clinic</a>, boa parte dos casos de gosto doce na boca tem explicações bem simples:" },
+    { "tipo": "lista", "itens": [
+        "<strong>Higiene bucal:</strong> secreções orais secas podem criar um ambiente que altera a percepção do paladar;",
+        "<strong>Água ou utensílios:</strong> água de poço com alto teor de cálcio e ferro, ou resíduos em canos e copos, podem deixar um gosto residual;",
+        "<strong>Problemas no olfato:</strong> como o paladar está muito ligado ao olfato, inflamações no nariz ou seios da face também podem alterar o sabor percebido;",
+        "<strong>Refluxo (DRGE):</strong> pequenas quantidades de secreção ácida do estômago podem chegar à boca durante o refluxo, e as enzimas presentes na saliva reagem com esse conteúdo, gerando uma sensação de doçura."
+    ]},
+
+    { "tipo": "titulo", "nivel": 2, "texto": "Quando Pode Estar Ligado a Diabetes" },
+    { "tipo": "paragrafo", "texto": "O açúcar do sangue fora de controle, associado ao diabetes, também pode causar essa sensação — a Cleveland Clinic explica que a desregulação da glicose pode alterar a forma como você percebe o sabor doce. Em casos mais sérios, a <strong>cetoacidose diabética</strong> (uma complicação grave do diabetes) pode causar um gosto e cheiro doce e frutado na respiração e na boca." },
+    { "tipo": "paragrafo", "texto": "Isso <strong>não significa</strong> que todo gosto doce na boca é sinal de diabetes — a grande maioria dos casos tem causas bem mais simples, como as listadas acima. Mas se o sintoma for persistente, especialmente se vier acompanhado de sede excessiva, cansaço ou perda de peso sem explicação, vale procurar um médico para investigar." },
+
+    { "tipo": "titulo", "nivel": 2, "texto": "O Que Fazer" },
+    { "tipo": "paragrafo", "texto": "A Cleveland Clinic recomenda buscar orientação médica, especialmente para descartar diabetes ou outras condições mais sérias — e, se o sintoma persistir mesmo depois de melhorar a higiene bucal, considerar uma avaliação com um otorrinolaringologista, para examinar o olfato e a saúde da língua." },
+    { "tipo": "paragrafo", "texto": "Do lado odontológico, o dentista pode avaliar se a causa está relacionada à saúde bucal — como acúmulo de resíduos ou problemas na língua — antes de encaminhar para investigação médica mais ampla, se necessário." },
+
+    { "tipo": "callout", "texto": "Notou um gosto doce persistente na boca? Agende uma avaliação odontológica como primeiro passo.", "cta_texto": "Falar no WhatsApp", "cta_link": "https://wa.me/5521976939004?text=Estou%20sentindo%20um%20gosto%20doce%20persistente%20na%20boca%20e%20gostaria%20de%20uma%20avalia%C3%A7%C3%A3o" },
+
+    { "tipo": "faq", "titulo": "Perguntas frequentes sobre gosto doce na boca", "perguntas": [
+      { "pergunta": "Gosto doce na boca é sempre sinal de diabetes?", "resposta": "Não. A maioria dos casos tem causas simples, como higiene bucal, refluxo ou até a água que você bebe. Diabetes é uma possibilidade entre várias, mais relevante quando o sintoma é persistente e vem com outros sinais." },
+      { "pergunta": "Quais outros sintomas devo observar junto com o gosto doce?", "resposta": "Sede excessiva, cansaço incomum, perda de peso sem explicação, ou um cheiro doce e frutado na respiração — esses sinais juntos merecem avaliação médica, não só odontológica." },
+      { "pergunta": "Refluxo pode causar gosto doce na boca?", "resposta": "Sim. Pequenas quantidades de secreção ácida do estômago que sobem até a boca podem reagir com enzimas da saliva e gerar essa sensação de doçura." },
+      { "pergunta": "Dentista ou médico: quem devo procurar primeiro?", "resposta": "Pode começar pelo dentista, que avalia a saúde bucal e a língua. Se a causa não for odontológica, ele pode encaminhar para um médico investigar possibilidades como diabetes ou refluxo." },
+      { "pergunta": "Melhorar a escovação resolve o gosto doce na boca?", "resposta": "Em muitos casos sim, se a causa for higiene bucal. Mas se o sintoma persistir mesmo com boa higiene, vale buscar uma avaliação mais ampla para investigar outras causas." }
+    ]},
+
+    { "tipo": "paragrafo", "texto": "Quer entender outros sintomas bucais incomuns? Volte ao <a href=\"/sintomas-bucais-quando-se-preocupar/\">guia sobre sintomas bucais estranhos</a>." }
+  ]
+}

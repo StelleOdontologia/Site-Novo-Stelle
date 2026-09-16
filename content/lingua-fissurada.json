@@ -1,0 +1,65 @@
+{
+  "slug": "lingua-fissurada",
+  "titulo_meta": "Língua Fissurada: É Grave? Causas e Cuidados - Stelle Odontologia",
+  "titulo_h1": "Língua Fissurada: É Grave? Causas e Cuidados Necessários",
+  "meta_description": "Língua fissurada (ou língua escrotal): entenda se é grave, as causas, com quais condições pode estar associada e como cuidar corretamente.",
+  "categoria": "saude-bucal",
+  "autor": "dra-kesya-nogueira",
+  "cluster_pai": "sintomas-bucais-quando-se-preocupar",
+  "capa": {
+    "url": "/assets/recovered/2024/12/Remedio-para-dor-de-dente-1024x585.webp",
+    "srcset": "/assets/recovered/2024/12/Remedio-para-dor-de-dente-1024x585.webp 1024w",
+    "og": "https://stelleodontologia.com.br/assets/recovered/2024/12/Remedio-para-dor-de-dente-1024x585.webp",
+    "alt": "Língua com fissuras visíveis, condição conhecida como língua fissurada"
+  },
+  "publicado": true,
+  "publicado_em": "2026-09-16",
+  "atualizado_em": "2026-09-16",
+  "blocos": [
+    { "tipo": "pillar_badge", "texto": "Parte do Guia sobre Sintomas Bucais Estranhos", "link": "/sintomas-bucais-quando-se-preocupar/" },
+    { "tipo": "paragrafo", "texto": "<strong>A língua fissurada (também chamada de língua escrotal ou língua plicata) é uma condição benigna — as fissuras em si não fazem mal e não precisam de tratamento.</strong> É basicamente uma variação saudável e normal da anatomia da língua, sem uma causa conhecida, embora tenda a ser hereditária." },
+    { "tipo": "paragrafo", "texto": "Este artigo faz parte do nosso <a href=\"/sintomas-bucais-quando-se-preocupar/\">guia sobre sintomas bucais estranhos</a> e explica por que isso acontece, quando vale prestar mais atenção e como cuidar da língua para evitar desconforto." },
+
+    { "tipo": "titulo", "nivel": 2, "texto": "O Que É a Língua Fissurada?" },
+    { "tipo": "paragrafo", "texto": "Segundo a <a href=\"https://my.clevelandclinic.org/health/diseases/fissured-tongue\" target=\"_blank\" rel=\"noopener\">Cleveland Clinic</a>, a língua fissurada é \"apenas uma variação saudável do que é considerado normal\" — as fissuras são sulcos que aparecem na superfície da língua, e por si só, são completamente inofensivas. A condição não significa que você tem algum problema que precisa de tratamento." },
+    { "tipo": "paragrafo", "texto": "Em termos de frequência, estima-se que entre <strong>2% e 20% das pessoas no mundo</strong> tenham língua fissurada (dependendo da pesquisa), com números mais próximos de 2% a 5% nos Estados Unidos. É ligeiramente mais comum em homens e em pessoas acima de 50 anos." },
+
+    { "tipo": "titulo", "nivel": 2, "texto": "Por Que Isso Acontece?" },
+    { "tipo": "paragrafo", "texto": "A causa exata ainda não é conhecida pela ciência, mas a genética parece ter um papel importante — a condição <strong>pode ser hereditária</strong>, aparecendo em várias pessoas de uma mesma família." },
+    { "tipo": "paragrafo", "texto": "A Cleveland Clinic também lista condições que aparecem <strong>com mais frequência</strong> em pessoas que têm língua fissurada — o que não significa que ter fissuras seja sinal de uma dessas condições, apenas que elas coexistem com mais frequência do que o esperado:" },
+    { "tipo": "lista", "itens": [
+        "Língua geográfica;",
+        "Síndrome de Melkersson-Rosenthal;",
+        "Síndrome de Down;",
+        "Síndrome de Sjögren;",
+        "Doença granulomatosa crônica;",
+        "Psoríase."
+    ]},
+    { "tipo": "paragrafo", "texto": "A própria Cleveland Clinic reforça: \"ter fissuras na língua não é um sinal de alerta de uma condição ou problema de saúde\". Ou seja, a grande maioria das pessoas com língua fissurada não tem nenhuma dessas condições associadas." },
+
+    { "tipo": "titulo", "nivel": 2, "texto": "Preciso Tratar?" },
+    { "tipo": "paragrafo", "texto": "Não é necessário nenhum tratamento específico, a menos que restos de comida ou bactérias fiquem presos dentro das fissuras — o que pode causar mau hálito ou leve irritação. Nesses casos, alguns cuidados simples ajudam bastante:" },
+    { "tipo": "lista", "itens": [
+        "Escovar os dentes (e a língua) duas vezes ao dia;",
+        "Usar fio dental normalmente;",
+        "Enxaguar a boca com um bom enxaguante bucal;",
+        "Usar um raspador de língua para remover resíduos das fissuras;",
+        "Considerar formulações ou dispositivos específicos de limpeza da língua, se as fissuras forem profundas."
+    ]},
+
+    { "tipo": "titulo", "nivel": 2, "texto": "Quando Vale Procurar um Dentista" },
+    { "tipo": "paragrafo", "texto": "Mesmo sendo uma condição benigna, vale marcar uma avaliação se você notar dor persistente na língua, mau hálito que não melhora com a higiene adequada, ou se as fissuras vierem acompanhadas de outros sintomas incomuns — só para descartar qualquer uma das condições associadas mencionadas acima." },
+
+    { "tipo": "callout", "texto": "Notou fissuras na língua e quer confirmar se está tudo bem? Agende uma avaliação.", "cta_texto": "Falar no WhatsApp", "cta_link": "https://wa.me/5521976939004?text=Notei%20fissuras%20na%20minha%20l%C3%ADngua%20e%20gostaria%20de%20uma%20avalia%C3%A7%C3%A3o" },
+
+    { "tipo": "faq", "titulo": "Perguntas frequentes sobre língua fissurada", "perguntas": [
+      { "pergunta": "Língua fissurada é a mesma coisa que língua geográfica?", "resposta": "Não, mas as duas condições frequentemente aparecem juntas na mesma pessoa. A língua geográfica causa manchas avermelhadas com bordas esbranquiçadas, enquanto a língua fissurada é caracterizada por sulcos na superfície." },
+      { "pergunta": "Língua fissurada pode virar câncer?", "resposta": "Não há relação estabelecida entre língua fissurada e câncer. É considerada uma condição totalmente benigna. Ainda assim, qualquer mudança nova, dor persistente ou lesão que não cicatriza deve ser avaliada por um profissional." },
+      { "pergunta": "Por que minha língua fissurada às vezes arde ou incomoda?", "resposta": "Geralmente por acúmulo de resíduos ou bactérias dentro das fissuras, ou por sensibilidade a alimentos ácidos ou picantes. Melhorar a limpeza da língua costuma resolver o desconforto." },
+      { "pergunta": "Língua fissurada é comum em crianças?", "resposta": "Pode aparecer em qualquer idade, mas costuma ficar mais visível com o passar dos anos, já que as fissuras tendem a se aprofundar gradualmente ao longo da vida." },
+      { "pergunta": "Existe cura para língua fissurada?", "resposta": "Não é necessária, já que não é uma doença — é uma variação normal da anatomia da língua. O foco do cuidado é a higiene, não a 'cura' das fissuras." }
+    ]},
+
+    { "tipo": "paragrafo", "texto": "Quer entender outros sintomas bucais incomuns? Volte ao <a href=\"/sintomas-bucais-quando-se-preocupar/\">guia sobre sintomas bucais estranhos</a>." }
+  ]
+}

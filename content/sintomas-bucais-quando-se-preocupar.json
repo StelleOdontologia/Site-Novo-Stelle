@@ -1,0 +1,67 @@
+{
+  "slug": "sintomas-bucais-quando-se-preocupar",
+  "titulo_meta": "Sintomas Bucais Estranhos: Quando se Preocupar? - Stelle",
+  "titulo_h1": "Sintomas Bucais Estranhos: Quando Devo me Preocupar?",
+  "meta_description": "Bolinha na gengiva, língua com fissuras, gosto doce na boca: entenda o que cada sintoma bucal incomum pode significar e quando procurar um dentista.",
+  "categoria": "saude-bucal",
+  "autor": "dra-kesya-nogueira",
+  "cluster_pai": null,
+  "cluster_filhos": ["lingua-fissurada", "bolinha-na-gengiva", "gosto-doce-na-boca"],
+  "capa": {
+    "url": "/assets/recovered/2024/12/Remedio-para-dor-de-dente-1024x585.webp",
+    "srcset": "/assets/recovered/2024/12/Remedio-para-dor-de-dente-1024x585.webp 1024w",
+    "og": "https://stelleodontologia.com.br/assets/recovered/2024/12/Remedio-para-dor-de-dente-1024x585.webp",
+    "alt": "Pessoa examinando a própria boca no espelho, notando um sintoma bucal incomum"
+  },
+  "publicado": true,
+  "publicado_em": "2026-09-16",
+  "atualizado_em": "2026-09-16",
+  "blocos": [
+    { "tipo": "paragrafo", "texto": "<strong>A maioria dos sintomas bucais incomuns — como fissuras na língua, uma bolinha na gengiva ou um gosto estranho na boca — não é motivo de pânico, mas também não deve ser ignorada.</strong> Alguns são apenas variações normais do corpo; outros são sinais de infecção ou de condições que merecem investigação, como diabetes. A diferença está em saber identificar o padrão certo." },
+    { "tipo": "paragrafo", "texto": "Este é o nosso guia de referência sobre sintomas bucais incomuns. Aqui você encontra uma visão geral de cada categoria de sintoma e links para os artigos específicos, mais aprofundados, sobre cada um deles." },
+
+    { "tipo": "titulo", "nivel": 2, "texto": "Sintomas na Língua" },
+    { "tipo": "paragrafo", "texto": "A língua costuma ser um dos primeiros lugares onde sintomas bucais aparecem, porque sua superfície muda de aparência com facilidade:" },
+    { "tipo": "lista", "itens": [
+        "<strong>Fissuras ou sulcos na língua:</strong> geralmente uma variação benigna e genética, sem causa conhecida — veja o detalhamento completo em <a href=\"/lingua-fissurada/\">língua fissurada</a>;",
+        "<strong>Manchas brancas ou amareladas:</strong> podem indicar desde acúmulo de resíduos até candidíase oral, dependendo da textura e se saem ao raspar;",
+        "<strong>Dormência:</strong> pode estar ligada a deficiências nutricionais, compressão nervosa ou reações a medicamentos — sintoma que sempre vale investigar se for persistente."
+    ]},
+
+    { "tipo": "titulo", "nivel": 2, "texto": "Sintomas na Gengiva" },
+    { "tipo": "paragrafo", "texto": "Alterações na gengiva costumam ter uma causa mais direta — na maioria das vezes, ligada a infecção ou irritação:" },
+    { "tipo": "lista", "itens": [
+        "<strong>Bolinha ou \"caroço\" na gengiva:</strong> pode ser um abscesso periodontal (infecção) ou um fibroma (crescimento benigno por irritação) — veja como diferenciar em <a href=\"/bolinha-na-gengiva/\">bolinha na gengiva</a>;",
+        "<strong>Gengiva inchada:</strong> costuma estar ligada a gengivite ou periodontite — já temos um <a href=\"/gengiva-inchada-o-que-fazer-causas-sintomas-tratamentos/\">guia completo sobre gengiva inchada</a>;",
+        "<strong>Mudança de cor</strong> (mais clara, mais escura): pode ser variação natural de pigmentação ou sinal de irritação, dependendo do contexto."
+    ]},
+
+    { "tipo": "titulo", "nivel": 2, "texto": "Sabor ou Sensação Estranha na Boca" },
+    { "tipo": "paragrafo", "texto": "Esse tipo de sintoma costuma ser o mais negligenciado, mas pode ser um sinal importante do corpo:" },
+    { "tipo": "lista", "itens": [
+        "<strong>Gosto doce persistente:</strong> pode estar ligado a refluxo, higiene bucal, ou — de forma mais séria — a alterações no açúcar do sangue. Veja quando investigar em <a href=\"/gosto-doce-na-boca/\">gosto doce na boca</a>;",
+        "<strong>Boca seca:</strong> comum na gravidez e com certos medicamentos, mas também pode indicar problemas na produção de saliva."
+    ]},
+
+    { "tipo": "titulo", "nivel": 2, "texto": "Quando Procurar um Dentista Urgentemente" },
+    { "tipo": "paragrafo", "texto": "Independente do sintoma específico, alguns sinais indicam que a avaliação não deve esperar:" },
+    { "tipo": "lista", "itens": [
+        "Dor intensa ou que piora progressivamente;",
+        "Inchaço no rosto ou febre associada ao sintoma bucal;",
+        "Sintoma que não melhora ou piora depois de 1 a 2 semanas;",
+        "Sangramento espontâneo ou que não para;",
+        "Mudança de cor, textura ou tamanho em uma lesão que já existia."
+    ]},
+
+    { "tipo": "callout", "texto": "Notou um sintoma bucal que não sabe identificar? Agende uma avaliação e tire a dúvida com quem entende do assunto.", "cta_texto": "Falar no WhatsApp", "cta_link": "https://wa.me/5521976939004?text=Notei%20um%20sintoma%20estranho%20na%20boca%20e%20gostaria%20de%20uma%20avalia%C3%A7%C3%A3o" },
+
+    { "tipo": "faq", "titulo": "Perguntas frequentes sobre sintomas bucais incomuns", "perguntas": [
+      { "pergunta": "Todo sintoma bucal incomum é sinal de doença grave?", "resposta": "Não. Muitos, como a língua fissurada, são apenas variações normais e benignas do corpo. O que importa é observar se o sintoma persiste, piora ou vem acompanhado de dor, sangramento ou febre." },
+      { "pergunta": "Quando devo me preocupar com uma bolinha na boca?", "resposta": "Quando ela é dolorida, cresce rapidamente, sangra, ou não desaparece depois de duas semanas. Bolinhas indolores e estáveis costumam ser menos preocupantes, mas ainda vale mostrar ao dentista." },
+      { "pergunta": "Sintomas na boca podem indicar problemas de saúde além dos dentes?", "resposta": "Sim. A boca pode refletir condições sistêmicas, como diabetes (gosto doce persistente, boca seca) ou deficiências nutricionais (língua dormente, alterações de cor). Por isso vale levar sintomas bucais persistentes a sério." },
+      { "pergunta": "Com que frequência devo examinar minha própria boca?", "resposta": "Vale dar uma olhada rápida (língua, gengiva, bochechas) sempre que escovar os dentes — é o momento mais fácil de notar qualquer mudança cedo." }
+    ]},
+
+    { "tipo": "paragrafo", "texto": "Continue explorando: veja os artigos específicos sobre <a href=\"/lingua-fissurada/\">língua fissurada</a>, <a href=\"/bolinha-na-gengiva/\">bolinha na gengiva</a> e <a href=\"/gosto-doce-na-boca/\">gosto doce na boca</a>." }
+  ]
+}
