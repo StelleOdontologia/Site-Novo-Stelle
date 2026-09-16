@@ -5,7 +5,7 @@
   "meta_description": "A gravidez tem 3 trimestres, cada um com marcos de desenvolvimento do bebê. Veja o que muda em cada fase e os cuidados de saúde bucal correspondentes.",
   "categoria": "gestantes",
   "autor": "dra-kesya-nogueira",
-  "cluster_pai": null,
+  "cluster_pai": "saude-bucal-na-gestacao",
   "capa": {
     "url": "/assets/recovered/2019/11/Linha-de-Tempo-da-Gravidez-como-funcionam-os-ciclos-da-gravidez.jpg",
     "srcset": "/assets/recovered/2019/11/Linha-de-Tempo-da-Gravidez-como-funcionam-os-ciclos-da-gravidez.jpg 915w, /assets/recovered/2019/11/Linha-de-Tempo-da-Gravidez-como-funcionam-os-ciclos-da-gravidez-300x200.jpg 300w, /assets/recovered/2019/11/Linha-de-Tempo-da-Gravidez-como-funcionam-os-ciclos-da-gravidez-768x512.jpg 768w",
@@ -16,40 +16,130 @@
   "publicado_em": "2019-11-12",
   "atualizado_em": "2026-09-01",
   "blocos": [
-    { "tipo": "paragrafo", "texto": "<strong>A gravidez é dividida em 3 trimestres ao longo de aproximadamente 40 semanas</strong>: o primeiro (semana 1 a 13) é quando os órgãos do bebê se formam; o segundo (14 a 27) é o crescimento acelerado; o terceiro (28 a 40) é a fase final de preparação para o parto. Cada um tem marcos próprios de desenvolvimento do bebê — e cuidados de saúde bucal específicos para a mãe." },
-    { "tipo": "tabela", "linhas": [
-        ["Trimestre", "Semanas", "Principal característica"],
-        ["Primeiro trimestre", "1 a 13 semanas", "Formação dos órgãos do bebê"],
-        ["Segundo trimestre", "14 a 27 semanas", "Crescimento acelerado do bebê"],
-        ["Terceiro trimestre", "28 a 40 semanas", "Desenvolvimento final e preparo para o parto"]
-    ]},
-
-    { "tipo": "titulo", "nivel": 2, "texto": "Primeiro Trimestre (1ª à 13ª Semana)" },
-    { "tipo": "paragrafo", "texto": "É a fase de maior transformação. Segundo a <a href=\"https://www.mayoclinic.org/healthy-lifestyle/pregnancy-week-by-week/in-depth/prenatal-care/art-20045302\" target=\"_blank\" rel=\"noopener\">Mayo Clinic</a>, já na 6ª semana o tubo neural do bebê se fecha e o cérebro e a medula espinhal começam a se formar, junto com o coração e os primeiros brotos que vão virar braços e pernas. Na 13ª semana, os ossos do esqueleto — principalmente crânio e ossos longos — começam a se calcificar." },
-    { "tipo": "paragrafo", "texto": "Para a mãe, essa fase costuma trazer enjoos, cansaço, sensibilidade nos seios e mudanças de humor, causados pelo aumento da progesterona e do estrogênio." },
-    { "tipo": "paragrafo", "texto": "<strong>Saúde bucal:</strong> as gengivas ficam mais sensíveis e os vômitos frequentes podem desgastar o esmalte dos dentes. É o momento de informar ao dentista que está grávida e manter a escovação suave. Veja o detalhamento completo no nosso <a href=\"https://stelleodontologia.com.br/saude-bucal-na-gravidez/\">guia prático por trimestre</a>." },
-
-    { "tipo": "titulo", "nivel": 2, "texto": "Segundo Trimestre (14ª à 27ª Semana)" },
-    { "tipo": "paragrafo", "texto": "Costuma ser a fase mais tranquila: os enjoos diminuem e a energia volta. É quando muitas famílias descobrem o sexo do bebê no ultrassom. Nessa janela, segundo a <a href=\"https://www.mayoclinic.org/healthy-lifestyle/pregnancy-week-by-week/in-depth/fetal-development/art-20046151\" target=\"_blank\" rel=\"noopener\">Mayo Clinic</a>, o pescoço do bebê fica mais definido, os movimentos dos membros ficam mais coordenados e, por volta da 18ª semana, os ouvidos começam a se destacar na cabeça — é quando o bebê pode começar a perceber sons." },
-    { "tipo": "paragrafo", "texto": "O risco de aborto espontâneo também diminui em relação ao primeiro trimestre, o que traz mais tranquilidade." },
-    { "tipo": "paragrafo", "texto": "<strong>Saúde bucal:</strong> é geralmente o período mais confortável para tratamentos odontológicos — limpezas, restaurações e o que tiver sido adiado no primeiro trimestre." },
-
-    { "tipo": "titulo", "nivel": 2, "texto": "Terceiro Trimestre (28ª à 40ª Semana)" },
-    { "tipo": "paragrafo", "texto": "A fase final de preparação para o parto. De acordo com a <a href=\"https://www.mayoclinic.org/healthy-lifestyle/pregnancy-week-by-week/in-depth/fetal-development/art-20045997\" target=\"_blank\" rel=\"noopener\">Mayo Clinic</a>, na 28ª semana as pálpebras do bebê já conseguem abrir parcialmente e o sistema nervoso central passa a controlar a temperatura corporal; por volta da 31ª semana, o bebê já completou a maior parte do desenvolvimento e está principalmente ganhando peso." },
-    { "tipo": "paragrafo", "texto": "Para a mãe, é comum sentir mais cansaço, dores nas costas, inchaço nas pernas e dificuldade para dormir, junto com a expectativa da chegada do bebê." },
-    { "tipo": "paragrafo", "texto": "<strong>Saúde bucal:</strong> os tratamentos continuam seguros, mas ficar deitada totalmente para trás por muito tempo pode causar tontura. Veja como lidar com isso no nosso <a href=\"https://stelleodontologia.com.br/saude-bucal-na-gravidez/\">guia prático por trimestre</a>, que também explica a segurança de anestesia e raio-X em cada fase." },
-
-    { "tipo": "titulo", "nivel": 2, "texto": "Saúde Bucal ao Longo de Toda a Gravidez" },
-    { "tipo": "paragrafo", "texto": "As mudanças hormonais da gravidez tornam as gengivas mais sensíveis à placa bacteriana durante toda a gestação, não só em um trimestre específico — por isso a escovação cuidadosa e o acompanhamento odontológico devem ser mantidos do início ao fim. Para as doenças bucais mais comuns da gestação (gengivite, cárie, boca seca) e como preveni-las em detalhe, veja nosso <a href=\"https://stelleodontologia.com.br/saude-bucal-na-gestacao/\">guia completo sobre saúde bucal na gestação</a>. Se sua dúvida é especificamente sobre cárie e o bebê, veja <a href=\"https://stelleodontologia.com.br/carie-na-gravidez/\">cárie na gravidez: mito ou verdade</a>." },
-
-    { "tipo": "callout", "texto": "Quer acompanhar sua saúde bucal durante toda a gravidez com uma equipe preparada para gestantes? Agende uma avaliação.", "cta_texto": "Agendar avaliação", "cta_link": "https://wa.me/5521976939004?text=Estou%20gr%C3%A1vida%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20odontol%C3%B3gica" },
-
-    { "tipo": "faq", "perguntas": [
-      { "pergunta": "Quantos trimestres tem a gravidez e quantas semanas cada um?", "resposta": "A gravidez tem 3 trimestres: o primeiro vai da semana 1 à 13, o segundo da 14 à 27, e o terceiro da 28 à 40, totalizando cerca de 40 semanas." },
-      { "pergunta": "Qual trimestre é mais seguro para tratamento odontológico?", "resposta": "O segundo trimestre costuma ser o mais confortável, mas tratamentos de rotina e emergências são seguros em qualquer trimestre, incluindo anestesia local e radiografia com os devidos cuidados." },
-      { "pergunta": "Em que semana os órgãos do bebê se formam?", "resposta": "A formação inicial dos principais órgãos, como coração, cérebro e sistema nervoso, começa já nas primeiras semanas do primeiro trimestre, por volta da 6ª semana." },
-      { "pergunta": "Por que os enjoos afetam os dentes na gravidez?", "resposta": "O ácido do estômago liberado durante os vômitos entra em contato com os dentes e pode enfraquecer o esmalte dentário, aumentando o risco de sensibilidade e cáries." },
-      { "pergunta": "A saúde bucal muda em cada trimestre da gravidez?", "resposta": "A sensibilidade das gengivas às bactérias se mantém ao longo de toda a gestação, mas o conforto para tratamentos varia — o segundo trimestre costuma ser o mais tranquilo, e o terceiro exige apenas ajustes de posição na cadeira." }
-    ]}
+    {
+      "tipo": "pillar_badge",
+      "texto": "Parte do Guia Completo sobre Saúde Bucal na Gestação",
+      "link": "/saude-bucal-na-gestacao/"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "<strong>A gravidez é dividida em 3 trimestres ao longo de aproximadamente 40 semanas</strong>: o primeiro (semana 1 a 13) é quando os órgãos do bebê se formam; o segundo (14 a 27) é o crescimento acelerado; o terceiro (28 a 40) é a fase final de preparação para o parto. Cada um tem marcos próprios de desenvolvimento do bebê — e cuidados de saúde bucal específicos para a mãe."
+    },
+    {
+      "tipo": "tabela",
+      "linhas": [
+        [
+          "Trimestre",
+          "Semanas",
+          "Principal característica"
+        ],
+        [
+          "Primeiro trimestre",
+          "1 a 13 semanas",
+          "Formação dos órgãos do bebê"
+        ],
+        [
+          "Segundo trimestre",
+          "14 a 27 semanas",
+          "Crescimento acelerado do bebê"
+        ],
+        [
+          "Terceiro trimestre",
+          "28 a 40 semanas",
+          "Desenvolvimento final e preparo para o parto"
+        ]
+      ]
+    },
+    {
+      "tipo": "titulo",
+      "nivel": 2,
+      "texto": "Primeiro Trimestre (1ª à 13ª Semana)"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "É a fase de maior transformação. Segundo a <a href=\"https://www.mayoclinic.org/healthy-lifestyle/pregnancy-week-by-week/in-depth/prenatal-care/art-20045302\" target=\"_blank\" rel=\"noopener\">Mayo Clinic</a>, já na 6ª semana o tubo neural do bebê se fecha e o cérebro e a medula espinhal começam a se formar, junto com o coração e os primeiros brotos que vão virar braços e pernas. Na 13ª semana, os ossos do esqueleto — principalmente crânio e ossos longos — começam a se calcificar."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Para a mãe, essa fase costuma trazer enjoos, cansaço, sensibilidade nos seios e mudanças de humor, causados pelo aumento da progesterona e do estrogênio."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "<strong>Saúde bucal:</strong> as gengivas ficam mais sensíveis e os vômitos frequentes podem desgastar o esmalte dos dentes. É o momento de informar ao dentista que está grávida e manter a escovação suave. Veja o detalhamento completo no nosso <a href=\"https://stelleodontologia.com.br/saude-bucal-na-gravidez/\">guia prático por trimestre</a>."
+    },
+    {
+      "tipo": "titulo",
+      "nivel": 2,
+      "texto": "Segundo Trimestre (14ª à 27ª Semana)"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Costuma ser a fase mais tranquila: os enjoos diminuem e a energia volta. É quando muitas famílias descobrem o sexo do bebê no ultrassom. Nessa janela, segundo a <a href=\"https://www.mayoclinic.org/healthy-lifestyle/pregnancy-week-by-week/in-depth/fetal-development/art-20046151\" target=\"_blank\" rel=\"noopener\">Mayo Clinic</a>, o pescoço do bebê fica mais definido, os movimentos dos membros ficam mais coordenados e, por volta da 18ª semana, os ouvidos começam a se destacar na cabeça — é quando o bebê pode começar a perceber sons."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "O risco de aborto espontâneo também diminui em relação ao primeiro trimestre, o que traz mais tranquilidade."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "<strong>Saúde bucal:</strong> é geralmente o período mais confortável para tratamentos odontológicos — limpezas, restaurações e o que tiver sido adiado no primeiro trimestre."
+    },
+    {
+      "tipo": "titulo",
+      "nivel": 2,
+      "texto": "Terceiro Trimestre (28ª à 40ª Semana)"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "A fase final de preparação para o parto. De acordo com a <a href=\"https://www.mayoclinic.org/healthy-lifestyle/pregnancy-week-by-week/in-depth/fetal-development/art-20045997\" target=\"_blank\" rel=\"noopener\">Mayo Clinic</a>, na 28ª semana as pálpebras do bebê já conseguem abrir parcialmente e o sistema nervoso central passa a controlar a temperatura corporal; por volta da 31ª semana, o bebê já completou a maior parte do desenvolvimento e está principalmente ganhando peso."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Para a mãe, é comum sentir mais cansaço, dores nas costas, inchaço nas pernas e dificuldade para dormir, junto com a expectativa da chegada do bebê."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "<strong>Saúde bucal:</strong> os tratamentos continuam seguros, mas ficar deitada totalmente para trás por muito tempo pode causar tontura. Veja como lidar com isso no nosso <a href=\"https://stelleodontologia.com.br/saude-bucal-na-gravidez/\">guia prático por trimestre</a>, que também explica a segurança de anestesia e raio-X em cada fase."
+    },
+    {
+      "tipo": "titulo",
+      "nivel": 2,
+      "texto": "Saúde Bucal ao Longo de Toda a Gravidez"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "As mudanças hormonais da gravidez tornam as gengivas mais sensíveis à placa bacteriana durante toda a gestação, não só em um trimestre específico — por isso a escovação cuidadosa e o acompanhamento odontológico devem ser mantidos do início ao fim. Para as doenças bucais mais comuns da gestação (gengivite, cárie, boca seca) e como preveni-las em detalhe, veja nosso <a href=\"https://stelleodontologia.com.br/saude-bucal-na-gestacao/\">guia completo sobre saúde bucal na gestação</a>. Se sua dúvida é especificamente sobre cárie e o bebê, veja <a href=\"https://stelleodontologia.com.br/carie-na-gravidez/\">cárie na gravidez: mito ou verdade</a>."
+    },
+    {
+      "tipo": "callout",
+      "texto": "Quer acompanhar sua saúde bucal durante toda a gravidez com uma equipe preparada para gestantes? Agende uma avaliação.",
+      "cta_texto": "Agendar avaliação",
+      "cta_link": "https://wa.me/5521976939004?text=Estou%20gr%C3%A1vida%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20odontol%C3%B3gica"
+    },
+    {
+      "tipo": "faq",
+      "perguntas": [
+        {
+          "pergunta": "Quantos trimestres tem a gravidez e quantas semanas cada um?",
+          "resposta": "A gravidez tem 3 trimestres: o primeiro vai da semana 1 à 13, o segundo da 14 à 27, e o terceiro da 28 à 40, totalizando cerca de 40 semanas."
+        },
+        {
+          "pergunta": "Qual trimestre é mais seguro para tratamento odontológico?",
+          "resposta": "O segundo trimestre costuma ser o mais confortável, mas tratamentos de rotina e emergências são seguros em qualquer trimestre, incluindo anestesia local e radiografia com os devidos cuidados."
+        },
+        {
+          "pergunta": "Em que semana os órgãos do bebê se formam?",
+          "resposta": "A formação inicial dos principais órgãos, como coração, cérebro e sistema nervoso, começa já nas primeiras semanas do primeiro trimestre, por volta da 6ª semana."
+        },
+        {
+          "pergunta": "Por que os enjoos afetam os dentes na gravidez?",
+          "resposta": "O ácido do estômago liberado durante os vômitos entra em contato com os dentes e pode enfraquecer o esmalte dentário, aumentando o risco de sensibilidade e cáries."
+        },
+        {
+          "pergunta": "A saúde bucal muda em cada trimestre da gravidez?",
+          "resposta": "A sensibilidade das gengivas às bactérias se mantém ao longo de toda a gestação, mas o conforto para tratamentos varia — o segundo trimestre costuma ser o mais tranquilo, e o terceiro exige apenas ajustes de posição na cadeira."
+        }
+      ]
+    }
   ]
 }

@@ -6,6 +6,7 @@
   "categoria": "gestantes",
   "autor": "dra-kesya-nogueira",
   "cluster_pai": null,
+  "cluster_filhos": ["saude-bucal-na-gravidez", "carie-na-gravidez", "linha-de-tempo-da-gravidez-como-funcionam-os-ciclos-da-gravidez"],
   "capa": {
     "url": "/assets/recovered/2019/11/Saude-bucal-na-gestacao-1024x683.jpg",
     "srcset": "/assets/recovered/2019/11/Saude-bucal-na-gestacao-1024x683.jpg 1024w, /assets/recovered/2019/11/Saude-bucal-na-gestacao-300x200.jpg 300w, /assets/recovered/2019/11/Saude-bucal-na-gestacao-768x512.jpg 768w, /assets/recovered/2019/11/Saude-bucal-na-gestacao.jpg 1200w",
@@ -31,7 +32,7 @@
     },
     {
       "tipo": "paragrafo",
-      "texto": "Neste artigo, exploraremos as <strong>doenças bucais mais comuns em grávidas</strong>, os cuidados essenciais para a saúde bucal durante a <strong>gestação</strong> e dicas para prevenir problemas que podem comprometer esse momento tão especial. Se sua dúvida é sobre segurança de anestesia, raio-X ou qual o melhor momento da gravidez para tratar os dentes, veja nosso <a href=\"https://stelleodontologia.com.br/saude-bucal-na-gravidez/\">guia prático por trimestre</a>."
+      "texto": "Neste artigo, exploraremos as <strong>doenças bucais mais comuns em grávidas</strong>, os cuidados essenciais para a saúde bucal durante a <strong>gestação</strong> e dicas para prevenir problemas que podem comprometer esse momento tão especial. Se sua dúvida é sobre segurança de anestesia, raio-X ou qual o melhor momento da gravidez para tratar os dentes, veja nosso <a href=\"https://stelleodontologia.com.br/saude-bucal-na-gravidez/\">guia prático por trimestre</a>. Para entender os marcos de desenvolvimento do bebê em cada fase, veja também nossa <a href=\"https://stelleodontologia.com.br/linha-de-tempo-da-gravidez-como-funcionam-os-ciclos-da-gravidez/\">linha do tempo da gravidez</a>."
     },
     {
       "tipo": "titulo",
@@ -99,7 +100,7 @@
     },
     {
       "tipo": "paragrafo",
-      "texto": "A <strong>cárie dentária</strong> é outro problema comum durante a <strong>gestação</strong>, e suas causas estão ligadas a fatores como alterações nos hábitos alimentares, enjoo matinal e descuido com a higiene bucal. Durante a gravidez, muitas mulheres sentem desejo por alimentos ricos em açúcar, o que pode aumentar o risco de formação de cáries."
+      "texto": "A <strong>cárie dentária</strong> é outro problema comum durante a <strong>gestação</strong>, e suas causas estão ligadas a fatores como alterações nos hábitos alimentares, enjoo matinal e descuido com a higiene bucal. Durante a gravidez, muitas mulheres sentem desejo por alimentos ricos em açúcar, o que pode aumentar o risco de formação de cáries. A cárie em si não prejudica o bebê diretamente, mas a bactéria que a causa pode ser transmitida a ele após o nascimento — entenda melhor em <a href=\"https://stelleodontologia.com.br/carie-na-gravidez/\">cárie na gravidez: mito ou verdade</a>."
     },
     {
       "tipo": "paragrafo",
@@ -363,6 +364,8 @@
       "tipo": "paragrafo",
       "texto": "Adotar esses hábitos simples ao longo da <strong>gestação</strong> garante que a <strong>saúde bucal</strong> se mantenha em dia e evita complicações que podem afetar a mãe e o bebê."
     },
+    { "tipo": "callout", "texto": "Está grávida e quer cuidar da sua saúde bucal com segurança? Agende uma avaliação com a Dra. Késya Nogueira.", "cta_texto": "Falar no WhatsApp", "cta_link": "https://wa.me/5521976939004?text=Estou%20gr%C3%A1vida%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20odontol%C3%B3gica" },
+
     { "tipo": "faq", "perguntas": [
       { "pergunta": "Quais são as doenças bucais mais comuns durante a gravidez?", "resposta": "As doenças bucais mais comuns durante a gestação incluem gengivite gestacional, cárie dentária e periodontite. Estas condições estão relacionadas a mudanças hormonais e, se não tratadas, podem afetar a saúde bucal e geral da grávida." },
       { "pergunta": "A saúde bucal da grávida pode afetar o bebê?", "resposta": "Estudos encontram associação entre periodontite e maior risco de parto prematuro e baixo peso ao nascer, mas a relação de causa e efeito ainda não é totalmente confirmada pela ciência. De qualquer forma, tratar a periodontite é importante para a saúde da própria gestante." },
