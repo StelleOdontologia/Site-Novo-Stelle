@@ -1,0 +1,68 @@
+{
+  "slug": "dor-de-dente-insuportavel",
+  "titulo_meta": "Dor de Dente Insuportável: O Que Fazer e Quando é Emergência - Stelle",
+  "titulo_h1": "Dor de Dente Insuportável: O Que Fazer Agora e Quando é Emergência",
+  "meta_description": "Dor de dente insuportável? Veja o que fazer para aliviar agora, o que evitar e os sinais de que você precisa de atendimento de emergência.",
+  "categoria": "saude-bucal",
+  "autor": "dra-kesya-nogueira",
+  "cluster_pai": "guia-completo-sobre-remedio-para-dor-de-dente-dicas-e-recomendacoes",
+  "capa": {
+    "url": "/assets/recovered/2024/12/Remedio-para-dor-de-dente-1024x585.webp",
+    "srcset": "/assets/recovered/2024/12/Remedio-para-dor-de-dente-1024x585.webp 1024w",
+    "og": "https://stelleodontologia.com.br/assets/recovered/2024/12/Remedio-para-dor-de-dente-1024x585.webp",
+    "alt": "Pessoa com a mão no rosto sentindo dor de dente insuportável"
+  },
+  "publicado": true,
+  "publicado_em": "2026-09-16",
+  "atualizado_em": "2026-09-16",
+  "blocos": [
+    { "tipo": "pillar_badge", "texto": "Parte do Guia Completo sobre Remédio para Dor de Dente", "link": "/guia-completo-sobre-remedio-para-dor-de-dente-dicas-e-recomendacoes/" },
+    { "tipo": "paragrafo", "texto": "<strong>Para aliviar uma dor de dente insuportável agora, faça bochecho com água morna e sal, aplique compressa de gelo por fora do rosto e tome um analgésico como ibuprofeno ou paracetamol.</strong> Mas se a dor vier junto com febre acima de 38,3°C, inchaço embaixo do olho ou um \"caroço\" na mandíbula, isso não é mais uma dor comum — é uma emergência, e você precisa de atendimento imediato, não só de um remédio caseiro." },
+    { "tipo": "paragrafo", "texto": "Este artigo faz parte do nosso <a href=\"/guia-completo-sobre-remedio-para-dor-de-dente-dicas-e-recomendacoes/\">guia completo sobre remédio para dor de dente</a> e é focado especificamente em quando a dor está insuportável: o que fazer nas próximas horas, o que evitar, e como saber se você precisa ir a um pronto-socorro ou pode esperar até conseguir uma consulta." },
+
+    { "tipo": "titulo", "nivel": 2, "texto": "O Que Pode Estar Causando essa Dor" },
+    { "tipo": "paragrafo", "texto": "Segundo a <a href=\"https://my.clevelandclinic.org/health/diseases/10957-toothache\" target=\"_blank\" rel=\"noopener\">Cleveland Clinic</a>, o tipo de dor já dá uma pista sobre a causa:" },
+    { "tipo": "lista", "itens": [
+        "<strong>Dor aguda e em pontada:</strong> geralmente indica cárie ou uma fratura no dente;",
+        "<strong>Dor contínua e incômoda:</strong> pode ser sinal de um dente infeccionado;",
+        "<strong>Dor forte e latejante</strong> (o tipo mais associado a \"insuportável\"): costuma indicar que uma infecção já atingiu a polpa do dente — a parte interna, onde ficam os vasos sanguíneos e nervos."
+    ]},
+    { "tipo": "paragrafo", "texto": "Ou seja: quanto mais latejante e intensa a dor, maior a chance de já haver uma infecção instalada — e infecção dentária não passa sozinha, precisa de tratamento." },
+
+    { "tipo": "titulo", "nivel": 2, "texto": "O Que Fazer Agora Para Aliviar" },
+    { "tipo": "paragrafo", "texto": "Enquanto você não consegue uma consulta, essas medidas ajudam a reduzir o desconforto:" },
+    { "tipo": "lista", "itens": [
+        "<strong>Bochecho com água morna e sal:</strong> misture meia colher de chá de sal em 240 ml de água morna;",
+        "<strong>Compressa de gelo por fora do rosto:</strong> aplique por cerca de 20 minutos, podendo repetir algumas vezes ao dia;",
+        "<strong>Analgésico de venda livre:</strong> segundo a <a href=\"https://www.ada.org/resources/ada-library/oral-health-topics/oral-analgesics-for-acute-dental-pain\" target=\"_blank\" rel=\"noopener\">American Dental Association</a>, medicamentos não opioides — como ibuprofeno e paracetamol — são a primeira linha de tratamento para dor dental aguda, e costumam ser mais eficazes que opioides para esse tipo de dor;",
+        "<strong>Manter a cabeça elevada</strong> (mesmo deitado, use um travesseiro a mais): reduz o fluxo de sangue para a região e diminui a sensação de latejamento."
+    ]},
+    { "tipo": "paragrafo", "texto": "Nenhuma dessas medidas resolve a causa — elas só tornam a espera até o dentista mais suportável. Se a dor está ligada a um dente cariado ou uma cárie profunda, veja também <a href=\"/o-que-fazer-quando-o-dente-esta-cariado/\">o que fazer quando o dente está cariado</a> e <a href=\"/o-que-uma-carie-profunda-pode-causar/\">o que uma cárie profunda pode causar</a>." },
+
+    { "tipo": "titulo", "nivel": 2, "texto": "O Que NÃO Fazer" },
+    { "tipo": "paragrafo", "texto": "Existe um mito antigo e perigoso: colocar um comprimido de aspirina diretamente sobre o dente ou a gengiva doloridos, \"na fonte\" da dor. <strong>Não faça isso.</strong> A aspirina é feita para ser engolida, não aplicada topicamente — o contato direto do ácido acetilsalicílico com o tecido da gengiva pode causar uma queimadura química real, deixando uma lesão branca dolorida além da dor de dente que você já tinha." },
+
+    { "tipo": "titulo", "nivel": 2, "texto": "Quando é uma Emergência: Sinais de Alerta" },
+    { "tipo": "paragrafo", "texto": "A Cleveland Clinic é específica sobre quando parar de tentar remédios caseiros e buscar atendimento imediato (pronto-socorro ou plantão odontológico):" },
+    { "tipo": "lista", "itens": [
+        "<strong>Febre acima de 38,3°C</strong> (101°F) associada à dor de dente;",
+        "<strong>Inchaço embaixo do olho ou um \"caroço\" (nódulo) na mandíbula</strong> — sinal de infecção se espalhando;",
+        "<strong>Dor insuportável que não melhora com analgésico</strong>;",
+        "<strong>Sangramento que não para</strong> mesmo com pressão aplicada."
+    ]},
+    { "tipo": "paragrafo", "texto": "Esses sinais indicam que a infecção pode estar se espalhando além do dente — uma situação que exige antibiótico e, em alguns casos, drenagem, não apenas um analgésico mais forte. Não espere a dor \"passar sozinha\" nesses casos." },
+
+    { "tipo": "callout", "texto": "Está com dor de dente insuportável agora? Não espere piorar. Entre em contato e agende um atendimento com urgência.", "cta_texto": "Falar no WhatsApp", "cta_link": "https://wa.me/5521976939004?text=Estou%20com%20dor%20de%20dente%20insuport%C3%A1vel%20e%20preciso%20de%20atendimento%20urgente" },
+
+    { "tipo": "faq", "titulo": "Perguntas frequentes sobre dor de dente insuportável", "perguntas": [
+      { "pergunta": "Posso colocar aspirina direto no dente para aliviar a dor?", "resposta": "Não. A aspirina deve ser engolida, não aplicada sobre o dente ou a gengiva — o contato direto pode causar uma queimadura química no tecido, piorando a situação em vez de ajudar." },
+      { "pergunta": "Ibuprofeno ou paracetamol, qual é melhor para dor de dente?", "resposta": "Ambos são considerados primeira linha de tratamento pela American Dental Association. O ibuprofeno, por ser anti-inflamatório, costuma ser especialmente indicado quando há inchaço associado — mas siga a orientação de dosagem da bula ou do seu médico/dentista." },
+      { "pergunta": "Dor de dente latejante sempre significa infecção?", "resposta": "É um forte indício. Dor latejante e intensa costuma indicar que uma infecção já atingiu a polpa do dente, diferente da dor aguda em pontada (mais associada à cárie) ou da dor contínua leve." },
+      { "pergunta": "Quando devo ir direto ao pronto-socorro por causa de dor de dente?", "resposta": "Quando a dor vier acompanhada de febre acima de 38,3°C, inchaço embaixo do olho, um caroço na mandíbula, ou sangramento que não estanca com pressão. Esses sinais indicam uma infecção que pode estar se espalhando." },
+      { "pergunta": "Compressa quente ou fria alivia mais a dor de dente?", "resposta": "Fria. A compressa de gelo por fora do rosto, por cerca de 20 minutos, ajuda a reduzir a inflamação e o latejamento. Calor pode piorar o inchaço em caso de infecção." },
+      { "pergunta": "Remédio caseiro resolve a dor de dente insuportável de vez?", "resposta": "Não. Bochecho de água e sal, compressa de gelo e analgésico aliviam o sintoma temporariamente, mas não tratam a causa (cárie, infecção, fratura). Uma avaliação odontológica é sempre necessária." }
+    ]},
+
+    { "tipo": "paragrafo", "texto": "Quer entender o quadro completo sobre dor de dente? Volte ao <a href=\"/guia-completo-sobre-remedio-para-dor-de-dente-dicas-e-recomendacoes/\">guia completo sobre remédio para dor de dente</a> para ver causas, diagnóstico e prevenção." }
+  ]
+}

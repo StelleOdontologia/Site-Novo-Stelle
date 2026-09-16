@@ -6,7 +6,7 @@
   "categoria": "saude-bucal",
   "autor": "dra-kesya-nogueira",
   "cluster_pai": null,
-  "cluster_filhos": ["dor-de-dente-apos-restauracao", "o-que-fazer-quando-o-dente-esta-cariado", "o-que-uma-carie-profunda-pode-causar", "dente-do-siso-esta-inflamado"],
+  "cluster_filhos": ["dor-de-dente-apos-restauracao", "o-que-fazer-quando-o-dente-esta-cariado", "o-que-uma-carie-profunda-pode-causar", "dente-do-siso-esta-inflamado", "dor-de-dente-insuportavel"],
   "capa": {
     "url": "/assets/recovered/2024/12/Remedio-para-dor-de-dente-1024x585.webp",
     "srcset": "/assets/recovered/2024/12/Remedio-para-dor-de-dente-1024x585.webp 1024w, /assets/recovered/2024/12/Remedio-para-dor-de-dente-300x171.webp 300w, /assets/recovered/2024/12/Remedio-para-dor-de-dente-768x439.webp 768w, /assets/recovered/2024/12/Remedio-para-dor-de-dente-1536x878.webp 1536w, /assets/recovered/2024/12/Remedio-para-dor-de-dente.webp 1792w",
@@ -435,6 +435,10 @@
       "tipo": "titulo",
       "nivel": 2,
       "texto": "Sinais de Emergência: Quando Procurar Ajuda Imediata"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Se a sua dor está insuportável agora, veja nosso artigo dedicado com o passo a passo do que fazer nas próximas horas e os sinais exatos de quando isso vira emergência: <a href=\"https://stelleodontologia.com.br/dor-de-dente-insuportavel/\">dor de dente insuportável</a>."
     },
     {
       "tipo": "titulo",
