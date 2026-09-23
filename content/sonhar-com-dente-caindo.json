@@ -6,6 +6,7 @@
   "categoria": "curiosidades",
   "autor": "dra-kesya-nogueira",
   "cluster_pai": null,
+  "cluster_filhos": ["sonhar-com-dente-quebrado", "sonhar-com-dente-podre"],
   "capa": {
     "url": "/assets/recovered/2025/01/Sonhando-com-Dentes-1024x683.jpg",
     "srcset": "/assets/recovered/2025/01/Sonhando-com-Dentes-1024x683.jpg 1024w, /assets/recovered/2025/01/Sonhando-com-Dentes-300x200.jpg 300w, /assets/recovered/2025/01/Sonhando-com-Dentes-768x512.jpg 768w, /assets/recovered/2025/01/Sonhando-com-Dentes.jpg 1200w",
@@ -49,6 +50,8 @@
 
     { "tipo": "paragrafo", "texto": "<strong>Veja também:</strong>" },
     { "tipo": "lista", "itens": [
+        "<a href=\"/sonhar-com-dente-quebrado/\">Sonhar com Dente Quebrado: o Que Pode Significar</a>",
+        "<a href=\"/sonhar-com-dente-podre/\">Sonhar com Dente Podre: o Que Pode Significar</a>",
         "<a href=\"/bruxismo-do-sono/\">Bruxismo do Sono: Como Identificar e Tratar</a>",
         "<a href=\"/como-saber-se-tenho-bruxismo/\">Como Saber se Tenho Bruxismo: Sinais e Autoteste</a>",
         "<a href=\"/meu-dente-quebrou-e-agora/\">Meu Dente Quebrou, e Agora? O Que Fazer</a>"
