@@ -15,10 +15,41 @@ import os
 import re
 import sys
 
+from PIL import Image
+
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CONTENT_DIR = os.path.join(ROOT, "content")
 TEMPLATE_PATH = os.path.join(ROOT, "templates", "artigo.html")
 BASE_URL = "https://stelleodontologia.com.br"
+
+_dims_cache = {}
+
+
+def _img_dims(url):
+    """(width, height) reais do arquivo referenciado por uma URL local ou absoluta.
+
+    Usado para preencher os atributos width/height nas <img> geradas e evitar
+    layout shift, sem precisar guardar a dimensao a mao em cada JSON.
+    """
+    if url in _dims_cache:
+        return _dims_cache[url]
+    path = url[len(BASE_URL):] if url.startswith(BASE_URL) else url
+    full_path = os.path.join(ROOT, path.lstrip("/"))
+    dims = None
+    if os.path.isfile(full_path):
+        try:
+            with Image.open(full_path) as im:
+                dims = im.size
+        except Exception:
+            dims = None
+    _dims_cache[url] = dims
+    return dims
+
+
+def _dim_attrs(url):
+    """' width=\"W\" height=\"H\"' pronto para inserir numa tag <img>, ou '' se nao achar o arquivo."""
+    dims = _img_dims(url)
+    return f' width="{dims[0]}" height="{dims[1]}"' if dims else ""
 
 with open(os.path.join(CONTENT_DIR, "categorias.json"), encoding="utf-8") as f:
     CATEGORIAS = json.load(f)
@@ -259,7 +290,7 @@ def build_prev_next_html(article):
         thumb = _thumb_url(a)
         return (
             f'<a href="/{a["slug"]}/" class="{extra_class}">'
-            f'<img src="{thumb}" alt="" loading="lazy">'
+            f'<img src="{thumb}" alt=""{_dim_attrs(thumb)} loading="lazy">'
             '<span class="article-nav-body">'
             f'<span class="article-nav-label">{label}</span>'
             f'<span class="article-nav-title">{a["titulo_h1"]}</span>'
@@ -296,7 +327,7 @@ def build_author_box_html(article):
     return (
         '<hr style="margin:40px 0;border:none;border-top:2px solid #e0e0e0;">\n'
         '<div class="author-box">\n'
-        f'  <img src="{autor["foto"]}" alt="{esc(autor["nome"])} - {esc(autor["cargo"])}">\n'
+        f'  <img src="{autor["foto"]}" alt="{esc(autor["nome"])} - {esc(autor["cargo"])}"{_dim_attrs(autor["foto"])} loading="lazy">\n'
         "  <div>\n"
         f'    <h3>{autor["nome"]}</h3>\n'
         f'    <p><strong>{autor["cro"]}</strong> &bull; {autor["cargo"]}</p>\n'
@@ -333,6 +364,7 @@ def build_article(slug):
         "{{H1}}": article["titulo_h1"],
         "{{HERO_IMG_SRC}}": article["capa"]["url"],
         "{{HERO_IMG_SRCSET}}": article["capa"]["srcset"],
+        "{{HERO_IMG_DIMS}}": _dim_attrs(article["capa"]["url"]),
         "{{HERO_IMG_ALT}}": esc(article["capa"]["alt"]),
         "{{BODY_HTML}}": body_html,
         "{{AUTHOR_BOX_HTML}}": build_author_box_html(article),

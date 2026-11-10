@@ -40,12 +40,13 @@ def build_card_html(article):
     cat_slug = CAT_SLUG_MAP.get(cat_id, cat_id)
     cat_label = CAT_LABELS.get(cat_id, cat_id.title())
     thumb = ba._thumb_url(article)
+    dim_attrs = ba._dim_attrs(thumb)
     date_display = format_date(article["publicado_em"])
     excerpt = article["meta_description"]
 
     return (
         f'    <a href="/{slug}/" class="blog-card cat-{cat_slug}" data-cat="{cat_slug}">\n'
-        f'      <div class="blog-card-thumb"><img src="{thumb}" alt="{ba.esc(article["capa"]["alt"])}" loading="lazy"></div>\n'
+        f'      <div class="blog-card-thumb"><img src="{thumb}" alt="{ba.esc(article["capa"]["alt"])}"{dim_attrs} loading="lazy"></div>\n'
         '      <div class="blog-card-body">\n'
         f'        <span class="blog-card-cat">{cat_label}</span>\n'
         f'        <h2>{article["titulo_h1"]}</h2>\n'
