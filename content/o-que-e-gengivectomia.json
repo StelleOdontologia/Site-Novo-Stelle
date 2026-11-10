@@ -7,10 +7,10 @@
   "autor": "dra-kesya-nogueira",
   "cluster_pai": null,
   "capa": {
-    "url": "/assets/recovered/2024/12/O-que-e-gengivectomia-1024x683.jpg",
-    "srcset": "/assets/recovered/2024/12/O-que-e-gengivectomia-1024x683.jpg 1024w, /assets/recovered/2024/12/O-que-e-gengivectomia-300x200.jpg 300w, /assets/recovered/2024/12/O-que-e-gengivectomia-768x512.jpg 768w, /assets/recovered/2024/12/O-que-e-gengivectomia.jpg 1200w",
-    "og": "https://stelleodontologia.com.br/assets/recovered/2024/12/O-que-e-gengivectomia-1024x683.jpg",
-    "alt": "Imagem de um dentista examinando as gengivas de um paciente com precisão, destacando o cuidado profissional durante um procedimento de gengivectomia."
+    "url": "/assets/blog/o-que-e-gengivectomia-capa-1024x576.webp",
+    "srcset": "/assets/blog/o-que-e-gengivectomia-capa-300x169.webp 300w, /assets/blog/o-que-e-gengivectomia-capa-768x432.webp 768w, /assets/blog/o-que-e-gengivectomia-capa-1024x576.webp 1024w, /assets/blog/o-que-e-gengivectomia-capa.webp 1672w",
+    "og": "https://stelleodontologia.com.br/assets/blog/o-que-e-gengivectomia-capa-1024x576.webp",
+    "alt": "Procedimento de gengivectomia: remoção do excesso de tecido gengival marcado com linha pontilhada, mostrando o resultado antes e depois"
   },
   "publicado": true,
   "publicado_em": "2024-12-17",
@@ -54,11 +54,6 @@
     {
       "tipo": "paragrafo",
       "texto": "A <strong>gengivectomia</strong> é um procedimento odontológico que consiste na <strong>remoção do tecido gengival</strong> em excesso ou comprometido. O objetivo principal é eliminar gengivas inflamadas ou doentes que podem prejudicar a saúde bucal, mas também pode ser indicada para <strong>corrigir problemas estéticos</strong>, como o <strong>sorriso gengival</strong> — quando há exposição excessiva das gengivas ao sorrir."
-    },
-    {
-      "tipo": "imagem",
-      "url": "/assets/recovered/2024/12/gengivectomia-procedimento.webp",
-      "alt": "Procedimento de gengivectomia: remoção do excesso de tecido gengival marcado com linha pontilhada, mostrando o resultado antes e depois"
     },
     {
       "tipo": "titulo",
