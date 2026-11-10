@@ -107,7 +107,7 @@ def render_bloco(bloco, article):
 
     if tipo == "imagem":
         alt = esc(bloco["alt"])
-        return f'<img class="article-inline-img" loading="lazy" src="{bloco["url"]}" alt="{alt}">'
+        return f'<img class="article-inline-img" loading="lazy" src="{bloco["url"]}" alt="{alt}"{_dim_attrs(bloco["url"])}>'
 
     if tipo == "callout":
         return (
