@@ -30,6 +30,8 @@ STATIC_PAGES = [
     ("/toxina-botulinica/", "monthly", "0.8"),
     ("/endodontia/", "monthly", "0.8"),
     ("/ortodontia-miofuncional/", "monthly", "0.8"),
+    ("/ortodontia-fixa/", "monthly", "0.9"),
+    ("/escaneamento-intraoral/", "monthly", "0.7"),
     ("/contato/", "yearly", "0.7"),
     ("/blog/", "weekly", "0.9"),
 ]
