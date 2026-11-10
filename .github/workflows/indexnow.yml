@@ -1,0 +1,22 @@
+name: IndexNow
+
+on:
+  deployment_status:
+
+jobs:
+  notificar:
+    if: github.event.deployment_status.state == 'success' && github.event.deployment_status.environment == 'Production'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: ${{ github.event.deployment.sha }}
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Notificar IndexNow
+        continue-on-error: true
+        run: python scripts/indexnow_notify.py ${{ github.event.deployment.sha }}^ ${{ github.event.deployment.sha }}
