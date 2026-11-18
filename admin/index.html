@@ -72,7 +72,7 @@ iframe{width:100%;height:calc(100vh - 150px);border:1px solid var(--borda);borde
 <div id="msg"></div>
 
 <script>
-let D={termos:[],revisores:{},meta:[100,200]},cur=null,filtro="todos",aba="editar",sujo=false,modelo=null,pollSit=null;
+let recemEntrou=false,D={termos:[],revisores:{},meta:[100,200]},cur=null,filtro="todos",aba="editar",sujo=false,modelo=null,pollSit=null;
 const $=s=>document.querySelector(s),esc=s=>(s||"").replace(/&/g,"&amp;").replace(/"/g,"&quot;").replace(/</g,"&lt;");
 async function api(url,corpo){
  const o=corpo===undefined?{}:{method:"POST",headers:{"X-Admin":"1","Content-Type":"application/json"},body:JSON.stringify(corpo)};
@@ -85,7 +85,8 @@ function contar(t){const txt=[t.definicao,...t.texto].join(" ").replace(/<[^>]+>
 function aplicar(r){if(r.termos){D.termos=r.termos;D.revisores=r.revisores;D.meta=r.meta}}
 async function iniciar(){
  const s=await api("/api/admin/login");
- if(!s.logado){mostrarLogin(s.configurado===false?"O admin ainda não foi configurado na Vercel.":"");return}
+ if(!s.logado){mostrarLogin(s.problema||(recemEntrou?"A senha foi aceita, mas o navegador não guardou a sessão. Verifique se os cookies estão liberados para este site e tente de novo.":""));recemEntrou=false;return}
+ recemEntrou=false;
  const r=await api("/api/admin/termos");if(r.erro){mostrarLogin(r.erro);return}
  $("#login").style.display="none";$("#app").style.display="block";aplicar(r);lista();situacao();clearInterval(pollSit);pollSit=setInterval(situacao,15000);
  if(cur)editor()}
@@ -185,7 +186,7 @@ document.addEventListener("click",async e=>{
 });
 async function entrar(){
  const r=await api("/api/admin/login",{senha:$("#senha").value});
- if(r.ok){$("#senha").value="";iniciar()}else{$("#loginErro").textContent=r.erro||"Não foi possível entrar."}}
+ if(r.ok){$("#senha").value="";recemEntrou=true;iniciar()}else{$("#loginErro").textContent=r.erro||"Não foi possível entrar."}}
 document.addEventListener("keydown",e=>{
  if(e.key=="Enter"&&document.activeElement.id=="senha")entrar();
  if((e.ctrlKey||e.metaKey)&&e.key.toLowerCase()=="s"&&$("#bSalvar")){e.preventDefault();salvar()}});

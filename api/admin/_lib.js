@@ -74,6 +74,17 @@ function configurado() {
   return !!(process.env.ADMIN_PASSWORD && process.env.ADMIN_SECRET && process.env.GITHUB_TOKEN);
 }
 
+// Texto do problema de configuração, ou null se está tudo certo.
+function problemaConfig() {
+  if (!process.env.ADMIN_PASSWORD || !process.env.ADMIN_SECRET || !process.env.GITHUB_TOKEN) {
+    return "O admin ainda não foi configurado na Vercel (ADMIN_PASSWORD, ADMIN_SECRET e GITHUB_TOKEN).";
+  }
+  if (process.env.ADMIN_SECRET.length < 16) {
+    return "O ADMIN_SECRET na Vercel precisa ter pelo menos 16 caracteres. Aumente o texto e faça um novo deploy.";
+  }
+  return null;
+}
+
 // ───────── GitHub ─────────
 async function gh(metodo, caminho, dados) {
   const r = await fetch(`${API}/repos/${REPO}/${caminho}`, {
@@ -228,6 +239,6 @@ async function executar(acao, p, estado) {
 }
 
 module.exports = {
-  json, corpo, logado, criarCookie, limparCookie, iguais, configurado, gh, carregar, publico,
+  json, corpo, logado, criarCookie, limparCookie, iguais, configurado, problemaConfig, gh, carregar, publico,
   serializar, gravarArquivo, executar, ARQ_TERMOS,
 };
