@@ -272,23 +272,13 @@
       "permanent": true
     },
     {
-      "source": "/glossario",
-      "destination": "/",
-      "permanent": true
-    },
-    {
-      "source": "/glossario/",
-      "destination": "/",
-      "permanent": true
-    },
-    {
       "source": "/glossario-odontologico",
-      "destination": "/",
+      "destination": "/glossario/",
       "permanent": true
     },
     {
       "source": "/glossario-odontologico/",
-      "destination": "/",
+      "destination": "/glossario/",
       "permanent": true
     },
     {
