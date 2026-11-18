@@ -559,7 +559,11 @@
           "/odontologia-do-sono/",
           "Odontologia do sono"
         ]
-      ]
+      ],
+      "revisado": true,
+      "revisado_por": "dra-kesya-nogueira",
+      "publicado_em": "2026-11-18",
+      "atualizado_em": "2026-11-18"
     },
     {
       "slug": "sialorreia",
