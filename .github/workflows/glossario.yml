@@ -43,7 +43,9 @@ jobs:
         run: |
           git config user.name "Glossario Bot"
           git config user.email "glossario-bot@users.noreply.github.com"
-          git add -A glossario admin/modelo-previa.html sitemap.xml
+          git add -A admin/modelo-previa.html sitemap.xml
+          # a pasta glossario/ so existe depois da primeira aprovacao (ou some se todas forem desfeitas)
+          git add -A -- glossario 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "Nada novo para publicar."
             echo "mudou=nao" >> "$GITHUB_OUTPUT"
