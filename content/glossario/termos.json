@@ -162,7 +162,11 @@
           "/o-que-fazer-quando-o-dente-esta-cariado/",
           "O que fazer quando o dente está cariado"
         ]
-      ]
+      ],
+      "revisado": true,
+      "revisado_por": "dra-kesya-nogueira",
+      "publicado_em": "2026-11-18",
+      "atualizado_em": "2026-11-18"
     },
     {
       "slug": "halitose",
