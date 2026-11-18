@@ -52,6 +52,16 @@ def load_articles():
     return articles
 
 
+def load_glossario():
+    """Termos do glossario publicos (revisado + revisado_por). Rascunhos ficam fora."""
+    path = os.path.join(CONTENT_DIR, "glossario", "termos.json")
+    if not os.path.isfile(path):
+        return []
+    with open(path, encoding="utf-8") as f:
+        termos = json.load(f)["termos"]
+    return [t for t in termos if t.get("revisado") and t.get("revisado_por")]
+
+
 def priority_for(article):
     """Pilares (com cluster_filhos) tem prioridade maior; satelites (com
     cluster_pai) prioridade menor; artigos avulsos ficam no meio."""
@@ -91,6 +101,19 @@ def build_sitemap():
             f'<changefreq>yearly</changefreq><priority>{priority}</priority></url>'
         )
 
+    glossario = load_glossario()
+    if glossario:
+        lines.append("")
+        lines.append("  <!-- Glossario -->")
+        lines.append(f'  <url><loc>{BASE_URL}/glossario/</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>')
+        for t in sorted(glossario, key=lambda x: x["slug"]):
+            lastmod = t.get("atualizado_em")
+            lastmod_tag = f"<lastmod>{lastmod}</lastmod>" if lastmod else ""
+            lines.append(
+                f'  <url><loc>{BASE_URL}/glossario/{t["slug"]}/</loc>{lastmod_tag}'
+                f'<changefreq>yearly</changefreq><priority>0.5</priority></url>'
+            )
+
     lines.append("")
     lines.append("</urlset>")
     lines.append("")
@@ -98,7 +121,7 @@ def build_sitemap():
     with open(SITEMAP_PATH, "w", encoding="utf-8", newline="\n") as f:
         f.write("\n".join(lines))
 
-    print(f"OK - sitemap.xml gerado com {len(STATIC_PAGES)} paginas institucionais + {len(articles)} artigos")
+    print(f"OK - sitemap.xml gerado com {len(STATIC_PAGES)} paginas institucionais + {len(articles)} artigos + {len(glossario)} termos do glossario")
 
 
 if __name__ == "__main__":

@@ -1,0 +1,62 @@
+name: Glossario
+
+# Gera as paginas do glossario sempre que os termos (ou o template) mudam.
+# O admin online (/admin/) grava content/glossario/termos.json; este workflow
+# roda o build, commita as paginas geradas e a Vercel publica.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'content/glossario/termos.json'
+      - 'content/autores.json'
+      - 'templates/artigo.html'
+      - 'scripts/build_glossario.py'
+      - 'scripts/build_sitemap.py'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: glossario
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Gerar glossario e sitemap
+        run: |
+          python scripts/build_glossario.py
+          python scripts/build_sitemap.py
+
+      - name: Commitar paginas geradas
+        id: commit
+        run: |
+          git config user.name "Glossario Bot"
+          git config user.email "glossario-bot@users.noreply.github.com"
+          git add -A glossario admin/modelo-previa.html sitemap.xml
+          if git diff --cached --quiet; then
+            echo "Nada novo para publicar."
+            echo "mudou=nao" >> "$GITHUB_OUTPUT"
+          else
+            git commit -m "Glossario: atualiza paginas geradas"
+            git pull --rebase origin main
+            git push origin HEAD:main
+            echo "mudou=sim" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Pedir indexacao das URLs novas
+        if: steps.commit.outputs.mudou == 'sim'
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run indexar.yml

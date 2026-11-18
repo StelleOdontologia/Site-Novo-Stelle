@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<title>Admin do Glossário — Stelle</title>
+<link rel="icon" href="/favicon.ico" sizes="any">
+<style>
+:root{--azul:#1a2340;--teal:#01aeb7;--cinza:#5a6475;--borda:#d9dee7;--ok:#1f8f4e;--aviso:#b7791f}
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,Segoe UI,Arial,sans-serif;color:#2b3345;background:#f4f6f9}
+header{background:var(--azul);color:#fff;padding:12px 20px;display:flex;gap:14px;align-items:center;flex-wrap:wrap}
+header h1{font-size:1.05rem;margin:0;flex:1;min-width:180px}
+.cont{font-size:.85rem;opacity:.9}
+button{font:inherit;cursor:pointer;border-radius:8px;border:1px solid var(--borda);background:#fff;padding:8px 14px}
+button:hover{border-color:var(--teal)}button:disabled{opacity:.5;cursor:default}
+.pri{background:var(--teal);border-color:var(--teal);color:#fff;font-weight:600}
+.ok{background:var(--ok);border-color:var(--ok);color:#fff;font-weight:600}
+.perigo{color:#b42318}
+header button{background:transparent;color:#fff;border-color:rgba(255,255,255,.4)}
+header button.pri{background:var(--teal);border-color:var(--teal)}
+#sit{font-size:.8rem;padding:4px 10px;border-radius:99px;background:rgba(255,255,255,.15);display:none}
+#sit.publicando{background:#b7791f}#sit.publicado{background:#1f8f4e}#sit.falhou{background:#b42318}
+#sit a{color:#fff}
+main{display:grid;grid-template-columns:320px 1fr;height:calc(100vh - 58px)}
+aside{border-right:1px solid var(--borda);background:#fff;display:flex;flex-direction:column;min-height:0}
+.filtros{padding:10px;display:flex;gap:6px;flex-wrap:wrap;border-bottom:1px solid var(--borda)}
+.filtros input{flex:1 1 100%;padding:8px 10px;border:1px solid var(--borda);border-radius:8px;font:inherit}
+.filtros button{padding:5px 10px;font-size:.85rem}.filtros button.on{background:var(--azul);color:#fff;border-color:var(--azul)}
+#lista{overflow:auto;flex:1}
+.item{padding:10px 14px;border-bottom:1px solid #eef0f4;cursor:pointer;display:flex;justify-content:space-between;gap:8px;align-items:center}
+.item:hover{background:#f4fafb}.item.sel{background:#e3f6f7;border-left:4px solid var(--teal);padding-left:10px}
+.item small{display:block;color:var(--cinza)}
+.tag{font-size:.72rem;padding:2px 8px;border-radius:99px;white-space:nowrap}
+.tag.r{background:#fff4d6;color:var(--aviso)}.tag.a{background:#dcf5e6;color:var(--ok)}
+section.ed{overflow:auto;padding:18px 24px 60px}
+.abas{display:flex;gap:6px;margin-bottom:14px;align-items:center}.abas button.on{background:var(--azul);color:#fff}
+.abas a{margin-left:auto;font-size:.88rem;color:#0a6f76}
+label{display:block;font-weight:600;font-size:.88rem;margin:14px 0 4px}
+input[type=text],input[type=password],textarea,select{width:100%;padding:9px 11px;border:1px solid var(--borda);border-radius:8px;font:inherit;background:#fff}
+textarea{min-height:90px;resize:vertical;line-height:1.5}
+.linha{display:flex;gap:8px;margin-bottom:8px}.linha input{flex:1}.linha input:first-child{flex:0 0 38%}
+.dica{font-size:.8rem;color:var(--cinza);margin-top:3px}
+.palavras{font-size:.85rem;font-weight:600}.palavras.mau{color:#b42318}.palavras.bom{color:var(--ok)}
+.barra{position:sticky;bottom:0;background:#fff;border-top:1px solid var(--borda);margin:24px -24px -60px;padding:12px 24px;display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.barra .esp{flex:1}
+iframe{width:100%;height:calc(100vh - 150px);border:1px solid var(--borda);border-radius:10px;background:#fff}
+#msg{position:fixed;right:18px;bottom:18px;max-width:420px;background:#1a2340;color:#fff;padding:12px 16px;border-radius:10px;display:none;white-space:pre-wrap;font-size:.9rem;z-index:9}
+#msg.erro{background:#b42318}
+.vazio{padding:60px;text-align:center;color:var(--cinza)}
+#login{max-width:380px;margin:12vh auto;background:#fff;border:1px solid var(--borda);border-radius:14px;padding:28px}
+#login h2{margin:0 0 6px}#login p{margin:0 0 16px;color:var(--cinza);font-size:.92rem}#login button{width:100%;margin-top:14px}
+#app{display:none}
+@media(max-width:800px){main{grid-template-columns:1fr;height:auto}aside{max-height:40vh}iframe{height:70vh}}
+</style></head><body>
+
+<div id="login" style="display:none">
+  <h2>Admin do Glossário</h2><p>Stelle Odontologia — acesso restrito.</p>
+  <label for="senha" style="margin-top:0">Senha</label>
+  <input type="password" id="senha" autocomplete="current-password">
+  <button id="bEntrar" class="pri">Entrar</button>
+  <div id="loginErro" class="dica" style="color:#b42318;margin-top:10px"></div>
+</div>
+
+<div id="app">
+<header><h1>Admin do Glossário</h1><span id="sit"></span><span class="cont" id="cont"></span>
+<button id="bNovo">+ Novo termo</button><button id="bSair">Sair</button></header>
+<main>
+<aside><div class="filtros"><input id="busca" type="search" placeholder="Buscar termo…">
+<button data-f="todos" class="on">Todos</button><button data-f="rascunho">Rascunhos</button><button data-f="aprovado">Aprovados</button></div>
+<div id="lista"></div></aside>
+<section class="ed" id="ed"><div class="vazio">Escolha um termo na lista para revisar.</div></section>
+</main>
+</div>
+<div id="msg"></div>
+
+<script>
+let D={termos:[],revisores:{},meta:[100,200]},cur=null,filtro="todos",aba="editar",sujo=false,modelo=null,pollSit=null;
+const $=s=>document.querySelector(s),esc=s=>(s||"").replace(/&/g,"&amp;").replace(/"/g,"&quot;").replace(/</g,"&lt;");
+async function api(url,corpo){
+ const o=corpo===undefined?{}:{method:"POST",headers:{"X-Admin":"1","Content-Type":"application/json"},body:JSON.stringify(corpo)};
+ const r=await fetch(url,o);let j={};try{j=await r.json()}catch(e){}
+ if(r.status==401&&url!=="/api/admin/login"){mostrarLogin("Sua sessão expirou. Entre de novo.")}
+ return j}
+function aviso(t,erro){const m=$("#msg");m.textContent=t;m.className=erro?"erro":"";m.style.display="block";clearTimeout(aviso.t);aviso.t=setTimeout(()=>m.style.display="none",erro?9000:4500)}
+function mostrarLogin(txt){$("#app").style.display="none";$("#login").style.display="block";$("#loginErro").textContent=txt||"";clearInterval(pollSit);$("#senha").focus()}
+function contar(t){const txt=[t.definicao,...t.texto].join(" ").replace(/<[^>]+>/g,"");return txt.split(/\s+/).filter(Boolean).length}
+function aplicar(r){if(r.termos){D.termos=r.termos;D.revisores=r.revisores;D.meta=r.meta}}
+async function iniciar(){
+ const s=await api("/api/admin/login");
+ if(!s.logado){mostrarLogin(s.configurado===false?"O admin ainda não foi configurado na Vercel.":"");return}
+ const r=await api("/api/admin/termos");if(r.erro){mostrarLogin(r.erro);return}
+ $("#login").style.display="none";$("#app").style.display="block";aplicar(r);lista();situacao();clearInterval(pollSit);pollSit=setInterval(situacao,15000);
+ if(cur)editor()}
+async function situacao(){
+ const s=await api("/api/admin/status"),e=$("#sit");
+ const t={publicando:"⏳ Publicando… (1–2 min)",publicado:"✔ Site atualizado",falhou:"✖ Falha ao gerar páginas"}[s.situacao];
+ if(!t){e.style.display="none";return}
+ e.className=s.situacao;e.innerHTML=s.situacao=="falhou"&&s.link?`✖ Falha ao gerar — <a href="${s.link}" target="_blank" rel="noopener">ver detalhes</a>`:t;e.style.display="inline-block"}
+function lista(){
+ const q=$("#busca").value.toLowerCase(),n=D.termos.filter(t=>t.revisado).length;
+ $("#cont").textContent=n+" aprovados · "+(D.termos.length-n)+" rascunhos";
+ const itens=D.termos.filter(t=>(filtro=="todos"||(filtro=="aprovado")==!!t.revisado)&&t.termo.toLowerCase().includes(q));
+ $("#lista").innerHTML=itens.map(t=>`<div class="item ${t.slug==cur?"sel":""}" data-s="${t.slug}"><div>${esc(t.termo)}<small>${contar(t)} palavras</small></div><span class="tag ${t.revisado?"a":"r"}">${t.revisado?"Aprovado":"Rascunho"}</span></div>`).join("")||'<div class="vazio">Nada por aqui.</div>';
+}
+/* ── prévia: mesma página do site, preenchida no navegador ── */
+function corpoPagina(t,extra){
+ const rel=(t.relacionados||[]).map(s=>D.termos.find(x=>x.slug==s)).filter(Boolean);
+ let h='<div class="article-breadcrumb"><a href="#">Início</a> &gt; <a href="#">Glossário</a> &gt; '+esc(t.termo)+'</div><article class="gl-wrap">';
+ h+='<div class="gl-rascunho"><strong>PRÉVIA</strong> — assim a página aparecerá no site quando aprovada.</div>';
+ h+='<h1>O que é '+esc(t.termo)+'?</h1><p class="gl-lead">'+t.definicao+'</p>'+t.texto.map(p=>"<p>"+p+"</p>").join("");
+ if((t.links||[]).length)h+='<div class="gl-box"><h2>Quer se aprofundar?</h2><ul>'+t.links.map(l=>'<li><a href="#">'+esc(l[1])+'</a></li>').join("")+'</ul></div>';
+ if(rel.length)h+='<h2 style="font-size:1.1rem;margin:28px 0 12px;">Termos relacionados</h2><ul class="gl-chips">'+rel.map(r=>'<li><a href="#">'+esc(r.termo)+'</a></li>').join("")+'</ul>';
+ if(t.revisado_por)h+='<p class="gl-revisao">Conteúdo revisado por <strong>'+esc((D.revisores[t.revisado_por]||t.revisado_por).replace(/ \(.*\)/,""))+'</strong>.</p>';
+ h+='<p class="gl-aviso">Este conteúdo é informativo e não substitui a avaliação de um dentista. Em caso de dor, sangramento ou qualquer dúvida sobre a sua saúde bucal, agende uma consulta.</p>';
+ h+='<a class="gl-cta" href="#">📱 Agendar avaliação</a></article>';return h}
+async function montarPrevia(t){
+ if(!modelo){const r=await fetch("/admin/modelo-previa.html");modelo=r.ok?await r.text():null}
+ if(!modelo)return"<p style='font:16px sans-serif;padding:20px'>Modelo de prévia ainda não foi gerado. Aguarde a primeira publicação automática.</p>";
+ const meta=t.meta_description||t.definicao.replace(/<[^>]+>/g,"");
+ return modelo.split("[[TITLE_META]]").join(esc(t.termo)).split("[[META_DESCRIPTION]]").join(esc(meta)).split("[[MAIN_HTML]]").join(corpoPagina(t))
+  .replace("<head>",'<head><base target="_blank">')}
+async function editor(){
+ const base=D.termos.find(x=>x.slug==cur);if(!base){$("#ed").innerHTML='<div class="vazio">Escolha um termo.</div>';return}
+ const t=(sujo&&window.__rascunho&&window.__rascunho.slug==cur)?{...base,...window.__rascunho}:base;
+ const rev=Object.entries(D.revisores).map(([k,v])=>`<option value="${k}" ${t.revisado_por==k?"selected":""}>${esc(v)}</option>`).join("");
+ const paragrafos=t.texto.map((p,i)=>`<textarea data-p="${i}">${esc(p)}</textarea>`).join("");
+ const links=((t.links||[]).length?t.links:[["",""]]).map(l=>`<div class="linha"><input type="text" data-lc value="${esc(l[0])}" placeholder="/endereco-da-pagina/"><input type="text" data-ln value="${esc(l[1])}" placeholder="Texto do link"></div>`).join("");
+ const outros=D.termos.filter(x=>x.slug!=cur);
+ const ver=t.revisado?`<a href="/glossario/${t.slug}/" target="_blank" rel="noopener">Ver no site ↗</a>`:"";
+ const abas=`<div class="abas"><button data-a="editar" class="${aba=="editar"?"on":""}">Editar</button><button data-a="previa" class="${aba=="previa"?"on":""}">Prévia da página</button>${ver}</div>`;
+ if(aba=="previa"){
+  $("#ed").innerHTML=abas+'<iframe id="fr" sandbox="allow-same-origin"></iframe><div class="dica">A prévia usa o texto que está nos campos agora (mesmo sem salvar).</div>';
+  $("#fr").srcdoc=await montarPrevia(t);return}
+ $("#ed").innerHTML=abas+
+ `<h2 style="margin:0">${esc(t.termo)} <span class="tag ${t.revisado?"a":"r"}">${t.revisado?"Aprovado":"Rascunho"}</span></h2>
+ ${t.revisado?`<div class="dica">Aprovado${t.revisado_por?" por "+esc(D.revisores[t.revisado_por]||t.revisado_por):""}${t.atualizado_em?" em "+t.atualizado_em:""}. Se você editar o texto, a aprovação é retirada.</div>`:""}
+ <label>Nome do termo</label><input type="text" id="fTermo" value="${esc(t.termo)}">
+ <label>Definição (frase de destaque — use &lt;strong&gt; no termo)</label><textarea id="fDef" style="min-height:70px">${esc(t.definicao)}</textarea>
+ <label>Texto (um parágrafo por caixa)</label><div id="pars">${paragrafos}</div><button id="bPar" type="button">+ Parágrafo</button>
+ <div class="palavras" id="pal"></div>
+ <label>Links "Quer se aprofundar?"</label><div id="links">${links}</div><button id="bLink" type="button">+ Link</button>
+ <div class="dica">O endereço precisa existir no site (ex.: /bruxismo/).</div>
+ <label>Termos relacionados (endereços separados por vírgula)</label><input type="text" id="fRel" value="${esc((t.relacionados||[]).join(", "))}" list="dlRel"><datalist id="dlRel">${outros.map(o=>`<option value="${o.slug}">${esc(o.termo)}</option>`).join("")}</datalist>
+ <label>Descrição para o Google (opcional — se vazio, usa a definição)</label><textarea id="fMeta" style="min-height:60px">${esc(t.meta_description||"")}</textarea>
+ <div class="barra"><button id="bSalvar" class="pri">Salvar</button>
+ ${t.revisado?`<button id="bDesaprovar">Tirar aprovação</button>`:`<span class="dica" style="margin:0">Revisado por:</span><select id="fRev" style="width:auto">${rev}</select><button id="bAprovar" class="ok">Aprovar e publicar</button><button id="bAprovarProx" class="ok">Aprovar e próximo</button>`}
+ <span class="esp"></span><button id="bExcluir" class="perigo">Excluir</button></div>`;
+ atualizarPal();
+}
+function coletar(){
+ return{slug:cur,termo:$("#fTermo").value,definicao:$("#fDef").value,texto:[...document.querySelectorAll("[data-p]")].map(x=>x.value),
+  links:[...document.querySelectorAll("#links .linha")].map(l=>[l.querySelector("[data-lc]").value,l.querySelector("[data-ln]").value]),
+  relacionados:$("#fRel").value.split(",").map(x=>x.trim()).filter(Boolean),meta_description:$("#fMeta").value}
+}
+function atualizarPal(){const c=coletar(),n=contar(c),[a,b]=D.meta,e=$("#pal");if(!e)return;e.textContent=n+" palavras (meta "+a+"–"+b+")";e.className="palavras "+(n>=a&&n<=b?"bom":"mau")}
+async function salvar(silencioso){
+ const r=await api("/api/admin/acao",{acao:"salvar",...coletar()});
+ if(r.erro){aviso(r.erro,true);return false}
+ aplicar(r);sujo=false;window.__rascunho=null;if(!silencioso)aviso(r.aviso?"Salvo. "+r.aviso:"Salvo.");
+ lista();editor();situacao();return true}
+function visiveis(){return D.termos.filter(t=>filtro=="todos"||(filtro=="aprovado")==!!t.revisado)}
+async function aprovar(prox){
+ if(sujo&&!await salvar(true))return;
+ const antes=D.termos.filter(t=>!t.revisado).map(t=>t.slug),idx=antes.indexOf(cur);
+ const r=await api("/api/admin/acao",{acao:"aprovar",slug:cur,aprovar:true,revisor:$("#fRev")?$("#fRev").value:""});
+ if(r.erro){aviso(r.erro,true);return}
+ aplicar(r);aviso("Aprovado! O site será atualizado em 1–2 minutos.");lista();situacao();
+ if(prox){const resto=D.termos.filter(t=>!t.revisado);const nxt=resto[Math.min(idx,resto.length-1)];if(nxt){cur=nxt.slug;aba="editar";lista();editor()}else{editor();aviso("Todos os termos foram aprovados!")}}else editor()}
+function confirmarSujo(){return !sujo||confirm("Há alterações não salvas. Descartar?")}
+document.addEventListener("click",async e=>{
+ const it=e.target.closest(".item");if(it){if(!confirmarSujo())return;cur=it.dataset.s;aba="editar";sujo=false;window.__rascunho=null;lista();editor();return}
+ const f=e.target.closest("[data-f]");if(f){filtro=f.dataset.f;document.querySelectorAll("[data-f]").forEach(b=>b.classList.toggle("on",b==f));lista();return}
+ const ab=e.target.closest("[data-a]");if(ab){
+  if($("#fTermo"))window.__rascunho=coletar();
+  aba=ab.dataset.a;editor();return}
+ const id=e.target.id;
+ if(id=="bEntrar")entrar();
+ if(id=="bSair"){await fetch("/api/admin/login",{method:"DELETE"});location.reload()}
+ if(id=="bSalvar")salvar();
+ if(id=="bAprovar")aprovar(false);
+ if(id=="bAprovarProx")aprovar(true);
+ if(id=="bDesaprovar"){if(!confirm("Tirar a aprovação? A página deixa de aparecer no site em 1–2 minutos."))return;const r=await api("/api/admin/acao",{acao:"aprovar",slug:cur,aprovar:false});if(r.erro)return aviso(r.erro,true);aplicar(r);aviso("Aprovação retirada.");lista();editor();situacao()}
+ if(id=="bPar"){const t=document.createElement("textarea");t.dataset.p=document.querySelectorAll("[data-p]").length;$("#pars").appendChild(t);t.focus();sujo=true}
+ if(id=="bLink"){const d=document.createElement("div");d.className="linha";d.innerHTML='<input type="text" data-lc placeholder="/endereco-da-pagina/"><input type="text" data-ln placeholder="Texto do link">';$("#links").appendChild(d);sujo=true}
+ if(id=="bExcluir"){if(!confirm("Excluir este termo do glossário? Isso não pode ser desfeito."))return;const r=await api("/api/admin/acao",{acao:"excluir",slug:cur});if(r.erro)return aviso(r.erro,true);aplicar(r);cur=null;sujo=false;$("#ed").innerHTML='<div class="vazio">Termo excluído.</div>';lista()}
+ if(id=="bNovo"){const n=prompt("Nome do novo termo:");if(!n)return;const r=await api("/api/admin/acao",{acao:"novo",termo:n});if(r.erro)return aviso(r.erro,true);aplicar(r);filtro="todos";aba="editar";cur=r.slug;sujo=false;lista();editor()}
+});
+async function entrar(){
+ const r=await api("/api/admin/login",{senha:$("#senha").value});
+ if(r.ok){$("#senha").value="";iniciar()}else{$("#loginErro").textContent=r.erro||"Não foi possível entrar."}}
+document.addEventListener("keydown",e=>{
+ if(e.key=="Enter"&&document.activeElement.id=="senha")entrar();
+ if((e.ctrlKey||e.metaKey)&&e.key.toLowerCase()=="s"&&$("#bSalvar")){e.preventDefault();salvar()}});
+document.addEventListener("input",e=>{if(e.target.id=="busca"){lista();return}if(e.target.closest("#ed")){sujo=true;atualizarPal()}});
+window.addEventListener("beforeunload",e=>{if(sujo){e.preventDefault();e.returnValue=""}});
+iniciar();
+</script></body></html>

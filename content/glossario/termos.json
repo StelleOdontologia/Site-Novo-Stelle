@@ -1,0 +1,558 @@
+{
+  "_instrucoes": "Fonte da verdade do glossario. Cada termo nasce com revisado=false (rascunho: fica noindex, fora do sitemap e fora do indice publico). Para publicar: revise o texto e preencha revisado=true e revisado_por (chave de content/autores.json). Depois rode: python scripts/build_glossario.py",
+  "termos": [
+    {
+      "slug": "bruxismo",
+      "termo": "Bruxismo",
+      "definicao": "<strong>Bruxismo</strong> é o hábito involuntário de ranger ou apertar os dentes, durante o sono ou com a pessoa acordada.",
+      "texto": [
+        "Ele costuma estar ligado a estresse, ansiedade e alterações do sono, e muita gente só descobre o problema quando o dentista nota o desgaste nos dentes. Os sinais mais comuns são dor ou cansaço na mandíbula ao acordar, dor de cabeça e dentes sensíveis.",
+        "Sem acompanhamento, o bruxismo pode desgastar e fraturar dentes e sobrecarregar a articulação da mandíbula. O tratamento é definido pelo dentista após avaliação e, em geral, combina placa de proteção, controle dos fatores de estresse e, quando necessário, apoio de outros profissionais de saúde."
+      ],
+      "relacionados": [
+        "dtm",
+        "apneia-do-sono"
+      ],
+      "links": [
+        [
+          "/bruxismo/",
+          "Bruxismo: guia completo sobre causas, sintomas e tratamentos"
+        ],
+        [
+          "/placa-de-bruxismo/",
+          "Placa de bruxismo"
+        ]
+      ]
+    },
+    {
+      "slug": "dtm",
+      "termo": "DTM (Disfunção Temporomandibular)",
+      "definicao": "<strong>DTM</strong>, ou disfunção temporomandibular, é o conjunto de problemas que afetam a articulação da mandíbula e os músculos da mastigação.",
+      "texto": [
+        "A articulação temporomandibular fica na frente do ouvido e permite abrir e fechar a boca. Quando ela ou os músculos ao redor ficam sobrecarregados, podem surgir dor ao mastigar, estalos, travamento da boca e dor de cabeça ou no ouvido.",
+        "As causas são variadas e incluem bruxismo, trauma, tensão muscular e alterações na mordida. O diagnóstico exige avaliação clínica, e o cuidado pode envolver placa oclusal, exercícios, fisioterapia e orientação sobre hábitos, conforme cada caso.",
+        "Se você sente dor ao abrir a boca, estalos frequentes ou a mandíbula travando, vale agendar uma avaliação. Quanto antes o problema é identificado, mais simples costuma ser o controle dos sintomas."
+      ],
+      "relacionados": [
+        "bruxismo",
+        "ma-oclusao"
+      ],
+      "links": [
+        [
+          "/bruxismo-causa-dtm/",
+          "Bruxismo e DTM: qual a relação?"
+        ]
+      ]
+    },
+    {
+      "slug": "gengivite",
+      "termo": "Gengivite",
+      "definicao": "<strong>Gengivite</strong> é a inflamação da gengiva causada, principalmente, pelo acúmulo de placa bacteriana junto aos dentes.",
+      "texto": [
+        "É a forma mais inicial da doença da gengiva. A gengiva fica vermelha, inchada e pode sangrar ao escovar ou passar o fio dental. Nessa fase ainda não há perda do osso que sustenta os dentes, por isso a gengivite costuma ser reversível.",
+        "O tratamento passa pela limpeza profissional para remover placa e tártaro e pela melhora da higiene diária em casa. Se não for tratada, a inflamação pode avançar e se transformar em periodontite, mais difícil de controlar.",
+        "Sangramento ao escovar não é normal e merece atenção. Na maioria dos casos, quando a causa é tratada logo no início, a gengiva volta a ficar saudável em poucas semanas."
+      ],
+      "relacionados": [
+        "placa-bacteriana",
+        "calculo-dental",
+        "periodontite"
+      ],
+      "links": [
+        [
+          "/gengivite-o-que-e-sintomas-tratamento/",
+          "Gengivite: o que é, sintomas e tratamento"
+        ],
+        [
+          "/gengivite-x-periodontite-tratamento/",
+          "Gengivite x periodontite"
+        ]
+      ]
+    },
+    {
+      "slug": "periodontite",
+      "termo": "Periodontite",
+      "definicao": "<strong>Periodontite</strong> é uma doença inflamatória crônica que destrói os tecidos de sustentação dos dentes, como a gengiva e o osso.",
+      "texto": [
+        "Ela costuma começar como uma gengivite não tratada. Com o tempo, a gengiva se afasta do dente, formando bolsas onde as bactérias se acumulam, e o osso ao redor vai sendo perdido. Sangramento, mau hálito persistente, dentes com mobilidade e retração da gengiva são sinais de alerta.",
+        "O tratamento é feito pelo dentista, geralmente com raspagem e limpeza profunda, e exige acompanhamento regular. Fatores como tabagismo e diabetes mal controlado aumentam o risco e dificultam o controle da doença.",
+        "Como a doença avança de forma silenciosa, muita gente só percebe o problema em fase adiantada. Consultas de rotina permitem identificar sinais precoces e proteger os dentes."
+      ],
+      "relacionados": [
+        "gengivite",
+        "retracao-gengival",
+        "calculo-dental"
+      ],
+      "links": [
+        [
+          "/periodontite-o-que-e-causas-sintomas-e-tratamentos/",
+          "Periodontite: causas, sintomas e tratamentos"
+        ],
+        [
+          "/periodontia-o-guia-completo-para-prevenir-e-tratar-doencas-periodontais/",
+          "Periodontia: guia completo"
+        ]
+      ]
+    },
+    {
+      "slug": "placa-bacteriana",
+      "termo": "Placa bacteriana",
+      "definicao": "<strong>Placa bacteriana</strong> é uma película pegajosa e incolor, formada por bactérias e restos de alimento, que se acumula sobre os dentes e a gengiva.",
+      "texto": [
+        "Ela se forma continuamente, mesmo em quem escova bem, e é a principal causa de cárie e de gengivite. Por isso a remoção diária, com escovação e fio dental, é tão importante.",
+        "Quando não é removida, a placa endurece em poucos dias e vira tártaro, que só o dentista consegue retirar. Consultas de revisão e limpeza periódicas ajudam a manter a boca saudável.",
+        "Uma dica prática é prestar atenção na região junto à gengiva e entre os dentes, onde a placa mais se acumula e onde a escova sozinha costuma não alcançar."
+      ],
+      "relacionados": [
+        "calculo-dental",
+        "carie",
+        "gengivite"
+      ],
+      "links": [
+        [
+          "/gengivite-o-que-e-sintomas-tratamento/",
+          "Gengivite: o que é, sintomas e tratamento"
+        ]
+      ]
+    },
+    {
+      "slug": "calculo-dental",
+      "termo": "Cálculo dental (tártaro)",
+      "definicao": "<strong>Cálculo dental</strong>, popularmente chamado de tártaro, é a placa bacteriana endurecida que se fixa nos dentes e na gengiva.",
+      "texto": [
+        "Diferente da placa, o tártaro não sai com a escovação. Ele tem superfície áspera, o que facilita o acúmulo de novas bactérias, e pode causar gengiva inflamada, sangramento e mau hálito.",
+        "A remoção é feita pelo dentista, por meio de raspagem e profilaxia. Para evitar que volte, vale manter uma boa higiene diária e fazer a limpeza profissional na frequência indicada para o seu caso.",
+        "Ele se forma principalmente atrás dos dentes da frente de baixo e nas faces externas dos molares de cima, perto das glândulas salivares, e pode ter cor amarelada ou escura."
+      ],
+      "relacionados": [
+        "placa-bacteriana",
+        "gengivite",
+        "halitose"
+      ],
+      "links": [
+        [
+          "/gengivite-o-que-e-sintomas-tratamento/",
+          "Gengivite: o que é, sintomas e tratamento"
+        ]
+      ]
+    },
+    {
+      "slug": "carie",
+      "termo": "Cárie",
+      "definicao": "<strong>Cárie</strong> é a destruição gradual do dente causada por ácidos produzidos por bactérias da placa bacteriana a partir do açúcar da alimentação.",
+      "texto": [
+        "No início, pode aparecer apenas como uma mancha esbranquiçada, sem dor. Se avança, forma um buraco no dente e causa sensibilidade e dor, podendo atingir o nervo e exigir tratamento de canal.",
+        "O tratamento depende da profundidade: cáries iniciais podem ser controladas, e as maiores precisam de restauração. A prevenção inclui escovação com creme dental fluoretado, fio dental, moderação no açúcar e visitas regulares ao dentista.",
+        "Crianças, adultos e idosos podem ter cárie. Em qualquer idade, dor ao mastigar, buracos visíveis ou manchas escuras nos dentes são motivo para marcar uma consulta."
+      ],
+      "relacionados": [
+        "placa-bacteriana",
+        "tratamento-de-canal"
+      ],
+      "links": [
+        [
+          "/o-que-fazer-quando-o-dente-esta-cariado/",
+          "O que fazer quando o dente está cariado"
+        ]
+      ]
+    },
+    {
+      "slug": "halitose",
+      "termo": "Halitose",
+      "definicao": "<strong>Halitose</strong> é o nome técnico do mau hálito persistente, que não melhora apenas com a escovação.",
+      "texto": [
+        "Na maioria dos casos, a origem está na própria boca: placa e tártaro, gengiva inflamada, cáries e acúmulo de bactérias na língua. Em menor número de casos, o problema vem de causas em outras partes do corpo, como as vias aéreas e o sistema digestivo.",
+        "Por isso, o primeiro passo é uma avaliação com o dentista, que identifica a causa e orienta o tratamento. Limpar a língua, usar fio dental e manter a hidratação ajudam no dia a dia.",
+        "Evitar mascarar o mau hálito apenas com balas ou enxaguantes é importante, porque esses recursos aliviam por pouco tempo e podem esconder um problema que precisa de tratamento."
+      ],
+      "relacionados": [
+        "calculo-dental",
+        "gengivite"
+      ],
+      "links": [
+        [
+          "/gengivite-o-que-e-sintomas-tratamento/",
+          "Gengivite: o que é, sintomas e tratamento"
+        ]
+      ]
+    },
+    {
+      "slug": "afta",
+      "termo": "Afta",
+      "definicao": "<strong>Afta</strong> é uma pequena ferida dolorosa, arredondada e esbranquiçada, com borda avermelhada, que surge dentro da boca.",
+      "texto": [
+        "Ela não é contagiosa e costuma cicatrizar sozinha em uma a duas semanas. O aparecimento pode estar ligado a pequenos traumas, estresse, alterações hormonais, deficiências nutricionais e sensibilidade a certos alimentos.",
+        "Enquanto cicatriza, evitar alimentos ácidos, picantes e muito quentes ajuda a reduzir o desconforto. Se a ferida passar de duas semanas, surgir com frequência ou for muito grande, é importante passar por avaliação profissional.",
+        "É diferente de feridas que não cicatrizam, de herpes labial e de lesões com bordas endurecidas. Na dúvida sobre a natureza da lesão, a avaliação do dentista traz segurança."
+      ],
+      "relacionados": [],
+      "links": [
+        [
+          "/afta-na-boca-dicas-essenciais-para-tratar-e-aliviar-hoje/",
+          "Afta na boca: como tratar e aliviar"
+        ]
+      ]
+    },
+    {
+      "slug": "implante-dentario",
+      "termo": "Implante dentário",
+      "definicao": "<strong>Implante dentário</strong> é um pino, geralmente de titânio, colocado no osso da mandíbula ou da maxila para substituir a raiz de um dente perdido.",
+      "texto": [
+        "Depois que o implante se integra ao osso, recebe uma coroa que imita o dente natural. Ele também pode sustentar pontes e próteses, devolvendo mastigação, estética e conforto.",
+        "A indicação depende de uma avaliação com exames de imagem, da quantidade de osso disponível e da saúde da gengiva. Higiene rigorosa e consultas de manutenção são essenciais para o implante durar.",
+        "O tempo total do tratamento varia, porque inclui a cicatrização do osso após a cirurgia. Cada etapa é planejada de acordo com a necessidade do paciente e acompanhada de perto."
+      ],
+      "relacionados": [
+        "protese-dentaria"
+      ],
+      "links": [
+        [
+          "/implantes/",
+          "Implantes dentários na Stelle"
+        ]
+      ]
+    },
+    {
+      "slug": "alinhador-invisivel",
+      "termo": "Alinhador invisível",
+      "definicao": "<strong>Alinhador invisível</strong> é uma placa transparente, removível e feita sob medida, usada para movimentar os dentes aos poucos.",
+      "texto": [
+        "O tratamento é planejado digitalmente a partir do escaneamento da boca. A cada etapa, o paciente troca de alinhador, e os dentes se movem de forma gradual até a posição planejada.",
+        "Como é removível, permite comer e escovar sem restrições, mas só funciona se for usado pelo tempo diário orientado pelo dentista. Nem todo caso é indicado para alinhadores, e a avaliação ortodôntica define a melhor opção.",
+        "Os alinhadores são trocados em intervalos definidos pelo dentista, e o acompanhamento por consultas garante que os dentes estejam respondendo como previsto ao longo do tratamento."
+      ],
+      "relacionados": [
+        "ortodontia",
+        "aparelho-ortodontico",
+        "escaneamento-intraoral"
+      ],
+      "links": [
+        [
+          "/alinhadores/",
+          "Alinhadores invisíveis na Stelle"
+        ],
+        [
+          "/alinhadores-invisiveis-guia-completo-2025/",
+          "Alinhadores invisíveis: guia completo"
+        ]
+      ]
+    },
+    {
+      "slug": "aparelho-ortodontico",
+      "termo": "Aparelho ortodôntico",
+      "definicao": "<strong>Aparelho ortodôntico</strong> é o dispositivo usado para alinhar os dentes e corrigir a posição da mordida.",
+      "texto": [
+        "O modelo mais conhecido é o aparelho fixo, com braquetes colados nos dentes e conectados por um fio. Existem também versões autoligáveis, com menos atrito, e os alinhadores transparentes removíveis.",
+        "A escolha depende do tipo de problema, da idade e das preferências do paciente. O dentista especialista em ortodontia avalia o caso e indica o tratamento, que exige consultas periódicas de manutenção.",
+        "Durante o uso, a higiene exige atenção redobrada, com escovas específicas e fio dental, porque os acessórios facilitam o acúmulo de placa em torno dos dentes."
+      ],
+      "relacionados": [
+        "ortodontia",
+        "alinhador-invisivel",
+        "contencao-ortodontica"
+      ],
+      "links": [
+        [
+          "/ortodontia-fixa/",
+          "Ortodontia fixa"
+        ],
+        [
+          "/aparelho-autoligado-o-guia-completo-para-um-tratamento-mais-rapido-eficiente-e-confortavel/",
+          "Aparelho autoligado: guia completo"
+        ]
+      ]
+    },
+    {
+      "slug": "ortodontia",
+      "termo": "Ortodontia",
+      "definicao": "<strong>Ortodontia</strong> é a especialidade da odontologia que cuida do alinhamento dos dentes e do posicionamento dos maxilares.",
+      "texto": [
+        "Seu objetivo vai além da estética: dentes bem posicionados facilitam a higiene, a mastigação e a fala, e ajudam a equilibrar a mordida. O tratamento pode ser feito em crianças, adolescentes e adultos.",
+        "Os recursos incluem aparelhos fixos, alinhadores transparentes e aparelhos que atuam sobre o crescimento dos ossos da face. O ortodontista define o caminho a partir de exame clínico, radiografias e, quando indicado, escaneamento digital.",
+        "O momento ideal para a primeira avaliação varia, mas muitos profissionais recomendam uma consulta ainda na infância, para acompanhar o crescimento e agir na hora certa quando necessário."
+      ],
+      "relacionados": [
+        "aparelho-ortodontico",
+        "alinhador-invisivel",
+        "ma-oclusao"
+      ],
+      "links": [
+        [
+          "/ortodontia-fixa/",
+          "Ortodontia fixa"
+        ],
+        [
+          "/ortodontia-miofuncional/",
+          "Ortodontia miofuncional"
+        ]
+      ]
+    },
+    {
+      "slug": "ma-oclusao",
+      "termo": "Má oclusão",
+      "definicao": "<strong>Má oclusão</strong> é o encaixe inadequado entre os dentes de cima e os de baixo quando a boca se fecha.",
+      "texto": [
+        "Ela pode se apresentar como mordida cruzada, mordida aberta, sobremordida profunda ou dentes apinhados. Pode ter origem genética, em hábitos como chupar o dedo ou respirar pela boca, ou na perda precoce de dentes.",
+        "Além do aspecto estético, a má oclusão pode dificultar a mastigação e a higiene e sobrecarregar a articulação da mandíbula. A correção é feita pela ortodontia, e quanto mais cedo o diagnóstico, mais opções de tratamento existem.",
+        "Na consulta, o dentista observa a mordida, a posição dos dentes e o crescimento dos maxilares, podendo pedir radiografias e fotos para planejar o tratamento mais adequado."
+      ],
+      "relacionados": [
+        "ortodontia",
+        "dtm"
+      ],
+      "links": [
+        [
+          "/ortodontia-miofuncional/",
+          "Ortodontia miofuncional"
+        ],
+        [
+          "/ortodontia-fixa/",
+          "Ortodontia fixa"
+        ]
+      ]
+    },
+    {
+      "slug": "contencao-ortodontica",
+      "termo": "Contenção ortodôntica",
+      "definicao": "<strong>Contenção ortodôntica</strong> é o dispositivo usado após o tratamento com aparelho para manter os dentes na posição conquistada.",
+      "texto": [
+        "Depois que o aparelho é retirado, os dentes tendem a voltar lentamente à posição original. A contenção evita essa recidiva e pode ser fixa, colada atrás dos dentes, ou removível, de acrílico ou plástico transparente.",
+        "O tempo e o modo de uso variam de acordo com o caso e devem seguir a orientação do ortodontista. Abandonar a contenção por conta própria é uma das principais causas de o sorriso voltar a desalinhar.",
+        "Ela também precisa de cuidados: a contenção removível deve ser limpa todos os dias e guardada em estojo, e a fixa exige atenção ao passar o fio dental na região."
+      ],
+      "relacionados": [
+        "aparelho-ortodontico",
+        "ortodontia"
+      ],
+      "links": [
+        [
+          "/ortodontia-fixa/",
+          "Ortodontia fixa"
+        ]
+      ]
+    },
+    {
+      "slug": "clareamento-dental",
+      "termo": "Clareamento dental",
+      "definicao": "<strong>Clareamento dental</strong> é o procedimento que clareia a cor dos dentes usando géis à base de peróxido, sob orientação do dentista.",
+      "texto": [
+        "Ele pode ser feito no consultório, com gel de maior concentração, ou em casa, com moldeiras personalizadas e gel de menor concentração, sempre com supervisão profissional. Antes de começar, o dentista avalia a saúde dos dentes e da gengiva e trata cáries ou restaurações pendentes.",
+        "A sensibilidade temporária é o efeito mais comum e costuma passar após o término. O resultado varia de pessoa para pessoa e dura mais quando se evita excesso de café, vinho e cigarro.",
+        "Dentes com restaurações ou facetas não clareiam do mesmo jeito que o esmalte natural, e por isso o planejamento prévio ajuda a evitar diferenças de cor no sorriso."
+      ],
+      "relacionados": [
+        "faceta-de-resina"
+      ],
+      "links": [
+        [
+          "/clareamento-dental/",
+          "Clareamento dental na Stelle"
+        ],
+        [
+          "/quanto-custa-clareamento-dental/",
+          "Quanto custa o clareamento dental"
+        ]
+      ]
+    },
+    {
+      "slug": "faceta-de-resina",
+      "termo": "Faceta de resina",
+      "definicao": "<strong>Faceta de resina</strong> é uma fina camada de resina composta aplicada na frente do dente para melhorar sua forma, cor ou alinhamento.",
+      "texto": [
+        "É um procedimento conservador, que na maioria das vezes exige pouco ou nenhum desgaste do dente. O dentista modela a resina diretamente na boca, em geral em uma única consulta.",
+        "Pode corrigir pequenas fraturas, manchas, espaços entre os dentes e formatos irregulares. Em comparação com as facetas de porcelana, a resina costuma ter custo menor, mas pode manchar e precisar de polimento ou reparos ao longo do tempo.",
+        "Escovar bem, evitar morder objetos duros e fazer revisões periódicas ajuda a preservar o brilho e a durabilidade do resultado ao longo dos anos."
+      ],
+      "relacionados": [
+        "clareamento-dental"
+      ],
+      "links": [
+        [
+          "/descubra-as-5-vantagens-das-facetas-de-resina-hoje-mesmo/",
+          "5 vantagens das facetas de resina"
+        ]
+      ]
+    },
+    {
+      "slug": "toxina-botulinica",
+      "termo": "Toxina botulínica",
+      "definicao": "<strong>Toxina botulínica</strong> é uma substância que, aplicada em pequenas doses, relaxa temporariamente a musculatura onde é injetada.",
+      "texto": [
+        "Na odontologia, é usada por dentistas habilitados para fins estéticos, como suavizar linhas de expressão, e também terapêuticos, como no auxílio ao controle de dor muscular e bruxismo. A aplicação é rápida, feita com agulhas finas, e não exige internação.",
+        "O efeito é temporário e vai diminuindo ao longo de alguns meses, por isso pode ser necessário repetir o procedimento. A indicação, a dose e os pontos de aplicação dependem de avaliação individual.",
+        "Apenas profissionais habilitados devem aplicá-la, e é importante informar ao dentista sobre doenças, alergias e medicamentos em uso antes de qualquer procedimento."
+      ],
+      "relacionados": [
+        "bruxismo",
+        "dtm"
+      ],
+      "links": [
+        [
+          "/toxina-botulinica/",
+          "Toxina botulínica na Stelle"
+        ]
+      ]
+    },
+    {
+      "slug": "tratamento-de-canal",
+      "termo": "Tratamento de canal (endodontia)",
+      "definicao": "<strong>Tratamento de canal</strong>, também chamado de tratamento endodôntico, é o procedimento que remove a polpa inflamada ou infectada de dentro do dente.",
+      "texto": [
+        "A polpa é o tecido com nervos e vasos que fica no interior do dente. Quando uma cárie profunda, uma fratura ou um trauma a atingem, pode surgir dor intensa, sensibilidade ao calor e até inchaço. O dentista limpa e desinfeta os canais e depois os preenche e sela.",
+        "O procedimento é feito com anestesia e tem como objetivo salvar o dente, evitando a extração. Em geral, o dente tratado precisa de uma restauração ou coroa para recuperar a resistência."
+      ],
+      "relacionados": [
+        "carie"
+      ],
+      "links": [
+        [
+          "/endodontia/",
+          "Endodontia na Stelle"
+        ],
+        [
+          "/tratamento-de-canal-tudo-o-que-voce-precisa-saber-para-salvar-seu-sorriso/",
+          "Tratamento de canal: o que você precisa saber"
+        ]
+      ]
+    },
+    {
+      "slug": "protese-dentaria",
+      "termo": "Prótese dentária",
+      "definicao": "<strong>Prótese dentária</strong> é o dispositivo que substitui um ou mais dentes ausentes, devolvendo mastigação, fala e estética.",
+      "texto": [
+        "Existem próteses fixas, como coroas e pontes, e removíveis, como as dentaduras e as próteses parciais. Elas também podem ser apoiadas sobre implantes, o que aumenta a estabilidade.",
+        "A escolha depende de quantos dentes faltam, da saúde da gengiva e do osso e das necessidades de cada pessoa. Substituir dentes perdidos ajuda a evitar que os vizinhos se desloquem e sobrecarreguem a mordida.",
+        "Mesmo com prótese, a higiene continua indispensável: a limpeza correta evita inflamação da gengiva, mau hálito e desgaste precoce, e as revisões garantem o bom ajuste."
+      ],
+      "relacionados": [
+        "implante-dentario"
+      ],
+      "links": [
+        [
+          "/protese-dentaria/",
+          "Prótese dentária na Stelle"
+        ]
+      ]
+    },
+    {
+      "slug": "gengivectomia",
+      "termo": "Gengivectomia",
+      "definicao": "<strong>Gengivectomia</strong> é o procedimento que remove o excesso de gengiva para melhorar a saúde bucal ou a estética do sorriso.",
+      "texto": [
+        "Pode ser indicada quando a gengiva cresce além do normal, cobrindo parte dos dentes e dificultando a higiene, ou em casos de sorriso gengival, em que a gengiva aparece muito ao sorrir. A técnica é realizada com anestesia local, e o dentista define o método mais adequado.",
+        "A recuperação costuma ser tranquila, com cuidados simples de higiene e alimentação nos primeiros dias. A indicação sempre depende de avaliação clínica prévia.",
+        "Ela é diferente de outros procedimentos de gengiva, como os enxertos, que servem para recobrir raízes expostas. O dentista explica qual deles se encaixa na sua necessidade."
+      ],
+      "relacionados": [
+        "gengivite",
+        "retracao-gengival"
+      ],
+      "links": [
+        [
+          "/o-que-e-gengivectomia/",
+          "O que é gengivectomia"
+        ]
+      ]
+    },
+    {
+      "slug": "retracao-gengival",
+      "termo": "Retração gengival",
+      "definicao": "<strong>Retração gengival</strong> é o recuo da gengiva, que deixa a raiz do dente exposta.",
+      "texto": [
+        "Pode ser causada por escovação com força excessiva, doença periodontal, má posição dos dentes, bruxismo e tabagismo. A raiz exposta costuma causar sensibilidade ao frio e ao toque e aumenta o risco de cárie.",
+        "O tratamento depende da causa e do grau da retração. Pode incluir ajuste dos hábitos de escovação, controle da inflamação e, em alguns casos, procedimentos para recobrir a raiz. A avaliação do dentista é o ponto de partida.",
+        "Perceber que o dente parece mais comprido ou que há sensibilidade ao escovar são sinais comuns, e a avaliação precoce pode evitar que a retração avance."
+      ],
+      "relacionados": [
+        "periodontite",
+        "gengivite",
+        "bruxismo"
+      ],
+      "links": [
+        [
+          "/gengiva-retraida-como-tratar/",
+          "Gengiva retraída: como tratar"
+        ]
+      ]
+    },
+    {
+      "slug": "siso",
+      "termo": "Siso (dente do juízo)",
+      "definicao": "<strong>Siso</strong>, ou dente do juízo, é o terceiro molar, o último dente a nascer, geralmente entre os 17 e os 25 anos.",
+      "texto": [
+        "Muitas vezes não há espaço suficiente na boca, e o siso nasce parcialmente, torto ou fica incluso no osso. Isso pode causar dor, inflamação da gengiva ao redor, infecção e dificuldade de higienização.",
+        "Nem todo siso precisa ser removido. A decisão é tomada pelo dentista com base em exame clínico e radiografia. Quando há dor, inchaço ou risco para os dentes vizinhos, a extração costuma ser indicada.",
+        "Em alguns casos, o siso nasce bem posicionado e funciona normalmente, mas ele exige higiene cuidadosa porque fica no fundo da boca, onde a escova alcança com dificuldade."
+      ],
+      "relacionados": [
+        "carie"
+      ],
+      "links": [
+        [
+          "/dente-do-siso-esta-inflamado/",
+          "Dente do siso inflamado: o que fazer"
+        ]
+      ]
+    },
+    {
+      "slug": "escaneamento-intraoral",
+      "termo": "Escaneamento intraoral",
+      "definicao": "<strong>Escaneamento intraoral</strong> é a captura digital dos dentes e da gengiva por um scanner pequeno, sem a necessidade de moldagem com massa.",
+      "texto": [
+        "O aparelho percorre a boca e gera, em poucos minutos, um modelo tridimensional preciso. É mais confortável que a moldagem tradicional e não causa ânsia de vômito.",
+        "Esse modelo é usado no planejamento de alinhadores, próteses, coroas e implantes, e permite mostrar ao paciente o plano de tratamento na tela. Também facilita guardar o histórico e comparar a evolução ao longo do tempo.",
+        "O exame é rápido, indolor e dispensa preparo. As imagens são armazenadas digitalmente e podem ser enviadas ao laboratório, o que agiliza a produção de peças sob medida."
+      ],
+      "relacionados": [
+        "alinhador-invisivel",
+        "protese-dentaria"
+      ],
+      "links": [
+        [
+          "/escaneamento-intraoral/",
+          "Escaneamento intraoral na Stelle"
+        ]
+      ]
+    },
+    {
+      "slug": "apneia-do-sono",
+      "termo": "Apneia do sono",
+      "definicao": "<strong>Apneia do sono</strong> é um distúrbio em que a respiração é interrompida repetidamente durante o sono.",
+      "texto": [
+        "Os sinais mais comuns são ronco alto, pausas na respiração notadas por quem dorme perto, sono não reparador, sonolência durante o dia e dor de cabeça pela manhã. Ela pode estar associada ao bruxismo e a alterações das vias aéreas.",
+        "O diagnóstico é feito por médico, geralmente com exame do sono. A odontologia do sono pode colaborar no tratamento com aparelhos intraorais indicados em determinados casos, sempre em conjunto com a avaliação médica.",
+        "Ela merece atenção porque, sem tratamento, pode estar associada a sono de má qualidade e a outros problemas de saúde. Roncar com frequência já é motivo para investigar."
+      ],
+      "relacionados": [
+        "bruxismo"
+      ],
+      "links": [
+        [
+          "/bruxismo-e-apneia-do-sono/",
+          "Bruxismo e apneia do sono"
+        ],
+        [
+          "/odontologia-do-sono/",
+          "Odontologia do sono"
+        ]
+      ]
+    },
+    {
+      "slug": "sialorreia",
+      "termo": "Sialorreia",
+      "definicao": "<strong>Sialorreia</strong> é o escape de saliva para fora da boca, conhecido popularmente como baba.",
+      "texto": [
+        "É comum em bebês, mas em crianças maiores, adolescentes e adultos pode indicar dificuldade para controlar a musculatura da boca ou para engolir a saliva. Pode estar ligada a condições neurológicas, a medicamentos ou a alterações na boca e na postura dos lábios.",
+        "A avaliação identifica a causa e orienta o tratamento, que pode envolver fonoaudiologia, ajustes de medicação ou outras condutas. O dentista participa quando há alterações na boca que contribuem para o problema.",
+        "A hidratação, a postura da cabeça e a rotina de higiene da boca fazem diferença no dia a dia, mas o plano de cuidado deve ser sempre individualizado e acompanhado por profissionais."
+      ],
+      "relacionados": [],
+      "links": [
+        [
+          "/descubra-o-que-e-sialorreia-e-como-tratar-dicas-essenciais/",
+          "Sialorreia: o que é e como tratar"
+        ]
+      ]
+    }
+  ]
+}

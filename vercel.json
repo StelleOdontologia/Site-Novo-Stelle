@@ -13,8 +13,23 @@
       "headers": [
         { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
       ]
+    },
+    {
+      "source": "/admin/(.*)",
+      "headers": [
+        { "key": "X-Robots-Tag", "value": "noindex, nofollow, noarchive" },
+        { "key": "Cache-Control", "value": "no-store" }
+      ]
+    },
+    {
+      "source": "/api/admin/(.*)",
+      "headers": [
+        { "key": "X-Robots-Tag", "value": "noindex" },
+        { "key": "Cache-Control", "value": "no-store" }
+      ]
     }
   ],
+  "ignoreCommand": "[ \"$(git diff --name-only HEAD^ HEAD)\" = \"content/glossario/termos.json\" ]",
   "redirects": [
     {
       "source": "/bruxismo-2",
