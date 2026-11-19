@@ -536,7 +536,11 @@
           "/escaneamento-intraoral/",
           "Escaneamento intraoral na Stelle"
         ]
-      ]
+      ],
+      "revisado": true,
+      "revisado_por": "dra-kesya-nogueira",
+      "publicado_em": "2026-11-18",
+      "atualizado_em": "2026-11-18"
     },
     {
       "slug": "apneia-do-sono",
